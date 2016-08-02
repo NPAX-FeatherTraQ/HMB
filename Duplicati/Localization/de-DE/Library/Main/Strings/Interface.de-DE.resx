@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadSortingDetectedError" xml:space="preserve">
+    <value>Ein Problem bei der Sortierung von Sicherungszeiten wurde festgestellt</value>
+  </data>
+  <data name="BadVolumeSortOrder" xml:space="preserve">
+    <value>Ein Problem bei der Sortierreihenfolge der Volumes wurde festgestellt</value>
+  </data>
+  <data name="CannotCleanWithoutHashesError" xml:space="preserve">
+    <value>Bei Verwendung der Bereinigung müssen die Sicherungslisten und Prüfsummen überprüft werden</value>
+  </data>
+  <data name="DeletingBackupSetMessage" xml:space="preserve">
+    <value>Lösche Sicherung bei {0}</value>
+  </data>
+  <data name="DeprecatedOptionUsedWarning" xml:space="preserve">
+    <value>Die Option {0} ist veraltet: {1}
+</value>
+  </data>
+  <data name="DuplicateOptionNameWarning" xml:space="preserve">
+    <value>Die Option --{0} existiert mehr als einmal, melden Sie dies bitte an die Entwickler
+</value>
+  </data>
+  <data name="FailedToFindControlFilesMessage" xml:space="preserve">
+    <value>Konnte Einstellungs-Dateien nicht finden: {0}</value>
+  </data>
+  <data name="FileHashFailure" xml:space="preserve">
+    <value>Ein Prüfsummen-Check  ist fehlgeschlagen, dies ist ein Hinweis auf eine beschädigte Datei: {0}
+</value>
+  </data>
+  <data name="FilesAreNotForceDeletedMessage" xml:space="preserve">
+    <value>Dateien werden nicht gelöscht, verwenden Sie den --force Befehl zum tatsächlichen Entfernen von Dateien</value>
+  </data>
+  <data name="InternalDeleteCountError" xml:space="preserve">
+    <value>Ein interner Fehler ist aufgetreten, und der Vorgang wurde abgebrochen um die Sicherungssätze zu schützen</value>
+  </data>
+  <data name="ManifestsMustBeReadOnBackups" xml:space="preserve">
+    <value>Es ist nicht erlaubt, das Lesen der Sicherungsliste während einer Sicherung zu deaktivieren. Das Deaktivieren von Sicherungslisten ist nur möglich beim Wiederherstellen, und es sollte nur als letztes Mittel eingesetzt werden.</value>
+  </data>
+  <data name="ManifestVersionRequiresRelativeNamesWarning" xml:space="preserve">
+    <value>Eine oder mehrere Sicherungslisten sind von Version 1. Das erfordert, dass die gesuchten Dateinamen mit relativen Pfaden angegeben werden</value>
+  </data>
+  <data name="MissingSignatureFile" xml:space="preserve">
+    <value>Die Signatur-Datei für ein Volume fehlte, Datum: {0}, Volume Nummer: {1}, Volume-Dateiname: {2}</value>
+  </data>
+  <data name="NoFilesGivenError" xml:space="preserve">
+    <value>Keine Dateinamen angegeben für "Finde letzte Datei"
+</value>
+  </data>
+  <data name="NoSourceFoldersError" xml:space="preserve">
+    <value>Keine Quell-Ordner angegeben für Sicherung</value>
+  </data>
+  <data name="NotDeletingBackupSetMessage" xml:space="preserve">
+    <value>Die Sicherung mit Zeit {0} wird nicht gelöscht, weil spätere Sicherungen davon abhängig sind</value>
+  </data>
+  <data name="NotDeletingLastFullMessage" xml:space="preserve">
+    <value>Die Sicherung mit Zeit {0} wird nicht entfernt, weil es die letzte vollständige Sicherung ist, --allow-full-removal benutzen, um diese Sicherung mit zu löschen</value>
+  </data>
+  <data name="NumberOfSourceFoldersHasChangedError" xml:space="preserve">
+    <value>Die Zahl der gefundenen Quell-Ordner in der letzten Sicherung ist {0}, aber die Anzahl der angegebenen Ordner ist jetzt {1}. Es ist nicht gestattet, Quellordner für eine Sicherung zu ändern.</value>
+  </data>
+  <data name="PartialUploadMessage" xml:space="preserve">
+    <value>Misserfolg nach dem Hochladen von {0} Volumes. Fehlermeldung: {1}</value>
+  </data>
+  <data name="PrimaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>Konnte die primäre Sicherungsliste nicht lesen {0}, versuche es daher mit der sekundären, falls vorhanden. Fehlermeldung: {1}
+</value>
+  </data>
+  <data name="ReadingSecondaryManifestLogMessage" xml:space="preserve">
+    <value>Sekundäre Sicherungslisten-Datei gefunden: {0}, versuche zu lesen.</value>
+  </data>
+  <data name="RemovingPartialFilesMessage" xml:space="preserve">
+    <value>Entferne unvollständige Datei: {0}</value>
+  </data>
+  <data name="SecondaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>Konnte die sekundäre Sicherungsliste {0} nicht lesen. Fehlermeldung: {1}
+</value>
+  </data>
+  <data name="SignatureCachePathMissingError" xml:space="preserve">
+    <value>Der Signatur-Cache-Pfad wurde nicht als Argument angegeben
+</value>
+  </data>
+  <data name="SkippedContentVolumeLogMessage" xml:space="preserve">
+    <value>Das Volume {0} ist nicht in der Sicherungsliste enthalten und wird nicht verwendet</value>
+  </data>
+  <data name="SkippedUnlistedSignatureFileWarning" xml:space="preserve">
+    <value>Die Signatur-Datei {0} wurde übersprungen, da die Signatur-Datei nicht in der Sicherungsliste gefunden wurde
+</value>
+  </data>
+  <data name="SourceDirIsIncludedMultipleTimesError" xml:space="preserve">
+    <value>Der Ordner {0} ist mehrfach enthalten
+</value>
+  </data>
+  <data name="SourceDirsAreRelatedError" xml:space="preserve">
+    <value>Der Ordner {1} ist ein Unterordner von {0}. Es ist nicht erlaubt, den gleichen Ordner mehrfach anzugeben.
+</value>
+  </data>
+  <data name="SourceFolderIsMissingError" xml:space="preserve">
+    <value>Der Quellordner {0} existiert nicht, die Sicherung wird abgebrochen</value>
+  </data>
+  <data name="SourceFoldersHasChangedError" xml:space="preserve">
+    <value>Der Ordner {0} ist nicht mehr im Quellordner-Set. Es ist nicht gestattet, Quellordner für eine Sicherung zu ändern.</value>
+  </data>
+  <data name="StatusBuildingFilelist" xml:space="preserve">
+    <value>Dateiliste  wird angelegt ...
+</value>
+  </data>
+  <data name="StatusCompleted" xml:space="preserve">
+    <value>Fertig</value>
+  </data>
+  <data name="StatusCreatingVolume" xml:space="preserve">
+    <value>Das Volume {0} wird erstellt</value>
+  </data>
+  <data name="StatusDownloadingContentVolume" xml:space="preserve">
+    <value>Herunterladen der Inhalte, Volume {0}</value>
+  </data>
+  <data name="StatusDownloadingSignatureVolume" xml:space="preserve">
+    <value>Herunterladen der Signaturen, Volume {0}</value>
+  </data>
+  <data name="StatusLoadingFilelist" xml:space="preserve">
+    <value>Laden der nicht-lokalen Dateiliste</value>
+  </data>
+  <data name="StatusPatching" xml:space="preserve">
+    <value>Repariere Wiederherstellung mit # {0}
+</value>
+  </data>
+  <data name="StatusProcessing" xml:space="preserve">
+    <value>Verarbeitung: {0}
+</value>
+  </data>
+  <data name="StatusReadingIncrementalData" xml:space="preserve">
+    <value>Lesen der inkrementellen Daten ...
+</value>
+  </data>
+  <data name="StatusReadingIncrementalFile" xml:space="preserve">
+    <value>Lesen der inkrementellen Daten von: {0}</value>
+  </data>
+  <data name="StatusReadingIncrementals" xml:space="preserve">
+    <value>Lesen der inkrementellen Daten
+</value>
+  </data>
+  <data name="StatusReadingManifest" xml:space="preserve">
+    <value>Lesen der Sicherungslisten-Datei: {0}</value>
+  </data>
+  <data name="StatusReadingSignatureFile" xml:space="preserve">
+    <value>Lesen der Signaturen: {0}, Satz {1} 
+</value>
+  </data>
+  <data name="StatusStarted" xml:space="preserve">
+    <value>Begonnen</value>
+  </data>
+  <data name="StatusUploadingContentVolume" xml:space="preserve">
+    <value>Hochladen des Inhalts, Volume {0}</value>
+  </data>
+  <data name="StatusUploadingManifestVolume" xml:space="preserve">
+    <value>Hochladen der Sicherungsliste, Volume {0}</value>
+  </data>
+  <data name="StatusUploadingSignatureVolume" xml:space="preserve">
+    <value>Hochladen der Signaturen, Volume {0}</value>
+  </data>
+  <data name="StatusWaitingForUpload" xml:space="preserve">
+    <value>Warten auf Abschluss des Hochladens …</value>
+  </data>
+  <data name="TooFewTargetFoldersError" xml:space="preserve">
+    <value>Die Sicherung enthält {0} Ordner, aber nur {1} Zielordner wurden angegeben</value>
+  </data>
+  <data name="TooManyTargetFoldersWarning" xml:space="preserve">
+    <value>Die Sicherung enthält {0} Ordner, aber {1} Zielordner wurden angegeben</value>
+  </data>
+  <data name="UnexpectedCompressionError" xml:space="preserve">
+    <value>
+Unerwarteter Komprimierungs-Modus: {0}</value>
+  </data>
+  <data name="UnexpectedOperationTypeError" xml:space="preserve">
+    <value>Die Betriebsart {0} wurde nicht erwartet
+</value>
+  </data>
+  <data name="UnsupportedBooleanValue" xml:space="preserve">
+    <value>Der Wert "{1}" angegeben für --{0} ist kein gültiger boolean-Wert, dieser wird so behandelt, als ob er auf "true" gesetzt worden wäre
+</value>
+  </data>
+  <data name="UnsupportedEnumerationValue" xml:space="preserve">
+    <value>Die Option --{0} unterstützt nicht den Wert "{1}", unterstützte Werte sind: {2}
+</value>
+  </data>
+  <data name="UnsupportedIntegerValue" xml:space="preserve">
+    <value>Der Wert "{1}" angegeben für --{0} ist keine gültige ganze Zahl
+</value>
+  </data>
+  <data name="UnsupportedOptionDisabledModuleWarning" xml:space="preserve">
+    <value>Die Option --{0} wird nicht unterstützt, da das Modul {1} derzeit ​​nicht geladen ist </value>
+  </data>
+  <data name="UnsupportedOptionWarning" xml:space="preserve">
+    <value>Die angegebene Option --{0} wird nicht unterstützt und wird ignoriert
+</value>
+  </data>
+  <data name="UnsupportedPathValue" xml:space="preserve">
+    <value>Der Wert "{1}" angegeben für --{0} ist kein gültiger Pfad
+</value>
+  </data>
+  <data name="UnsupportedSizeValue" xml:space="preserve">
+    <value>Der Wert "{1}" angegeben für --{0} ist keine gültige Größe
+</value>
+  </data>
+  <data name="UnsupportedTimeValue" xml:space="preserve">
+    <value>Der Wert "{1}" angegeben für --{0} ist keine gültige Zeit
+</value>
+  </data>
+  <data name="CannotSkipHashChecksOnBackup" xml:space="preserve">
+    <value>Die Überprüfung des Hash kann nicht während eines Backups ausgeschalten werden.</value>
+  </data>
+  <data name="CannotVerifyChain" xml:space="preserve">
+    <value>Die Sicherungsreihe kann nicht überprüft werden, wenn die Option --dont-read-manifests aktiviert ist</value>
+  </data>
+  <data name="CannotVerifyWithoutHashes" xml:space="preserve">
+    <value>Die Überprüfung des Hash kann nicht während einer Überprüfung ausgeschalten werden.</value>
+  </data>
+  <data name="DisablingSignatureCacheForVerification" xml:space="preserve">
+    <value>Der Signatur-Cache kann nicht während einer Überprüfung ausgeschaltet werden.</value>
+  </data>
+  <data name="ManifestAndFileCountMismatchError" xml:space="preserve">
+    <value>Die Sicherungslisten-Datei {0} zeigt an, dass {1} Volumes vorhanden sein sollten, aber die Dateiliste zeigt nur {2}</value>
+  </data>
+  <data name="ManifestsMustBeRead" xml:space="preserve">
+    <value>Die Sicherungsliste kann nur bei der Wiederherstellung deaktiviert werden. Die Deaktivierung sollte als letzte Möglichkeit in Betracht gezogen werden.</value>
+  </data>
+  <data name="PreviousManifestFilenameMismatchError" xml:space="preserve">
+    <value>Die Sicherungslisten-Datei {0} zeigt an, dass {1} die vorherige Sicherungslisten-Datei sein sollte, aber {2} ist es gewesen.</value>
+  </data>
+  <data name="PreviousManifestHashMismatchError" xml:space="preserve">
+    <value>Die Sicherungslisten-Datei {0} zeigt an, dass {1} die vorherige Prüfsumme der Sicherungslisten-Datei sein sollte, aber {2} ist es gewesen.</value>
+  </data>
+  <data name="FileSizeMismatchError" xml:space="preserve">
+    <value>Die Datei {0} hat Größe {1}, aber sollte eigentlich folgende Größe haben {2}.</value>
+  </data>
+  <data name="FilenameMismatchError" xml:space="preserve">
+    <value>Gemäß Sicherungslisten-Datei sollte die Datei mit {0} benannt sein, aber deren Name ist {1}.</value>
+  </data>
+  <data name="StatusUploadingVerificationVolume" xml:space="preserve">
+    <value>Hochladen des Überprüfungsfiles.</value>
+  </data>
+  <data name="DeleteManifestsSuggestion" xml:space="preserve">
+    <value>Wenn der Fehler nicht behoben werden kann, können Sie entweder einen neues Voll-Backup erstellen, oder die fehlerhaften Sicherungslisten-Dateien händisch löschen - gefolgt von einer anschließenden Bereinigung. Die widersprechenden Sicherungslisten-Dateien sind:</value>
+  </data>
+  <data name="FullBecauseBackendIsEmpty" xml:space="preserve">
+    <value>Ein vollständiges Backup wird durchgeführt, da keine Backup-Ketten im Backup-Ziel gefunden wurden</value>
+  </data>
+  <data name="FullBecauseFlagWasSet" xml:space="preserve">
+    <value>Ein vollständiges Backup wurde erzwungen mit dem --{0} Flag</value>
+  </data>
+  <data name="FullBecauseLastFullIsFrom" xml:space="preserve">
+    <value>Ein vollständiges Backup wird durchgeführt, weil das letzte vollständige Backup vom {0} ist und das nächste Voll-Backup am {1} erfolgen soll.</value>
+  </data>
+  <data name="FullBecauseSourceFoldersChanged" xml:space="preserve">
+    <value>Eine vollständige Sicherung wird gemacht, weil bei den Quell-Ordnern eine Veränderung erfolgt ist</value>
+  </data>
+  <data name="FullBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>Eine vollständige Sicherung wird gemacht, weil die Backup-Kette {0} inkrementelle Backups hat, und die Schwelle für das nächste Voll-Backup {1} ist</value>
+  </data>
+  <data name="IncrementalBecauseLastFullIsFrom" xml:space="preserve">
+    <value>Ein vollständiges Backup wird durchgeführt, weil das letzte vollständige Backup vom {0} ist und das nächste Voll-Backup am {1} erfolgen soll.</value>
+  </data>
+  <data name="IncrementalBecauseNoFlagsWereSet" xml:space="preserve">
+    <value>Ein inkrementelles Backup wird durchgeführt, weil die Kriterien für ein Voll-Backup nicht erfüllt sind.</value>
+  </data>
+  <data name="IncrementalBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>Eine vollständige Sicherung wird gemacht, weil die Backup-Kette {0} inkrementelle Backups hat, und die Schwelle für das nächste Voll-Backup {1} ist</value>
+  </data>
+  <data name="ErrorRunningBackup" xml:space="preserve">
+    <value>An error occurred while running the backup, no files were uploaded: {0}</value>
+  </data>
+  <data name="StartingOperationMessage" xml:space="preserve">
+    <value>The operation {0} has started</value>
+  </data>
+</root>

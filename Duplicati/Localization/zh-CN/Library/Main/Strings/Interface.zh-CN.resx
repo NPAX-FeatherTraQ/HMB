@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadSortingDetectedError" xml:space="preserve">
+    <value>整理备份次数时出错</value>
+  </data>
+  <data name="BadVolumeSortOrder" xml:space="preserve">
+    <value>整理卷的次序时出错</value>
+  </data>
+  <data name="CannotCleanWithoutHashesError" xml:space="preserve">
+    <value>当使用清空操作时，清单文件和哈希码必须验证无误</value>
+  </data>
+  <data name="DeletingBackupSetMessage" xml:space="preserve">
+    <value>删除位于 {0}的备份</value>
+  </data>
+  <data name="DeprecatedOptionUsedWarning" xml:space="preserve">
+    <value>选项 {0} 不推荐: {1}</value>
+  </data>
+  <data name="DuplicateOptionNameWarning" xml:space="preserve">
+    <value>参数 –{0} 出现了多次，请报告给开发人员</value>
+  </data>
+  <data name="FailedToFindControlFilesMessage" xml:space="preserve">
+    <value>无法找到控制文件: {0}</value>
+  </data>
+  <data name="FileHashFailure" xml:space="preserve">
+    <value>哈希检查出错，这说明此文件有损坏: {0}</value>
+  </data>
+  <data name="FilesAreNotForceDeletedMessage" xml:space="preserve">
+    <value>文件没有删除，请使用—force参数来真正删除文件</value>
+  </data>
+  <data name="InternalDeleteCountError" xml:space="preserve">
+    <value>发生了一个内部错误，操作已经被中止，以保护备份集合</value>
+  </data>
+  <data name="ManifestsMustBeReadOnBackups" xml:space="preserve">
+    <value>当执行备份时不允许禁止读取清单。禁止清单文件仅在还原时可用，并且它只能用于最后一手。</value>
+  </data>
+  <data name="ManifestVersionRequiresRelativeNamesWarning" xml:space="preserve">
+    <value>一个或多个清单是从版本1中获得的，这需要文件名之间有关联。</value>
+  </data>
+  <data name="MissingSignatureFile" xml:space="preserve">
+    <value>一个内容卷的签名文件丢失了，日期: {0}, 卷号: {1}, 内容卷的文件名: {2}</value>
+  </data>
+  <data name="NoFilesGivenError" xml:space="preserve">
+    <value>Find-last-file参数没有给定文件名</value>
+  </data>
+  <data name="NoSourceFoldersError" xml:space="preserve">
+    <value>备份没有指定源文件夹</value>
+  </data>
+  <data name="NotDeletingBackupSetMessage" xml:space="preserve">
+    <value>在此刻: {0}，不允许删除备份, 因为后面的备份依赖此备份</value>
+  </data>
+  <data name="NotDeletingLastFullMessage" xml:space="preserve">
+    <value>位于时间 {0}的备份没有删除，因为它是最后一个完整备份，使用 –allow-full-removal参数来删除它</value>
+  </data>
+  <data name="NumberOfSourceFoldersHasChangedError" xml:space="preserve">
+    <value>最后一次备份的源文件夹的个数是{0}，但是现在指定的文件夹个数是{1}。在一个备份中不允许改变源文件夹的个数。</value>
+  </data>
+  <data name="PartialUploadMessage" xml:space="preserve">
+    <value>上传{0}卷后出错。错误信息: {1}</value>
+  </data>
+  <data name="PrimaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>读取主要清单文件失败 {0}，如果存在的话，尝试读取备份文件。错误信息: {1}</value>
+  </data>
+  <data name="ReadingSecondaryManifestLogMessage" xml:space="preserve">
+    <value>备份清单文件找到了: {0}，尝试读取。</value>
+  </data>
+  <data name="RemovingPartialFilesMessage" xml:space="preserve">
+    <value>删除残存文件: {0}</value>
+  </data>
+  <data name="SecondaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>无法读取备份清单文件 {0}。错误信息: {1}</value>
+  </data>
+  <data name="SignatureCachePathMissingError" xml:space="preserve">
+    <value>签名缓存路径参数没有赋值</value>
+  </data>
+  <data name="SkippedContentVolumeLogMessage" xml:space="preserve">
+    <value>内容卷{0}没有在清单中，并且没有使用</value>
+  </data>
+  <data name="SkippedUnlistedSignatureFileWarning" xml:space="preserve">
+    <value>签名文件 {0} 已经被跳过，因为它不在清单中</value>
+  </data>
+  <data name="SourceDirIsIncludedMultipleTimesError" xml:space="preserve">
+    <value>文件夹 {0} 被包含了多次</value>
+  </data>
+  <data name="SourceDirsAreRelatedError" xml:space="preserve">
+    <value>文件夹 {1} 是 {0}的一个子文件夹。不允许多次指定相同的文件夹。</value>
+  </data>
+  <data name="SourceFolderIsMissingError" xml:space="preserve">
+    <value>源文件夹 {0} 不存在，中止备份</value>
+  </data>
+  <data name="SourceFoldersHasChangedError" xml:space="preserve">
+    <value>文件夹 {0}已经不在源文件夹中了。不允许在一次备份中改变源文件夹。</value>
+  </data>
+  <data name="StatusBuildingFilelist" xml:space="preserve">
+    <value>建立文件列表...</value>
+  </data>
+  <data name="StatusCompleted" xml:space="preserve">
+    <value>完成未完成的删除操作，删除了 {0} 个文件</value>
+  </data>
+  <data name="StatusCreatingVolume" xml:space="preserve">
+    <value>创建卷 {0}</value>
+  </data>
+  <data name="StatusDownloadingContentVolume" xml:space="preserve">
+    <value>下载内容，卷 {0}</value>
+  </data>
+  <data name="StatusDownloadingSignatureVolume" xml:space="preserve">
+    <value>下载签名，卷 {0}</value>
+  </data>
+  <data name="StatusLoadingFilelist" xml:space="preserve">
+    <value>加载远程文件列表</value>
+  </data>
+  <data name="StatusPatching" xml:space="preserve">
+    <value>用 #{0} 追加还原</value>
+  </data>
+  <data name="StatusProcessing" xml:space="preserve">
+    <value>处理中: {0}</value>
+  </data>
+  <data name="StatusReadingIncrementalData" xml:space="preserve">
+    <value>读取增量数据 ...</value>
+  </data>
+  <data name="StatusReadingIncrementalFile" xml:space="preserve">
+    <value>从 {0} 读取增量数据</value>
+  </data>
+  <data name="StatusReadingIncrementals" xml:space="preserve">
+    <value>读取增量数据</value>
+  </data>
+  <data name="StatusReadingManifest" xml:space="preserve">
+    <value>读取清单文件: {0}</value>
+  </data>
+  <data name="StatusReadingSignatureFile" xml:space="preserve">
+    <value>读取签名: {0}，卷 {1}</value>
+  </data>
+  <data name="StatusStarted" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="StatusUploadingContentVolume" xml:space="preserve">
+    <value>上传内容，卷 {0}</value>
+  </data>
+  <data name="StatusUploadingManifestVolume" xml:space="preserve">
+    <value>上传清单，卷 {0}</value>
+  </data>
+  <data name="StatusUploadingSignatureVolume" xml:space="preserve">
+    <value>上传签名，卷 {0}</value>
+  </data>
+  <data name="StatusWaitingForUpload" xml:space="preserve">
+    <value>等待上传完成 ...</value>
+  </data>
+  <data name="TooFewTargetFoldersError" xml:space="preserve">
+    <value>备份包含 {0} 个文件夹，但是指定了 {1} 个目标文件夹</value>
+  </data>
+  <data name="TooManyTargetFoldersWarning" xml:space="preserve">
+    <value>备份包含 {0} 个文件夹，但是指定了 {1} 个目标文件夹</value>
+  </data>
+  <data name="UnexpectedCompressionError" xml:space="preserve">
+    <value>意外的压缩模式 : {0}</value>
+  </data>
+  <data name="UnexpectedOperationTypeError" xml:space="preserve">
+    <value>意外的操作模式 {0} </value>
+  </data>
+  <data name="UnsupportedBooleanValue" xml:space="preserve">
+    <value>指定给 --{0} 的值 "{1}" 无法解析为布尔值，它将被当作 "true"来赋值</value>
+  </data>
+  <data name="UnsupportedEnumerationValue" xml:space="preserve">
+    <value>选项 --{0} 不支持值 "{1}"，支持的值是: {2}</value>
+  </data>
+  <data name="UnsupportedIntegerValue" xml:space="preserve">
+    <value> 指定给 --{0} 的值 "{1}" 不能转化为合法的整数</value>
+  </data>
+  <data name="UnsupportedOptionDisabledModuleWarning" xml:space="preserve">
+    <value>选项 --{0}不被支持，因为模块 {1} 没有加载</value>
+  </data>
+  <data name="UnsupportedOptionWarning" xml:space="preserve">
+    <value>指定的选项 –{0}不被支持并将被忽略</value>
+  </data>
+  <data name="UnsupportedPathValue" xml:space="preserve">
+    <value> 指定给 --{0} 的值 "{1}" 不能转化为合法的路径</value>
+  </data>
+  <data name="UnsupportedSizeValue" xml:space="preserve">
+    <value> 指定给 --{0} 的值 "{1}" 不能转化为合法的大小</value>
+  </data>
+  <data name="UnsupportedTimeValue" xml:space="preserve">
+    <value> 指定给 --{0} 的值 "{1}" 不能转化为合法的时间</value>
+  </data>
+  <data name="CannotSkipHashChecksOnBackup" xml:space="preserve">
+    <value>在执行备份时不能禁止哈希检查</value>
+  </data>
+  <data name="CannotVerifyChain" xml:space="preserve">
+    <value>当 –dont-read-manifests参数无效时，无法验证备份链</value>
+  </data>
+  <data name="CannotVerifyWithoutHashes" xml:space="preserve">
+    <value>当执行验证时无法禁止哈希检查</value>
+  </data>
+  <data name="DisablingSignatureCacheForVerification" xml:space="preserve">
+    <value>当执行验证时，签名缓存是禁止的</value>
+  </data>
+  <data name="ManifestAndFileCountMismatchError" xml:space="preserve">
+    <value>清单文件 {0} 显示应该有 {1} 卷，但是文件清单显示有 {2}</value>
+  </data>
+  <data name="ManifestsMustBeRead" xml:space="preserve">
+    <value>禁止清单文件仅在还原时可用，并且它只能用于最后一手。</value>
+  </data>
+  <data name="PreviousManifestFilenameMismatchError" xml:space="preserve">
+    <value>清单文件{0}显示之前的清单文件应该是 {1} ，但现在是 {2}</value>
+  </data>
+  <data name="PreviousManifestHashMismatchError" xml:space="preserve">
+    <value>清单文件{0}显示之前的清单哈希码是 {1} ，但现在是{2}</value>
+  </data>
+  <data name="FileSizeMismatchError" xml:space="preserve">
+    <value>文件 {0} 的大小是 {1}，但它的大小应该是 {2}</value>
+  </data>
+  <data name="FilenameMismatchError" xml:space="preserve">
+    <value>清单文件中这个文件的名称是 {0}，但是文件名现在是 {1}</value>
+  </data>
+  <data name="StatusUploadingVerificationVolume" xml:space="preserve">
+    <value>上传验证文件</value>
+  </data>
+  <data name="DeleteManifestsSuggestion" xml:space="preserve">
+    <value>如果这个错误无法解决，您可以创建一个新的完整备份，或者手工删除不合法的清单文件。不合法的清单文件是：</value>
+  </data>
+  <data name="FullBecauseBackendIsEmpty" xml:space="preserve">
+    <value>A full backup is made because no existing backup chains were found on the destination</value>
+  </data>
+  <data name="FullBecauseFlagWasSet" xml:space="preserve">
+    <value>A full backup was forced with the --{0} flag</value>
+  </data>
+  <data name="FullBecauseLastFullIsFrom" xml:space="preserve">
+    <value>A full backup is made because the latest full backup is from {0} and the full backup threshold is {1}</value>
+  </data>
+  <data name="FullBecauseSourceFoldersChanged" xml:space="preserve">
+    <value>A full backup is made because the source folders have changed</value>
+  </data>
+  <data name="FullBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>A full backup is made because the current chain has {0} incremental backups and the full backup threshold is {1}</value>
+  </data>
+  <data name="IncrementalBecauseLastFullIsFrom" xml:space="preserve">
+    <value>An incremental backup is made because the latest full backup is from {0} and the full backup threshold is {1}</value>
+  </data>
+  <data name="IncrementalBecauseNoFlagsWereSet" xml:space="preserve">
+    <value>An incremental backup is made because no full backup criteria was found</value>
+  </data>
+  <data name="IncrementalBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>An incremental backup is made because the current chain has {0} incremental backups and the full backup threshold is {1}</value>
+  </data>
+  <data name="ErrorRunningBackup" xml:space="preserve">
+    <value>An error occurred while running the backup, no files were uploaded: {0}</value>
+  </data>
+  <data name="StartingOperationMessage" xml:space="preserve">
+    <value>The operation {0} has started</value>
+  </data>
+</root>

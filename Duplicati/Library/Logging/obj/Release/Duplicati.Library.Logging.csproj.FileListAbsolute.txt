@@ -1,0 +1,5 @@
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Logging\bin\Release\Duplicati.Library.Logging.dll.config
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Logging\bin\Release\Duplicati.Library.Logging.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Logging\bin\Release\Duplicati.Library.Logging.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Logging\obj\Release\Duplicati.Library.Logging.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Logging\obj\Release\Duplicati.Library.Logging.pdb

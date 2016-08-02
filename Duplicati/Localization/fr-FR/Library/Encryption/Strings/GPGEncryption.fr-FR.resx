@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Description" xml:space="preserve">
+    <value>Le module de cryptage GPG utilise le programme de protection de confidentialité GNU pour crypter et décrypter les fichiers. Cela implique que l'exécutable GPG doit être installé sur votre système. Sous Windows le programme est habituellement installé dans "program files", sous Linux et OSX il est accessible via la variable d'environnement PATH. Il est possible d'indiquer le chemin vers le module GPG en utilisant le commutateur --gpg-program-path.</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Utilise le module de cryptage externe GPG</value>
+  </data>
+  <data name="GpgencryptiondecryptionswitchesLong" xml:space="preserve">
+    <value>Ce commutateur permet de spécifier des arguments supplémentaires de décryptage pour le module GnuPG. Vous ne pouvez pas utiliser l'option --passphrase-fd ici. L'option --decrypt est implicite.</value>
+  </data>
+  <data name="GpgencryptiondecryptionswitchesShort" xml:space="preserve">
+    <value>Paramètres supplémentaires de décryptage en GnuPG</value>
+  </data>
+  <data name="GpgencryptiondisablearmorLong" xml:space="preserve">
+    <value>Le module de cryptage/décryptage GnuPG va utiliser l'option --armor pour protéger les fichiers avec une "armure". Cette option permet d'enlever cette option "armure".</value>
+  </data>
+  <data name="GpgencryptiondisablearmorShort" xml:space="preserve">
+    <value>Ne pas utiliser "l'armure" GnuPG</value>
+  </data>
+  <data name="GpgencryptionencryptionswitchesLong" xml:space="preserve">
+    <value>Ce commutateur permet de spécifier des arguments supplémentaires de cryptage pour le module GnuPG. Vous ne pouvez pas utiliser l'option --passphrase-fd ici. L'option --encrypt est implicite.</value>
+  </data>
+  <data name="GpgencryptionencryptionswitchesShort" xml:space="preserve">
+    <value>Paramètres supplémentaires de cryptage en GnuPG</value>
+  </data>
+  <data name="GPGExecuteError" xml:space="preserve">
+    <value>impossible d'exécuter le module GnuPG à "{0}": {1}</value>
+  </data>
+  <data name="GpgprogrampathLong" xml:space="preserve">
+    <value>Le chemin pointant vers le module externe GnuPG. Si non spécifié, Duplicati essayera d'utiliser le chemin vers le répertoire d'installation par défaut de GPG.</value>
+  </data>
+  <data name="GpgprogrampathShort" xml:space="preserve">
+    <value>Chemin vers GnuPG</value>
+  </data>
+  <data name="SignkeyLong" xml:space="preserve">
+    <value>Le module GnuPG peut en option signer les volumes avec une clef spéciale. Cette fonctionnalité n'est actuellement pas utilisée dans Duplicati.</value>
+  </data>
+  <data name="SignkeyShort" xml:space="preserve">
+    <value>Clef de signature GnuPG</value>
+  </data>
+  <data name="GPGNotFoundWarning" xml:space="preserve">
+    <value>Duplicati n'a pas réussi à vérifier la présence du module GnuPG externe.
+le module GnuPG marchera quand même, si il à été installé dans son répertoire par défaut.
+Si l'encryptage échoue, aucun fichier ne sera traité.
+Voulez vous quand même continuer?</value>
+  </data>
+  <data name="Gpgencryptiondisablearmordeprecated" xml:space="preserve">
+    <value>Cette option n'a pas de support standard, utilisez l'option --{0} à la place.</value>
+  </data>
+  <data name="GpgencryptionenablearmorLong" xml:space="preserve">
+    <value>Utilisez cette option pour activer le paramètre --armor pour GPG. Les fichiers seront plus gros mais peuvent êtres envoyés en mode texte (Ascii)</value>
+  </data>
+  <data name="GpgencryptionenablearmorShort" xml:space="preserve">
+    <value>Utilise la protection GPG</value>
+  </data>
+</root>

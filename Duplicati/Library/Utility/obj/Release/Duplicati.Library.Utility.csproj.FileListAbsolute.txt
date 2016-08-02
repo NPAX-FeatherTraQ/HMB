@@ -1,0 +1,13 @@
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\bin\Release\Duplicati.Library.Utility.dll.config
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\bin\Release\Duplicati.Library.Utility.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\bin\Release\Duplicati.Library.Utility.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.csprojResolveAssemblyReference.cache
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.Strings.FilenameFilter.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.Strings.Sizeparser.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.Strings.SslCertificateValidator.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.Strings.TempFolder.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.Strings.Timeparser.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.Strings.Utility.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.csproj.GenerateResource.Cache
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Utility\obj\Release\Duplicati.Library.Utility.pdb

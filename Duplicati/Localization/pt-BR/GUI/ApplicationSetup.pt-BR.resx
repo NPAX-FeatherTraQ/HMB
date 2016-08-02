@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UseCommonPassword.ToolTip" space="preserve">
+    <value>Ative esta opção para utilizar a mesma senha em multiplos backups</value>
+  </data>
+  <data name="UseCommonPassword.Text" space="preserve">
+    <value>Usar uma senha para proteger os backups</value>
+  </data>
+  <data name="ThreadPriorityPicker.ToolTip" space="preserve">
+    <value>Definir a prioridade de processo inicial a ser utilizado pelo Duplicati</value>
+  </data>
+  <data name="TempPathBrowse.ToolTip" space="preserve">
+    <value>Exibir a pasta temporária</value>
+  </data>
+  <data name="TempPath.ToolTip" space="preserve">
+    <value>Digite o caminho onde o Duplicati irá armazenar os arquivos temporários</value>
+  </data>
+  <data name="StartupDelayDuration.ToolTip" space="preserve">
+    <value>Selecione o período de tempo que o Duplicati é parado após inicializar</value>
+  </data>
+  <data name="SignatureCachePathBrowse.ToolTip" space="preserve">
+    <value>Exibir a pasta de cache de assinaturas</value>
+  </data>
+  <data name="SignatureCacheEnabled.ToolTip" space="preserve">
+    <value>O cache de assinaturas limita a quantidade de dados que o Duplicati precisa fazer download, mantendo uma cópia local, ativando esta opção acelera o backup</value>
+  </data>
+  <data name="SignatureCacheEnabled.Text" space="preserve">
+    <value>Cache assinaturas</value>
+  </data>
+  <data name="RecentDuration.ToolTip" space="preserve">
+    <value>Selecione o tempo que um backup é exibido na tela de log depois de finalizado</value>
+  </data>
+  <data name="PasswordDefaultsGroup.Text" space="preserve">
+    <value>Configurações de senha para novos backups</value>
+  </data>
+  <data name="LicenseTab.Text" space="preserve">
+    <value>Licença</value>
+  </data>
+  <data name="LicenseSections.ToolTip" space="preserve">
+    <value>Listar as seções de licensa disponíveis</value>
+  </data>
+  <data name="LicenseLink.ToolTip" space="preserve">
+    <value>Clique para ir à página inicial da seção escolhida</value>
+  </data>
+  <data name="LicenseLink.Text" space="preserve">
+    <value>Página inicial</value>
+  </data>
+  <data name="LanguageSelection.ToolTip" space="preserve">
+    <value>Escolha o idioma para a interface de usuário (requer reiniciar)</value>
+  </data>
+  <data name="label8.ToolTip" space="preserve">
+    <value>Escolha o nível de detalhe das notificações</value>
+  </data>
+  <data name="label8.Text" space="preserve">
+    <value>Notificações por balões</value>
+  </data>
+  <data name="label7.ToolTip" space="preserve">
+    <value>Selecione o período de tempo que o Duplicati é parado após inicializar</value>
+  </data>
+  <data name="label7.Text" space="preserve">
+    <value>Período para pausar após o inicio</value>
+  </data>
+  <data name="label6.Text" space="preserve">
+    <value>Conteúdo</value>
+  </data>
+  <data name="label5.ToolTip" space="preserve">
+    <value>Digite a senha padrão que será utilizada para os novos backups</value>
+  </data>
+  <data name="label5.Text" space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="label4.ToolTip" space="preserve">
+    <value>Digite o caminho onde o Duplicati irá armazenar os arquivos temporários</value>
+  </data>
+  <data name="label4.Text" space="preserve">
+    <value>Pasta temporária</value>
+  </data>
+  <data name="label3.ToolTip" space="preserve">
+    <value>Selecione o idioma que será utilizado na interface (requer reiniciar)</value>
+  </data>
+  <data name="label3.Text" space="preserve">
+    <value>Idioma da interface</value>
+  </data>
+  <data name="label2.Text" space="preserve">
+    <value>Sessões</value>
+  </data>
+  <data name="label1.ToolTip" space="preserve">
+    <value>Selecione o tempo em que o relatório de backup será exibido após sua finalização</value>
+  </data>
+  <data name="label1.Text" space="preserve">
+    <value>Tempo que um backup será exibido</value>
+  </data>
+  <data name="HideDonateButton.ToolTip" space="preserve">
+    <value>Marque esta caixa para não exibir o botão de doação no assistente</value>
+  </data>
+  <data name="HideDonateButton.Text" space="preserve">
+    <value>Ocultar botão de doação na página principal do assistente</value>
+  </data>
+  <data name="groupBox4.Text" space="preserve">
+    <value>Configurações de backup utilizadas na inicialização</value>
+  </data>
+  <data name="groupBox2.Text" space="preserve">
+    <value>Configurações adicionais (Avançado)</value>
+  </data>
+  <data name="groupBox1.Text" space="preserve">
+    <value>Configurações da interface de usuário</value>
+  </data>
+  <data name="EncryptionModule.ToolTip" space="preserve">
+    <value>Selecione a criptografia padrão para os novos backups</value>
+  </data>
+  <data name="EncryptionMethod.ToolTip" space="preserve">
+    <value>Selecione a criptografia padrão para os novos backups</value>
+  </data>
+  <data name="EncryptionMethod.Text" space="preserve">
+    <value>Tipo de Criptografia</value>
+  </data>
+  <data name="CommonPassword.ToolTip" space="preserve">
+    <value>Digite a senha padrão para os novos backups</value>
+  </data>
+  <data name="ClearCacheButton.ToolTip" space="preserve">
+    <value>Limpar quaisquer arquivos de assinatura armazenados em cache, eles serão descarregados novamente a próxima vez que o backup for ativado</value>
+  </data>
+  <data name="ClearCacheButton.Text" space="preserve">
+    <value>Eliminar cache</value>
+  </data>
+  <data name="CancelBtn.Text" space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CacheSizeLabel.ToolTip" space="preserve">
+    <value>Tamanho da pasta de cache atual</value>
+  </data>
+  <data name="CacheSizeLabel.Text" space="preserve">
+    <value>Calculando tamanho do cache ...</value>
+  </data>
+  <data name="BasicTab.Text" space="preserve">
+    <value>Básico</value>
+  </data>
+  <data name="Bandwidth.ToolTip" space="preserve">
+    <value>Defina os valores iniciais de banda para o Duplicati</value>
+  </data>
+  <data name="BalloonNotificationLevel.ToolTip" space="preserve">
+    <value>Escolha o nível de notificação das dicas</value>
+  </data>
+  <data name="AdvancedTab.Text" space="preserve">
+    <value>Avançado</value>
+  </data>
+  <data name="$this.Text" space="preserve">
+    <value>Configuração do Duplicati</value>
+  </data>
+</root>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadSortingDetectedError" xml:space="preserve">
+    <value>Обнаружена неверная сортировка копий по времени</value>
+  </data>
+  <data name="BadVolumeSortOrder" xml:space="preserve">
+    <value>Обнаружена неверная сортировка томов</value>
+  </data>
+  <data name="CannotCleanWithoutHashesError" xml:space="preserve">
+    <value>При очистке надо проверять манифесты и контрольные суммы</value>
+  </data>
+  <data name="DeletingBackupSetMessage" xml:space="preserve">
+    <value>Удаление копии в {0}</value>
+  </data>
+  <data name="DeprecatedOptionUsedWarning" xml:space="preserve">
+    <value>Ключ {0} устарел: {1}</value>
+  </data>
+  <data name="DuplicateOptionNameWarning" xml:space="preserve">
+    <value>Ключ --{0} встретился более одного раза, сообщите разработчикам</value>
+  </data>
+  <data name="FailedToFindControlFilesMessage" xml:space="preserve">
+    <value>Не найти управляющие файлы в: {0}</value>
+  </data>
+  <data name="FileHashFailure" xml:space="preserve">
+    <value>Файл "{0}" дефектен: не совпадает контрольная сумма</value>
+  </data>
+  <data name="FilesAreNotForceDeletedMessage" xml:space="preserve">
+    <value>Файлы не удалены, используйте команду --force, чтобы удалить файлы</value>
+  </data>
+  <data name="InternalDeleteCountError" xml:space="preserve">
+    <value>Внутренняя ошибка, операция прервана, чтобы защитить существующие резервные копии</value>
+  </data>
+  <data name="ManifestsMustBeReadOnBackups" xml:space="preserve">
+    <value>Запретить чтение манифестов при резервном копировании нельзя. Отключать манифесты можно только в крайнем случае и только при восстановлении.</value>
+  </data>
+  <data name="ManifestVersionRequiresRelativeNamesWarning" xml:space="preserve">
+    <value>Один или несколько манифестов имеют версию 1, она требует относительных имен файлов</value>
+  </data>
+  <data name="MissingSignatureFile" xml:space="preserve">
+    <value>Файл подписи для копии отсутствует, дата: {0}, номер тома: {1}, имя файла с копиями: {2}</value>
+  </data>
+  <data name="NoFilesGivenError" xml:space="preserve">
+    <value>Для find-last-file не указано имя файла</value>
+  </data>
+  <data name="NoSourceFoldersError" xml:space="preserve">
+    <value>Не указана папка-источник для копирования</value>
+  </data>
+  <data name="NotDeletingBackupSetMessage" xml:space="preserve">
+    <value>Не получилось удалить копию в: {0}, так как на ней основаны более поздние копии</value>
+  </data>
+  <data name="NotDeletingLastFullMessage" xml:space="preserve">
+    <value>Копию в {0} не удаляем, так как она - последняя полная копия, укажите ключ --allow-full-removal чтобы удалить вообще все.</value>
+  </data>
+  <data name="NumberOfSourceFoldersHasChangedError" xml:space="preserve">
+    <value>Количество папок-источников в последней копии {0}, а сейчас указано {1}. Менять папки-источники резервных копий нельзя.</value>
+  </data>
+  <data name="PartialUploadMessage" xml:space="preserve">
+    <value>Сбой после передачи {0} тома(ов). Ошибка: {1}</value>
+  </data>
+  <data name="PrimaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>Не прочесть первичный файл манифеста {0}, пытаемся по возможности прочесть вторичный. Ошибка: {1}</value>
+  </data>
+  <data name="ReadingSecondaryManifestLogMessage" xml:space="preserve">
+    <value>Найден вторичный файл манифеста: {0}, пытаемся прочесть.</value>
+  </data>
+  <data name="RemovingPartialFilesMessage" xml:space="preserve">
+    <value>Удаление частичного файла: {0}</value>
+  </data>
+  <data name="SecondaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>Не прочесть вторичный файл манифеста {0}. Ошибка: {1}</value>
+  </data>
+  <data name="SignatureCachePathMissingError" xml:space="preserve">
+    <value>Путь к кэшу подписей не передан как аргумент</value>
+  </data>
+  <data name="SkippedContentVolumeLogMessage" xml:space="preserve">
+    <value>Том копии {0} не указан в манифесте, не используем</value>
+  </data>
+  <data name="SkippedUnlistedSignatureFileWarning" xml:space="preserve">
+    <value>Файл подписи {0} был пропущен, так как он не указан в манифесте</value>
+  </data>
+  <data name="SourceDirIsIncludedMultipleTimesError" xml:space="preserve">
+    <value>Папка {0} указана несколько раз</value>
+  </data>
+  <data name="SourceDirsAreRelatedError" xml:space="preserve">
+    <value>Папка {1} вложена в {0}. Указывать одну папку несколько раз нельзя.</value>
+  </data>
+  <data name="SourceFolderIsMissingError" xml:space="preserve">
+    <value>Папка-источник {0} не существует, копирование отменено</value>
+  </data>
+  <data name="SourceFoldersHasChangedError" xml:space="preserve">
+    <value>Папки {0} больше нет в списке папок-источников. Менять список папок-источников запрещено.</value>
+  </data>
+  <data name="StatusBuildingFilelist" xml:space="preserve">
+    <value>Создаем список файлов</value>
+  </data>
+  <data name="StatusCompleted" xml:space="preserve">
+    <value>Завершено</value>
+  </data>
+  <data name="StatusCreatingVolume" xml:space="preserve">
+    <value>Создаем том {0}</value>
+  </data>
+  <data name="StatusDownloadingContentVolume" xml:space="preserve">
+    <value>Загружаем содержимое, том {0}</value>
+  </data>
+  <data name="StatusDownloadingSignatureVolume" xml:space="preserve">
+    <value>Загружаем подписи, том {0}</value>
+  </data>
+  <data name="StatusLoadingFilelist" xml:space="preserve">
+    <value>Загружаем список файлов сервера</value>
+  </data>
+  <data name="StatusPatching" xml:space="preserve">
+    <value>Изменяем восстановленное, применяя #{0}</value>
+  </data>
+  <data name="StatusProcessing" xml:space="preserve">
+    <value>Обработка: {0}</value>
+  </data>
+  <data name="StatusReadingIncrementalData" xml:space="preserve">
+    <value>Читаем инкрементальные данные ...</value>
+  </data>
+  <data name="StatusReadingIncrementalFile" xml:space="preserve">
+    <value>Читаем инкрементальные данные из: {0}</value>
+  </data>
+  <data name="StatusReadingIncrementals" xml:space="preserve">
+    <value>Читаем инкрементальные данные …</value>
+  </data>
+  <data name="StatusReadingManifest" xml:space="preserve">
+    <value>Читаем файл манифеста: {0}</value>
+  </data>
+  <data name="StatusReadingSignatureFile" xml:space="preserve">
+    <value>Читаем подписи: {0}, том {1}</value>
+  </data>
+  <data name="StatusStarted" xml:space="preserve">
+    <value>Начато</value>
+  </data>
+  <data name="StatusUploadingContentVolume" xml:space="preserve">
+    <value>Передаем содержимое, том {0}</value>
+  </data>
+  <data name="StatusUploadingManifestVolume" xml:space="preserve">
+    <value>Передаем манифест, том {0}</value>
+  </data>
+  <data name="StatusUploadingSignatureVolume" xml:space="preserve">
+    <value>Передаем подписи, том {0}</value>
+  </data>
+  <data name="StatusWaitingForUpload" xml:space="preserve">
+    <value>Ждем завершения передачи ...</value>
+  </data>
+  <data name="TooFewTargetFoldersError" xml:space="preserve">
+    <value>Копия содержит {0} папок, но {1} было предложено папок назначения</value>
+  </data>
+  <data name="TooManyTargetFoldersWarning" xml:space="preserve">
+    <value>Копия содержит {0} папок, но {1} было предложено папок назначения</value>
+  </data>
+  <data name="UnexpectedCompressionError" xml:space="preserve">
+    <value>Неожиданный тип сжатия: {0}</value>
+  </data>
+  <data name="UnexpectedOperationTypeError" xml:space="preserve">
+    <value>Неожиданный режим работы {0}</value>
+  </data>
+  <data name="UnsupportedBooleanValue" xml:space="preserve">
+    <value>Значение "{1}" указанное для --{0} не вычисляется в логическое, будет использовано значение "истина"</value>
+  </data>
+  <data name="UnsupportedEnumerationValue" xml:space="preserve">
+    <value>Ключ --{0} не принимает заначение "{1}", возможные значения: {2}</value>
+  </data>
+  <data name="UnsupportedIntegerValue" xml:space="preserve">
+    <value>Значение "{1}" указанное для --{0} не является целым</value>
+  </data>
+  <data name="UnsupportedOptionDisabledModuleWarning" xml:space="preserve">
+    <value>Ключ --{0} не поддерживается, так как модуль {1} не загружен</value>
+  </data>
+  <data name="UnsupportedOptionWarning" xml:space="preserve">
+    <value>Ключ --{0} не поддерживается, игнорируем</value>
+  </data>
+  <data name="UnsupportedPathValue" xml:space="preserve">
+    <value>Значение "{1}" указанное для --{0} не является именем папки</value>
+  </data>
+  <data name="UnsupportedSizeValue" xml:space="preserve">
+    <value>Значение "{1}" указанное для --{0} не является размером</value>
+  </data>
+  <data name="UnsupportedTimeValue" xml:space="preserve">
+    <value>Значение "{1}" указанное для --{0} не является временем</value>
+  </data>
+  <data name="CannotSkipHashChecksOnBackup" xml:space="preserve">
+    <value>Нельзя запретить проверку контрольных сумм во время резервного копирования</value>
+  </data>
+  <data name="CannotVerifyChain" xml:space="preserve">
+    <value>Если указан ключ --dont-read-manifests, невозможно проверить цепочку копирований</value>
+  </data>
+  <data name="CannotVerifyWithoutHashes" xml:space="preserve">
+    <value>Нельзя запретить проверку контрольных сумм, пока идет проверка</value>
+  </data>
+  <data name="DisablingSignatureCacheForVerification" xml:space="preserve">
+    <value>Во время проверки кэш подписей выключен</value>
+  </data>
+  <data name="ManifestAndFileCountMismatchError" xml:space="preserve">
+    <value>Файл манифеста {0} говорит, что должно быть {1} томов, а в списке файлов {2}</value>
+  </data>
+  <data name="ManifestsMustBeRead" xml:space="preserve">
+    <value>Отключать манифесты можно только в крайнем случае и только при восстановлении.</value>
+  </data>
+  <data name="PreviousManifestFilenameMismatchError" xml:space="preserve">
+    <value>Файл манифеста {0} указывает, что предыдущий файл манифеста должен быть {1}, а он был {2}</value>
+  </data>
+  <data name="PreviousManifestHashMismatchError" xml:space="preserve">
+    <value>Файл манифеста {0} указывает, что контрольная сумма предыдущего файла манифеста должна быть {1}, а она была {2}</value>
+  </data>
+  <data name="FileSizeMismatchError" xml:space="preserve">
+    <value>Файл {0} имеет размер {1}, а должно быть {2}</value>
+  </data>
+  <data name="FilenameMismatchError" xml:space="preserve">
+    <value>Согласно манифесту файл должен называться {0}, а на самом деле {1}</value>
+  </data>
+  <data name="StatusUploadingVerificationVolume" xml:space="preserve">
+    <value>Передаем проверочный файл</value>
+  </data>
+  <data name="DeleteManifestsSuggestion" xml:space="preserve">
+    <value>Если эту ошибку никак не исправить, вы можете либо сделать новое полное копирование, либо вручную удалить некорректные файлы манифестов, а затем запустить команду cleanup. Некорректные файлы манифестов:</value>
+  </data>
+  <data name="FullBecauseBackendIsEmpty" xml:space="preserve">
+    <value>Сделана полная копия, так как на сервер нет предыдущих копий</value>
+  </data>
+  <data name="FullBecauseFlagWasSet" xml:space="preserve">
+    <value>Ключ --{0} требует выполнить полное копирование</value>
+  </data>
+  <data name="FullBecauseLastFullIsFrom" xml:space="preserve">
+    <value>Сделано полное копирование, так как предыдущее полное копирование было {0} и задан промежуток между полными копиями {1}</value>
+  </data>
+  <data name="FullBecauseSourceFoldersChanged" xml:space="preserve">
+    <value>Сделана полная копия, так как папки-источники изменились</value>
+  </data>
+  <data name="FullBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>Сделана полная копия, так как текущая цепочка накопила {0} инкрементальных копий, и задан промежуток между полными копиями {1}</value>
+  </data>
+  <data name="IncrementalBecauseLastFullIsFrom" xml:space="preserve">
+    <value>Сделана инкрементальная копия, так как предыдущая полная копия сделана {0} и задан промежуток между полными копиями {1}</value>
+  </data>
+  <data name="IncrementalBecauseNoFlagsWereSet" xml:space="preserve">
+    <value>Сделана инкрементальная копия, так как не найдены критерии создания полной копии</value>
+  </data>
+  <data name="IncrementalBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>Сделана инкрементальная копия, так как текущая цепочка накопила {0} инкрементальных копий, и задан промежуток между полными копиями {1}</value>
+  </data>
+  <data name="ErrorRunningBackup" xml:space="preserve">
+    <value>Ошибка при копировании, файлы не были переданы: {0}</value>
+  </data>
+  <data name="StartingOperationMessage" xml:space="preserve">
+    <value>Действие {0} началось</value>
+  </data>
+  <data name="EncryptionModuleNotFoundError" space="preserve">
+    <value>Указанный модуль шифрования не найден: {0}. Доступные модули шифрования: {1}</value>
+  </data>
+  <data name="CompressionModuleNotFoundError" space="preserve">
+    <value>Указанный модуль сжатия не найден: {0}. Доступные модули сжатия: {1}</value>
+  </data>
+</root>

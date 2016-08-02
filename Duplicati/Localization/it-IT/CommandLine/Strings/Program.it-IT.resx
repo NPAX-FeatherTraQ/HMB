@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddedFoldersHeader" xml:space="preserve">
+    <value>Cartelle Aggiunte</value>
+  </data>
+  <data name="CollectionStatusHeader" xml:space="preserve">
+    <value>Trovati {0} salvataggi nel backend
+
+Tipo\tTempo\t\t\tVolume\tDimensioni</value>
+  </data>
+  <data name="CollectionStatusLineFull" xml:space="preserve">
+    <value>Completo\t{0}\t{1}\t{2}</value>
+  </data>
+  <data name="CollectionStatusLineInc" xml:space="preserve">
+    <value>Incrementale\t{0}\t{1}\t{2}</value>
+  </data>
+  <data name="ControlFilesHeader" xml:space="preserve">
+    <value>File di controllo</value>
+  </data>
+  <data name="DeletedFilesHeader" xml:space="preserve">
+    <value>File eliminati</value>
+  </data>
+  <data name="DeletedFoldersHeader" xml:space="preserve">
+    <value>Cartelle Eliminate</value>
+  </data>
+  <data name="DuplicatiOptionsHeader" xml:space="preserve">
+    <value>Opzioni Duplicati:</value>
+  </data>
+  <data name="FailedToParseParametersFileError" xml:space="preserve">
+    <value>Unable to read the parameters file "{0}", reason: {1}</value>
+  </data>
+  <data name="FileEntryNotFound" xml:space="preserve">
+    <value>&lt; non trovato &gt;</value>
+  </data>
+  <data name="FiltersCannotBeUsedWithFileError" xml:space="preserve">
+    <value>Filters cannot be specified on the commandline if filters are also present in the parameter file</value>
+  </data>
+  <data name="FindLastVersionEntry" xml:space="preserve">
+    <value>{0}\t{1}</value>
+  </data>
+  <data name="FindLastVersionHeader" xml:space="preserve">
+    <value>DataSalvataggio\t\tNomeFile</value>
+  </data>
+  <data name="FolderCreatedMessage" xml:space="preserve">
+    <value>La cartella {0} è stata creata</value>
+  </data>
+  <data name="GenericModulesHeader" xml:space="preserve">
+    <value>Moduli generici supportati:</value>
+  </data>
+  <data name="IntegerParseError" xml:space="preserve">
+    <value>Impossibile analizzare "{0}" in un numero</value>
+  </data>
+  <data name="InternalOptionUsedError" xml:space="preserve">
+    <value>L'opzione --{0} è stata inserita, ma essa è riservata per uso interno e potrebbe non essere considerata come linea di comando</value>
+  </data>
+  <data name="ModifiedFilesHeader" xml:space="preserve">
+    <value>File modificati</value>
+  </data>
+  <data name="ModuleIsLoadedAutomatically" xml:space="preserve">
+    <value>Il modulo è caricato automaticamente, usa --disable-module per impedirlo</value>
+  </data>
+  <data name="ModuleIsNotLoadedAutomatically" xml:space="preserve">
+    <value>Il modulo non è caricato automaticamente, usa --enable-module per caricarlo</value>
+  </data>
+  <data name="NewFilesHeader" xml:space="preserve">
+    <value>Nuovi file</value>
+  </data>
+  <data name="NewOrModifiedFilesHeader" xml:space="preserve">
+    <value>File nuovi o modificati</value>
+  </data>
+  <data name="ParametersFileOptionLong" xml:space="preserve">
+    <value>This option can be used to store some or all of the options given to the commandline client. The file must be a plain text file, UTF-8 encoding is preferred. Each line in the file should be of the format --option=value. The special options --source and --target can be used to override the localpath and the remote destination uri, respectively. The options in this file take precedence over the options provided on the commandline. You cannot specify filters in both the file and on the commandline.</value>
+  </data>
+  <data name="ParametersFileOptionShort" xml:space="preserve">
+    <value>Path to a file with parameters</value>
+  </data>
+  <data name="ProgramUsageBackend" xml:space="preserve">
+    <value>Un &lt;archivio o backend&gt; è identificato da un indirizzo, ad esempio ftp://nomeserver/ oppure ssh://nomeserver.
+ Con questo sistema Duplicati è in grado di distinguere se vuoi fare un salvataggio o un ripristino.
+ I comandi pulizia ed elimina non eliminano file a meno che il parametro --force non sia specificato, in questo modo puoi esaminare i documenti coinvolti prima che essi vengano eliminati. Il comando pulizia dovrebbe essere utilizzato solo in caso di salvataggi interotti o non completi, Duplicati informerà se questo accade.
+ Il comando elimina può essere usato per eliminare salvataggi vecchi quando ne sono presenti di nuovi.</value>
+  </data>
+  <data name="ProgramUsageBackup" xml:space="preserve">
+    <value>Backup (esegui un salvataggio completo o incrementale):  Duplicati.CommandLine [full] [options] &lt;cartelle d'origine&gt; &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageCleanup" xml:space="preserve">
+    <value>Pulizia (elimina file parziali o non usati): Duplicati.CommandLine cleanup [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageCreateFolders" xml:space="preserve">
+    <value>Crea cartella (normalmente fatto automaticamente):  Duplicati.CommandLine create-folder [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageDeleteOld" xml:space="preserve">
+    <value>Elimina vecchi salvataggi:
+ Duplicati.CommandLine delete-all-but-n-full &lt;number of full backups to keep&gt; [options] &lt;backend&gt;
+ Duplicati.CommandLine delete-older-than &lt;max allowed age&gt; [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageFilters" xml:space="preserve">
+    <value>Filtri:
+ Duplicati utilizza filtri per includere o escludere file nel salvataggio.
+  Duplicati usa un filtro a priorità, dove la prima regola soddisfatta risulta quella vincente e determina se un file è incluso o escluso nel salvataggio. Internamente Duplicati utilizza filtri con "espressioni regolari" ma supporta anche filtri sotto forma di file globbing. L'ordine degli argomenti della riga di comando determina l'ordine con il quale essi sono applicati.  Ad esempio:
+    --include=*.txt --exclude=*\Thumbs.db --include=*
+
+ Anche se l'ultimo filtro dell'esempio include tutto, nessun file chiamato "Thumbs.db" verrà incluso nel salvataggio in quanto il filtro di esclusione del file viene soddisfatto prima del filtro omnicomprensivo. I percorsi sono valutati per intero e come percorsi relativi ad una cartella sono salvati includendo una barra iniziale. Ad esempio:
+
+{0}
+ Se una cartella viene esclusa anche i documenti in quella cartella vengono esclusi anche se sono presenti filtri che includono tali documenti. Se una cartella viene inclusa con l'utilizzo di un carattere "jolly" alla fine, tutti i documenti contenuti sono inclusi, se invece la cartella viene inclusa senza carattere "jolly" i documenti contenuti potrebbero essere esclusi o inclusi attraverso regole aggiuntive. </value>
+  </data>
+  <data name="ProgramUsageFindLastVersion" xml:space="preserve">
+    <value>Trova l'ultima versione del file: Duplicati.CommandLine find-last-version [options] --file-to-restore=&lt;file da cercare&gt; &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageHeader" xml:space="preserve">
+    <value>********** Duplicati v. {0} **********
+
+Utilizzo:</value>
+  </data>
+  <data name="ProgramUsageListContentFiles" xml:space="preserve">
+    <value>Elenco file contenuti (documenti che possono essere ripristinati):
+  Duplicati.CommandLine list-current-files [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListFiles" xml:space="preserve">
+    <value>Elenco file:
+  Duplicati.CommandLine list [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSets" xml:space="preserve">
+    <value>Elenco set di salvataggi:
+  Duplicati.CommandLine collection-status [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSignatureFiles" xml:space="preserve">
+    <value>Elenco dei file firma (documenti in un singolo set di salvataggio):
+  Duplicati.CommandLine list-actual-signature-files [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSourceFolders" xml:space="preserve">
+    <value>Elenco cartelle in origine (cartelle salvate):
+  Duplicati.CommandLine list-source-folders [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageOptionTypes" xml:space="preserve">
+    <value>Tipi di opzioni:
+ Le seguenti opzioni sono disponibili:
+  Integer: un valore numerico
+  Boolean: valore vero, --force e --force=true sono equivalenti. --force=false rappresenta il contrario
+  Timespan: un periodo in un formato "tempo" spaciale (descritto in seguito)
+  Size: una dimensione come 5mb o 200kb
+  Enumeration: uno dei valori elencati
+  Path: il percorso di una cartella o un file
+  String: qualsiasi altro tipo</value>
+  </data>
+  <data name="ProgramUsagePurgeCache" xml:space="preserve">
+    <value>Ripulisci la memoria delle firme:
+  Duplicati.CommandLine purge-signature-cache [options]</value>
+  </data>
+  <data name="ProgramUsageRestore" xml:space="preserve">
+    <value>Ripristino (ripristina tutti o alcuni file):
+  Duplicati.CommandLine [options] &lt;backend&gt; &lt;destinationfolder&gt;</value>
+  </data>
+  <data name="ProgramUsageTimes" xml:space="preserve">
+    <value>Tempo:
+ Duplicati utilizza il sistema temporale di duplicity, dove il tempo può essere rappresentato come:
+  1: la stringa "now", che indica l'istante corrente "adesso"
+  2: il numero di secondi trascorsi da un'epoca, es: 123456890
+  3: una stringa tipo "2009-03-26T08:30:00+01:00"
+  4: un intervallo di stringhe, come Y, M, W, D, h, m, s per (Y)Anno, (M)Mese, (W)Settimana, (D)Giorno, (h)ora, (m)minuti o (s)secondi, es: "1M4D" sta per un mese e quattro giorni, o "5m" per cinque minuti.</value>
+  </data>
+  <data name="ProgramUsageVerify" xml:space="preserve">
+    <value>Verifica integrità del salvataggio:
+  Duplicati.CommandLine verify &lt;backend&gt; --verification-level=manifest|signatures|full</value>
+  </data>
+  <data name="SupportedBackendsHeader" xml:space="preserve">
+    <value>Archivi supportati:</value>
+  </data>
+  <data name="SupportedCompressionModulesHeader" xml:space="preserve">
+    <value>Moduli di compressione supportati:</value>
+  </data>
+  <data name="SupportedEncryptionModulesHeader" xml:space="preserve">
+    <value>Moduli di crittografia supportati:</value>
+  </data>
+  <data name="SupportedOptionsHeader" xml:space="preserve">
+    <value>Opzioni supportate:</value>
+  </data>
+  <data name="TimeParseError" xml:space="preserve">
+    <value>Impossibile analizzare "{0}" come offset temporale: {1}</value>
+  </data>
+  <data name="UnhandledException" xml:space="preserve">
+    <value>Errore: {0}</value>
+  </data>
+  <data name="UnhandledInnerException" xml:space="preserve">
+    <value>Il messaggio di errore interno è: {0}</value>
+  </data>
+  <data name="UsageExampleLinux" xml:space="preserve">
+    <value>Duplicati.CommandLine /home/user/ ftp://host/folder --exclude=/file.txt
+
+  In questo esempio il file "/home/user/file.txt" verrà escluso.</value>
+  </data>
+  <data name="UsageExampleWindows" xml:space="preserve">
+    <value>Duplicati.CommandLine C:\Documents\Files ftp://host/folder --exclude=\file.txt
+
+ In questo esempio il file "C:\Documents\Files\file.txt" verrà escluso.</value>
+  </data>
+  <data name="VerificationCompleted" xml:space="preserve">
+    <value>Verifica completata, sommario:
+File manifesto verificati: {0}
+File di firma ferificati: {1}
+Contenuti verificati: {2}
+Errori: {3}</value>
+  </data>
+  <data name="VerificationErrorHeader" xml:space="preserve">
+    <value>Messaggi di errore riportati:</value>
+  </data>
+  <data name="WrongNumberOfCommandsError_v2" xml:space="preserve">
+    <value>Trovati {0} comandi ma attesi {1}, comandi: 
+{2}</value>
+  </data>
+</root>

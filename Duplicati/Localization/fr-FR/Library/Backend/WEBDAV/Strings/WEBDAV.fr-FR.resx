@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Description" xml:space="preserve">
+    <value>Supporte les connections vers un serveur compatible WEBDAV, utilisant le protocole HTTP. Les formats autorisés sont "webdav://nomd'hote/répertoire" ou "webdav://nomd'utilisateur:motdepasse@nomd'hote/repertoire".</value>
+  </data>
+  <data name="DescriptionForceDigestLong" xml:space="preserve">
+    <value>L'utilisation de la méthode d'authentification HTTP Digest permet à l'utilisateur de s'authentifier avec le serveur, sans envoyer le mot de passe en clair. Cela permet d'éviter que quelqu'un n'intercepte les paquets TCP contenant le mot de passe non crypté. En utilisant ce drapeau, le client n'accepte pas cela et utilise toujours la méthode d'authentification HTTP Digest pour se connecter.</value>
+  </data>
+  <data name="DescriptionForceDigestShort" xml:space="preserve">
+    <value>Oblige à utiliser la méthode d'authentification HTTP Digest</value>
+  </data>
+  <data name="DescriptionFTPPasswordLong" xml:space="preserve">
+    <value>Le mot de passe utilisé pour se connecter au serveur. Il est accessible également au travers de la variable d'environnement "FTP_PASSWORD".</value>
+  </data>
+  <data name="DescriptionFTPPasswordShort" xml:space="preserve">
+    <value>Mot de passe de connexion au serveur</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>Le nom d'utilisateur utilisé pour se connecter au serveur. Il est accessible également au travers de la variable d'environnement "FTP_USERNAME".</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>Nom d'utilisateur de connexion au serveur</value>
+  </data>
+  <data name="DescriptionIntegratedAuthenticationLong" xml:space="preserve">
+    <value>Si le client et se serveur supportent tout deux l'authentification intégrée, cette option active ce type d'authentification. Cela est habituellement valable que pour les clients et serveurs Windows.</value>
+  </data>
+  <data name="DescriptionIntegratedAuthenticationShort" xml:space="preserve">
+    <value>Utiliser l'authentification Windows pour se connecter au serveur</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Basé sur WEBDAV</value>
+  </data>
+  <data name="MissingFolderError" xml:space="preserve">
+    <value>Le répertoire {0} est introuvable, message: {1}</value>
+  </data>
+  <data name="SeenThenNotFoundError" xml:space="preserve">
+    <value>En analysant précédemment le répertoire {0} le fichier {1} à été trouvé, mais le serveur indique à présent que ce fichier est introuvable.
+Cela peut être causé par la suppression du fichier ou son utilisation, mais également parce que l'extension du fichier {2} est bloquée par le serveur web. Les serveurs IIS bloquent les extensions inconnues par défaut.
+Message d’erreur: {3}</value>
+  </data>
+  <data name="DescriptionUseSSLLong" xml:space="preserve">
+    <value>Utiliser ce commutateur pour dialoguer en utilisant le protocole SSL sur http (https).</value>
+  </data>
+  <data name="DescriptionUseSSLShort" xml:space="preserve">
+    <value>Demande à Duplicati d'utiliser une connexion SSL (https)</value>
+  </data>
+  <data name="DescriptionDebugPropfindLong" xml:space="preserve">
+    <value>Pour aider dans la résolution de problèmes, il est possible de spécifier un fichier qui contiendra la réponse PROPFIND</value>
+  </data>
+  <data name="DescriptionDebugPropfindShort" xml:space="preserve">
+    <value>Duplique la réponse PROPFIND</value>
+  </data>
+</root>

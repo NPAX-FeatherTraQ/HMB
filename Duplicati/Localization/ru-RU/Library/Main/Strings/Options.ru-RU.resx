@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AsynchronousuploadLong" xml:space="preserve">
+    <value>Эта настройка включает передачу файлов по мере создания томов. Это сокращает время копирования, но требует больше места на диске.</value>
+  </data>
+  <data name="AsynchronousuploadShort" xml:space="preserve">
+    <value>Передавать файлы с помощью отдельного потока команд</value>
+  </data>
+  <data name="AutocleanupLong" xml:space="preserve">
+    <value>Если копирование прерывается, то на сервере скорее всего есть частично переданные файлы. Если использовать этот флаг, программа будет сама удалять такие файлы.</value>
+  </data>
+  <data name="AutocleanupShort" xml:space="preserve">
+    <value>Флаг требует от программы удалять неиспользуемые файлы</value>
+  </data>
+  <data name="BackupprefixLong" xml:space="preserve">
+    <value>Любая строка, роль которой - быть префиксом имен файлов, придуманных программой</value>
+  </data>
+  <data name="BackupprefixShort" xml:space="preserve">
+    <value>Префикс имени архива с копиями</value>
+  </data>
+  <data name="DisablefiletimecheckLong" xml:space="preserve">
+    <value>Операционная система отслеживает, когда файл был записан в последний раз. Используя эту информацию, программа может быстро определить, был ли файл изменен. Если какое-то приложение сознательно изменит эту информацию, программа будет работать неправильно, если этот флаг не установлен.</value>
+  </data>
+  <data name="DisablefiletimecheckShort" xml:space="preserve">
+    <value>Запретить проверки, основанные на времени</value>
+  </data>
+  <data name="ExcludeLong" xml:space="preserve">
+    <value>Включает файлы, соответствующие данному фильтру. Фильтр - это шаблон имени файла, как в командной строке. Например, "*.txt" включает все текстовые файлы.</value>
+  </data>
+  <data name="ExcluderegexpLong" xml:space="preserve">
+    <value>Включает файлы, соответствующие данному фильтру. Фильтр - регулярное выражение. Например, "(.*).txt" включает все текстовые файлы.</value>
+  </data>
+  <data name="ExcluderegexpShort" xml:space="preserve">
+    <value>Исключить файлы по регулярным выражениям</value>
+  </data>
+  <data name="ExcludeShort" xml:space="preserve">
+    <value>Исключить файлы</value>
+  </data>
+  <data name="FiletorestoreLong" xml:space="preserve">
+    <value>По умолчанию восстанавливаются все файлы из резервной копии. Эта настройка позволяет восстановить только часть файлов</value>
+  </data>
+  <data name="FiletorestoreShort" xml:space="preserve">
+    <value>Список файлов для восстановления</value>
+  </data>
+  <data name="ForceLong" xml:space="preserve">
+    <value>Когда требуется удалить старые файлы, программа их не удаляет, но сообщает, какие файлы надо удалить. Укажите флаг "force" для того, чтобы действительно удалить их.</value>
+  </data>
+  <data name="ForceShort" xml:space="preserve">
+    <value>Удалить файлы</value>
+  </data>
+  <data name="FullifolderthanLong" xml:space="preserve">
+    <value>Если последняя полная копия старше, чем указано здесь, программа сделает полную копию, иначе - инкрементальную</value>
+  </data>
+  <data name="FullifolderthanShort" xml:space="preserve">
+    <value>Максимальное время между полными копиями</value>
+  </data>
+  <data name="FullLong" xml:space="preserve">
+    <value>Будет выполнено полное копирование всех файлов, если выставлен этот флаг. Инкрементальные данные будут проигнорированы.</value>
+  </data>
+  <data name="FullShort" xml:space="preserve">
+    <value>Флаг принуждает выполнить полное копирование</value>
+  </data>
+  <data name="GpgencryptionLong" xml:space="preserve">
+    <value>По умолчанию программа использует алгоритм AES для шифрования копий, этот флаг требует использовать GNU Privacy Guard вместо этого. Программа GnuPG должна быть установлена на компьютер, чтобы он сработал.</value>
+  </data>
+  <data name="GpgencryptionShort" xml:space="preserve">
+    <value>Использовать шифрование GnuPG</value>
+  </data>
+  <data name="IncludeLong" xml:space="preserve">
+    <value>Включает файлы, соответствующие данному фильтру. Фильтр - это шаблон имени файла, как в командной строке. Например, "*.txt" включает все текстовые файлы.</value>
+  </data>
+  <data name="IncluderegexpLong" xml:space="preserve">
+    <value>Включает файлы, соответствующие данному фильтру. Фильтр - регулярное выражение. Например, "(.*).txt" включает все текстовые файлы.</value>
+  </data>
+  <data name="IncluderegexpShort" xml:space="preserve">
+    <value>Включить файлы по регулярным выражениям</value>
+  </data>
+  <data name="IncludeShort" xml:space="preserve">
+    <value>Включить файлы</value>
+  </data>
+  <data name="AllowsleepShort" xml:space="preserve">
+    <value>Разрешить системе переходить в спящий режим по неактивности во время выполнения операций копирования и восстановления (только в Windows)</value>
+  </data>
+  <data name="MaxdownloadprsecondLong" xml:space="preserve">
+    <value>Эта настройка указывает, какую часть полосы пропускания программа может использовать для загрузки данных. Ограничение может замедлить работу, но позволит другим программам работать с сетью быстрее.</value>
+  </data>
+  <data name="MaxdownloadprsecondShort" xml:space="preserve">
+    <value>Максимальное количество байтов в секунду, которое можно загружать</value>
+  </data>
+  <data name="MaxuploadprsecondLong" xml:space="preserve">
+    <value>Эта настройка указывает, какую часть полосы пропускания программа может использовать для передачи данных на сервер. Ограничение может замедлить работу, но позволит другим программам работать с сетью быстрее.</value>
+  </data>
+  <data name="MaxuploadprsecondShort" xml:space="preserve">
+    <value>Максимальное количество байтов в секунду, которое можно передавать</value>
+  </data>
+  <data name="NoencryptionLong" xml:space="preserve">
+    <value>Если резервные копии сохраняются на локальном диске, и вы не хотите их шифровать, можете использовать этот флаг: он отключает шифрование</value>
+  </data>
+  <data name="NoencryptionShort" xml:space="preserve">
+    <value>Запретить шифрование</value>
+  </data>
+  <data name="NumberofretriesLong" xml:space="preserve">
+    <value>Если передача на сервер или загрузка сорвалась, программа будет пытаться ее выполнить несколько раз перед тем, как смириться с проблемой. Используйте эту настройку при малой надежности соединений.</value>
+  </data>
+  <data name="NumberofretriesShort" xml:space="preserve">
+    <value>Количество повторов при сбое передачи данных</value>
+  </data>
+  <data name="PassphraseLong" xml:space="preserve">
+    <value>Указывает пароль для шифрования резервной копии. Без пароля копию будет не прочесть. Это значение также можно указать в переменной среды PASSPHRASE.</value>
+  </data>
+  <data name="PassphraseShort" xml:space="preserve">
+    <value>Пароль для шифрования копий</value>
+  </data>
+  <data name="RestoretimeLong" xml:space="preserve">
+    <value>По умолчанию восстанавливаются файлы из самой свежей резервной копии. Здесь можно выбрать другую копию. Можно использовать относительные времена, например, "-2M" означает "копия двухмесячной давности".</value>
+  </data>
+  <data name="RestoretimeShort" xml:space="preserve">
+    <value>Из копии какой давности восстанавливать?</value>
+  </data>
+  <data name="RetrydelayLong" xml:space="preserve">
+    <value>После неудачной передачи данных программа недолго ждет и повторяет попытку. Укажите, если соединение исчезает при передаче данных.</value>
+  </data>
+  <data name="RetrydelayShort" xml:space="preserve">
+    <value>Время ожидания между попытками</value>
+  </data>
+  <data name="ShortfilenamesLong" xml:space="preserve">
+    <value>Если файловая система не поддерживает длинные имена файлов, этот флаг изменит формат времени на более короткий, но менее удобный для чтения. Префиксом по умолчанию будет "dpl".</value>
+  </data>
+  <data name="ShortfilenamesShort" xml:space="preserve">
+    <value>Использовать короткие имена файлов</value>
+  </data>
+  <data name="SignaturecachepathLong" xml:space="preserve">
+    <value>Если указано, программа будет хранить файлы подписей в этой папке, чтобы обойтись без загрузки их заново</value>
+  </data>
+  <data name="SignaturecachepathShort" xml:space="preserve">
+    <value>Путь к временному хранилищу</value>
+  </data>
+  <data name="SignaturecontrolfilesLong" xml:space="preserve">
+    <value>Укажите список файлов для добавления к каждой копии через точку с запятой. Программа резервного копирования с графическим интерфейсом использует этот ключ для сохранения базы данных настроек вместе с каждой копией.</value>
+  </data>
+  <data name="SignaturecontrolfilesShort" xml:space="preserve">
+    <value>Список управляющих файлов для включения в копию</value>
+  </data>
+  <data name="SkipfilehashchecksLong" xml:space="preserve">
+    <value>Если контрольная сумма тома не соответствует ожидаемой, программа откажется использовать такую резервную копию. Этот флаг позволит использовать ее даже при несоответствии.</value>
+  </data>
+  <data name="SkipfilehashchecksShort" xml:space="preserve">
+    <value>Не проверять контрольную сумму</value>
+  </data>
+  <data name="SkipfileslargerthanLong" xml:space="preserve">
+    <value>Эта настройка исключает из копии файлы с размером больше указанного. Используется для того, чтобы копия не оказалась слишком большой</value>
+  </data>
+  <data name="SkipfileslargerthanShort" xml:space="preserve">
+    <value>Максимальный размер файла, включаемого в копию</value>
+  </data>
+  <data name="TempdirLong" xml:space="preserve">
+    <value>Программа будет использовать системную временную папку по умолчанию. Укажите другую временную папку, если надо.</value>
+  </data>
+  <data name="TempdirShort" xml:space="preserve">
+    <value>Временная папка</value>
+  </data>
+  <data name="ThreadpriorityLong" xml:space="preserve">
+    <value>Выберите другой приоритет для программы копирования. В зависимости от приоритета программа по-разному загружает процессор</value>
+  </data>
+  <data name="ThreadpriorityShort" xml:space="preserve">
+    <value>Приоритет потоков</value>
+  </data>
+  <data name="TimeseparatorLong" xml:space="preserve">
+    <value>По умолчанию программа использует двоеточие ":" для отделения полей в значениях времени в именах файлов. В некоторых системах этот символ запрещен в именах файлов (например, в Windows). Эта настройка позволяет использовать другой символ.</value>
+  </data>
+  <data name="TimeseparatorShort" xml:space="preserve">
+    <value>Разделитель полей в значениях времени в именах файлов томов</value>
+  </data>
+  <data name="TotalsizeLong" xml:space="preserve">
+    <value>Эта настройка может установить ограничение общего размера каждой резервной копии. Если этот флаг указан, то копия может содержать не все файлы, даже если это - полная копия.</value>
+  </data>
+  <data name="TotalsizeShort" xml:space="preserve">
+    <value>Ограничение количества байтов на копию</value>
+  </data>
+  <data name="VolsizeLong" xml:space="preserve">
+    <value>Настройка меняет размер тома по умолчанию. Примените ее, если в хранилище есть ограничение на максимальный размер одного файла</value>
+  </data>
+  <data name="VolsizeShort" xml:space="preserve">
+    <value>Размер строки, которая ограничивает размер тома</value>
+  </data>
+  <data name="DisableStreamingLong" xml:space="preserve">
+    <value>Эта настройка выключает потоковый интерфейс, это отключает индикатор передачи данных и ограничения по полосе пропускания</value>
+  </data>
+  <data name="DisableStreamingShort" xml:space="preserve">
+    <value>Отключение потоковой передачи данных</value>
+  </data>
+  <data name="AllowfullremoveLong" xml:space="preserve">
+    <value>На всякий случай последняя полная копия никогда не удаляется, даже при использовании команды "delete-all-but-n-full 0". Установите этот флаг для удаления даже последней копии..</value>
+  </data>
+  <data name="AllowfullremoveShort" xml:space="preserve">
+    <value>Разрешить удаление всех заданий</value>
+  </data>
+  <data name="DontreadmanifestsLong" xml:space="preserve">
+    <value>Эта настройка гарантирует, что файл манифеста не будет прочтен. Это подразумевает, что контрольные суммы файлов тоже не будут проверяться. Используйте только при ликвидации аварий!</value>
+  </data>
+  <data name="DontreadmanifestsShort" xml:space="preserve">
+    <value>Настройка отменяет проверку манифестов</value>
+  </data>
+  <data name="AllowsourcefolderchangeLong" xml:space="preserve">
+    <value>Эта настройка отключает проверку на использование одной и той же папки-источника. Она используется при тестировании программы и НЕ предназначена для нормального режима работы. Не используйте ее, если не уверены в результате ее работы.</value>
+  </data>
+  <data name="AllowsourcefolderchangeShort" xml:space="preserve">
+    <value>Не проверять папки-источники</value>
+  </data>
+  <data name="FullifsourcefolderchangedLong" xml:space="preserve">
+    <value>Менять папку-источник или количество папок-источников нельзя. Если этот флаг установлен, при изменении папок-источников будет выполнено полное копирование, которое начнет новую цепочку копирований с новым набором папок. Если установлен еще и ключ --allow-sourcefolder-change, полное копирование будет сделано только при изменении количества папок-источников</value>
+  </data>
+  <data name="FullifsourcefolderchangedShort" xml:space="preserve">
+    <value>Выполнить полное копирование при изменении количества папок</value>
+  </data>
+  <data name="CompressionmoduleLong" xml:space="preserve">
+    <value>Программа поддерживает дополнительные модули сжатия. Используйте эту настройку для выбора модуля сжатия. Настройка применится только к новым томам, а при чтении существующего файла его имя будет использовано для выбора модуля сжатия.</value>
+  </data>
+  <data name="CompressionmoduleShort" xml:space="preserve">
+    <value>Выберите модуль сжатия</value>
+  </data>
+  <data name="EncryptionmoduleLong" xml:space="preserve">
+    <value>Программа поддерживает дополнительные модули шифрования. Используйте эту настройку для выбора модуля шифрования. Настройка применится только к новым томам, а при чтении существующего файла его имя будет использовано для выбора модуля шифрования.</value>
+  </data>
+  <data name="EncryptionmoduleShort" xml:space="preserve">
+    <value>Выберите модуль шифрования</value>
+  </data>
+  <data name="GpgencryptionDeprecated" xml:space="preserve">
+    <value>Используйте --encryption-module=gpg вместо этого ключа</value>
+  </data>
+  <data name="DisablemoduleLong" xml:space="preserve">
+    <value>Укажите одно или более имен модулей, которые надо выгрузить, через запятую</value>
+  </data>
+  <data name="DisablemoduleShort" xml:space="preserve">
+    <value>Выключить один или более модулей</value>
+  </data>
+  <data name="EnablemoduleLong" xml:space="preserve">
+    <value>Укажите через запятую одно или более имен модулей, которые надо загрузить</value>
+  </data>
+  <data name="EnablemoduleShort" xml:space="preserve">
+    <value>Включает один или более модулей</value>
+  </data>
+  <data name="SnapshotpolicyLong" xml:space="preserve">
+    <value>Эта настройка контролирует использование снимков, что позволяет выполнять резервное копирование файлов, заблокированых другими программами. Если этот параметр равен "off", программа копирования не будет пытаться создать диск снимка. Значение "auto" означает, что надо попытаться создать снимок, и не беспокоиться, если не получилось, потому что не разрешено или не поддерживается. Значение "on" означает, что надо попытаться создать снимок, и записать предупреждение в журнале, если не получилось. Значение "required" означает, что если снимок создать не удалось, надо прервать копирование. В Windows для этого используется Volume Shadow Copy Services (VSS), что требует административных привилегий. В Linux используется Logical Volume Management (LVM), это требует привилегий суперпользователя.</value>
+  </data>
+  <data name="SnapshotpolicyShort" xml:space="preserve">
+    <value>Управляет использованием снимков диска</value>
+  </data>
+  <data name="AsynchronousuploadfolderLong" xml:space="preserve">
+    <value>Подготовленные тома помещаются во временную папку, вы можете указать другую, эта настройка также действует на синхронные передачи</value>
+  </data>
+  <data name="AsynchronousuploadfolderShort" xml:space="preserve">
+    <value>Папка, где готовые копии хранятся до передачи на сервер</value>
+  </data>
+  <data name="AsynchronousuploadlimitLong" xml:space="preserve">
+    <value>При асинхронной передаче копий на сервер программа создает тома, которые надо загружать.</value>
+  </data>
+  <data name="AsynchronousuploadlimitShort" xml:space="preserve">
+    <value>Количество томов, которые надо создать заранее</value>
+  </data>
+  <data name="DebugoutputLong" xml:space="preserve">
+    <value>Включает вывод более подробной информации об ошибках, что может вам помочь понять, что их вызывает.</value>
+  </data>
+  <data name="DebugoutputShort" xml:space="preserve">
+    <value>Разрешить отладочный вывод</value>
+  </data>
+  <data name="ExcludeemptyfoldersLong" xml:space="preserve">
+    <value>Если установить эту настройку в true, то папка, в которой нет файлов, соответствующих фильтру, не будет копироваться</value>
+  </data>
+  <data name="ExcludeemptyfoldersShort" xml:space="preserve">
+    <value>Управляет действиями с пустыми папками</value>
+  </data>
+  <data name="OldfilenamesDeprecated" xml:space="preserve">
+    <value>В будущем эта настройка будет удалена, но пока она есть на случай если новый формат имен файлов что-то испортит</value>
+  </data>
+  <data name="OldfilenamesLong" xml:space="preserve">
+    <value>Эта настройка включает в имена файлов, создаваемые программой, разделитель времени и часовой пояс, это приемлемо не для всех платформ</value>
+  </data>
+  <data name="OldfilenamesShort" xml:space="preserve">
+    <value>Использовать старый формат имени файла</value>
+  </data>
+  <data name="ShortfilenamesDeprecated" xml:space="preserve">
+    <value>Программа использует имена файлов в формате, подходящем для любой операционной системы, так что эту настройку использовать незачем, и в следующих версиях она будет удалена.</value>
+  </data>
+  <data name="TimeseparatorDeprecated" xml:space="preserve">
+    <value>Новая версия программы не использует разделитель полей для значений времени. Этот флаг ничего не делает.</value>
+  </data>
+  <data name="LogfileLong" xml:space="preserve">
+    <value>Указывает, надо ли, и куда записывать протокол внутренней информации приложения</value>
+  </data>
+  <data name="LogfileShort" xml:space="preserve">
+    <value>Писать в протокол внутреннюю информацию</value>
+  </data>
+  <data name="LoglevelLong" xml:space="preserve">
+    <value>Указывает степень подробности протокола, который пишется в файл, указанный в ключе --log-file</value>
+  </data>
+  <data name="LoglevelShort" xml:space="preserve">
+    <value>Степень подробности протокола</value>
+  </data>
+  <data name="DisableautocreatefolderLong" xml:space="preserve">
+    <value>Если программа обнаруживает, что отсутствует папка, куда надо передать файлы, она создает ее автоматически. Установка этого флага запрещает создавать папку.</value>
+  </data>
+  <data name="DisableautocreatefolderShort" xml:space="preserve">
+    <value>Не создавать папку на сервере</value>
+  </data>
+  <data name="VssexcludewritersLong" xml:space="preserve">
+    <value>Эта настройка исключает неисправные модули записи VSS из снимка. Это эквивалентно использованию ключа -wx для vshadow.exe, за исключением того, что принимает только GUID класса записи, а не имя компонента или GUID экземпляра. Несколько GUID должны разделяться точкой с запятой, большинство форм GUID можно использовать, включая вариант с фигурными скобками.</value>
+  </data>
+  <data name="VssexcludewritersShort" xml:space="preserve">
+    <value>Список GUID модулей записи VSS, которые надо исключить, через точку с запятой (только в Windows)</value>
+  </data>
+  <data name="UsnpolicyLong" xml:space="preserve">
+    <value>Эта настройка управляет использованием номеров USN в NTFS, что позволяет программе получать список файлов и папок гораздо быстрее. Если этот параметр установлен в "off", USN не будет использоваться. Значние "auto" означает попытаться использовать USN, и тихо отказаться от этого, если было не разрешено или не поддерживается. Значение "on" означает попытаться использовать USN, и записать предупреждение в журнал, если не получилось. Значение "required" требует прервать создание копии, если не удается использовать USN. Эта функция поддерживается только в Windows и требует административных привилегий.</value>
+  </data>
+  <data name="UsnpolicyShort" xml:space="preserve">
+    <value>Управляет использованием Update Sequence Numbers в NTFS</value>
+  </data>
+  <data name="DisableusndiffcheckLong" xml:space="preserve">
+    <value>If USN is enabled the USN numbers are used to find all changed files since last backup. Use this option to disable the use of USN numbers, which will make Duplicati investigate all source files. This option is primarily intended for testing and should not be disabled in a production environment. If USN is not enabled, this option has no effect.</value>
+  </data>
+  <data name="DisableusndiffcheckShort" xml:space="preserve">
+    <value>Disables changelist by USN numbers</value>
+  </data>
+  <data name="OpenfilepolicyLong" xml:space="preserve">
+    <value>Если при резервном копировании встречается файл, который открыт в другой программе, программа копирования будет пытаться читать его содержимое все равно. Поскольку файл может быть изменен во время резервного копирования, это может привести к тому, что в резервной копии будет частично записанный файл. Используйте эту настрйоку, чтобы отключить такое поведение и не делать резервную копию заблокированных файлов. Эта настройка не подействует, если снимок активен.</value>
+  </data>
+  <data name="OpenfilepolicyShort" xml:space="preserve">
+    <value>Указывает, как обрабатывать открытые файлы</value>
+  </data>
+  <data name="DisabletimetoleranceLong" xml:space="preserve">
+    <value>Чтобы понять, надо ли делать полную копию и удалять ли старые копии, программа слегка подправляет время, чтобы небольшие отклонения не повлияли на запланированную операцию. Если полное копирование должно делаться ежедневно и предыдущий раз оно сделано в 12:00:01, то если следующее копирование запущено в 12:00:00, формально сутки еще не прошли и надо делать инкрементальное копирование. Чтобы избежать столько формального подхода, программа вносит поправку времени на 1% (максимум - 1 час). Если хотите отменить такой гибкий подход, установите этот флаг.</value>
+  </data>
+  <data name="DisabletimetoleranceShort" xml:space="preserve">
+    <value>Отменяет гибкость в сравнении времен</value>
+  </data>
+  <data name="SortedfilelistLong" xml:space="preserve">
+    <value>Список файлов для резервного копирования обрабатывается в произвольном порядке, чтобы все файлы имели равную вероятность быть обработаны. Используйте этот флаг для обработки файлов в алфавитном порядке</value>
+  </data>
+  <data name="SortedfilelistShort" xml:space="preserve">
+    <value>Сортировка списка файлов</value>
+  </data>
+  <data name="CreateverificationfileLong" xml:space="preserve">
+    <value>Если резервная копия зашифрована, сервер не может проверить ее содержимое без пароля. Если эта настройка включена, программа сохраняет на сервере специальный незашифрованный файл. Тогда сервер может проверить целостность резервной копии без пароля. Файл не содержит конфиденциальной информации, только список файлов, которые должны быть на сервере и их контрольные суммы. Эта настройка действует только при создании резервной копии и при проверке набора резервных копий.</value>
+  </data>
+  <data name="CreateverificationfileShort" xml:space="preserve">
+    <value>Создать файл проверки на сервере</value>
+  </data>
+  <data name="VerificationLevelLong" xml:space="preserve">
+    <value>Эта настройка меняет степень проверки, выполняемой командой verify. Значение "manifest" требует только проверки цепочки манифестов. Значение "signature" также вызывает загрузку и проверку файлов подписей. Значение "full" требует загрузить все, включая сами файлы, и проверить, что они не изменились.</value>
+  </data>
+  <data name="VerificationLevelShort" xml:space="preserve">
+    <value>Уровень проверки</value>
+  </data>
+  <data name="ListverifyuploadsLong" xml:space="preserve">
+    <value>Некоторые протоколы, например FTP, и некоторые серверы не могут понять, что передача данных прервалась, и считают данные переданными полностью. Если включить эту настройку, программа будет запрашивать список переданного после каждой передачи и проверять, есть ли в списке переданные файлы, и корректный ли у них размер.</value>
+  </data>
+  <data name="ListverifyuploadsShort" xml:space="preserve">
+    <value>Проверить переданные файлы, запросив список</value>
+  </data>
+  <data name="FullifmorethannincrementalsLong" xml:space="preserve">
+    <value>Настройка ограничивает длину цепочки копий определенным числом. Оно показывает максимальное количество инкрементальных копий в цепочке (не считая первой полной копии)</value>
+  </data>
+  <data name="FullifmorethannincrementalsShort" xml:space="preserve">
+    <value>Максимальное количество инкрементальных копий в цепочке</value>
+  </data>
+  <data name="AsynchronousuploadDeprecated" xml:space="preserve">
+    <value>Передача данных асинхронна по умолчанию, ее можно выключить с помощью ключа --{0}</value>
+  </data>
+  <data name="SynchronousuploadLong" xml:space="preserve">
+    <value>Программа будет загружать файлы во время сканирования диска и создания томов копий, что обычно делает резервное копирование быстрее. Используйте этот флаг, чтобы программа ждала завершения каждого тома перед загрузкой</value>
+  </data>
+  <data name="SynchronousuploadShort" xml:space="preserve">
+    <value>Синхронная передача файлов</value>
+  </data>
+  <data name="NoconnectionreuseLong" xml:space="preserve">
+    <value>Обычно программа старается выполнить несколько операций, используя одно и то же соединение с сервером. Это ускоряет работу. Если вы хотите, чтобы для каждой операции открывалось новое соединение, установите этот флаг.</value>
+  </data>
+  <data name="NoconnectionreuseShort" xml:space="preserve">
+    <value>Открывать для каждой операции свое соединение</value>
+  </data>
+  <data name="DebugretryerrorsLong" xml:space="preserve">
+    <value>При возникновении ошибки программа будет молча повторить попытки и сообщать о количестве повторов. Включите эту настройку чтобы отображалось еще и сообщение об ошибке, если повтор не удался.</value>
+  </data>
+  <data name="DebugretryerrorsShort" xml:space="preserve">
+    <value>Показывать сообщения об ошибках при повторе</value>
+  </data>
+  <data name="UploadUnchangedBackupsLong" xml:space="preserve">
+    <value>Если файлы не изменились, программа ничего не передаст на сервер. Если данные на сервере используются для проверки факта запуска программы копирования, установите этот флаг: программа загрузит файл, даже если он пустой</value>
+  </data>
+  <data name="UploadUnchangedBackupsShort" xml:space="preserve">
+    <value>Передавать пустые файлы</value>
+  </data>
+  <data name="BackendlogdatabaseShort" xml:space="preserve">
+    <value>Протокол операций на сервере</value>
+  </data>
+  <data name="BackendlogdatabaseLong" xml:space="preserve">
+    <value>Эта настройка указывает путь к файлу, хранящему информацию об операциях на сервере. Используйте ее, если хотите сравнить состояние хранилища с тем, что вы ожидаете.</value>
+  </data>
+  <data name="QuotasizeLong" xml:space="preserve">
+    <value>Это значение устанавливает максимальный объем, который можно использовать для хранения копий. Если сервер сам сообщает, сколько доступно места, это значение игнорируется</value>
+  </data>
+  <data name="QuotasizeShort" xml:space="preserve">
+    <value>Объем хранилища</value>
+  </data>
+  <data name="SymlinkpolicyShort" xml:space="preserve">
+    <value>Работа с ярлыками</value>
+  </data>
+  <data name="SymlinkpolicyLong" xml:space="preserve">
+    <value>Используя этот флаг для нестандартной обработки символических ссылок."{0}" - просто записывать ярлык с его именем и именем файла, на который он указывает, а восстановление воссоздаст ярлык. "{1}", - игнорировать все ярлыки (символические ссылки). Старые версии программы Duplicati использовали "{2}", что приводило к включению файлов, на которые указывали ярлыки в копию и возможности их восстановления как обычных файлов.</value>
+  </data>
+  <data name="ExcludefilesattributesShort" xml:space="preserve">
+    <value>Исключить файлы по атрибутам</value>
+  </data>
+  <data name="ExcludefilesattributesLong" xml:space="preserve">
+    <value>Эта настройка исключает файлы с определенными атрибутами. Если надо указать несколько атрибутов, отделите их запятыми. Возможные атрибуты: {0}</value>
+  </data>
+  <data name="VssusemappingLong" xml:space="preserve">
+    <value>Этот флаг сопоставляет снимкам VSS диск (подобно SUBST, используя Win32 DefineDosDevice). Созданные временные диски используются для копирования снимков. Это ускоряет доступ к файлам на Windows XP</value>
+  </data>
+  <data name="VssusemappingShort" xml:space="preserve">
+    <value>Назначить снимок на устройство (только в Windows)</value>
+  </data>
+  <data name="BackupnameShort" space="preserve">
+    <value>Имя задания на копирование</value>
+  </data>
+  <data name="BackupnameLong" space="preserve">
+    <value>Псевдоним задания на копирование. Можно использовать при отправке писем или запуске скриптов.</value>
+  </data>
+</root>

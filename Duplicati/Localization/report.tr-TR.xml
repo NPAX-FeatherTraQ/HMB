@@ -1,0 +1,2892 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <files>
+    <missing />
+    <unused />
+  </files>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\ApplicationSetup.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Time to display past backups in log:</item>
+      <item name="label1.ToolTip">Select the time a backup is displayed in the log window after completion</item>
+      <item name="RecentDuration.ToolTip">Select the time a backup is displayed in the log window after completion</item>
+      <item name="SignatureCacheEnabled.ToolTip">A signature cache limits the amount of data Duplicati needs to download by keeping a copy on the machine, enabling this feature makes the backups faster</item>
+      <item name="SignatureCachePathBrowse.Text">...</item>
+      <item name="TempPathBrowse.Text">...</item>
+      <item name="UseCommonPassword.Text">Use password for new backups:</item>
+      <item name="UseCommonPassword.ToolTip">Enable this to use the same password for multiple backups</item>
+      <item name="ThreadPriorityPicker.ToolTip">Set the initial thread priority to be used by Duplicati</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated>
+      <item name="BalloonNotificationLevel.ToolTip">
+        <original>Choose the level of notification given by balloon tips</original>
+        <translated>Baloncuk tipi hatirlatmalarin katmanini seciniz</translated>
+      </item>
+      <item name="label8.Text">
+        <original>Backup notifications:</original>
+        <translated>Yedekleme uyarilari:</translated>
+      </item>
+      <item name="label8.ToolTip">
+        <original>Choose the level of notification given by balloon tips</original>
+        <translated>Baloncuk tipi hatirlatmalarin katmanini seciniz</translated>
+      </item>
+      <item name="HideDonateButton.Text">
+        <original>Hide Donate button on the main wizard page</original>
+        <translated>Bagis yap tusunu yukleme sihirbazinda gosterme</translated>
+      </item>
+      <item name="StartupDelayDuration.ToolTip">
+        <original>Select the amount of time Duplicat is paused after startup</original>
+        <translated>Baslangictan sonra Duplicati'nin ne kadar beklemesini istediginizi secin</translated>
+      </item>
+      <item name="label7.Text">
+        <original>Time to wait after startup:</original>
+        <translated>Baslangictan sonra bekleme zamani:</translated>
+      </item>
+      <item name="label7.ToolTip">
+        <original>Select the amount of time Duplicati is paused after startup</original>
+        <translated>Duplicatinin baslangictan sonraki duraklama zamanini ayarlayin</translated>
+      </item>
+      <item name="LanguageSelection.ToolTip">
+        <original>Choose the language for the user interface (requires restart)</original>
+        <translated>Kullanici arabirimi icin dil secimini yapin(yeniden baslatma gerektirir)</translated>
+      </item>
+      <item name="label3.Text">
+        <original>Language:</original>
+        <translated>Dil:</translated>
+      </item>
+      <item name="label3.ToolTip">
+        <original>Select user interface language (requires restart)</original>
+        <translated>Kullanici arabirimi dili secin(yeniden baslatma gerektirir)</translated>
+      </item>
+      <item name="groupBox1.Text">
+        <original>User interface</original>
+        <translated>Kullanici arabirimi</translated>
+      </item>
+      <item name="CacheSizeLabel.Text">
+        <original>Calculating cache size...</original>
+        <translated>Onbellek boyutu hesaplaniyor...</translated>
+      </item>
+      <item name="ClearCacheButton.Text">
+        <original>Clear cache</original>
+        <translated>Onbellegi temizle</translated>
+      </item>
+      <item name="ClearCacheButton.ToolTip">
+        <original>Clear any signature files stored in cache. Signatures will be re-downloaded on next backup.</original>
+        <translated>Onbellekte saklanmis tum imzalari temizle. Imzalar bir sonraki yedekleme sirasinda yeniden indirilecektir.</translated>
+      </item>
+      <item name="SignatureCacheEnabled.Text">
+        <original>Signature cache:</original>
+        <translated>Imza onbellegi</translated>
+      </item>
+      <item name="SignatureCachePathBrowse.ToolTip">
+        <original>Browse for the signature cache folder</original>
+        <translated>Imza onbellegi dosyasina gozat</translated>
+      </item>
+      <item name="TempPathBrowse.ToolTip">
+        <original>Browse for the temporary folder</original>
+        <translated>Gecici dosyalarin bulundugu klasoru goster</translated>
+      </item>
+      <item name="TempPath.ToolTip">
+        <original>Enter the path where Duplicati stores temporary files</original>
+        <translated>Duplicati'nin gecici dosyalari saklamasi icin gerekli yol/klasoru gosterin</translated>
+      </item>
+      <item name="label4.Text">
+        <original>Temporary folder:</original>
+        <translated>Gecici klasor:</translated>
+      </item>
+      <item name="groupBox2.Text">
+        <original>Cache</original>
+        <translated>Onbellek</translated>
+      </item>
+      <item name="EncryptionMethod.Text">
+        <original>Encryption method:</original>
+        <translated>Sifreleme yontemi</translated>
+      </item>
+      <item name="EncryptionMethod.ToolTip">
+        <original>Choose the default encryption module to use for new backups</original>
+        <translated>Varsayilan sifreleme yontemini yeni yedeklemeler icin kullan</translated>
+      </item>
+      <item name="EncryptionModule.ToolTip">
+        <original>Choose the default encryption module to use for new backups</original>
+        <translated>Varsayilan sifreleme yontemini yeni yedeklemeler icin kullan</translated>
+      </item>
+      <item name="CommonPassword.ToolTip">
+        <original>Enter the default password to apply to new backups</original>
+        <translated>Mevcut sifreyi girerek yeni yedeklemeleri uygulayin</translated>
+      </item>
+      <item name="PasswordDefaultsGroup.Text">
+        <original>Default password</original>
+        <translated>Varsayilan Sifre</translated>
+      </item>
+      <item name="BasicTab.Text">
+        <original>Basic</original>
+        <translated>Basit</translated>
+      </item>
+      <item name="Bandwidth.ToolTip">
+        <original>Set the initial bandwidth limits to use in Duplicati</original>
+        <translated>Duplicati'nin kullanmasi icin internet bant genisligini kararlastirin</translated>
+      </item>
+      <item name="groupBox4.Text">
+        <original>Default throttle settings</original>
+        <translated>Varsayilan kisitlama ayarlari</translated>
+      </item>
+      <item name="AdvancedTab.Text">
+        <original>Advanced</original>
+        <translated>Gelismis</translated>
+      </item>
+      <item name="LicenseLink.Text">
+        <original>Homepage</original>
+        <translated>Anasayfa</translated>
+      </item>
+      <item name="LicenseLink.ToolTip">
+        <original>Click to go to the homepage of the currently selected section</original>
+        <translated>Bulundugunuz bolumun anasayfasina gitmek icin tiklayin</translated>
+      </item>
+      <item name="label6.Text">
+        <original>Content:</original>
+        <translated>Icerik:</translated>
+      </item>
+      <item name="label2.Text">
+        <original>Sections:</original>
+        <translated>Bolumler:</translated>
+      </item>
+      <item name="LicenseSections.ToolTip">
+        <original>Lists the available license sections</original>
+        <translated>Mevcut lisans seceneklerini listeler</translated>
+      </item>
+      <item name="LicenseTab.Text">
+        <original>License</original>
+        <translated>Lisans</translated>
+      </item>
+      <item name="OKBtn.Text">
+        <original>OK</original>
+        <translated>Tamam</translated>
+      </item>
+      <item name="CancelBtn.Text">
+        <original>Cancel</original>
+        <translated>Iptal</translated>
+      </item>
+      <item name="$this.Text">
+        <original>Duplicati Options</original>
+        <translated>Duplicati Opsiyonlar</translated>
+      </item>
+    </updated>
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\ListBackupFiles.tr-TR.resx">
+    <missing>
+      <item name="groupBox1.Text">Loading file list, please wait ...</item>
+      <item name="CancelBtn.Text">Close</item>
+      <item name="$this.Text">Files in selected backup</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\LogViewer.tr-TR.resx">
+    <missing>
+      <item name="$this.Text">Log data</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\MainForm.tr-TR.resx">
+    <missing>
+      <item name="statusToolStripMenuItem.Text">Status</item>
+      <item name="wizardToolStripMenuItem.Text">Wizard...</item>
+      <item name="optionsToolStripMenuItem.Text">Options...</item>
+      <item name="pauseToolStripMenuItem.Text">Pause</item>
+      <item name="DelayDuration05Menu.Text">5 minutes</item>
+      <item name="DelayDuration15Menu.Text">15 minutes</item>
+      <item name="DelayDuration30Menu.Text">30 minutes</item>
+      <item name="DelayDuration60Menu.Text">1 hour</item>
+      <item name="pausePeriodToolStripMenuItem.Text">Pause period</item>
+      <item name="stopToolStripMenuItem.Text">Stop</item>
+      <item name="throttleOptionsToolStripMenuItem.Text">Throttle options...</item>
+      <item name="controlToolStripMenuItem.Text">Control</item>
+      <item name="quitToolStripMenuItem.Text">Quit</item>
+      <item name="label1.Text">Duplicati dummy window</item>
+      <item name="$this.Text">Duplicati Control Window</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\RestoreBackup.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Backup to restore</item>
+      <item name="label2.Text">Destination</item>
+      <item name="CancelBtn.Text">Cancel</item>
+      <item name="OKBtn.Text">OK</item>
+      <item name="SelectTargetFolder.Text">...</item>
+      <item name="$this.Text">RestoreBackup</item>
+      <item name="folderBrowserDialog.Description">Select the folder where the data will be restored to</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\ServiceStatus.tr-TR.resx">
+    <missing>
+      <item name="columnHeader4.Text">Time</item>
+      <item name="columnHeader5.Text">Backup set</item>
+      <item name="runBackupNowToolStripMenuItem1.Text">Run backup now</item>
+      <item name="label5.Text">Pending backups</item>
+      <item name="columnHeader1.Text">Time</item>
+      <item name="columnHeader2.Text">Backup set</item>
+      <item name="columnHeader3.Text">Size</item>
+      <item name="viewLogToolStripMenuItem.Text">View log ...</item>
+      <item name="viewFilesToolStripMenuItem.Text">View contents ...</item>
+      <item name="runBackupNowToolStripMenuItem.Text">Run backup now</item>
+      <item name="label1_2.Text">Completed backups</item>
+      <item name="pauseBackupToolStripMenuItem.Text">Pause backup</item>
+      <item name="PauseDuration05Menu.Text">5 minutes</item>
+      <item name="PauseDuration15Menu.Text">15 minutes</item>
+      <item name="PauseDuration30Menu.Text">30 minutes</item>
+      <item name="PauseDuration60Menu.Text">1 hour</item>
+      <item name="pausePeriodMenuItem.Text">Pause period</item>
+      <item name="stopBackupToolStripMenuItem.Text">Stop backup</item>
+      <item name="CurrentStatus.Text">Waiting for next backup</item>
+      <item name="wizardLink.Text">Duplicati Wizard</item>
+      <item name="linkLabel1.Text">Duplicati Options</item>
+      <item name="wizardHelpLabel.Text">(Create, edit, delete, run, restore backups)</item>
+      <item name="optionsLabel.Text">(UI Language, Default password, Advanced, ...)</item>
+      <item name="quickLabel.Text">Quick actions</item>
+      <item name="$this.Text">Duplicati Status</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\ThrottleControl.tr-TR.resx">
+    <missing>
+      <item name="OKBtn.Text">OK</item>
+      <item name="CancelBtn.Text">Cancel</item>
+      <item name="$this.Text">Throttle control</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\BackupFileList.tr-TR.resx">
+    <missing>
+      <item name="changeDestinationToolStripMenuItem.Text">Change destination...</item>
+      <item name="LoadingIndicator.Text">Reading filelist, please wait ...</item>
+      <item name="folderBrowserDialog.Description">Select the folder to restore to</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\BackupItems.tr-TR.resx">
+    <missing>
+      <item name="viewFilesToolStripMenuItem.Text">View contents ...</item>
+      <item name="statusLabel.Text">Loading list of backups</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\BackupTreeView.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\BandwidthLimit.tr-TR.resx">
+    <missing>
+      <item name="DownloadLimitCheckbox.Text">Download limit (restore)</item>
+      <item name="UploadLimitCheckbox.Text">Upload limit (backup)</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\CommandLineOptionGrid.tr-TR.resx">
+    <missing>
+      <item name="enabledDataGridViewCheckBoxColumn.HeaderText">Enabled</item>
+      <item name="nameDataGridViewTextBoxColumn.HeaderText">Name</item>
+      <item name="valueDataGridViewTextBoxColumn.HeaderText">Value</item>
+      <item name="argumentDataGridViewTextBoxColumn.HeaderText">argument</item>
+      <item name="dataGridViewTextBoxColumn1.HeaderText">argument</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\DurationEditor.tr-TR.resx">
+    <missing>
+      <item name="EasyDuration.Items">Each day</item>
+      <item name="EasyDuration.Items1">Each week</item>
+      <item name="EasyDuration.Items2">Each second week</item>
+      <item name="EasyDuration.Items3">Each month</item>
+      <item name="EasyDuration.Items4">Custom ...</item>
+      <item name="CustomDuration.Error">s</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\FilterDialog.tr-TR.resx">
+    <missing>
+      <item name="Inclusive.Text">Include files matching the filter</item>
+      <item name="Exclusive.Text">Exclude files matching the filter</item>
+      <item name="label1.Text">Filter</item>
+      <item name="OKBtn.Text">OK</item>
+      <item name="CancelBtn.Text">Cancel</item>
+      <item name="IsRegExp.Text">Filter is regular expression</item>
+      <item name="BrowseFileButton.Text">...</item>
+      <item name="folderBrowserDialog.Description">Select the folder path to use for the filter</item>
+      <item name="openFileDialog.Filter">All files (*.*)|*.*</item>
+      <item name="openFileDialog.Title">Select the file to use for the filter</item>
+      <item name="HelpLink.Text">Filter help</item>
+      <item name="$this.Text">FilterDialog</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\FilterEditor.tr-TR.resx">
+    <missing>
+      <item name="AddFilterButton.ToolTipText">Add a new filter</item>
+      <item name="RemoveFilterButton.ToolTipText">Remove the selected filter</item>
+      <item name="EditFilterButton.ToolTipText">Edit the selected filter</item>
+      <item name="IncludeFolderButton.ToolTipText">Adds an included folder to the list</item>
+      <item name="ExcludeFolderButton.ToolTipText">Adds an excluded folder to the list</item>
+      <item name="MoveFilterUpButton.ToolTipText">Move the selected filter up</item>
+      <item name="MoveFilterDownButton.ToolTipText">Move the selected filter down</item>
+      <item name="MoveFilterTopButton.ToolTipText">Move the selected filter to the top</item>
+      <item name="MoveFilterBottomButton.ToolTipText">Move the selected filter to the bottom</item>
+      <item name="HelpButton.Text">Filter help</item>
+      <item name="HelpButton.ToolTipText">Opens the Duplicati Filter usage Wiki page</item>
+      <item name="groupBox1.Text">Filters</item>
+      <item name="btnTestSearch.Text">Test Search Selection...</item>
+      <item name="label1.Text">Test a filename:</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\FolderPathEntry.tr-TR.resx">
+    <missing>
+      <item name="BrowseFolderButton.Text">...</item>
+      <item name="BrowseFolderButton.ToolTip">Click to browse for a folder</item>
+      <item name="FolderPath.ToolTip">Enter the path to the folder here</item>
+      <item name="SizeLabel.Text">(...)</item>
+      <item name="SizeLabel.ToolTip">The size of the selected folder</item>
+      <item name="DeleteButton.ToolTip">Click to remove the entry</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\SizeSelector.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\TestSearchSelection.tr-TR.resx">
+    <missing>
+      <item name="miIncludeFileName.Text">Add filename filer</item>
+      <item name="miIncludeFileExt.Text">Add file extension filter</item>
+      <item name="miIncludeFilePath.Text">File path</item>
+      <item name="miInclude.Text">Include</item>
+      <item name="miExcludeFileName.Text">Add filename filter</item>
+      <item name="miExcludeFileExt.Text">Add file extension filter</item>
+      <item name="miExcludeFilePath.Text">File Path</item>
+      <item name="miExclude.Text">Exclude</item>
+      <item name="label1.Text">Filters:</item>
+      <item name="btnCancel.Text">Cancel</item>
+      <item name="label2.Text">Use context menu to add and remove filters</item>
+      <item name="removeFilterToolStripMenuItem.Text">Remove Filter</item>
+      <item name="label3.Text">Files to be included:</item>
+      <item name="chFile.Text">Filename</item>
+      <item name="chFileExt.Text">Ext</item>
+      <item name="chSize.Text">Size</item>
+      <item name="chPath.Text">Path</item>
+      <item name="lbLoading.Text">Scanning files, please wait....</item>
+      <item name="btnOK.Text">OK</item>
+      <item name="$this.Text">Test Search Selection</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\ThreadPriorityPicker.tr-TR.resx">
+    <missing>
+      <item name="ThreadPriority.Items">High (Not recommended)</item>
+      <item name="ThreadPriority.Items1">Above normal</item>
+      <item name="ThreadPriority.Items2">Normal</item>
+      <item name="ThreadPriority.Items3">Below normal</item>
+      <item name="ThreadPriority.Items4">Low</item>
+      <item name="ThreadPriorityEnabled.Text">Set thread priority</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\WaitForOperation.tr-TR.resx">
+    <missing>
+      <item name="$this.Text">WaitForOperation</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Properties\Resources.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\ApplicationSetup.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BalloonNotification_Continous">While running, and on errors, warnings</item>
+      <item name="BalloonNotification_Errors">On errors</item>
+      <item name="BalloonNotification_Off">No notifications</item>
+      <item name="BalloonNotification_Start">On start, errors, warnings</item>
+      <item name="BalloonNotification_StartAndStop">On start, stop, errors, warnings</item>
+      <item name="BalloonNotification_Warnings">On errors, warnings</item>
+      <item name="CacheSize">Cache size: {0}</item>
+      <item name="CalculatingCacheSize">Calculating cache size ...</item>
+      <item name="ConfirmCacheDelete">Delete signature files in the folder: 
+{0}</item>
+      <item name="DefaultLanguage">System language, {0}</item>
+      <item name="DialogTitle">Duplicati Options, version {0}</item>
+      <item name="EncryptionModuleLoadError">An error occured while loading encryption modules: {0}</item>
+      <item name="ErrorWhileExaminingFolder">An exception occured while examining the folder: {0}.
+Do you want to use that folder anyway?</item>
+      <item name="FolderIsMissingFile">The folder selected does not contain the file: {0}.
+Do you want to use that folder anyway?</item>
+      <item name="LanguageChangedWarning">The language has changed. This will take effect after you restart Duplicati.</item>
+      <item name="OperationCancelled">Cancelled</item>
+      <item name="SaveExtensionError">An error occured while saving settings: {0}</item>
+      <item name="SettingControlsLoadError">An error occured while loading setting controls: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\Common.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="FifteenMinutes">15 minutes</item>
+      <item name="FiveMinutes">5 minutes</item>
+      <item name="GenericError">An error occured: {0}</item>
+      <item name="InvalidDuration">The full backup duration entered is not valid: {0}</item>
+      <item name="MenuPause">Pause</item>
+      <item name="MenuResume">Resume</item>
+      <item name="NoMinutes">None</item>
+      <item name="OneDay">One day</item>
+      <item name="OneMinute">1 minute</item>
+      <item name="OneMonth">One month</item>
+      <item name="OneWeek">One week</item>
+      <item name="SixtyMinutes">1 hour</item>
+      <item name="ThirtyMinutes">30 minutes</item>
+      <item name="ThreadPriorityAboveNormal">Above normal</item>
+      <item name="ThreadPriorityBelowNormal">Below normal</item>
+      <item name="ThreadPriorityHighest">Highest</item>
+      <item name="ThreadPriorityNormal">Normal</item>
+      <item name="ThreadPriortyLowest">Lowest</item>
+      <item name="ThreeMonths">Three months</item>
+      <item name="TwoWeeks">Two weeks</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\DatabaseUpgrader.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BackupFilenamePrefix">backup</item>
+      <item name="DatabaseFormatError">Unable to determine database format: {0}</item>
+      <item name="InvalidVersionError">
+The database has version {0} but the largest supported version is {1}.
+
+This is likely caused by upgrading to a newer version and then downgrading.
+If this is the case, there is likely a backup file of the previous database version in the folder {2}.</item>
+      <item name="TableLayoutError">Unknown table layout detected</item>
+      <item name="UpgradeFailure">Failed to execute SQL: {0}
+Error: {1}
+Database is NOT upgraded.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\DuplicatiRunner.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ApplicationExitLogMesssage">The backup was stopped because the application was closed</item>
+      <item name="CleaningUpMessage">Removing old backups ...</item>
+      <item name="CleanupError">Failed during cleanup: {0}</item>
+      <item name="CleanupLogdataHeader">Cleanup output:</item>
+      <item name="ErrorMessage">Error: {0}</item>
+      <item name="OtherAbortMessage">The backup was stopped, the reason was: {0}</item>
+      <item name="ShutdownWhileBackupInprogress">Duplicati was terminated before the backup completed, status is unknown</item>
+      <item name="TaskManagerCloseMessage">The backup was stopped because the application was closed by the task manager</item>
+      <item name="UserClosingMessage">The backup was stopped by the user</item>
+      <item name="WindowsShutdownMessage">The backup was stopped because the machine was being shut down</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\DynamicSetupHelper.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="NoFoldersInSetupError">No folders are included in the backup</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\ListBackupFiles.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="NoDataError">No data returned</item>
+      <item name="TooltipAddedFile">Added file</item>
+      <item name="TooltipAddedFolder">Added folder</item>
+      <item name="TooltipAddedOrModifiedFile">Added or modified file</item>
+      <item name="TooltipControlFile">Control file</item>
+      <item name="TooltipDeletedFile">Deleted file</item>
+      <item name="TooltipDeletedFolder">Deleted folder</item>
+      <item name="TooltipExistingFolder">Existing folder</item>
+      <item name="TooltipIncompleteFile">Incomplete file</item>
+      <item name="TooltipModifiedFile">Modified file</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\MainForm.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BalloonTip_Error">Failed to run backup {0}: {1}</item>
+      <item name="BalloonTip_Running">{0}</item>
+      <item name="BalloonTip_Started">Running {0}</item>
+      <item name="BalloonTip_Stopped">Finished {0}</item>
+      <item name="BalloonTip_Warning">Backup {0} gave a warning</item>
+      <item name="ExitWhileBackupIsRunningQuestion">A backup is currently running, do you want to stop the backup so Duplicati can exit?</item>
+      <item name="MultipleNamedBackupsFound">The backup named "{0}" was found {1} times</item>
+      <item name="NamedBackupGroupNotFound">The backup group named "{0}" was not found</item>
+      <item name="NamedBackupNotFound">The backup named "{0}" was not found</item>
+      <item name="PauseOperationFailed">Failed to execute the Pause request: {0}</item>
+      <item name="TerminateForExitQuestion">Duplicati is attempting to quit, but a backup is running.
+Do you want Duplicati to continue waiting for the backup to stop?</item>
+      <item name="TrayStatusPause">Duplicati is currently paused</item>
+      <item name="TrayStatusReady">Duplicati is ready</item>
+      <item name="TrayStatusRunning">Duplicati is running {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\Program.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AnotherInstanceDetected">Another instance is running, and was notified</item>
+      <item name="DatabaseOpenError">Failed to create, open or upgrade the database.
+Error message: {0}</item>
+      <item name="FullCommandDescription">Forces the --run-backup command to perform a full backup</item>
+      <item name="HelpCommandDescription">Displays this help</item>
+      <item name="HelpDisplayDialog">Supported commandline arguments:
+
+{0}</item>
+      <item name="HelpDisplayFormat">--{0}: {1}</item>
+      <item name="LanguageSelectionError">Failed to set the user interface language: {0}</item>
+      <item name="LogfileCommandDescription">Outputs log information to the file given</item>
+      <item name="LoglevelCommandDescription">Determines the amount of information written in the log file</item>
+      <item name="PauseCommandDescription">Pauses Duplicati, supply a time eg. 5m to limit pause to 5 minutes</item>
+      <item name="PortablemodeCommandDescription">Activates portable mode where the database is placed below the program executable</item>
+      <item name="ResumeCommandDescription">Resumes operation of Duplicati, if paused</item>
+      <item name="RunbackupCommandDescription">Runs the backup with the name supplied. If no backup name is supplied, the available backups are displayed</item>
+      <item name="SeriousError">A serious error occured in Duplicati: {0}</item>
+      <item name="ShowstausCommandDescription">Displays the status window</item>
+      <item name="StartupFailure">Unable to start up, perhaps another process is already running?
+Error message: {0}</item>
+      <item name="UnencrypteddatabaseCommandDescription">Disables database encryption</item>
+      <item name="ShowwizardCommandDescription">Displays the wizard window</item>
+      <item name="WrongSQLiteVersion">Unsupported version of SQLite detected ({0}), must be {1} or higher</item>
+      <item name="TraylessCommandDescription">Runs Duplicati without showing the tray icon, closing the main window closes Duplicati</item>
+      <item name="RunbackupGroupCommandDescription">Runs all backups in the group with the name supplied. If no group name is supplied, the available backups are displayed. If the group name is not found, an error message is displayed.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\Scheduler.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InvalidTimeSetupError">Unable to find a valid date, given the start date {0}, the repetition interval {1} and the allowed days {2}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\ServiceStatus.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BackupImmediate">Now</item>
+      <item name="BackupStatusError">Failed backup</item>
+      <item name="BackupStatusOK">Successfull backup</item>
+      <item name="BackupStatusPartial">Backup only processed some of the files</item>
+      <item name="BackupStatusWarning">Completed backup with warnings</item>
+      <item name="DialogTitle">Duplicati {0} - Status</item>
+      <item name="NoFilesInBackupMessages">The backup has no changes</item>
+      <item name="QuickActionExit">Close Duplicati</item>
+      <item name="QuickActionPause">Pause</item>
+      <item name="QuickActionPause10">Pause for 10 minutes</item>
+      <item name="QuickActionPause15">Pause for 15 minutes</item>
+      <item name="QuickActionPause30">Pause for 30 minutes</item>
+      <item name="QuickActionPause5">Pause for 5 minutes</item>
+      <item name="QuickActionPause60">Pause for 60 minutes</item>
+      <item name="QuickActionResume">Resume</item>
+      <item name="QuickActionStop">Stop the current backup</item>
+      <item name="QuickActionThrottle">Throttle options ...</item>
+      <item name="SelectQuickAction">- Select action -</item>
+      <item name="StatusBackup">Backup: {0}</item>
+      <item name="StatusPaused">Duplicati is currently paused</item>
+      <item name="StatusRestore">Restore: {0}</item>
+      <item name="StatusWaiting">Waiting for next backup</item>
+      <item name="SwitchToAdvanced">Advanced &gt;&gt;&gt;</item>
+      <item name="SwitchToSimple">Simple &lt;&lt;&lt;</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\TaskType.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="FullBackup">Full backup</item>
+      <item name="IncrementalBackup">Incremental backup</item>
+      <item name="ListActualFiles">List actual files</item>
+      <item name="ListBackupEntries">List backup entries</item>
+      <item name="ListBackups">List backups</item>
+      <item name="ListFiles">List files</item>
+      <item name="RemoveAllButNFull">Remove all but n full</item>
+      <item name="RemoveOlderThan">Remove older than</item>
+      <item name="Restore">Restore</item>
+      <item name="RestoreSetup">Restore setup</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\TrayIconWrapper.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="GtkLoadError">Gtk could not be loaded, using windows forms implementation.
+Error message: {0}</item>
+      <item name="GtkNotFoundError">Unable to locate gtk assemblies</item>
+      <item name="GtkTooOldError">Gtk found, but it has version {0} and must be at least {1}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Strings\WizardHandler.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ResumeNowQuestion">Duplicati is currently paused, so the backup won't run until Duplicati is resumed.
+Do you want Duplicati to resume now so the backup can run immediately?</item>
+      <item name="SetupRestoreSuccess">The previous Duplicati setup is now restored!</item>
+      <item name="StopBackupError">An error occured while attempting to stop the running backup: {0}</item>
+      <item name="StopRunningBackupQuestion">The backup you want to delete is currently running.
+Do you want to stop it so the delete can proceed?</item>
+      <item name="UnableToStopBackupError">Duplicati attempted to stop the backup, but did not succeed.
+Press "Finish" to attempt the delete again.</item>
+      <item name="WizardFormTitle">Duplicati Setup Wizard</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\FirstLaunch.tr-TR.resx">
+    <missing>
+      <item name="CreateNew.Text">Setup a new backup</item>
+      <item name="RestoreSetup.Text">Restore settings from a previous Duplicati installation</item>
+      <item name="SimpleHelpHeader.Text">Select one of the options below, and click next</item>
+      <item name="SetupNewBackupHelp.Text">You have not used Duplicati before, or want to start over</item>
+      <item name="RestoreSettingsHelp.Text">You have used Duplicati before, and want to restore your setup</item>
+      <item name="RestoreFilesHelp.Text">You do not want to set up Duplicati, but just want to restore some files</item>
+      <item name="RestoreFiles.Text">Restore files from a backup</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\GridContainer.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\GUIContainer.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\MainPage.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">What do you want to do?</item>
+      <item name="Backup.Text">Run a backup immediately</item>
+      <item name="Remove.Text">Remove an existing backup</item>
+      <item name="Restore.Text">Restore files from a backup</item>
+      <item name="Edit.Text">Edit an existing backup</item>
+      <item name="CreateNew.Text">Schedule a new backup</item>
+      <item name="donate_link.Text">Support Duplicati</item>
+      <item name="donate_link.ToolTip">Show your appreciation by donating, any amount is accepted</item>
+      <item name="donate_button.ToolTip">Show your appreciation by donating, any amount is accepted</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\SelectBackend.tr-TR.resx">
+    <missing>
+      <item name="Question.Text">Where do you want to store the backups?</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\SelectBackup.tr-TR.resx">
+    <missing>
+      <item name="topLabel.Text">Select backup to modify</item>
+      <item name="ShowAdvanced.Text">Show advanced options</item>
+      <item name="DirectRestore.Text">Restore files directly</item>
+      <item name="RestoreExisting.Text">Restore from an existing backup</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\BackupFileList.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="RootNodeTooltip">Source folder {0}
+Target folder: {1}
+Right click to change target folder</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\BackupItems.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ErrorStatusDisplay">Error: {0}</item>
+      <item name="NoDataReceived">No data received</item>
+      <item name="OperationCancelled">Cancelled</item>
+      <item name="TooltipFullBackup">Full backup</item>
+      <item name="TooltipFullBackupWithSize">Full backup - {0}</item>
+      <item name="TooltipIncrementalBackup">Incremental backup</item>
+      <item name="TooltipIncrementalBackupWithSize">Incremental backup - {0}, chain: {1}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\BackupTreeView.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ConfirmDeleteFolder">Do you want to delete the folder {0} and all the backups contained in it?</item>
+      <item name="ConfirmRemoveBackup">Remove the backup '{0}' ?</item>
+      <item name="NewBackup">New Backup</item>
+      <item name="NewFolder">New Folder</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\CommandLineOptionsGrid.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InfoLabelFormat">Value type: {0}. 
+{1}. 
+{2}</item>
+      <item name="PageNotSupportedWarning">This page is not supported on the current platform, this is a known issue.
+A newer version of Mono will enable this page.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\DurationEditor.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="CustomDuration">Custom ...</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\FilterDialog.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InvalidRegExpMessage">The expression is not a valid regular expression: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\FilterEditor.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ExcludeFolderBrowseTitle">Choose the folder to add for exclusion</item>
+      <item name="FileIsExcluded">The file {0} is excluded due to rule {1}</item>
+      <item name="FileIsIncluded">The file {0} is included due to rule {1}</item>
+      <item name="FileIsIncludedDefault">The file {0} is included because no rule matched</item>
+      <item name="FilenameIsNotInAnyRootFolder">The filename {0} is not located in any of the source folders</item>
+      <item name="FilepathIsNotAbsoluteError">The filename {0} is not an absolute path</item>
+      <item name="FolderIsExcluded">The folder {0} is excluded due to rule {1}</item>
+      <item name="FolderIsRootFolder">The folder {0} is included because it is a source folder</item>
+      <item name="IncludeFolderBrowseTitle">Choose the folder to add for inclusion</item>
+      <item name="InvalidCharsInFilenameError">The filename {0} has invalid characters</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\SizeSelector.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BytesName">bytes</item>
+      <item name="BytesPerSecond">bytes/s</item>
+      <item name="GBName">GB</item>
+      <item name="GBPerSecond">GB/s</item>
+      <item name="KBName">kB</item>
+      <item name="KBPerSecond">kB/s</item>
+      <item name="MBName">MB</item>
+      <item name="MBPerSecond">MB/s</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\TestSearchSelection.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="FileName">File Name '{0}'</item>
+      <item name="FileType">File Type '{0}'</item>
+      <item name="TotalSizeLabel">Total {0} files at {1}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\HelperControls\Strings\WaitForOperation.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ReallyAbortQuestion">Are you sure you want to abort the operation?</item>
+      <item name="UserCancelled">The user cancelled the operation</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\AdvancedOptions.tr-TR.resx">
+    <missing>
+      <item name="SelectWhen.Text">Select when and how often the backup should run</item>
+      <item name="SelectCleanup.Text">Select when to remove old backups</item>
+      <item name="LimitOptions.Text">Set limits, such as volumesize and bandwidth limits</item>
+      <item name="EditFilters.Text">Modify filters that control what files are included in the backup</item>
+      <item name="IncludeDuplicatiSetup.Text">Include the current Duplicati setup in the backup</item>
+      <item name="EditOverrides.Text">Manually override settings (advanced)</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\CleanupSettings.tr-TR.resx">
+    <missing>
+      <item name="EnableFullBackupClean.Text">Never keep more than this many full backups</item>
+      <item name="CleanFullBackupHelptext.Text">To prevent the backups from growing indefinetly, old backups should be deleted regularly</item>
+      <item name="EnableCleanupDuration.Text">Never keep backups older than this</item>
+      <item name="IgnoreTimestamps.Text">Ignore file modification timestamp when making incremental backups</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\EditFilters.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\FinishedAdd.tr-TR.resx">
+    <missing>
+      <item name="RunNow.Text">Run backup now</item>
+      <item name="TabSummary.Text">Summary</item>
+      <item name="TabCommandLine.Text">Command Line</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\PasswordSettings.tr-TR.resx">
+    <missing>
+      <item name="EnablePassword.Text">Protect the backups with this password</item>
+      <item name="PasswordHelptext.Text">It is highly recommended that you use a strong password, as that will ensure that no-one but you can retrieve the files. Be sure to write down the password, as the backups will be useless without it.</item>
+      <item name="UseSettingsAsDefault.Text">Use these settings on new backups</item>
+      <item name="UseSettingsAsDefault.ToolTip">If this box is checked, Duplicati will apply the chosen encryption settings to all new backups</item>
+      <item name="EncryptionModuleLabel.Text">Encryption method</item>
+      <item name="EncryptionModule.ToolTip">Choose the encryption method</item>
+      <item name="GeneratePasswordButton.ToolTip">Click here to generate a random password</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\SelectFiles.tr-TR.resx">
+    <missing>
+      <item name="appdataSize.Text">(...)</item>
+      <item name="desktopSize.Text">(...)</item>
+      <item name="myMusicSize.Text">(...)</item>
+      <item name="myPicturesSize.Text">(...)</item>
+      <item name="myDocumentsSize.Text">(...)</item>
+      <item name="IncludeDocuments.Text">Include documents</item>
+      <item name="IncludeSettings.Text">Include application settings</item>
+      <item name="IncludeDesktop.Text">Include files on the desktop</item>
+      <item name="IncludeMusic.Text">Include my music</item>
+      <item name="IncludeImages.Text">Include my images</item>
+      <item name="DocumentsRadio.Text">My documents</item>
+      <item name="FolderRadio.Text">Custom folder list</item>
+      <item name="totalSize.Text">Calculating size</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\SelectName.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Backup name</item>
+      <item name="label2.Text">Place the backup in a group (optional)</item>
+      <item name="button1.Text">Add a group</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\SelectWhen.tr-TR.resx">
+    <missing>
+      <item name="label2.Text">Interval</item>
+      <item name="label1.Text">Run the backup at this time</item>
+      <item name="Day7Label.Text">Sun</item>
+      <item name="Day6Label.Text">Sat</item>
+      <item name="Day5Label.Text">Fri</item>
+      <item name="Day4Label.Text">Thu</item>
+      <item name="Day3Label.Text">Wen</item>
+      <item name="Day2Label.Text">Tue</item>
+      <item name="Day1Label.Text">Mon</item>
+      <item name="label3.Text">Allowed days</item>
+      <item name="NoScheduleRadio.Text">Never run automatically, only run when I manually start it (not recommended)</item>
+      <item name="ScheduleRadio.Text">Run backup at specified interval (recommended)</item>
+      <item name="AlwaysFullRadio.Text">Always perform a full backup, never incremental (not recommended)</item>
+      <item name="NeverFullRadio.Text">Always perform an incremental backup, never full (not recommended)</item>
+      <item name="IncrementalPeriodRadio.Text">Incremental, then full after this period:</item>
+      <item name="FullStrategyPanel.Text">Full / Incremental strategy</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\SettingOverrides.tr-TR.resx">
+    <missing>
+      <item name="dataGridViewTextBoxColumn1.HeaderText">argument</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\ThrottleOptions.tr-TR.resx">
+    <missing>
+      <item name="BackupLimitEnabled.Text">Each backup size limit </item>
+      <item name="AsyncEnabled.Text">Upload asyncronosly</item>
+      <item name="label1.Text">Size of each volume</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Backends\RawContainer.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Destination</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Delete backup\DeleteFinished.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Summary</item>
+      <item name="label2.Text">Warning: You cannot restore the files after the backup is deleted!!!</item>
+      <item name="label3.Text">Note that the actual files will not be removed from the storage backend, you must remove the files manually.</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Restore\FinishedRestore.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Summary</item>
+      <item name="RunInBackground.Text">Run restore operation as a background job</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Restore\SelectBackupVersion.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Select the backup you want to restore</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Restore\TargetFolder.tr-TR.resx">
+    <missing>
+      <item name="BrowseFolder.Text">...</item>
+      <item name="label2.Text">Restore to this folder</item>
+      <item name="PartialRestore.Text">Restore only the items selected below</item>
+      <item name="folderBrowserDialog.Description">Select the folder where the backup will be restored</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\RestoreSetup\FinishedRestoreSetup.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Summary</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\RunNow\RunNowFinished.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Summary</item>
+      <item name="ForceFull.Text">Force full backup</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Strings\FirstLaunch.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="NoActionSelection">You must select an action</item>
+      <item name="PageHelptext">Since this is your first use of Duplicati on this machine, this wizard will guide you through a Duplicati setup</item>
+      <item name="PageTitle">Welcome to Duplicati</item>
+      <item name="ShowAdvancedQuestion">Do you need to modify advanced settings?
+(Most users do not need this)</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Strings\MainPage.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageHelptext">Please select the action you want to perform below</item>
+      <item name="PageTitle">Welcome to the Duplicati Wizard</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Strings\SelectBackend.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="NoActionSelected">You must enter the storage method before you can continue.</item>
+      <item name="PageHelptext">On this page you can select the type of device or service that store the backups. You may need information from the service provider when you continue.</item>
+      <item name="PageTitle">Select a place to store the backups</item>
+      <item name="RestoreSetupTitle">Where is the backup stored?</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Strings\SelectBackup.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="NoActionSelected">You must select a backup before you can continue</item>
+      <item name="PageHelptextEdit">In the list below, select the backup you want to modify</item>
+      <item name="PageHelptextRemove">In the list below, select the backup you want to delete</item>
+      <item name="PageHelptextRestore">In the list below, select the backup you want to restore</item>
+      <item name="PageHelptextRunNow">In the list below, select the backup you want to run immediately</item>
+      <item name="PageHelptextUnknown">Unknown action</item>
+      <item name="PageTitleEdit">Select the backup to modify</item>
+      <item name="PageTitleRemove">Select the backup to remove</item>
+      <item name="PageTitleRestore">Select the backup to restore</item>
+      <item name="PageTitleRunNow">Select the backup to run now</item>
+      <item name="PageTitleUnknown">Unknown action</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\AdvancedOptions.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">On this page you can select more advanced settings for your backup. If you prefer, you can ignore those settings, and use the duplicati defaults.</item>
+      <item name="PageTitle">Advanced settings</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\CleanupSettings.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="DisabledCleanupWarning">You have disabled backup removal. If no backups are removed, the amount of stored data will increase forever.
+Disabling backup cleanup may result in storage space being exhausted.
+Do you want to continue without backup removal backups?</item>
+      <item name="PageDescription">To ensure that backups do not grow indefinately, Duplicati can automatically remove old backups.</item>
+      <item name="PageTitle">Select cleanup options</item>
+      <item name="TooShortCleanupDurationDay">The cleanup duration entered is less than 1 day. This will give very poor system performance.</item>
+      <item name="TooShortFullDuration">The full backup duration entered is less than ten minutes. This will give very poor system performance.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\EditFilters.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">On this page you can modify filters that control what files are included in the backup.</item>
+      <item name="PageTitle">Edit filters</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\FinishedAdd.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">You have now entered all the required data, and can now create the backup.</item>
+      <item name="PageDescriptionModify">The backup modifications are now ready to be saved.</item>
+      <item name="PageTitle">Ready to add backup</item>
+      <item name="PageTitleModify">Ready to save changes</item>
+      <item name="SummaryAction">Action</item>
+      <item name="SummaryActionAdd">Add new backup</item>
+      <item name="SummaryActionModify">Modify backup</item>
+      <item name="SummaryDestination">Destination</item>
+      <item name="SummaryDestinationPath">Destination path</item>
+      <item name="SummaryFullBackupEach">Full backup each</item>
+      <item name="SummaryKeepFullBackups">Keep full backups</item>
+      <item name="SummaryRepeat">Repeat</item>
+      <item name="SummarySourceFolder">Source folder</item>
+      <item name="SummaryWhen">When</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\PasswordSettings.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ChangePasswordQuestion">Are you sure you want to change the current password to a new random one?</item>
+      <item name="EmptyPasswordError">You must enter a password, remove the check mark next to the box to disable encryption of the backups.</item>
+      <item name="EnablePasswordRestoreText">Backup is protected with password</item>
+      <item name="EncryptionModuleLoadError">Failed to load the encryption modules: {0}</item>
+      <item name="NewGeneratedPasswordWarning">You have generated a new random password.
+Please write down the password and store it in a safe location.
+Without this password, you will not be able to recover a single file from the backups!
+
+You cannot recover the password from within Duplicati after saving this setup.
+
+Are you sure you have a safely stored copy of the generated password?</item>
+      <item name="NoEncryptionMethodSelected">You must select an encryption method.</item>
+      <item name="NoPasswordWarning">If the backup is stored on machine or device that is not under your direct control,
+it is possible that others may view the files you have stored in the backups.
+It is highly recomended that you enable encryption.
+Do you want to continue without encryption?</item>
+      <item name="PageDescription">On this page you can select options that protect your backups from being read or altered.</item>
+      <item name="PageDescriptionRestore">Enter the encryption settings that were used to create the backup originally</item>
+      <item name="PageTitle">Select password for the backup</item>
+      <item name="PasswordChangedWarning">****************** WARNING ***********************
+You are modifying the password settings for an existing backup.
+If you save these changes, you will no longer be able to recover previously backed up files.
+Are you absolutely sure you want to continue?</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\SelectFiles.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="CalculatingSize">Calculating size ...</item>
+      <item name="CalculatingSizeMarker">(...)</item>
+      <item name="DuplicateFolderError">The folder "{0}" is included twice</item>
+      <item name="FinalSizeCalculated">The selected items take up {0} of space</item>
+      <item name="FolderDoesNotExistWarning">The folder "{0}" does not exist.
+How do you want to proceed?</item>
+      <item name="NoFilesSelectedError">You have not included any files.</item>
+      <item name="PageDescription">On this page you must select the folder and files you wish to backup</item>
+      <item name="PageTitle">Select files to backup</item>
+      <item name="PartialSizeCalculated">Calculating ... (using more than {0} of space)</item>
+      <item name="RelatedFoldersError">The folder "{0}" is a subfolder of "{1}", which is not allowed</item>
+      <item name="UpgradeWarning">The setup is loaded from an older version of Duplicati. 
+If you save the backup settings, the internal storage will be change to the new version.
+Please verify the content of the backup after the next run to ensure
+that it contains the files and folders that you expect.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\SelectName.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="DuplicateNameEnteredError">There already exists a backup with that name</item>
+      <item name="InvalidNameEnteredError">Failed to validate the backup name: {0}</item>
+      <item name="NoNameEnteredError">You must enter a name for the backup</item>
+      <item name="PageDescription">On this page you can enter a name for the backup, so you can find and modify it later</item>
+      <item name="PageTitle">Enter a name for the backup</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\SelectWhen.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="FullDurationShorterThanScheduleDurationError">The interval between each full backup must be larger than the schedule interval.</item>
+      <item name="NoScheduleWarning">You have selected not to run the backup automatically.
+This means that you have to remember to manually start the backup periodically.
+
+Are you sure this is what you want?</item>
+      <item name="OnlyFullBackupsWarning">You have selected to only produce full backups.
+This may take up a lot of space on the backend.
+
+Are you sure this is what you want?</item>
+      <item name="OnlyIncrementalBackupsWarning">You have selected to only produce incremental backups.
+This may result in very lengthy restore operations, and increases the probability of a restore failure.
+
+Are you sure this is what you want?</item>
+      <item name="PageDescription">On this page you may set up when the backup is run. Automatically repeating the backup ensure that you have a backup, without requiring any action from you.</item>
+      <item name="PageTitle">Select when the backup should run</item>
+      <item name="TimeIsInThePastWarning">The time you entered is in the past.</item>
+      <item name="TimeOccursShortlyWarning">The time you entered will occur shortly.</item>
+      <item name="TooManyIncrementalsWarning">The settings you have selected will result in {0} incremental backups being created between each full backup.
+This can result in very lengthy restore operations, and increases the probability of a restore failure.
+
+Do you want to keep these settings?</item>
+      <item name="TooShortFullDurationError">The interval between full backups must be more than {0} minutes.</item>
+      <item name="TooShortScheduleDurationError">The schedule interval must be more than {0} minutes.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\SettingOverrides.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BackendLoadError">An error occured while loading backend settings: {0}</item>
+      <item name="CompressionLoadError">An error occured while loading compression settings: {0}</item>
+      <item name="EncryptionLoadError">An error occured while loading encryption settings: {0}</item>
+      <item name="GenericModuleLoadError">An error occured while loading generic module settings: {0}</item>
+      <item name="PageDescription">On this page you can override all settings supported by Duplicati. This is very advanced, so be carefull!</item>
+      <item name="PageTitle">Override settings</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Add backup\Strings\ThrottleOptions.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">On this page you may select limits that prevent the backup procedure from using too many resources</item>
+      <item name="PageTitle">Select how to limit the backup</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Delete backup\Strings\DeleteFinished.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">You are now ready to delete the backup. Please note that you cannot restore the backup ever again</item>
+      <item name="PageTitle">Delete backup</item>
+      <item name="SummaryText">Action: Delete backup
+Name: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Restore\Strings\FinishedRestore.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="MostRecent">most recent</item>
+      <item name="PageDescription">Duplicati is now ready to restore your files.</item>
+      <item name="PageTitle">Ready to restore files</item>
+      <item name="RestoreFailedError">The restore operation failed: {0}</item>
+      <item name="RestoreWaitDialogTitle">Restoring files, please wait...</item>
+      <item name="SummaryText">Action: Restore backup
+Backup: {0}
+Date: {1}
+Folder: {2}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Restore\Strings\SelectBackupVersion.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="NoBackupSelectedError">You must select the backup to restore</item>
+      <item name="PageDescription">The list below shows all the available backups. Select one to restore</item>
+      <item name="PageTitle">Select the backup to restore</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\Restore\Strings\TargetFolder.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="CreateNewFolderWarning">The folder {0} does not exist. Do you want to create it?</item>
+      <item name="FolderIsNotEmptyWarning">The folder {0} is not empty. Do you want to use it anyway?</item>
+      <item name="FolderPathIsRelativeError">You must enter the full path of the folder: {0}</item>
+      <item name="FolderValidationError">An error occured while verifying the destination {0}.
+Please make sure it exists and is accessible.
+Error message: {1}</item>
+      <item name="NoFilesSelectedError">You have not selected any files to restore.</item>
+      <item name="NoFolderError">You must enter a folder to restore to</item>
+      <item name="PageDescription">Please select the folder into which the backup will be restored</item>
+      <item name="PageTitle">Select restore folder</item>
+      <item name="PathTooLongWarning">The restored files will use a path that is {0} characters long, but Windows only supports paths up to around 250 characters. If you proceed some files may not be restored.
+
+Do you want to continue with the restore procedure anyway?</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\RestoreSetup\Strings\FinishedRestoreSetup.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">You have now entered all the required data, and can now restore the setup.</item>
+      <item name="PageTitle">Ready to restore settings</item>
+      <item name="RestoreFailedError">Failed to restore setup files, the error message was:
+ {0}</item>
+      <item name="RestoreWaitDialogTitle">Restoring setup, please wait...</item>
+      <item name="SetupFileMissingError">Connection succeded, but not setup file was found</item>
+      <item name="SummaryAction">Action</item>
+      <item name="SummaryRestoreBackup">Restore backup</item>
+      <item name="SummarySource">Source</item>
+      <item name="SummarySourcePath">Source path</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\GUI\Wizard pages\RunNow\Strings\RunNowFinished.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">You are now ready to run the backup</item>
+      <item name="PageTitle">Ready to run backup</item>
+      <item name="SummaryText">Action: Run backup now
+Name: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\CommandLine\Strings\Program.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AddedFoldersHeader">Added folders</item>
+      <item name="CollectionStatusHeader">Found {0} backup chains on backend
+
+Type\tTime\t\t\tVolumes\tSize</item>
+      <item name="CollectionStatusLineFull">Full\t{0}\t{1}\t{2}</item>
+      <item name="CollectionStatusLineInc"> Inc\t{0}\t{1}\t{2}</item>
+      <item name="ControlFilesHeader">Control files</item>
+      <item name="DeletedFilesHeader">Deleted files</item>
+      <item name="DeletedFoldersHeader">Deleted folders</item>
+      <item name="DuplicatiOptionsHeader">Duplicati options:</item>
+      <item name="FailedToParseParametersFileError">Unable to read the parameters file "{0}", reason: {1}</item>
+      <item name="FileEntryNotFound">&lt; not found &gt;</item>
+      <item name="FiltersCannotBeUsedWithFileError">Filters cannot be specified on the commandline if filters are also present in the parameter file</item>
+      <item name="FindLastVersionEntry">{0}\t{1}</item>
+      <item name="FindLastVersionHeader">Backuptime\t\tFilename</item>
+      <item name="FolderCreatedMessage">The folder {0} was created</item>
+      <item name="GenericModulesHeader">Supported generic modules:</item>
+      <item name="IntegerParseError">Unable to parse "{0}" into a number</item>
+      <item name="InternalOptionUsedError">The option --{0} was supplied, but it is reserved for internal use and may not be set on the commandline</item>
+      <item name="ModifiedFilesHeader">Modified files</item>
+      <item name="ModuleIsLoadedAutomatically">Module is loaded atomatically, use --disable-module to prevent this</item>
+      <item name="ModuleIsNotLoadedAutomatically">Module is not loaded atomatically, use --enable-module to load it</item>
+      <item name="NewFilesHeader">New files</item>
+      <item name="NewOrModifiedFilesHeader">New/Modified files</item>
+      <item name="ParametersFileOptionLong">This option can be used to store some or all of the options given to the commandline client. The file must be a plain text file, UTF-8 encoding is preferred. Each line in the file should be of the format --option=value. The special options --source and --target can be used to override the localpath and the remote destination uri, respectively. The options in this file take precedence over the options provided on the commandline. You cannot specify filters in both the file and on the commandline.</item>
+      <item name="ParametersFileOptionShort">Path to a file with parameters</item>
+      <item name="ProgramUsageBackend">A &lt;backend&gt; is identified by an url like ftp://host/ or ssh://server/.
+ Using this system, Duplicati can detect if you want to backup or restore.
+ The cleanup and delete commands do not delete files, unless the --force option is specified, so you may examine what files are affected, before actually deleting the files.
+ The cleanup command should not be used unless a backup was interrupted and has left partial files. Duplicati will inform you if this happens.
+ The delete command can be used to remove backup sets when newer backups are present.</item>
+      <item name="ProgramUsageBackup">Backup (make a full or incremental backup):
+  Duplicati.CommandLine [full] [options] &lt;sourcefolder&gt; &lt;backend&gt;</item>
+      <item name="ProgramUsageCleanup">Cleanup (remove partial and unused files):
+  Duplicati.CommandLine cleanup [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageCreateFolders">Create folder (usually done automatically):
+  Duplicati.CommandLine create-folder [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageDeleteOld">Delete old backups:
+  Duplicati.CommandLine delete-all-but-n-full &lt;number of full backups to keep&gt; [options] &lt;backend&gt;
+  Duplicati.CommandLine delete-older-than &lt;max allowed age&gt; [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageFilters">Filters:
+ Duplicati uses filters to include and exclude files.
+  Duplicati uses a "first-touch" filter where the first rule that matches a file determines if the file is included or excluded. Internally Duplicati uses regular expression filters, but supports filters in the form of filename globbing. The order of the commandline arguments also determine what order they are applied in. An example:
+    --include=*.txt --exclude=*\Thumbs.db --include=*
+
+  Even though the last filter includes everything, no files named "Thumbs.db" are included because they match the exclude rule before the include rule. Paths are evaluated in full, and as paths that are relative to folder being backed up, but including a leading slash. An example:
+
+{0}
+  If a folder is excluded, files in that folder are always excluded, even if there are filters that include files in that folder. If a folder is included with a wildcard at the end, all files are included, if the folder is included without a wildcard, files may be excluded or included with extra rules.</item>
+      <item name="ProgramUsageFindLastVersion">Find the last version of a file:
+  Duplicati.CommandLine find-last-version [options] --file-to-restore=&lt;files to find&gt; &lt;backend&gt;</item>
+      <item name="ProgramUsageHeader">********** Duplicati v. {0} **********
+
+Usage:</item>
+      <item name="ProgramUsageListContentFiles">List content files (files that can be restored):
+  Duplicati.CommandLine list-current-files [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageListFiles">List files:
+  Duplicati.CommandLine list [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageListSets">List backup sets:
+  Duplicati.CommandLine collection-status [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageListSignatureFiles">List signature files (files in a single backup volume set):
+  Duplicati.CommandLine list-actual-signature-files [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageListSourceFolders">List source folders (folders backed up from):
+  Duplicati.CommandLine list-source-folders [options] &lt;backend&gt;</item>
+      <item name="ProgramUsageOptionTypes">Option types:
+ The following option types are available:
+  Integer: a numerical value
+  Boolean: a truth value, --force and --force=true are equivalent. --force=false is the opposite
+  Timespan: a time in the special time format (explained below)
+  Size: a size like 5mb or 200kb
+  Enumeration: any of the listed values
+  Path: the path to a folder or file
+  String: any other type</item>
+      <item name="ProgramUsagePurgeCache">Purge signature cache:
+  Duplicati.CommandLine purge-signature-cache [options]</item>
+      <item name="ProgramUsageRestore">Restore (restore all or some files):
+  Duplicati.CommandLine [options] &lt;backend&gt; &lt;destinationfolder&gt;</item>
+      <item name="ProgramUsageTimes">Times:
+ Duplicati uses the time system from duplicity, where times may be presented as:
+  1: the string "now", indicating the current time
+  2: the number of seconds after epoch, eg: 123456890
+  3: a string like "2009-03-26T08:30:00+01:00"
+  4: an interval string, using Y, M, W, D, h, m, s for Year, Month, Week, Day, hour, minute or second, eg: "1M4D" for one month and four days, or "5m" for five minutes.</item>
+      <item name="ProgramUsageVerify">Verify backup integrity:
+  Duplicati.CommandLine verify &lt;backend&gt; --verification-level=manifest|signatures|full</item>
+      <item name="SupportedBackendsHeader">Supported backends:</item>
+      <item name="SupportedCompressionModulesHeader">Supported compression modules:</item>
+      <item name="SupportedEncryptionModulesHeader">Supported encryption modules:</item>
+      <item name="SupportedOptionsHeader">Supported options:</item>
+      <item name="TimeParseError">Unable to parse "{0}" into a time offset: {1}</item>
+      <item name="UnhandledException">An error occured: {0}</item>
+      <item name="UnhandledInnerException">The inner error message is: {0}</item>
+      <item name="UsageExampleLinux">Duplicati.CommandLine /home/user/ ftp://host/folder --exclude=/file.txt
+
+  In this example the file "/home/user/file.txt" is excluded.</item>
+      <item name="UsageExampleWindows">Duplicati.CommandLine C:\Documents\Files ftp://host/folder --exclude=\file.txt
+
+  In this example the file "C:\Documents\Files\file.txt" is excluded.</item>
+      <item name="VerificationCompleted">Verification completed, summary:
+Manifest files verified: {0}
+Signature files verified: {1}
+Content files verified: {2}
+Errors: {3}</item>
+      <item name="VerificationErrorHeader">Reported error messages:</item>
+      <item name="WrongNumberOfCommandsError_v2">Found {0} commands but expected {1}, commands: 
+{2}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\CommandLine\Decrypter\Strings\Program.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ProgramUsage">Usage: Duplicati.CommandLine.Decrypter.exe &lt;passphrase&gt; &lt;inputfile&gt; &lt;outputfile&gt;</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Utility\Strings\FilenameFilter.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="FilterContainsPathSeparator">Filter contains: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Utility\Strings\Sizeparser.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InvalidSizeValueError">Invalid size value: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Utility\Strings\SslCertificateValidator.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InvalidCallSequence">The SSL certificate validator was called in an incorrect order</item>
+      <item name="VerifyCertificateException">The server certificate had the error {0} and the hash {1}
+Use the commandline option --accept-specified-ssl-hash={1} to accept the server certificate anyway</item>
+      <item name="VerifyCertificateHashError">Failed while validating certificate hash, error message: {0}, Ssl error name: {1}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Utility\Strings\TempFolder.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="TempFolderDoesNotExistError">Temporary folder does not exist: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Utility\Strings\Timeparser.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InvalidDayError">Unable to parse date: {0}, invalid day: {1}</item>
+      <item name="InvalidIntegerError">Failed to parse the segment: {0}, invalid integer</item>
+      <item name="InvalidSpecifierError">Invalid specifier: {0}</item>
+      <item name="InvalidTimeError">Unable to parse date: {0}, invalid time: {1}</item>
+      <item name="InvalidYearError">Unable to parse date: {0}, invalid year: {1}</item>
+      <item name="UnknownMonthError">Unable to parse date: {0}, unknown month: {1}</item>
+      <item name="UnparsedDataFragmentError">Unparsed data: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Utility\Strings\Utility.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="FormatStringB">{0} bytes</item>
+      <item name="FormatStringGB">{0:N} GB</item>
+      <item name="FormatStringKB">{0:N} KB</item>
+      <item name="FormatStringMB">{0:N} MB</item>
+      <item name="InvalidHexDigitError">The digit '{0}' is not a valid hex digit</item>
+      <item name="InvalidHexStringLengthError">The hex string size must be a multiple of two, eg. the length must be even</item>
+      <item name="TimeoutException">The request timed out</item>
+      <item name="UnexpectedRequestResultError">The attempt to open a connection gave an unexpected result. Type: {0}, message: {1}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Main\Strings\BackendWrapper.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BackendNotFoundError">Unable to find backend for: {0}</item>
+      <item name="FileDeleteError2">Failed to delete file "{0}": {1}</item>
+      <item name="FileDownloadError2">Failed to download file "{0}": {1}</item>
+      <item name="FileListingError">Failed to retrieve file listing: {0}</item>
+      <item name="FilenameParseError">Unable to parse filenames for the desired volumes</item>
+      <item name="FilesNotForceRemovedMessage">No files removed, specify --force to remove files.</item>
+      <item name="FileUploadError2">Failed to upload file "{0}": {1}</item>
+      <item name="FunctionLookupError">Failed to find function: {0}</item>
+      <item name="HashMismatchError">Hash mismatch on file "{0}", recorded hash: {1}, actual hash {2}</item>
+      <item name="InvalidEntryTypeError">Invalid entry type: {0}</item>
+      <item name="NoBackupsFoundError">No backups found at remote location</item>
+      <item name="OrphanIncrementalFoundMessage">Failed to match incremental package to a full: {0}</item>
+      <item name="PartialFileFoundMessage">Found a partial file, run cleanup to remove: {0}</item>
+      <item name="RemovingLeftoverFileMessage">Removing leftover file: {0}</item>
+      <item name="StatusMessageDownloading">Downloading: {0}</item>
+      <item name="StatusMessageUploading">Uploading: {0} ({1})</item>
+      <item name="DuplicateFileEntryWarning">The file {0} was found multiple times in the file list, this is likely an error in the backend, please report it to the developers</item>
+      <item name="EmptyManifestWarning">Empty backupset detected, this is likely an error: {0}</item>
+      <item name="RemoveOrphanFileWarning">Deleting orphan file: {0}</item>
+      <item name="UnmatchedFilenameWarning">The file {0} was found on the backend but not recognized by Duplicati</item>
+      <item name="CachedSignatureHashMismatchWarning">The cache file {0} did not match the expected hash for the same file, ignoring cache file</item>
+      <item name="DeleteCacheFileError">An error occured while attempting to delete cache file {0}</item>
+      <item name="SaveCacheFileError">Failed to save the cached signature file as {0}</item>
+      <item name="BackendDoesNotSupportCreateFolder">The backend {0} ({1}) does not support the CreateFolder operation </item>
+      <item name="CachedSignatureDecryptWarning">Attempt to decrypt file {0} failed with error: {1}</item>
+      <item name="TooManyOrphansFoundError">Auto-cleanup specified but there are {0} orphan files, and there should not be more than 2</item>
+      <item name="UploadSizeVerificationFailure">The file {0} was uploaded to the server, but the reported filesize was {1} and the size was expected to be {2}</item>
+      <item name="UploadVerificationFailure">The file {0} was uploaded but not found on the server</item>
+      <item name="FailureWhileDisposingBackendError">An error occured while closing a connection: {0}</item>
+      <item name="DownloadedFileSizeError">The file {0} was downloaded and had size {1} but the size was expected to be {2}</item>
+      <item name="CompletedDeleteTransaction">Delete transaction completed successfully</item>
+      <item name="CompletingDeleteTransactionWarning">Completing unfinished delete transaction and removing {0} files</item>
+      <item name="DeleteTransactionFileFoundWarning">A delete operation was started, but failed to complete. Next invocation of a cleanup or delete command will complete the transaction.</item>
+      <item name="DeleteTransactionFileReadError">A previously started delete operation was not completed, but the attempt to recover the operation details failed with the message: {1}.
+
+If this problem happens more than once, it is possible that the delete transaction file is defect. Try renaming the file "{0}" and the run the operation again. If no errors are reported, it is safe to delete the file, otherwise Duplicati will report what needs to be manually corrected.</item>
+      <item name="DeletingTransactionLeftoverFile">Deleting file from delete transaction "{0}"</item>
+      <item name="ExistingDeleteTransactionError">An internal error has occured, a request was made to initiate a delete transaction, but one was already present</item>
+      <item name="MultipleDeleteTransactionsFoundError">There were multiple delete transaction files found. Please manually inspect the target destination and resolve this error.</item>
+      <item name="NonExistingDeleteTransactionError">An internal error has occured, a request was made to complete a delete transaction, but there was not a transaction in progress</item>
+      <item name="AutoCreateFolderFailed">Failed to automatically create folder, error message: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Main\Strings\ExecutionStoppedException.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="DefaultMessage">The user has stopped the operation</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Main\Strings\FilenameStrategy.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InvalidEntryTypeError">Invalid entry type:{0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Main\Strings\Interface.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BadSortingDetectedError">Bad sorting of backup times detected</item>
+      <item name="BadVolumeSortOrder">Bad sort order on volumes detected</item>
+      <item name="CannotCleanWithoutHashesError">When using cleanup the manifests and hashes must be verified</item>
+      <item name="DeletingBackupSetMessage">Deleting backup at {0}</item>
+      <item name="DeprecatedOptionUsedWarning">The option {0} is deprecated: {1}</item>
+      <item name="DuplicateOptionNameWarning">The option --{0} exists more than once, please report this to the developers</item>
+      <item name="FailedToFindControlFilesMessage">Failed to find control files in: {0}</item>
+      <item name="FileHashFailure">A hash check failed, this is an indication of a corrupt file: {0}</item>
+      <item name="FilesAreNotForceDeletedMessage">Files are not deleted, use the --force command to actually remove files</item>
+      <item name="InternalDeleteCountError">An internal error occured, and the operation was aborted to protect the backup sets</item>
+      <item name="ManifestsMustBeReadOnBackups">It is not allowed to disable manifest reading when performing a backup. Disabling manifests is only possible on restores, and it should only be used as a last resort.</item>
+      <item name="ManifestVersionRequiresRelativeNamesWarning">One or more manifests are from version 1, which requires that filenames searched are relative</item>
+      <item name="MissingSignatureFile">The signature file for a content volume was missing, date: {0}, volumenumber: {1}, content volume filename: {2}</item>
+      <item name="NoFilesGivenError">No filenames given for find-last-file</item>
+      <item name="NoSourceFoldersError">No source folders specified for backup</item>
+      <item name="NotDeletingBackupSetMessage">Not deleting backup at time: {0}, because later backups depend on it</item>
+      <item name="NotDeletingLastFullMessage">The backup at time {0} is not removed because it is the last full backup, use --allow-full-removal to include this backup in the delete</item>
+      <item name="NumberOfSourceFoldersHasChangedError">The number of source folders in the latest backup is {0}, but the number of specified folders is now {1}. It is not allowed to change source folders for a backup.</item>
+      <item name="PartialUploadMessage">Failed after uploading {0} volume(s). Error message: {1}</item>
+      <item name="PrimaryManifestReadErrorLogMessage">Failed to read the primary manifest {0}, attempting secondary, if available. Error message: {1}</item>
+      <item name="ReadingSecondaryManifestLogMessage">Secondary manifest file found: {0}, attempting read.</item>
+      <item name="RemovingPartialFilesMessage">Removing partial file: {0}</item>
+      <item name="SecondaryManifestReadErrorLogMessage">Failed to read the secondary manifest {0}. Error message: {1}</item>
+      <item name="SignatureCachePathMissingError">Signature cache path was not given as an argument</item>
+      <item name="SkippedContentVolumeLogMessage">The content volume {0} is not present in the manifest and is not used</item>
+      <item name="SkippedUnlistedSignatureFileWarning">The signature file {0} was skipped because the signature file was not found in the manifest</item>
+      <item name="SourceDirIsIncludedMultipleTimesError">The folder {0} is included multiple times</item>
+      <item name="SourceDirsAreRelatedError">The folder {1} is a subfolder of {0}. It is not allowed to specify the same folder multiple times.</item>
+      <item name="SourceFolderIsMissingError">The source folder {0} does not exist, aborting backup</item>
+      <item name="SourceFoldersHasChangedError">The folder {0} is no longer in the source folder set. It is not allowed to change source folders for a backup.</item>
+      <item name="StatusBuildingFilelist">Building filelist ...</item>
+      <item name="StatusCompleted">Completed</item>
+      <item name="StatusCreatingVolume">Creating volume {0}</item>
+      <item name="StatusDownloadingContentVolume">Downloading content, volume {0}</item>
+      <item name="StatusDownloadingSignatureVolume">Downloading signatures, volume {0}</item>
+      <item name="StatusLoadingFilelist">Loading remote filelist</item>
+      <item name="StatusPatching">Patching restore with #{0}</item>
+      <item name="StatusProcessing">Processing: {0}</item>
+      <item name="StatusReadingIncrementalData">Reading incremental data ...</item>
+      <item name="StatusReadingIncrementalFile">Reading incremental data from: {0}</item>
+      <item name="StatusReadingIncrementals">Reading incremental data</item>
+      <item name="StatusReadingManifest">Reading manifest file: {0}</item>
+      <item name="StatusReadingSignatureFile">Reading signatures: {0}, vol {1}</item>
+      <item name="StatusStarted">Started</item>
+      <item name="StatusUploadingContentVolume">Uploading content, volume {0}</item>
+      <item name="StatusUploadingManifestVolume">Uploading manifest, volume {0}</item>
+      <item name="StatusUploadingSignatureVolume">Uploading signatures, volume {0}</item>
+      <item name="StatusWaitingForUpload">Waiting for upload to complete ...</item>
+      <item name="TooFewTargetFoldersError">The backup contains {0} folders but {1} target folders were supplied</item>
+      <item name="TooManyTargetFoldersWarning">The backup contains {0} folder(s) but {1} target folders were supplied</item>
+      <item name="UnexpectedCompressionError">Unexpected compression mode: {0}</item>
+      <item name="UnexpectedOperationTypeError">The operation mode {0} was not expected</item>
+      <item name="UnsupportedBooleanValue">The value "{1}" supplied to --{0} does not parse into a valid boolean, this will be treated as if it was set to "true"</item>
+      <item name="UnsupportedEnumerationValue">The option --{0} does not support the value "{1}", supported values are: {2}</item>
+      <item name="UnsupportedIntegerValue">The value "{1}" supplied to --{0} does not represent a valid integer</item>
+      <item name="UnsupportedOptionDisabledModuleWarning">The option --{0} is not supported because the module {1} is not currently loaded</item>
+      <item name="UnsupportedOptionWarning">The supplied option --{0} is not supported and will be ignored</item>
+      <item name="UnsupportedPathValue">The value "{1}" supplied to --{0} does not represent a valid path</item>
+      <item name="UnsupportedSizeValue">The value "{1}" supplied to --{0} does not represent a valid size</item>
+      <item name="UnsupportedTimeValue">The value "{1}" supplied to --{0} does not represent a valid time</item>
+      <item name="CannotSkipHashChecksOnBackup">Hash checks cannot be disabled while performing a backup</item>
+      <item name="CannotVerifyChain">Unable to verfiy the backup chain when the option --dont-read-manifests is active</item>
+      <item name="CannotVerifyWithoutHashes">Hash checks cannot be disabled while performing a verification</item>
+      <item name="DisablingSignatureCacheForVerification">The signature cache is disabled when performing verification</item>
+      <item name="ManifestAndFileCountMismatchError">The manifest file {0} indicates that there should be {1} volumes, but the file list indicates {2}</item>
+      <item name="ManifestsMustBeRead">Disabling manifests is only possible on restores, and it should only be used as a last resort.</item>
+      <item name="PreviousManifestFilenameMismatchError">The manifest file {0} indicates that the previous manifest file should be {1} but it was {2}</item>
+      <item name="PreviousManifestHashMismatchError">The manifest file {0} indicates that the previous manifest hash should be {1} but it was {2}</item>
+      <item name="FileSizeMismatchError">The file {0} has size {1} but should have size {2}</item>
+      <item name="FilenameMismatchError">The manifest report that the file should be named {0} but it was named {1}</item>
+      <item name="StatusUploadingVerificationVolume">Uploading verification file</item>
+      <item name="DeleteManifestsSuggestion">If this error cannot be resolved, you can either create a new full backup or delete the offending manifests manually, followed by a cleanup command. The offending manifest files are:</item>
+      <item name="FullBecauseBackendIsEmpty">A full backup is made because no existing backup chains were found on the destination</item>
+      <item name="FullBecauseFlagWasSet">A full backup was forced with the --{0} flag</item>
+      <item name="FullBecauseLastFullIsFrom">A full backup is made because the latest full backup is from {0} and the full backup threshold is {1}</item>
+      <item name="FullBecauseSourceFoldersChanged">A full backup is made because the source folders have changed</item>
+      <item name="FullBecauseThereAreNIncrementals">A full backup is made because the current chain has {0} incremental backups and the full backup threshold is {1}</item>
+      <item name="IncrementalBecauseLastFullIsFrom">An incremental backup is made because the latest full backup is from {0} and the full backup threshold is {1}</item>
+      <item name="IncrementalBecauseNoFlagsWereSet">An incremental backup is made because no full backup criteria was found</item>
+      <item name="IncrementalBecauseThereAreNIncrementals">An incremental backup is made because the current chain has {0} incremental backups and the full backup threshold is {1}</item>
+      <item name="ErrorRunningBackup">An error occurred while running the backup, no files were uploaded: {0}</item>
+      <item name="StartingOperationMessage">The operation {0} has started</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Main\Strings\Manifestfile.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="EofInManifestFile">Got EOF while attempting to locate the self-hash of a manifest</item>
+      <item name="HashGenerationFailure">The hash generation for the manifest file resulted in the hash value {0} but should have been {1}</item>
+      <item name="InternalError">An internal error occured when creating the manifest, please report this to the developers</item>
+      <item name="InvalidManifestError">The manifest file did not have the expected root Xml element: {0}</item>
+      <item name="InvalidSourcePathError">The number of source paths in the manifest file are wrong</item>
+      <item name="MainfestIsMissingSelfFilename">Manifest did not contain its own filename as expected</item>
+      <item name="MainfestIsMissingSelfHash">Manifest did not contain a self hash as expected</item>
+      <item name="ManifestValidationError">Failed to validate manifest: {0}</item>
+      <item name="MissingPreviousManifestFilename">Manifest has no previous manifest filename</item>
+      <item name="MissingPreviousManifestHash">Manifest has no previous manifest hash</item>
+      <item name="NoFilesError">Invalid manifest, there were no files in the manifest</item>
+      <item name="SelfhashMismatch">Manifest file had selfhash {0} but the hash of the file is {1}</item>
+      <item name="UnsupportedHashAlgorithmError">The manifest uses the hash algorithm {0}, which is unsupported</item>
+      <item name="UnsupportedVersionError">The manifest has version {0}, the current application only supports versions up to {1}</item>
+      <item name="WrongCountError">Invalid manifest, wrong count, signature hashes: {0}, content hashes: {1}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Main\Strings\Options.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AsynchronousuploadLong">By supplying this option, Duplicati will transmit files, while building volumes. This can shorten the time it takes to perform a backup, but requires more diskspace.</item>
+      <item name="AsynchronousuploadShort">Transmit files on a separate thread</item>
+      <item name="AutocleanupLong">If a backup is interrupted there will likely be partial files present on the backend. Using this flag, Duplicati will automatically remove such files when encountered.</item>
+      <item name="AutocleanupShort">A flag indicating that Duplicati should remove unused files</item>
+      <item name="BackupprefixLong">Any string used to prefix the filenames generated by Duplicati.</item>
+      <item name="BackupprefixShort">Backup volume filename prefix</item>
+      <item name="DisablefiletimecheckLong">The operating system keeps track of the last time a file was written. Using this information, Duplicati can quickly determine if the file has been modified. If some application deliberately modifies this information, Duplicati won't work correctly unless this flag is set.</item>
+      <item name="DisablefiletimecheckShort">Disable checks based on file time</item>
+      <item name="ExcludeLong">Exclude files that match this filter. The filter is a "file-globbing" filter, much like commandline options. You can use "*.txt" to exclude all text files.</item>
+      <item name="ExcluderegexpLong">Exclude files that match this filter. The filter is a regular expression filter. You can use "(.*)\.txt" to exclude all text files.</item>
+      <item name="ExcluderegexpShort">Exclude files regular expression</item>
+      <item name="ExcludeShort">Exclude files</item>
+      <item name="FiletorestoreLong">By default, duplicati will restore all files in the backup. Use this option to restore only a subset of the files</item>
+      <item name="FiletorestoreShort">A list of files to restore</item>
+      <item name="ForceLong">When deleting old files, Duplicati will only write out what files are supposed to be deleted. Specify the "force" option to actually remove them.</item>
+      <item name="ForceShort">Force the removal of files</item>
+      <item name="FullifolderthanLong">If the last full backup is older than the duration supplied here, Duplicati will make a full backup, otherwise an incremental</item>
+      <item name="FullifolderthanShort">The max duration between full backups</item>
+      <item name="FullLong">When this flag is specified, Duplicati will make a full backup of all files, and ignore any incremental data.</item>
+      <item name="FullShort">A flag used to force full backups</item>
+      <item name="GpgencryptionLong">By default, Duplicati will use the AES encryption algorithm to encrypt the backup volumes, setting this flag makes Duplicati use the GNU Privacy Guard instead. GnuPG must be installed on the machine for this to work.</item>
+      <item name="GpgencryptionShort">Use GnuPG for encryption</item>
+      <item name="IncludeLong">Include files that match this filter. The filter is a "file-globbing" filter, much like commandline options. You can use "*.txt" to include all text files.</item>
+      <item name="IncluderegexpLong">Include files that match this filter. The filter is a regular expression filter. You can use "(.*)\.txt" to include all text files.</item>
+      <item name="IncluderegexpShort">Include files regular expression</item>
+      <item name="IncludeShort">Include files</item>
+      <item name="AllowsleepShort">Allow system to enter sleep power modes for inactivity during backup/restore operations (Windows only)</item>
+      <item name="MaxdownloadprsecondLong">By setting this value you can limit how much bandwidth Duplicati consumes for downloads. Setting this limit can make the backups take longer, but will make Duplicati less intrusive.</item>
+      <item name="MaxdownloadprsecondShort">Max number of bytes to download pr. second</item>
+      <item name="MaxuploadprsecondLong">By setting this value you can limit how much bandwidth Duplicati consumes for uploads. Setting this limit can make the backups take longer, but will make Duplicati less intrusive.</item>
+      <item name="MaxuploadprsecondShort">Max number of bytes to upload pr. second</item>
+      <item name="NoencryptionLong">If you store the backups on a local disk, and prefer that they are kept unencrypted, you can turn of encryption completely by using this switch.</item>
+      <item name="NoencryptionShort">Disable encryption</item>
+      <item name="NumberofretriesLong">If an upload or download fails, Duplicati will retry a number of times before failing. Use this to handle unstable network connections better.</item>
+      <item name="NumberofretriesShort">Number of times to retry a failed transmission</item>
+      <item name="PassphraseLong">Supply a passphrase that Duplicati will use to encrypt the backup volumes, making them unreadable without the passphrase. This variable can also be supplied through the environment variable PASSPHRASE.</item>
+      <item name="PassphraseShort">Passphrase used to encrypt backups</item>
+      <item name="RestoretimeLong">By default, Duplicati will restore files from the most recent backup, use this option to select another item. You may use relative times, like "-2M" for a backup from two months ago.</item>
+      <item name="RestoretimeShort">The time to restore files</item>
+      <item name="RetrydelayLong">After a failed transmission, Duplicati will wait a short period before attempting again. This is usefull if the network drops out occasionally during transmissions.</item>
+      <item name="RetrydelayShort">Time to wait between retries</item>
+      <item name="ShortfilenamesLong">If the filesystem does not support the long filenames that Duplicati uses, this switch will change the time to be a much more compact, but hard to read format. It will also make the default prefix "dpl".</item>
+      <item name="ShortfilenamesShort">Use short filenames</item>
+      <item name="SignaturecachepathLong">If this path is supplied, Duplicati will store all signature files here, so re-downloads can be avoided.</item>
+      <item name="SignaturecachepathShort">A path to temporary storage</item>
+      <item name="SignaturecontrolfilesLong">Supply a list of files separated with semicolons, that will be added to each backup. The Duplicati GUI program uses this to store the setup database with each backup.</item>
+      <item name="SignaturecontrolfilesShort">A list of control files to embed in the backups</item>
+      <item name="SkipfilehashchecksLong">If the hash for the volume does not match, Duplicati will refuse to use the backup. Supply this flag to allow Duplicati to proceed anyway.</item>
+      <item name="SkipfilehashchecksShort">Set this flag to skip hash checks</item>
+      <item name="SkipfileslargerthanLong">This option allows you to exclude files that are larger than the given value. Use this to prevent backups becoming extremely large.</item>
+      <item name="SkipfileslargerthanShort">A size string that limits the size of files being backed up</item>
+      <item name="TempdirLong">Duplicati will use the system default temporary folder. This option can be used to supply an alternative folder for temporary storage.</item>
+      <item name="TempdirShort">Temporary storage folder</item>
+      <item name="ThreadpriorityLong">Selects another thread priority for the process. Use this to set Duplicati to be more or less CPU intensive.</item>
+      <item name="ThreadpriorityShort">Thread priority</item>
+      <item name="TimeseparatorLong">Per default, Duplicati will use the colon ":" character to separate the time fields in the filename. However, on some filesystem, notably windows, this character is not allowed. Use this option to use another character.</item>
+      <item name="TimeseparatorShort">Backup volume filename timeseparator</item>
+      <item name="TotalsizeLong">This option can place an upper limit on the total size of each backup. Note that if this flag is specified the backup may not contain all files, even for a full backup.</item>
+      <item name="TotalsizeShort">The number of bytes generated by each backup run</item>
+      <item name="VolsizeLong">This option can change the default volume size. Changing the size can be usefull if the backend has a limit on the size of each individual file</item>
+      <item name="VolsizeShort">A size string that limits the size of the volumes</item>
+      <item name="DisableStreamingLong">Enabling this option will disallow usage of the streaming interface, which means that transfer progress bars will not show, and bandwidth throttle settings will be ignored.</item>
+      <item name="DisableStreamingShort">Disables use of the streaming transfer method</item>
+      <item name="AllowfullremoveLong">As a precaution, the last full backup will never be removed, even if using the "delete-all-but-n-full 0" command. Set this option to allow removing the last backup.</item>
+      <item name="AllowfullremoveShort">Allow removal of the all backups</item>
+      <item name="DontreadmanifestsLong">This option will make sure the contents of the manifest file are not read. This also implies that file hashes are not checked either. Use only for disaster recovery.</item>
+      <item name="DontreadmanifestsShort">An option that prevents verifying the manifests</item>
+      <item name="AllowsourcefolderchangeLong">This option can be used to disable the check for the same source folders. It is used in unittests, and is NOT intended for everyday use. Do not use this option unless you know what you are doing.</item>
+      <item name="AllowsourcefolderchangeShort">Skip verifying the source folders</item>
+      <item name="FullifsourcefolderchangedLong">It is not allowed to change the sourcefolder or the number of source folders. If this option is enabled, the backup will become a full backup if the source folders have changed, which will then start a new chain of backups with the new folder set. If --allow-sourcefolder-change is also set, a full backup is only issued if the number of of source folders have changed</item>
+      <item name="FullifsourcefolderchangedShort">Run a full backup if the sourcefolder has changed</item>
+      <item name="CompressionmoduleLong">Duplicati supports plugable compression modules. Use this option to select a module to use for compression. This is only applied when creating new volumes, when reading an existing file, the filename is used to select the compression module.</item>
+      <item name="CompressionmoduleShort">Select what module to use for compression</item>
+      <item name="EncryptionmoduleLong">Duplicati supports plugable encryption modules. Use this option to select a module to use for encryption. This is only applied when creating new volumes, when reading an existing file, the filename is used to select the encryption module.</item>
+      <item name="EncryptionmoduleShort">Select what module to use for encryption</item>
+      <item name="GpgencryptionDeprecated">Use --encryption-module=gpg instead</item>
+      <item name="DisablemoduleLong">Supply one or more module names, separated by commas to unload them</item>
+      <item name="DisablemoduleShort">Disabled one or more modules</item>
+      <item name="EnablemoduleLong">Supply one or more module names, separated by commas to load them</item>
+      <item name="EnablemoduleShort">Enables one or more modules</item>
+      <item name="SnapshotpolicyLong">This settings controls the usage of snapshots, which allows Duplicati to backup files that are locked by other programs. If this is set to "off", Duplicati will not attempt to create a disk snapshot. Setting this to "auto" makes Duplicati attempt to create a snapshot, and fail silently if that was not allowed or supported. A setting of "on" will also make Duplicati attempt to create a snapshot, but will produce a warning message in the log if it fails. Setting it to "required" will make Duplicati abort the backup if the snapshot creation fails. On windows this uses the Volume Shadow Copy Services (VSS) and requires administrative privileges. On linux this uses Logical Volume Management (LVM) and requires root privileges.</item>
+      <item name="SnapshotpolicyShort">Controls the use of disk snapshots</item>
+      <item name="AsynchronousuploadfolderLong">The pre-generated volumes will be placed into the temporary folder by default, this option can set a different folder for placing the temporary volumes, despite the name, this also works for synchronous runs</item>
+      <item name="AsynchronousuploadfolderShort">The path where ready volumes are placed until uploaded</item>
+      <item name="AsynchronousuploadlimitLong">When performing asynchronous uploads, Duplicati will create volumes that can be uploaded. To prevent Duplicati from generating too many volumes, this option limits the number of pending uploads. Set to zero to disable the limit</item>
+      <item name="AsynchronousuploadlimitShort">The number of volumes to create ahead of time</item>
+      <item name="DebugoutputLong">Activating this option will make some error messages more verbose, which may help you track down a particular issue</item>
+      <item name="DebugoutputShort">Enables debugging output</item>
+      <item name="ExcludeemptyfoldersLong">By setting this option to true, a folder which has no files that match the filter will be excluded from the backup</item>
+      <item name="ExcludeemptyfoldersShort">Controls empty folder actions</item>
+      <item name="OldfilenamesDeprecated">This option will be removed in the future but is included for the odd case where the new format breaks something</item>
+      <item name="OldfilenamesLong">By setting this option the filenames generated by Duplicati will contain a time separator as well as a timezone component, which is not cross platform compatible</item>
+      <item name="OldfilenamesShort">Uses the old filename format</item>
+      <item name="ShortfilenamesDeprecated">Duplicati now uses a filename format that is portable across all operating systems, so this option should not be used and will be removed in the future</item>
+      <item name="TimeseparatorDeprecated">Duplicati no longer uses a time separator for the filenames so this option is useless</item>
+      <item name="LogfileLong">Specifies the name of a while into which internal log information is written</item>
+      <item name="LogfileShort">Log internal information</item>
+      <item name="LoglevelLong">Specifies the amount of log information to write into the file specified by --log-file</item>
+      <item name="LoglevelShort">Log information level</item>
+      <item name="DisableautocreatefolderLong">If Duplicati detects that the target folder is missing, it will create it automatically. Activate this option to prevent automatic folder creation.</item>
+      <item name="DisableautocreatefolderShort">Disables automatic folder creation</item>
+      <item name="VssexcludewritersLong">Use this option to exclude faulty writers from a snapshot. This is equivalent to the -wx flag of the vshadow.exe tool, except that it only accepts writer class GUIDs, and not component names or instance GUIDs. Multiple GUIDs must be separated with a semicolon, and most forms of GUIDs are allowed, including with and without curly braces.</item>
+      <item name="VssexcludewritersShort">A semicolon separated list of guids of VSS writers to exclude (Windows only)</item>
+      <item name="UsnpolicyLong">This settings controls the usage of NTFS USN numbers, which allows Duplicati to obtain a list of files and folders much faster. If this is set to "off", Duplicati will not attempt to use USN. Setting this to "auto" makes Duplicati attempt to use USN, and fail silently if that was not allowed or supported. A setting of "on" will also make Duplicati attempt to use USN, but will produce a warning message in the log if it fails. Setting it to "required" will make Duplicati abort the backup if the USN usage fails. This feature is only supported on Windows and requires administrative privileges.</item>
+      <item name="UsnpolicyShort">Controls the use of NTFS Update Sequence Numbers</item>
+      <item name="DisableusndiffcheckLong">If USN is enabled the USN numbers are used to find all changed files since last backup. Use this option to disable the use of USN numbers, which will make Duplicati investigate all source files. This option is primarily intended for testing and should not be disabled in a production environment. If USN is not enabled, this option has no effect.</item>
+      <item name="DisableusndiffcheckShort">Disables changelist by USN numbers</item>
+      <item name="OpenfilepolicyLong">If Duplicati encounters a file that is opened by another program, it will attempt to read whatever contents that are in the file. Since the file may be written during the backup, this can cause the backup to contain a partially written file. Use this option to disable this, omitting locked files from the backup. This option has no effect if a snapshot is active.</item>
+      <item name="OpenfilepolicyShort">Determines how to handle open files</item>
+      <item name="DisabletimetoleranceLong">When deciding if a full backup should be made or an old backup should be deleted, Duplicati will adjust the times by a small fraction to ensure that minor time differences do not interfer with expected operation. If the backup is set to produce a full backup each day, and a full backup is made at, say 12:00:01, and the backup is executed again at 12:00:00, a full day has not passed and thus an incremental backup is performed. To avoid this, Duplicati inserts a 1% tolerance (max 1 hour). Use this option to disable the tolerance, and use strict time checking</item>
+      <item name="DisabletimetoleranceShort">Deactivates tolerance when comparing times</item>
+      <item name="SortedfilelistLong">The list of files to back up is normally processed in a random fashion to ensure that all files have an equal probability of being processed. Use this setting to process the files in alphabetical order instead</item>
+      <item name="SortedfilelistShort">Sort the list of files</item>
+      <item name="CreateverificationfileLong">If the backup is encrypted, the remote backend cannot verify the backup contents without the password. If this option is activated, Duplicati stores an unencrypted file on the backend. The file is never read by Duplicati, but allows the remote server to verify the backup integrity without requiring a password. The file contains no sensitive information, only a list of files that are expected to exist on the backend and their respective hashes. This option only has an effect when creating a backup and when verifying a backup set.</item>
+      <item name="CreateverificationfileShort">Create verification file on server</item>
+      <item name="VerificationLevelLong">Use this option to change the level of verifiation done by the verify command. The setting "manifest" will only verify the manifest chain. The settings "signature" will also download and verify all signature files. The setting "full", will download all files, including content files, and verify that they are unchanged.</item>
+      <item name="VerificationLevelShort">Level of verification</item>
+      <item name="ListverifyuploadsLong">Some protocols, like FTP, and some servers have problems detecting an interrupted transfer and will assume that the transfer completed, even if it did not. If this option is enabled Duplicati will list the contents of the backend after each upload and verify that the file exists and has the expected size.</item>
+      <item name="ListverifyuploadsShort">Verify uploads by listing contents</item>
+      <item name="FullifmorethannincrementalsLong">Use this option to limit the length of the backup chain to a certain number. The number supplied here indicates the maximum number of incrementals a chain can contain (not counting the root full backup)</item>
+      <item name="FullifmorethannincrementalsShort">The max number of incrementals in a chain</item>
+      <item name="AsynchronousuploadDeprecated">Asynchronous upload is now default, you can turn it off by using the flag --{0}</item>
+      <item name="SynchronousuploadLong">Duplicati will upload files while scanning the disk and producing volumes, which usually makes the backup faster. Use this flag to turn the behavior off, so that Duplicati will wait for each volume to complete.</item>
+      <item name="SynchronousuploadShort">Upload files synchronously</item>
+      <item name="NoconnectionreuseLong">Duplicati will attempt to perform multiple operations on a single connection, as this avoids repeated login attempts, and thus speeds up the process. This option can be used to ensure that each operation is performed on a seperate connection</item>
+      <item name="NoconnectionreuseShort">Do not re-use connections</item>
+      <item name="DebugretryerrorsLong">When an error occurs, Duplicati will silently retry, and only report the number of retries. Enable this option to have the error messages displayed when a retry is performed.</item>
+      <item name="DebugretryerrorsShort">Show error messages when a retry is performed</item>
+      <item name="UploadUnchangedBackupsLong">If no files have changed, Duplicati will not upload a backup set. If the backup data is used to verify that a backup was executed, this option will make Duplicati upload a backupset even if it is empty</item>
+      <item name="UploadUnchangedBackupsShort">Upload empty backup files</item>
+      <item name="BackendlogdatabaseShort">Database log of remote operations</item>
+      <item name="BackendlogdatabaseLong">Use this option to specify a path to a file that will store information about backend operations. This option can be used to track down errors by comparing the backend state with the expected backend state.</item>
+      <item name="QuotasizeLong">This value can be used to set a known upper limit on the amount of space a backend has. If the backend reports the size itself, this value is ignored</item>
+      <item name="QuotasizeShort">A reported maximum storage</item>
+      <item name="SymlinkpolicyShort">Symlink handling</item>
+      <item name="SymlinkpolicyLong">Using this option to handle symlinks different. The "{0}" option will simply record a symlink with its name and destination, and a restore will recreate the symlink as a link. Use the option "{1}" to ignore all symlinks and not store any information about them. Previous versions of Duplicati used the setting "{2}", which will cause symlinked files to be included and restore as normal files.</item>
+      <item name="ExcludefilesattributesShort">Exclude files by attribute</item>
+      <item name="ExcludefilesattributesLong">Use this option to exclude files with certain attributes. Use a comma separated list of attribute names to specify more that one. Possible values are: {0}</item>
+      <item name="VssusemappingLong">Activate this option to map VSS snapshots to a drive (similar to SUBST, using Win32 DefineDosDevice). This will create temporary drives that are then used to access the contents of a snapshot. This workaround can speed up file access on Windows XP.</item>
+      <item name="VssusemappingShort">Map snapshots to a drive (Windows only)</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Main\Strings\RSyncDir.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="CreateFolderError">Failed to create folder: "{0}", Error message: {1}</item>
+      <item name="DeletedFilenameError">An error occured while determining file status, filename: {0}, folder name:{1}</item>
+      <item name="DeleteFileError">Failed to delete file: "{0}", Error message: {1}</item>
+      <item name="DeleteFolderError">Failed to remove folder: "{0}", Error message: {1}</item>
+      <item name="FileProcessError">Failed to process file: {0}. Error message: {1}</item>
+      <item name="FileToDeleteMissingError">File marked for deletion did not exist: {0}</item>
+      <item name="FolderToDeleteMissingError">Folder was marked for deletion, but did not exist: {0}</item>
+      <item name="MultipassUsageError">Multi pass is not initialized</item>
+      <item name="RestoreFileError">Failed to restore file: "{0}", Error message: {1}</item>
+      <item name="RestoreFolderDeltaError">Folder did not exist on restore by delta: {0}</item>
+      <item name="RestoreFolderMissingError">Folder did not exist on restore: {0}</item>
+      <item name="FileShouldBePartialError">The file {0} was marked as partial in a previous volume, but is not marked partial in the current volume</item>
+      <item name="InvalidPartialFileEntry">The partial file record for {0} does not match the file</item>
+      <item name="InvalidPartialRecordError">The partial record file is invalid</item>
+      <item name="PartialFileAddedLogMessage">File {0} is partial from byte offset {1}</item>
+      <item name="PartialFileIncompleteWarning">The partial file {0} was not completed</item>
+      <item name="PartialLeftoverDeleteError">Failed to clean up the partial incomplete file {0}, error message: {1}</item>
+      <item name="InternalPathMappingError">An internal error occured. The path {0} is not a subpath of any of the source folders: {1}.</item>
+      <item name="SnapshotFailedError">Failed to create a snapshot: {0}</item>
+      <item name="FailedToSetFileWriteTime">Failed to set the write time for the file: {0}.
+Error message: {1}</item>
+      <item name="FailedToSetFolderWriteTime">Failed to set the write time for the folder: {0}.
+Error message: {1}</item>
+      <item name="UsnDisposeFailedWarning">Failed to dispose USN helper: {0}</item>
+      <item name="UsnFailedError">Failed to read USN data: {0}</item>
+      <item name="UsnJournalIdChangedWarning">The USN journalId for volume {0} was changed from {1} to {2}, performing full file compare</item>
+      <item name="UsnNotSupportedOnLinuxError">USN is not supported on Linux</item>
+      <item name="UsnNumberingFaultWarning">The stored USN number for volume {0} is {1} but the current USN is {2}, performing full file compare</item>
+      <item name="FileChangedWhileReadError">The file {0} changed while being backed up, omitting file from backup set</item>
+      <item name="FileChangedWhileReadWarning">The file {0} changed while being backed up, this may result in a broken file</item>
+      <item name="FolderModificationTimeReadError">Failed to read the file modification timestamp for: {0}.
+Error message: {1}</item>
+      <item name="InvalidTimeStampError">The timestamp information for file {0} could not be read: {1}</item>
+      <item name="SymlinkReadError">The symlink information for {0} could not be read: {1}</item>
+      <item name="InvalidRelFilenameError">Invalid filename detected: {0}, source folders: {1}, error message: {2}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Encryption\GPGCommonOptions.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">GPG path:</item>
+      <item name="BrowseForGPGPathButton.Text">...</item>
+      <item name="BrowseForGPGDialog.Filter">Executables (*.exe)|*.exe|All files (*.*)|*.*</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Encryption\Strings\AESEncryption.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AesencryptiondontallowfallbackLong_v2">If the decryption fails using AES Crypt, dont attempt to use the previous encryption file format. </item>
+      <item name="AesencryptiondontallowfallbackShort">Do not attempt to decrypt using previous method</item>
+      <item name="BadKeyStretchError">Bad key stretch</item>
+      <item name="Description_v2">This module encrypts all files in the same way that AESCrypt does, using 256 bit AES encryption.</item>
+      <item name="DisplayName">AES-256 encryption, built-in</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Encryption\Strings\EncryptionBase.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="DecryptionError">Failed to decrypt data (invalid passphrase?): {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Encryption\Strings\GPGCommonOptions.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="GpgAutodetectedInfo">Leave empty to use the gpg application found: {0}</item>
+      <item name="GpgNotAutodetectedWarning">The gpg application could not be located, please enter the path manually</item>
+      <item name="GpgProgramNotFoundError">An error occured while attempting to verify the gpg program path:
+{0}
+
+Do you want to use the path anyway?</item>
+      <item name="LoadError">An error occured while setting up the GPG dialog: {0}</item>
+      <item name="LocatingGpgError">The entered GPG program could not be found.
+Do you want to use the path anyway?</item>
+      <item name="UseEmptyPathWarning">You have not entered a path to the GPG application.
+This will use the default path to the GPG application. 
+The GPG application could not be found during system probing.
+Are you sure this is what you want?</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Encryption\Strings\GPGEncryption.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="Description">The GPG encryption module uses the GNU Privacy Guard program to encrypt and decrypt files. It requires that the gpg executable is available on the system. On Windows it is assumed that this is in the default installation folder under program files, under Linux and OSX it is assumed that the program is available via the PATH environment variable. It is possible to supply the path to GPG using the --gpg-program-path switch.</item>
+      <item name="DisplayName">GNU Privacy Guard, external</item>
+      <item name="GpgencryptiondecryptionswitchesLong">Use this switch to specify any extra options to GPG. You cannot specify the --passphrase-fd option here. The --decrypt option is always specified.</item>
+      <item name="GpgencryptiondecryptionswitchesShort">Extra GPG commandline options for decryption</item>
+      <item name="GpgencryptiondisablearmorLong">The GPG encryption/decryption will use the --armor option for GPG to protect the files with armor. Specify this switch to remove the --armor option.</item>
+      <item name="GpgencryptiondisablearmorShort">Don't use GPG Armor</item>
+      <item name="GpgencryptionencryptionswitchesLong">Use this switch to specify any extra options to GPG. You cannot specify the --passphrase-fd option here. The --encrypt option is always specified.</item>
+      <item name="GpgencryptionencryptionswitchesShort">Extra GPG commandline options for encryption</item>
+      <item name="GPGExecuteError">Failed to execute GPG at "{0}": {1}</item>
+      <item name="GpgprogrampathLong">The path to the GNU Privacy Guard program. If not supplied, Duplicati will assume that the program "gpg" is available in the system path.</item>
+      <item name="GpgprogrampathShort">The path to GnuPG</item>
+      <item name="SignkeyLong">The GNU Privacy Guard can optionally sign volumes with a special key. This feature is not currently active in Duplicati.</item>
+      <item name="SignkeyShort">Sign key for GnuPG</item>
+      <item name="GPGNotFoundWarning">Duplicati was unable to verify the existence of GNU Privacy Guard.
+GPG may work regardless, if it is located in the system search path.
+If the encryption fails, no files will be backed up
+Do you want to continue anyway?</item>
+      <item name="Gpgencryptiondisablearmordeprecated">This option has non-standard handling, please use the --{0} option instead.</item>
+      <item name="GpgencryptionenablearmorLong">Use this option to supply the --armor option to GPG. The files will be larger but can be sent as pure text files.</item>
+      <item name="GpgencryptionenablearmorShort">Use GPG Armor</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Encryption\Strings\GPGSettingsControl.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">Settings for the GPG encryption module</item>
+      <item name="PageTitle">GPG</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Encryption\Strings\GPGStreamWrapper.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="DecryptionError">Decryption failed: {0}</item>
+      <item name="GPGFlushError">Failure while invoking GnuPG, program won't flush output</item>
+      <item name="GPGTerminateError">Failure while invoking GnuPG, program won't terminate</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Compression\Strings\FileArchiveZip.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AttemptReadWhileWritingError">Cannot read data while writing</item>
+      <item name="AttemptWriteWhileReadingError">Cannot write while reading</item>
+      <item name="CompressionlevelLong">This option controls the compression level used. A setting of zero gives no compression, and a setting of 9 gives maximum compression.</item>
+      <item name="CompressionlevelShort">Sets the Zip compression level</item>
+      <item name="DeleteUnsupportedError">Zip does not support deleting</item>
+      <item name="Description">This module provides the industry standard Zip compression. Files created with this module can be read by any standard compliant zip application.</item>
+      <item name="DisplayName">Zip compression</item>
+      <item name="FileNotFoundError">File not found: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\SharpRSync\Strings\ChecksumFile.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="EndofstreamBeforeSignatureError">End of stream occured while reading initial 4 bytes of signature file</item>
+      <item name="EndofstreamInBlocksizeError">End of stream occured while reading blocksize in signature file</item>
+      <item name="EndofstreamInStronglenError">End of stream occured while reading stronglen in signature file</item>
+      <item name="EndofstreamInStrongSignatureError">End of stream occured while reading strong signature from signature file</item>
+      <item name="InvalidBlocksizeError">Blocklen in signature file was: {0}, which does not seem correct</item>
+      <item name="InvalidSignatureHeaderError">Signature stream did not have the correct start marker</item>
+      <item name="InvalidStrongsizeError">Stronglen in signature file was: {0}, which does not seem correct</item>
+      <item name="InvalidFilesizeError">The size of the signature file is invalid</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\SharpRSync\Strings\DeltaFile.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="EndofstreamBeforeSignatureError">End of stream occured while reading initial 4 bytes of delta file</item>
+      <item name="EndofstreamWithoutMarkerError">Stream ended but had no end marker</item>
+      <item name="InternalBufferError">Internal error, had buffered both matched and unmatched blocks!</item>
+      <item name="InvalidCopyLengthError">Invalid length for copy data</item>
+      <item name="InvalidCopyOffsetError">Invalid offset for copy data</item>
+      <item name="InvalidLitteralSizeError">Invalid size for literal data</item>
+      <item name="InvalidSignatureError">Delta stream did not have the correct start marker</item>
+      <item name="UnexpectedEndofstreamError">Unexpected end of stream detected</item>
+      <item name="UnknownCommandError">Unknown command in delta file</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\SharpRSync\Strings\Program.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ErrorOccurred">An error occurred: {0}</item>
+      <item name="UsageMessage">Usage:
+  {0} signature &lt;input-file&gt; &lt;signature-file&gt;
+  {0} delta &lt;signature-file&gt; &lt;input-file&gt; &lt;delta-file&gt;
+  {0} patch &lt;base-file&gt; &lt;delta-file&gt; &lt;output-file&gt;</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\SharpRSync\Strings\RDiffBinary.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="EncodedLengthError">Encoded value had unexpected length</item>
+      <item name="InvalidDataLengthError">Invalid data length</item>
+      <item name="InvalidDeltaCopyCommandError">Invalid delta copy command: {0}</item>
+      <item name="InvalidEncodedSizeError">Invalid size for encoded value!</item>
+      <item name="InvalidLiteralCommand">Invalid literal delta command: {0}</item>
+      <item name="SizeTooLargeError">Unable to size item, because it is larger than: {0}</item>
+      <item name="ValueTooLargeError">Value must be less than: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\SharpRSync\Strings\RollingBuffer.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BufferExhaustedError">Buffer has too few bytes</item>
+      <item name="InternalError">This is one sad rolling buffer :(</item>
+      <item name="NegativeIndexError">Index cannot be negative</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\SharpRSync\Strings\Utility.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="UnexpectedEndOfStreamError">Unexpected end of stream</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Snapshots\Strings\LinuxSnapshot.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ExternalProgramLaunchError">The external command failed to start.
+Error message: {0}
+Command: {1} {2}</item>
+      <item name="ExternalProgramTimeoutError">The external command failed to complete within the set time limit: {0} {1}</item>
+      <item name="InvalidFilePathError">Unable to match local path {0} with any snapshot path: {1}</item>
+      <item name="MountFolderMissingError">Script returned successfully, but the temporary folder {0} does not exist: {1}</item>
+      <item name="MountFolderNotRemovedError">Script returned successfully, but the temporary folder {0} still exist: {1}</item>
+      <item name="ScriptExitCodeError">The script returned exit code {0}, but {1} was expected: {2}</item>
+      <item name="ScriptOutputError">Script returned successfully, but the output was missing the {0} parameter: {1}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Snapshots\Strings\Shared.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="InvalidEnumPathError">Unable to match local path {0} with a snapshot</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Snapshots\Strings\USNHelper.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="EmptyResponseError">Unexpected empty response while enumerating</item>
+      <item name="LinuxNotSupportedError">USN is not supported on Linux</item>
+      <item name="SafeGuardError">The number of files returned by USN was zero. This is likely an error. To remedy this, USN has been disabled.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Snapshots\Strings\WinNativeMethod.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="MissingBackupPrivilegeError">Calling process does not have the backup privilege</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Interface\Strings\CommandLineArgument.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AliasesHeader">aliases</item>
+      <item name="DefaultValueHeader">default value</item>
+      <item name="DeprecationMarker">[DEPRECATED]</item>
+      <item name="ValuesHeader">values</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Interface\Strings\Common.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="CancelExceptionError">Cancelled</item>
+      <item name="ConfigurationIsMissingItemError">The configuration for the backend is not valid, it is missing the {0} field</item>
+      <item name="ConfirmTestConnectionQuestion">Do you want to test the connection?</item>
+      <item name="ConnectionFailure">Connection Failed: {0}</item>
+      <item name="ConnectionSuccess">Connection succeeded!</item>
+      <item name="DefaultDirectoryWarning">You have not entered a path. This will store all backups in the default directory. Is this what you want?</item>
+      <item name="EmptyPasswordError">You must enter a password</item>
+      <item name="EmptyPasswordWarning">You have not entered a password.
+Proceed without a password?</item>
+      <item name="EmptyServernameError">You must enter the name of the server</item>
+      <item name="EmptyUsernameError">You must enter a username</item>
+      <item name="EmptyUsernameWarning">You have not entered a username.
+This is fine if the server allows anonymous uploads, but likely a username is required
+Proceed without a username?</item>
+      <item name="ExistingBackupDetectedQuestion">The connection succeeded but another backup was found in the destination folder. It is possible to configure Duplicati to store multiple backups in the same folder, but it is not recommended.
+
+Do you want to use the selected folder?</item>
+      <item name="FolderAlreadyExistsError">The folder cannot be created because it already exists</item>
+      <item name="FolderCreated">Folder created!</item>
+      <item name="FolderMissingError">The requested folder does not exist</item>
+      <item name="InvalidServernameError">The server name "{0}" is not valid</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Interface\Strings\DataTypes.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="Boolean">Boolean</item>
+      <item name="Enumeration">Enumeration</item>
+      <item name="Integer">Integer</item>
+      <item name="Path">Path</item>
+      <item name="Size">Size</item>
+      <item name="String">String</item>
+      <item name="Timespan">Timespan</item>
+      <item name="Unknown">Unknown</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\DynamicLoader\Strings\BackendLoader.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="NoURLSuppliedError">This instance was not created with an URL</item>
+      <item name="UrlNotSupportedError">The supplied url is not supported</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\DynamicLoader\Strings\DynamicLoader.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="DynamicAssemblyLoadError">Failed to load assembly {0}, error message: {1}</item>
+      <item name="DynamicTypeLoadError">Failed to load process type {0} assembly {1}, error message: {2}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Modules\Builtin\Strings\ConsolePasswordInput.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ConfirmPassphrasePrompt">Confirm passphrase</item>
+      <item name="Description">This module will ask the user for a encryption password on the commandline unless encryption is disabled or the password is supplied by other means</item>
+      <item name="Displayname">Password prompt</item>
+      <item name="EmptyPassphraseError">Empty passphrases are not allowed</item>
+      <item name="EnterPassphrasePrompt">Enter passphrase</item>
+      <item name="PassphraseMismatchError">The passphrases do not match</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Modules\Builtin\Strings\HttpOptions.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="Description">This module exposes a number of properties that can be used to change the way http requests are issued</item>
+      <item name="DescriptionAcceptAnyCertificateLong">Use this option to accept any server certificate, regardless of what errors it may have. Please use --accept-specified-ssl-hash instead, whenever possible.</item>
+      <item name="DescriptionAcceptAnyCertificateShort">Accept any server certificate</item>
+      <item name="DescriptionAcceptHashLong">If your server certificate is reported as invalid (eg. with self-signed certificates), you can supply the certificate hash to approve it anyway. The hash value must be entered in hex format without spaces.</item>
+      <item name="DescriptionAcceptHashShort">Optionally accept a known SSL certificate</item>
+      <item name="DisableExpect100Long">The default HTTP request has the header "Expect: 100-Continue" attached, which allows some optimizations when authenticating, but also breaks some web servers, causing them to report "417 - Expectation failed"</item>
+      <item name="DisableExpect100Short">Disable the expect header</item>
+      <item name="DisableNagleLong">By default the http requests use the RFC 896 nagling algorithm to support transfer of small packages more effeciently.</item>
+      <item name="DisableNagleShort">Disable nagling</item>
+      <item name="DisplayName">Configure http requests</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\FTP\FTPUI.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Server</item>
+      <item name="label2.Text">Path</item>
+      <item name="label3.Text">Username</item>
+      <item name="label4.Text">Password</item>
+      <item name="label5.Text">Port (optional)</item>
+      <item name="TestConnection.Text">Test connection</item>
+      <item name="PassiveConnection.Text">Use passive connection</item>
+      <item name="CreateFolderButton.Text">Create folder</item>
+      <item name="UseSSL.Text">Use SSL</item>
+      <item name="AcceptSpecifiedHash.Text">Accept this certificate hash</item>
+      <item name="AcceptAnyHash.Text">Accept any invalid certificate</item>
+      <item name="label6.Text">Note: Some FTP servers have trouble dealing with more than 2000 files. For this reason, you are advised to select a large volume size so the number of files is low.</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\FTP\Strings\FTPBackend.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="Description">This backend can read and write data to an FTP based backend. Allowed formats are "ftp://hostname/folder" or "ftp://username:password@hostname/folder"</item>
+      <item name="DescriptionFTPActiveLong">If this flag is set, the FTP connection is made in active mode. Even if the "ftp-passive" flag is also set, the connection will be made in active mode</item>
+      <item name="DescriptionFTPActiveShort">Toggles the FTP connections method</item>
+      <item name="DescriptionFTPPassiveLong">If this flag is set, the FTP connection is made in passive mode, which works better with some firewalls. If the "ftp-regular" flag is also set, this flag is ignored</item>
+      <item name="DescriptionFTPPassiveShort">Toggles the FTP connections method</item>
+      <item name="DescriptionFTPPasswordLong">The password used to connect to the server. This may also be supplied as the environment variable "FTP_PASSWORD".</item>
+      <item name="DescriptionFTPPasswordShort">Supplies the password used to connect to the server</item>
+      <item name="DescriptionFTPUsernameLong">The username used to connect to the server. This may also be supplied as the environment variable "FTP_USERNAME".</item>
+      <item name="DescriptionFTPUsernameShort">Supplies the username used to connect to the server</item>
+      <item name="DescriptionIntegratedAuthenticationLong">If the server and client both supports integrated authentication, this option enables that authentication method. This is likely only available with windows servers and clients.</item>
+      <item name="DescriptionIntegratedAuthenticationShort">Use windows integrated authentication to connect to the server</item>
+      <item name="DescriptionUseSSLLong">Use this flag to communicate using Secure Socket Layer (SSL) over ftp (ftps).</item>
+      <item name="DescriptionUseSSLShort">Instructs Duplicati to use an SSL (ftps) connection</item>
+      <item name="DisplayName">FTP based</item>
+      <item name="MissingFolderError">The folder {0} was not found, message: {1}</item>
+      <item name="ListVerifyFailure">The file {0} was uploaded but not found afterwards, the file listing returned {1}</item>
+      <item name="ListVerifySizeFailure">The file {0} was uploaded but the returned size was {1} and it was expected to be {2}</item>
+      <item name="DescriptionDisableUploadVerifyShort">Disable upload verification</item>
+      <item name="DescriptionDisableUploadVerifyLong">To protect against network failures, every upload will be attempted verified. Use this option to disable this verfication to make the upload faster by more unsafe.</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\FTP\Strings\FTPUI.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ApproveCertificateHashQuestion">The certificate was not valid ({0}). Do you want to approve the certificate anyway and retry?</item>
+      <item name="CreateMissingFolderQuestion">The folder does not exist, do you want to create it?</item>
+      <item name="EmptyHashError">You have not entered a hash string</item>
+      <item name="InvalidHashError">The hash string is not valid, it must be of even length and only contain hex chars (0-9 and a-f)</item>
+      <item name="PageDescription">On this page you can select where to store the backup data.</item>
+      <item name="PageTitle">Backup storage options</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\File\FileUI.tr-TR.resx">
+    <missing>
+      <item name="UsePath.Text">Path</item>
+      <item name="UseDisk.Text">Removable disk</item>
+      <item name="BrowseTargetFolder.Text">...</item>
+      <item name="label2.Text">Password</item>
+      <item name="label1.Text">Username</item>
+      <item name="UseCredentials.Text">Use alternate credentials</item>
+      <item name="FolderLabel.Text">Folder</item>
+      <item name="folderBrowserDialog.Description">Select the folder where the backups will be stored</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\File\Strings\FileBackend.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AlternateDestinationMarkerLong">This option only works when the --{0} option is also specified. If there are alternate paths specified, this option indicates the name of a marker file that must be present in the folder. This can be used to handle situations where an external drive changes drive letter or mount point. By ensuring that a certain file exists, it is possible to prevent writing data to an unwanted external drive. The contents of the file are never examined, only file existence.</item>
+      <item name="AlternateDestinationMarkerShort">Look for a file in the destination folder</item>
+      <item name="AlternateTargetPathsLong">This option allows multiple targets to be specified. The primary target path is placed before the list of paths supplied with this option. Before starting the backup, each folder in the list is checked for existence and optionally the presence of the marker file supplied by --{0}. The first existing path that optionally contains the marker file is then used as the destination. Multiple destinations are separated with a {1},. On Windows, the path may be a UNC path, and the drive letter may be substituted with an asterisk (*), eg.: "*:\backup", which will examine all drive letters. If a username and password is supplied, the same credentials are used for all destinations.</item>
+      <item name="AlternateTargetPathsShort">A list of secondary target paths</item>
+      <item name="Description">This backend can read and write data to an file based backend. Allowed formats are "file://hostname/folder" or "file://username:password@hostname/folder". You may supply UNC paths (eg: "file://\\server\folder") or local paths (eg: (win) "file://c:\folder", (linux) "file:///usr/pub/files")</item>
+      <item name="DescriptionFTPPasswordLong">The password used to connect to the server. This may also be supplied as the environment variable "FTP_PASSWORD".</item>
+      <item name="DescriptionFTPPasswordShort">Supplies the password used to connect to the server</item>
+      <item name="DescriptionFTPUsernameLong">The username used to connect to the server. This may also be supplied as the environment variable "FTP_USERNAME".</item>
+      <item name="DescriptionFTPUsernameShort">Supplies the username used to connect to the server</item>
+      <item name="DisplayName">File based</item>
+      <item name="FolderMissingError">The folder {0} does not exist</item>
+      <item name="NoDestinationWithMarkerFileError">The marker file "{0}" was not found in any of the examined destinations: {1}</item>
+      <item name="UseMoveForPutLong">When storing the file, the standard operation is to copy the file and delete the original. This sequence ensures that the operation can be retried if something goes wrong. Activating this option may cause the retry operation to fail.  This option has no effect unless the --disable-streaming-transfers options is activated.</item>
+      <item name="UseMoveForPutShort">Move the file instead of copying it</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\File\Strings\FileUI.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AuthenticationError">Failed to authenticate using the given credentials.</item>
+      <item name="CreateFolderQuestion">The selected folder does not exist. Do you want to create it?</item>
+      <item name="EmptyFoldernameError">You must enter a folder to backup to</item>
+      <item name="FolderNotEmptyWarning">The selected folder is not empty. Do you want to use it anyway?</item>
+      <item name="FolderValidationError">An error occured while verifying the destination. Please make sure it exists and is accessible.
+Error message: {0}</item>
+      <item name="NonRootedPathError">You must enter the full path of the folder</item>
+      <item name="NoRemovableDrivesError">No removable drives were found on your system. Please enter the path manually.</item>
+      <item name="PageDescription">On this page you can select where to store the backup data.</item>
+      <item name="PageTitle">Backup storage options</item>
+      <item name="FolderEmptyError">The selected folder is empty</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\S3\S3CommonOptions.tr-TR.resx">
+    <missing>
+      <item name="RemoveSelectedButton.Text">Remove</item>
+      <item name="RemoveAllButton.Text">Remove all</item>
+      <item name="CredentialGroup.Text">Stored credentials</item>
+      <item name="label2.Text">Server name:</item>
+      <item name="label1.Text">Bucket region:</item>
+      <item name="UseRRS.Text">Use Reduced Redundancy Storage</item>
+      <item name="groupBox2.Text">Default settings</item>
+      <item name="AllowCredentialStorage.Text">Store new S3 account information</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\S3\S3UI.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">AWS Access ID</item>
+      <item name="label2.Text">AWS Secret Key</item>
+      <item name="label3.Text">S3 Bucket name</item>
+      <item name="SignUpLink.Text">Click here for the sign up page</item>
+      <item name="label4.Text">A bucket can be thought of as a root folder. Use / in the bucket name, to access subfolders in the bucket</item>
+      <item name="TestConnection.Text">Test Connection</item>
+      <item name="CreateBucket.Text">Create bucket</item>
+      <item name="UseRRS.Text">Use Reduced Redundancy Storage (RRS)</item>
+      <item name="label5.Text">RRS is cheaper but less reliable</item>
+      <item name="label6.Text">Bucket create region</item>
+      <item name="label7.Text">S3 Servername</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\S3\Strings\S3Backend.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AMZKeyDescriptionLong">The AWS "Secret Access Key" can be obtained after logging into your AWS account, this can also be supplied through the "ftp-password" property</item>
+      <item name="AMZKeyDescriptionShort">The AWS "Secret Access Key"</item>
+      <item name="AMZUserIDDescriptionLong">The AWS "Access Key ID" can be obtained after logging into your AWS account, this can also be supplied through the "ftp-username" property</item>
+      <item name="AMZUserIDDescriptionShort">The AWS "Access Key ID"</item>
+      <item name="DisplayName">Amazon S3 based</item>
+      <item name="FTPPasswordDescriptionLong">The password used to connect to the server. This may also be supplied as the environment variable "FTP_PASSWORD".</item>
+      <item name="FTPPasswordDescriptionShort">Supplies the password used to connect to the server</item>
+      <item name="DescriptionFTPUsernameLong">The username used to connect to the server. This may also be supplied as the environment variable "FTP_USERNAME".</item>
+      <item name="DescriptionFTPUsernameShort">Supplies the username used to connect to the server</item>
+      <item name="NoAMZKeyError">No Amazon S3 secret key given</item>
+      <item name="NoAMZUserIDError">No Amazon S3 userID given</item>
+      <item name="S3EurobucketDescriptionLong">This flag is only used when creating new buckets. If the flag is set, the bucket is created on a european server. This flag forces the "s3-use-new-style" flag. Amazon charges slightly more for european buckets.</item>
+      <item name="S3EurobucketDescriptionShort">Use a European server</item>
+      <item name="S3NewStyleDescriptionLong">Specify this argument to make the S3 backend use subdomains rather than the previous url prefix method. See the Amazon S3 documentation for more details.</item>
+      <item name="S3NewStyleDescriptionShort">Use subdomain calling style</item>
+      <item name="UnableToDecodeBucketnameError">Unable to determine the bucket name for host: {0}</item>
+      <item name="S3UseRRSDescriptionLong">This flag toggles the use of the special RRS header. Files stored using RRS are more likely to disapear than those stored normally, but also costs less to store. See the full description here: http://aws.amazon.com/about-aws/whats-new/2010/05/19/announcing-amazon-s3-reduced-redundancy-storage/</item>
+      <item name="S3UseRRSDescriptionShort">Use Reduced Redundancy Storage</item>
+      <item name="DeprecatedUrlFormat">You are using a deprected url format, please change it to: {0}</item>
+      <item name="Description_v2">This backend can read and write data to an Amazon S3 compatible server. Allowed formats are: "s3://bucketname/prefix"</item>
+      <item name="OptionsAreMutuallyExclusiveError">The options --{0} and --{1} are mutually exclusive</item>
+      <item name="S3EurobucketDeprecationDescription">Please use --{0}={1} instead</item>
+      <item name="S3LocationDescriptionLong">This option is only used when creating new buckets. Use this option to change what region the data is stored in. Amazon charges slightly more for non-US buckets. Known bucket locations:
+{0}</item>
+      <item name="S3LocationDescriptionShort">Specifies S3 location constraints</item>
+      <item name="S3ServerNameDescriptionLong">Companies other than Amazon are now supporting the S3 API, meaning that this backend can read and write data to those providers as well. Use this option to set the hostname. Currently known providers are:
+{0}</item>
+      <item name="S3ServerNameDescriptionShort">Specifies an alternate S3 server name</item>
+      <item name="UnableToParseURLError">Could not parse the url: {0}</item>
+      <item name="S3NewStyleDeprecation">The subdomain calling option does nothing, the library will pick the right calling convention</item>
+      <item name="DescriptionUseSSLLong">Use this flag to communicate using Secure Socket Layer (SSL) over http (https). Note that bucket names containing a period has problems with SSL connections.</item>
+      <item name="DescriptionUseSSLShort">Instructs Duplicati to use an SSL (https) connection</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\S3\Strings\S3SettingsControl.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">Displays various options related to the S3 backend</item>
+      <item name="PageTitle">S3</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\S3\Strings\S3UI.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="BucketnameCaseWarning">The bucket name is not in all lower case.
+{0}
+Do you want to convert the bucket name to lower case?</item>
+      <item name="BucketnameNotPrefixedWarning">The bucket name does not start with your user ID.
+To avoid using a bucket owned by another user,
+it is recommended that you put your user ID in front of the bucket name.
+Do you want to insert the user ID in front of the bucket name?</item>
+      <item name="CreateMissingBucket">The bucket does not exist, do you want to create it?</item>
+      <item name="EmptyAWSIDError">You must enter your AWS Access ID.
+You may click the link to the right
+to open the AWS login page, and retrieve it.</item>
+      <item name="EmptyAWSKeyError">You must enter your AWS Secret Key.
+You may click the link to the right
+to open the AWS login page, and retrieve it.</item>
+      <item name="EmptyBucketnameError">You must enter a name for the bucket.
+You must use a unique name for each backup.
+You may enter any name you like.</item>
+      <item name="HostnameInvalidWarning">The supplied bucket name, "{0}", does not appear to be a valid hostname label. 
+This may still work if the non-subdomain calling style is used, but it is not recommended.
+
+Do you want to continue anyway?</item>
+      <item name="HostnameInvalidWithNonUSBucketOptionError">Non-US buckets require that the bucket names are valid hostname labels, but the supplied bucket name, "{0}", is not a valid hostname label. Either change the bucketname or use the default bucket region.</item>
+      <item name="MonoRequiresExistingBucket">A bug in Mono versions older than 2.4.3,
+ prevents the backend from detecting and missing buckets.
+Due to this, it is recommended that you create the bucket.
+Do you want to create the bucket now?</item>
+      <item name="NewS3RequiresLowerCaseError">The new amazon s3 API requires that bucket names are all lower case.</item>
+      <item name="NonUSBucketsRequireLowerCaseError">Non-US buckets require that the bucket name is in lower case.</item>
+      <item name="PageDescription">On this page you can select where to store the backup data.</item>
+      <item name="PageTitle">Backup storage options</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\WEBDAV\WebDAVUI.tr-TR.resx">
+    <missing>
+      <item name="UseIntegratedAuth.Text">Use integrated authentication</item>
+      <item name="TestConnection.Text">Test connection</item>
+      <item name="label1.Text">Server</item>
+      <item name="label4.Text">Password</item>
+      <item name="label3.Text">Username</item>
+      <item name="label5.Text">Port (optional)</item>
+      <item name="label2.Text">Path</item>
+      <item name="CreateFolderButton.Text">Create folder</item>
+      <item name="DigestAuth.Text">Authentication method must be "Digest"</item>
+      <item name="UseSSL.Text">Use SSL</item>
+      <item name="AcceptAnyHash.Text">Accept any invalid certificate</item>
+      <item name="AcceptSpecifiedHash.Text">Accept this certificate hash</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\WEBDAV\Strings\WEBDAV.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="Description">Supports connections to a WEBDAV enabled web server, using the HTTP protocol. Allowed formats are "webdav://hostname/folder" or "webdav://username:password@hostname/folder".</item>
+      <item name="DescriptionForceDigestLong">Using the HTTP Digest authentication method allows the user to authenticate with the server, without sending the password in clear. However, a man-in-the-middle attack is easy, because the HTTP protocol specifies a fallback to Basic authentication, which will make the client send the password to the attacker. Using this flag, the client does not accept this, and always uses Digest authentication or fails to connect.</item>
+      <item name="DescriptionForceDigestShort">Force the use of the HTTP Digest authentication method</item>
+      <item name="DescriptionFTPPasswordLong">The password used to connect to the server. This may also be supplied as the environment variable "FTP_PASSWORD".</item>
+      <item name="DescriptionFTPPasswordShort">Supplies the password used to connect to the server</item>
+      <item name="DescriptionFTPUsernameLong">The username used to connect to the server. This may also be supplied as the environment variable "FTP_USERNAME".</item>
+      <item name="DescriptionFTPUsernameShort">Supplies the username used to connect to the server</item>
+      <item name="DescriptionIntegratedAuthenticationLong">If the server and client both supports integrated authentication, this option enables that authentication method. This is likely only available with windows servers and clients.</item>
+      <item name="DescriptionIntegratedAuthenticationShort">Use windows integrated authentication to connect to the server</item>
+      <item name="DisplayName">WEBDAV based</item>
+      <item name="MissingFolderError">The folder {0} was not found, message: {1}</item>
+      <item name="SeenThenNotFoundError">When listing the folder {0} the file {1} was listed, but the server now reports that the file is not found.
+This can be because the file is deleted or unavailable, but it can also be because the file extension {2} is blocked by the web server. IIS blocks unknown extensions by default.
+Error message: {3}</item>
+      <item name="DescriptionUseSSLLong">Use this flag to communicate using Secure Socket Layer (SSL) over http (https).</item>
+      <item name="DescriptionUseSSLShort">Instructs Duplicati to use an SSL (https) connection</item>
+      <item name="DescriptionDebugPropfindLong">To aid in debugging issues, it is possible to set a path to a file that will be overwritten with the PROPFIND response</item>
+      <item name="DescriptionDebugPropfindShort">Dump the PROPFIND response</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\WEBDAV\Strings\WebDAVUI.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ApproveCertificateHashQuestion">The certificate was not valid ({0}). Do you want to approve the certificate anyway and retry?</item>
+      <item name="BackslashWarning">The folder path contains backslashes, which are known to cause problems. Do you want to convert the backslashes to forward slashes?</item>
+      <item name="CreateMissingFolderQuestion">The folder does not exist, do you want to create it?</item>
+      <item name="EmptyFolderPathWarning">You have not entered a folder, this will store all files in the root directory of the server.
+Do you want to continue without a folder path?</item>
+      <item name="EmptyHashError">You have not entered a hash string</item>
+      <item name="InvalidHashError">The hash string is not valid, it must be of even length and only contain hex chars (0-9 and a-f)</item>
+      <item name="LeadingSlashWarning">The folder path starts with a forward slash, which is not required and known to cause problems.
+Do you want the leading slash to be removed?</item>
+      <item name="PageDescription">On this page you can select where to store the backup data.</item>
+      <item name="PageTitle">Backup storage options</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\CloudFiles\CloudFilesUI.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">CloudFiles Username</item>
+      <item name="label2.Text">CloudFiles API Key</item>
+      <item name="label3.Text">Container name</item>
+      <item name="SignUpLink.Text">Click here for the sign up page</item>
+      <item name="label4.Text">A container can be thought of as a root folder. Use / in the container name, to access subfolders in the container</item>
+      <item name="TestConnection.Text">Test Connection</item>
+      <item name="CreateContainer.Text">Create container</item>
+      <item name="label5_2.Text">CloudFiles AuthUrl</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\CloudFiles\Strings\CloudFiles.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="DescriptionAuthenticationURLLong_v2">Cloudfiles use different servers for authentification based on where the account was resides, use this option to set an alternate authentication URL. This option overrides --{0}.</item>
+      <item name="DescriptionAuthenticationURLShort">Provide another authentication URL</item>
+      <item name="DescriptionFTPPasswordLong">The password used to connect to the server. This may also be supplied as the environment variable "FTP_PASSWORD".</item>
+      <item name="DescriptionFTPPasswordShort">Supplies the password used to connect to the server</item>
+      <item name="DescriptionFTPUsernameLong">The username used to connect to the server. This may also be supplied as the environment variable "FTP_USERNAME".</item>
+      <item name="DescriptionFTPUsernameShort">Supplies the username used to connect to the server</item>
+      <item name="DescriptionPasswordLong">Supplies the API Access Key used to authenticate with CloudFiles.</item>
+      <item name="DescriptionPasswordShort">Supplies the access key used to connect to the server</item>
+      <item name="DescriptionUKAccountLong">Duplicati will assume that the credentials given are for a US account, use this option if the account is a UK based account. Note that this is equivalent to setting --{0}={1}.</item>
+      <item name="DescriptionUKAccountShort">Use a UK account</item>
+      <item name="DescriptionUsernameLong">Supplies the username used to authenticate with CloudFiles.</item>
+      <item name="DescriptionUsernameShort">Supplies the username used to authenticate with CloudFiles</item>
+      <item name="Description_v2">Supports connections to the CloudFiles backend. Allowed formats is "cloudfiles://container/folder".</item>
+      <item name="DisplayName">CloudFiles (Rackspace)</item>
+      <item name="ETagVerificationError">MD5 Hash (ETag) verification failed</item>
+      <item name="FileDeleteError">Failed to delete file</item>
+      <item name="FileUploadError">Failed to upload file</item>
+      <item name="InvalidUrlError">Invalid URL: {0}</item>
+      <item name="NoAPIKeyError">No CloudFiles API Access Key given</item>
+      <item name="NoUserIDError">No CloudFiles userID given</item>
+      <item name="UnexpectedResponseError">Unexpected CloudFiles response, perhaps the API has changed?</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\CloudFiles\Strings\CloudFilesUI.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="CreateMissingContainer">The container does not exist, do you want to create it?</item>
+      <item name="EmptyAPIKeyError">You must enter your CloudFiles API Access Key.
+You may click the link to the right
+to open the CloudFiles login page, and retrieve it.</item>
+      <item name="EmptyAuthUrlError">The AuthUrl field cannot be empty</item>
+      <item name="EmptyCloudFilesIDError">You must enter your CloudFiles user ID.
+You may click the link to the right
+to open the CloudFiles login page, and retrieve it.</item>
+      <item name="EmptyContainerNameError">You must enter a name for the Container.
+You must use a unique name for each backup.
+You may enter any name you like.</item>
+      <item name="InvalidAuthUrlError">The url {0} is invalid</item>
+      <item name="PageDescription">On this page you can select where to store the backup data.</item>
+      <item name="PageTitle">Backup storage options</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\CloudFiles\Strings\MD5CalculatingStream.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="IncorrectUsageError">Cannot read and write on the same stream</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Winforms\Controls\PasswordConfirmationDialog.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">Password</item>
+      <item name="CancelBtn.Text">Cancel</item>
+      <item name="OKBtn.Text">OK</item>
+      <item name="$this.Text">Please confirm the password</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Winforms\Controls\PasswordControl.tr-TR.resx">
+    <missing>
+      <item name="TextBox.Text">password</item>
+      <item name="ShowPassword.ToolTip">Show or hide the password</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Winforms\Controls\Properties\Resources.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Winforms\Controls\Strings\PasswordConfirmationDialog.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PasswordDoNotMatchError">The password that you have entered does not match the previously entered password</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Winforms\Controls\Strings\PasswordControl.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ConfirmClearingPassword">You cannot read this password, but you may reset the password and enter a new one.
+
+Do you want to clear the password and enter a new one?</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\SSH\SSHCommonOptions.tr-TR.resx">
+    <missing>
+      <item name="label1.Text">SFTP path:</item>
+      <item name="UseManagedAsDefault.Text">Use managed SSH by default</item>
+      <item name="BrowseForSFTPButton.Text">...</item>
+      <item name="BrowseForSFTPDialog.Filter">Executables (*.exe)|*.exe|All files (*.*)|*.*</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\SSH\SSHUI.tr-TR.resx">
+    <missing>
+      <item name="TestConnection.Text">Test connection</item>
+      <item name="label5.Text">Port (optional)</item>
+      <item name="label3.Text">Username</item>
+      <item name="label2.Text">Path</item>
+      <item name="label1.Text">Server</item>
+      <item name="UsePassword.Text">Password</item>
+      <item name="GenerateDebugOutput.Text">Generate debug output</item>
+      <item name="UseUnmanagedSSH.Text">Use installed sftp program instead of the built-in SSH library</item>
+      <item name="CreateFolderButton.Text">Create folder</item>
+      <item name="Keyfilelabel.Text">Keyfile</item>
+      <item name="BrowseForKeyFileButton.Text">...</item>
+      <item name="OpenSSHKeyFileDialog.Filter">All files (*.*)|*.*</item>
+      <item name="OpenSSHKeyFileDialog.Title">Select the OpenSSH keyfile</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\SSH\Strings\SharpExpectProcess.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="LogDisabled">Log was disabled, no output</item>
+      <item name="PasswordMarker">*password*</item>
+      <item name="WriteAfterExitError">Can't write after process has exited: {0}</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\SSH\Strings\SSHBackend.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="AuthenticationError">Login failed due to bad credentials, log: {0}</item>
+      <item name="CloseTimeoutError">Timeout while closing session</item>
+      <item name="ConnectionTimeoutError">Timeout occured while connecting, log: {0}</item>
+      <item name="CreateFolderError">Failed to create folder: {0}</item>
+      <item name="DebugDeleteFooter">Delete complete</item>
+      <item name="DebugDeleteHeader">Delete start</item>
+      <item name="DebugGetFooter">Get complete</item>
+      <item name="DebugGetHeader">Get start</item>
+      <item name="DebugListFooter">List complete</item>
+      <item name="DebugListHeader">List start</item>
+      <item name="DebugParseFailed">Failed to parse line: {0}</item>
+      <item name="DebugPutFooter">Put complete</item>
+      <item name="DebugPutHeader">Put start</item>
+      <item name="DeleteError">Failed to delete file: {0}</item>
+      <item name="Description">This backend can read and write data to an SSH based backend, using SFTP. Allowed formats are "ssh://hostname/folder" or "ssh://username:password@hostname/folder".</item>
+      <item name="DescriptionDebugToConsoleLong">The SSH backend relies on an external program (sftp) to work. Since the external program may change at any time, this may break the backend. Enable this option to get debug information about the ssh connection written to the console. Only used if the --use-sftp-application option is supplied.</item>
+      <item name="DescriptionDebugToConsoleShort">Prints debug info to the console</item>
+      <item name="DescriptionFTPPasswordLong">The password used to connect to the server. This may also be supplied as the environment variable "FTP_PASSWORD".</item>
+      <item name="DescriptionFTPPasswordShort">Supplies the password used to connect to the server</item>
+      <item name="DescriptionFTPUsernameLong">The username used to connect to the server. This may also be supplied as the environment variable "FTP_USERNAME".</item>
+      <item name="DescriptionFTPUsernameShort">Supplies the username used to connect to the server</item>
+      <item name="DescriptionSFTPCommandLong">The full path to the "sftp" application. Only used if the --use-sftp-application option is supplied.</item>
+      <item name="DescriptionSFTPCommandShort">The path to the "sftp" program</item>
+      <item name="DescriptionSshkeyfileLong">Points to a valid OpenSSH keyfile. If the file is encrypted, the password supplied is used to decrypt the keyfile.  If this option is supplied, the password is not used to authenticate. This option only works when using the managed SSH client.</item>
+      <item name="DescriptionSshkeyfileShort">Uses a SSH private key to authenticate</item>
+      <item name="DescriptionSSHOptionsLong">Supply any extra commandline arguments, which are passed unaltered to the ssh application.  Only used if the --use-sftp-application option is supplied.</item>
+      <item name="DescriptionSSHOptionsShort">Extra options to the ssh commands</item>
+      <item name="DescriptionTransferTimeoutLong">The SSH backend relies on an external program (sftp) to work. Since the external program may hang, Duplicati must use a timeout to detect a stall in the external program. Use this option to adjust the timeout. Minimum allowed value is one minute, maximum allowed is one hour. Only used if the --use-sftp-application option is supplied.</item>
+      <item name="DescriptionTransferTimeoutShort">Sets the timeout for transfering a file</item>
+      <item name="DescriptionUnmanagedLong">Set this flag to use the sftp command from --sftp-command to communicate with the server. Setting this flag also requires that --disable-streaming-transfers is set</item>
+      <item name="DescriptionUnmanagedShort">Use an external sftp application</item>
+      <item name="DisplayName">SSH based</item>
+      <item name="DownloadTimeoutError">Timeout while downloading file</item>
+      <item name="FolderNotFoundError">Folder not found: {0}, log: {1}</item>
+      <item name="FolderNotFoundManagedError">Unable to set folder to {0}, error message: {1}</item>
+      <item name="FolderVerificationError">Failed to validate the remote directory: {0}</item>
+      <item name="HostNotAuthenticatedError">The host is not authenticated, please connect to the host using SSH, and then re-rerun Duplicati, log: {0}</item>
+      <item name="IncorrectFileHeaderError">File must have the OpenSSH private key header, eg: ---- BEGIN RSA PRIVATE KEY ----</item>
+      <item name="KeyfileNotFoundError">The supplied keyfile was not found: {0}</item>
+      <item name="KeyfileParseError">Unable to parse content of the file. Please include the following information in a bug report (you may omit any key data present):
+{0}</item>
+      <item name="LaunchErrorLinux">Failed to start the SSH application ({0}).
+Make sure that "expect" is installed.
+Error message: {1}</item>
+      <item name="LaunchErrorWindows">Failed to start the SSH application ({0}).
+Make sure that "PuTTY" is installed, and you have set the correct path.
+Error message: {1}</item>
+      <item name="PasswordMissingError">A password was expected, but passwordless login was specified</item>
+      <item name="StreamingNotSupportedError">The SSH backend does not support streaming when using the unmanaged SSH backend, if you supply --use-sftp-application, you must also specify --disable-streaming-transfers</item>
+      <item name="UnexpectedConnectionError">Unexpected error: {0}</item>
+      <item name="UnexpectedExitResponseError">Got unexpected exit response</item>
+      <item name="UnexpectedResponseError">Failed to get expected response to command: {0}</item>
+      <item name="UnsupportedKeyfileEncryptionError">Unsupported encryption format for OpenSSH private key, must be 3des-cbc (DES-EDE3-CBC).
+Please include this information in a bug report:
+{0}</item>
+      <item name="UploadTimeoutError">Timeout while uploading file</item>
+      <item name="UsernameMissingError">A username was expected, but none was supplied</item>
+      <item name="DescriptionSshnocdLong">Disable the use of the cd command. This is used to support SSH backends where the cd/pwd is broken. If this option is enabled all paths will be transmitted with full paths.</item>
+      <item name="DescriptionSshnocdShort">Do not use the cd command</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\SSH\Strings\SSHCommonOptions.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="LoadError">An error occured while setting up the SSH dialog: {0}</item>
+      <item name="LocatingSftpError">The entered SFTP program could not be found.
+Do you want to use the path anyway?</item>
+      <item name="SftpAutodetectedInfo">Leave empty to use the sftp application found: {0}</item>
+      <item name="SftpNotAutodetectedWarning">The sftp application could not be located, please enter the path manually</item>
+      <item name="SftpProgramNotFoundError">An error occured while attempting to verify the sftp program path:
+{0}
+
+Do you want to use the path anyway?</item>
+      <item name="UseEmptyPathWarning">You have not entered a path to the SFTP application.
+This will use the default path to the SFTP application. 
+The SFTP application could not be found during system probing.
+Are you sure this is what you want?</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\SSH\Strings\SSHSettingsControl.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="PageDescription">Settings for the SSH backend</item>
+      <item name="PageTitle">SSH</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\SSH\Strings\SSHUI.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="CreateMissingFolderQuestion">The folder does not exist, do you want to create it?</item>
+      <item name="MissingSCPWarning">Duplicati was unable to verify the existence of the sftp program.
+sftp may work regardless, if it is located in the system search path.
+
+Do you want to continue anyway?</item>
+      <item name="PageDescription">On this page you can select where to store the backup data.</item>
+      <item name="PageTitle">Backup storage options</item>
+      <item name="PasswordRequiredManagedError">A password is required when using the managed SSH option and no keyfile is supplied</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\TahoeLAFS\TahoeUI.tr-TR.resx">
+    <missing>
+      <item name="TestConnection.Text">Test connection</item>
+      <item name="label1.Text">Server</item>
+      <item name="label5.Text">Port (optional)</item>
+      <item name="label2.Text">Path</item>
+      <item name="CreateFolderButton.Text">Create folder</item>
+      <item name="UseSSL.Text">Use SSL</item>
+      <item name="AcceptAnyHash.Text">Accept any invalid certificate</item>
+      <item name="AcceptSpecifiedHash.Text">Accept this certificate hash</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\TahoeLAFS\Properties\Resources.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\TahoeLAFS\Strings\TahoeBackend.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="Description">This backend can read and write data to a Tahoe-LAFS based backend. Allowed format is "tahoe://hostname:port/uri/$DIRCAP".</item>
+      <item name="DescriptionUseSSLLong">Use this flag to communicate using Secure Socket Layer (SSL) over http (https).</item>
+      <item name="DescriptionUseSSLShort">Instructs Duplicati to use an SSL (https) connection</item>
+      <item name="Displayname">Tahoe-LAFS based</item>
+      <item name="MissingFolderError">The folder {0} was not found, message: {1}</item>
+      <item name="UnexpectedJsonFragmentType">Found the Json fragment {0} but expected {1}</item>
+      <item name="UnrecognizedUriError">Unsupported URL format, must start with "/uri/URI:DIR2:"</item>
+      <item name="UriHasQueryError">The supplied URL contains a query, which is not allowed</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\Library\Backend\TahoeLAFS\Strings\TahoeUI.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="ApproveCertificateHashQuestion">The certificate was not valid ({0}). Do you want to approve the certificate anyway and retry?</item>
+      <item name="CreateMissingFolderQuestion">The folder does not exist, do you want to create it?</item>
+      <item name="EmptyFolderPathError">You must enter the name of the folder where the data should be stored</item>
+      <item name="EmptyFolderPathWarning">You have not entered a folder, this will store all files in the root directory of the server.
+Do you want to continue without a folder path?</item>
+      <item name="EmptyHashError">You have not entered a hash string</item>
+      <item name="InvalidFolderPathError">The folder path is invalid, it must start with "{0}"</item>
+      <item name="InvalidHashError">The hash string is not valid, it must be of even length and only contain hex chars (0-9 and a-f)</item>
+      <item name="PageDescription">On this page you can select where to store the backup data.</item>
+      <item name="PageTitle">Backup storage options</item>
+    </not-updated>
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\WizardForm\Dialog.tr-TR.resx">
+    <missing>
+      <item name="_InfoLabel.Text">Helptext</item>
+      <item name="_TitleLabel.Text">Title</item>
+      <item name="_BackButton.Text">&lt; Back</item>
+      <item name="_NextButton.Text">Next &gt;</item>
+      <item name="_CancelButton.Text">Cancel</item>
+      <item name="$this.Text">Dialog</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\WizardForm\StartPage.tr-TR.resx">
+    <missing>
+      <item name="WizardIntroduction.Text">Wizard introduction</item>
+      <item name="WizardTitle.Text">Wizard title</item>
+      <item name="WizardHelp.Text">Click next to continue</item>
+    </missing>
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\WizardForm\WizardControl.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated />
+    <updated />
+  </file>
+  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\tr-TR\WizardForm\Strings\Dialog.tr-TR.resx">
+    <missing />
+    <unused />
+    <not-updated>
+      <item name="FinishButtonText">Finish</item>
+      <item name="NextButtonText">Next &gt;</item>
+    </not-updated>
+    <updated />
+  </file>
+</root>

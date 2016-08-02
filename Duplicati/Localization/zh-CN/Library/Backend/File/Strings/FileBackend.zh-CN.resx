@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlternateDestinationMarkerLong" xml:space="preserve">
+    <value>此选项只在 –{0}选项启用时才有效。如果指定了替代的路径，这个选项意味着定位文件必须存在于这个文件夹中。这可以应用于外接存储的盘符或者接入点变化的情形。通过识别特定的文件，可以有效的防止将数据写入错误的存储设备。程序不会读取定位文件的内容，只会根据文件是否存在来判断。</value>
+  </data>
+  <data name="AlternateDestinationMarkerShort" xml:space="preserve">
+    <value>在目标文件夹中寻找文件</value>
+  </data>
+  <data name="AlternateTargetPathsLong" xml:space="preserve">
+    <value>这个选项允许指定多个备份对象。主要对象放在这个选项的路径列表之前。在开始备份之前，每个备份对象都会被检查一遍，如果选择了选项—{0}，定位文件也会被检查。第一个包含定位文件的文件夹会被当作目的地。多个目的地会被{1}隔开。在windows系统中，路径可以是UNC路径，并且盘符可以用*号替代，比如“*:\backup”，这样会检测所有的盘符。如果指定了用户名和密码，将会被用于所有的目的地。</value>
+  </data>
+  <data name="AlternateTargetPathsShort" xml:space="preserve">
+    <value>次要备份对象列表</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>这个后台可以读写数据到一个文件对象。允许的格式是： "file://hostname/folder" or "file://username:password@hostname/folder". 您可以使用UNC路径(eg: "file://\\server\folder")或者本地路径 (eg: (win) "file://c:\folder", (linux) "file:///usr/pub/files")</value>
+  </data>
+  <data name="DescriptionFTPPasswordLong" xml:space="preserve">
+    <value>用于连接服务器的密码，也可以通过系统环境变量 "FTP_PASSWORD"来提供。</value>
+  </data>
+  <data name="DescriptionFTPPasswordShort" xml:space="preserve">
+    <value>提供连接服务器的密码</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>用于连接服务器的用户名，也可以通过系统环境变量"FTP_USERNAME"来提供。</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>提供连接服务器的用户名</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>文件服务器</value>
+  </data>
+  <data name="FolderMissingError" xml:space="preserve">
+    <value>文件夹{0}不存在</value>
+  </data>
+  <data name="NoDestinationWithMarkerFileError" xml:space="preserve">
+    <value>定位文件 "{0}"在下列地址中都没有找到: {1}</value>
+  </data>
+  <data name="UseMoveForPutLong" xml:space="preserve">
+    <value>当存储文件时，标准的操作是先拷贝文件，然后再删除原始文件。这个顺序可以保证当错误发生时可以恢复操作。激活这个选项会导致retry操作失败。这个选项只有在 –disable-streaming-transfers选项激活时才有效。</value>
+  </data>
+  <data name="UseMoveForPutShort" xml:space="preserve">
+    <value>移动文件而不是拷贝它</value>
+  </data>
+</root>

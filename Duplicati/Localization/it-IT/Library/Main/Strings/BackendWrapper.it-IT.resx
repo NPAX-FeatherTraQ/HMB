@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BackendNotFoundError" xml:space="preserve">
+    <value>Impossibile trovare il backend di: {0}</value>
+  </data>
+  <data name="FileDeleteError2" xml:space="preserve">
+    <value>Impossibile eliminare il file "{0}": {1}</value>
+  </data>
+  <data name="FileDownloadError2" xml:space="preserve">
+    <value>Impossibile scaricare il file "{0}": {1}</value>
+  </data>
+  <data name="FileListingError" xml:space="preserve">
+    <value>Impossibile recuperare l'elenco dei file: {0}</value>
+  </data>
+  <data name="FilenameParseError" xml:space="preserve">
+    <value>Impossibile analizzare i nomi dei file per i volumi desiderati</value>
+  </data>
+  <data name="FilesNotForceRemovedMessage" xml:space="preserve">
+    <value>Nessun file rimosso, specificare --force per rimuovere i file.</value>
+  </data>
+  <data name="FileUploadError2" xml:space="preserve">
+    <value>Impossibile caricare il file "{0}": {1}</value>
+  </data>
+  <data name="FunctionLookupError" xml:space="preserve">
+    <value>Impossibile trovare la funzione: {0}</value>
+  </data>
+  <data name="HashMismatchError" xml:space="preserve">
+    <value>Mancata corrispondenza hash sul file "{0}", hash registrato: {1}, hash reale {2}</value>
+  </data>
+  <data name="InvalidEntryTypeError" xml:space="preserve">
+    <value>Tipologia inserita non valida: {0}</value>
+  </data>
+  <data name="NoBackupsFoundError" xml:space="preserve">
+    <value>Non è stato trovato nessun backup nella posizione remota</value>
+  </data>
+  <data name="OrphanIncrementalFoundMessage" xml:space="preserve">
+    <value>Impossibile trovare corrispondenza tra un pacchetto incrementale ed uno completo: {0}</value>
+  </data>
+  <data name="PartialFileFoundMessage" xml:space="preserve">
+    <value>Trovato un file parziale, eseguire la pulizia per rimuovere: {0}</value>
+  </data>
+  <data name="RemovingLeftoverFileMessage" xml:space="preserve">
+    <value>Rimozione dei file rimanenti: {0}</value>
+  </data>
+  <data name="StatusMessageDownloading" xml:space="preserve">
+    <value>Scaricamento: {0}</value>
+  </data>
+  <data name="StatusMessageUploading" xml:space="preserve">
+    <value>Caricamento: {0} ({1})</value>
+  </data>
+  <data name="DuplicateFileEntryWarning" xml:space="preserve">
+    <value>Il file {0} è stato trovato più volte nella lista dei file, questo è probabilmente un errore nel backend, si prega di segnalarlo agli sviluppatori</value>
+  </data>
+  <data name="EmptyManifestWarning" xml:space="preserve">
+    <value>Rilevato un set di backup vuoto, questo è probabilmente un errore: {0}</value>
+  </data>
+  <data name="RemoveOrphanFileWarning" xml:space="preserve">
+    <value>Eliminazione del file orfano: {0}</value>
+  </data>
+  <data name="UnmatchedFilenameWarning" xml:space="preserve">
+    <value>Il file {0} è stato trovato sul back-end ma non è stato riconosciuto da Duplicati</value>
+  </data>
+  <data name="CachedSignatureHashMismatchWarning" xml:space="preserve">
+    <value>Il file di cache {0} non ha prodotto risultati attesi per l'hash del file stesso, ignoro il file di cache</value>
+  </data>
+  <data name="DeleteCacheFileError" xml:space="preserve">
+    <value>Errore durante il tentativo di cancellare file di cache {0}</value>
+  </data>
+  <data name="SaveCacheFileError" xml:space="preserve">
+    <value>Impossibile salvare il file nella cache delle firme come {0}</value>
+  </data>
+  <data name="BackendDoesNotSupportCreateFolder" xml:space="preserve">
+    <value>Il backend {0} ({1}) non supporta l'operazione CreateFolder</value>
+  </data>
+  <data name="CachedSignatureDecryptWarning" xml:space="preserve">
+    <value>Il tentativo di decifrare il file {0} non è riuscito con errore: {1}</value>
+  </data>
+  <data name="TooManyOrphansFoundError" xml:space="preserve">
+    <value>E' stata specificata la pulizia automatica ma ci sono {0} file orfani e non ce ne dovrebbero essere più di 2</value>
+  </data>
+  <data name="UploadSizeVerificationFailure" xml:space="preserve">
+    <value>Il file {0} è stato caricato sul server ma la dimensione segnalata del file è {1} mentre la dimensione doveva essere {2}</value>
+  </data>
+  <data name="UploadVerificationFailure" xml:space="preserve">
+    <value>Il file {0} è stato caricato ma non è stato trovato sul server</value>
+  </data>
+  <data name="FailureWhileDisposingBackendError" xml:space="preserve">
+    <value>Errore durante la chiusura di una connessione: {0}</value>
+  </data>
+  <data name="DownloadedFileSizeError" xml:space="preserve">
+    <value>Il file {0} è stato scaricato e aveva dimensioni {1}, ma la dimensione prevista doveva essere {2}</value>
+  </data>
+  <data name="CompletedDeleteTransaction" xml:space="preserve">
+    <value>Eliminazione transazione completata con successo</value>
+  </data>
+  <data name="CompletingDeleteTransactionWarning" xml:space="preserve">
+    <value>Completamento di una transazione di cancellazione incompiuta e rimozione dei file {0}</value>
+  </data>
+  <data name="DeleteTransactionFileFoundWarning" xml:space="preserve">
+    <value>Un'operazione di cancellazione è stata avviata ma non è stato possibile completarla. La prossima chiamata ad una cancellazione o pulizia provvederà a completare l'operazione.</value>
+  </data>
+  <data name="DeleteTransactionFileReadError" xml:space="preserve">
+    <value>Un'operazione di eliminazione già iniziata non è stata completata, ma il tentativo di recuperare i dettagli dell'operazione non è riuscito con il messaggio: {1}.
+
+Se questo problema si verifica più di una volta, è possibile che il file di transazione delle cancellazioni sia difettoso. Provare a rinominare il file "{0}" ed eseguire nuovamente l'operazione. Se non vengono segnalati errori l'eliminazione del file è sicura, altrimenti Duplicati riporterà ciò che dovrà essere corretto manualmente.</value>
+  </data>
+  <data name="DeletingTransactionLeftoverFile" xml:space="preserve">
+    <value>Cancellazione di file da una transazione di cancellazione"{0}"</value>
+  </data>
+  <data name="ExistingDeleteTransactionError" xml:space="preserve">
+    <value>Si è verificato un errore interno, è stato chiesto di avviare una transazione di cancellazione ma un'altra era già presente</value>
+  </data>
+  <data name="MultipleDeleteTransactionsFoundError" xml:space="preserve">
+    <value>Sono stati trovati diversi file di transazione eliminati. Si prega di controllare manualmente la destinazione e risolvere questo problema.</value>
+  </data>
+  <data name="NonExistingDeleteTransactionError" xml:space="preserve">
+    <value>Si è verificato un errore interno, è stato chiesto di completare una transazione di cancellazione ma non c'era nessuna transazione in corso</value>
+  </data>
+  <data name="AutoCreateFolderFailed" xml:space="preserve">
+    <value>Failed to automatically create folder, error message: {0}</value>
+  </data>
+</root>

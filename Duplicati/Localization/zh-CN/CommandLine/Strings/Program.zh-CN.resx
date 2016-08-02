@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddedFoldersHeader" xml:space="preserve">
+    <value>已添加的目录</value>
+  </data>
+  <data name="CollectionStatusHeader" xml:space="preserve">
+    <value>发现 {0}个后台运行的备份进程
+
+Type\tTime\t\t\tVolumes\tSize</value>
+  </data>
+  <data name="CollectionStatusLineFull" xml:space="preserve">
+    <value>Full\t{0}\t{1}\t{2}</value>
+  </data>
+  <data name="CollectionStatusLineInc" xml:space="preserve">
+    <value> Inc\t{0}\t{1}\t{2}</value>
+  </data>
+  <data name="ControlFilesHeader" xml:space="preserve">
+    <value>控制文件</value>
+  </data>
+  <data name="DeletedFilesHeader" xml:space="preserve">
+    <value>已删除文件</value>
+  </data>
+  <data name="DeletedFoldersHeader" xml:space="preserve">
+    <value>已删除目录</value>
+  </data>
+  <data name="DuplicatiOptionsHeader" xml:space="preserve">
+    <value>Duplicati 参数：</value>
+  </data>
+  <data name="FailedToParseParametersFileError" xml:space="preserve">
+    <value>Unable to read the parameters file "{0}", reason: {1}</value>
+  </data>
+  <data name="FileEntryNotFound" xml:space="preserve">
+    <value>&lt; 没有找到 &gt;</value>
+  </data>
+  <data name="FiltersCannotBeUsedWithFileError" xml:space="preserve">
+    <value>Filters cannot be specified on the commandline if filters are also present in the parameter file</value>
+  </data>
+  <data name="FindLastVersionEntry" xml:space="preserve">
+    <value>{0}\t{1}</value>
+  </data>
+  <data name="FindLastVersionHeader" xml:space="preserve">
+    <value>备份时间\t\t文件名</value>
+  </data>
+  <data name="FolderCreatedMessage" xml:space="preserve">
+    <value>目录 {0} 创建完成</value>
+  </data>
+  <data name="GenericModulesHeader" xml:space="preserve">
+    <value>支持的通用模块：</value>
+  </data>
+  <data name="IntegerParseError" xml:space="preserve">
+    <value>无法将 “{0}” 解析为数字</value>
+  </data>
+  <data name="InternalOptionUsedError" xml:space="preserve">
+    <value>选项—{0}已被使用，但是它是保留选项，不能通过命令行来使用。</value>
+  </data>
+  <data name="ModifiedFilesHeader" xml:space="preserve">
+    <value>修改文件</value>
+  </data>
+  <data name="ModuleIsLoadedAutomatically" xml:space="preserve">
+    <value>自动加载模块，使用参数 --disable-module禁用此功能</value>
+  </data>
+  <data name="ModuleIsNotLoadedAutomatically" xml:space="preserve">
+    <value>模块不自动加载，使用参数 --enable-module 启用自动加载功能</value>
+  </data>
+  <data name="NewFilesHeader" xml:space="preserve">
+    <value>新建文件</value>
+  </data>
+  <data name="NewOrModifiedFilesHeader" xml:space="preserve">
+    <value>新建/修改文件</value>
+  </data>
+  <data name="ParametersFileOptionLong" xml:space="preserve">
+    <value>This option can be used to store some or all of the options given to the commandline client. The file must be a plain text file, UTF-8 encoding is preferred. Each line in the file should be of the format --option=value. The special options --source and --target can be used to override the localpath and the remote destination uri, respectively. The options in this file take precedence over the options provided on the commandline. You cannot specify filters in both the file and on the commandline.</value>
+  </data>
+  <data name="ParametersFileOptionShort" xml:space="preserve">
+    <value>Path to a file with parameters</value>
+  </data>
+  <data name="ProgramUsageBackend" xml:space="preserve">
+    <value>&lt;后端&gt;是指一个类似于 ftp://host/或者ssh://server/的路径。使用本系统，Duplicati可以检测出您是想备份还是恢复。cleanup和delete命令并不会真正删除文件，除非使用了—force参数，这样您就可以在真正删除之前测试一下哪些文件会被删除。cleanup命令只能用于某次备份被意外中断并且有残存文件的情况，如果这种情况发生时，Duplicati会通知您。当新的备份准备好时，delete命令可以用于删除旧的备份文件。</value>
+  </data>
+  <data name="ProgramUsageBackup" xml:space="preserve">
+    <value>备份 (创建一个完全或增量备份):
+  Duplicati.CommandLine [full] [options] &lt;sourcefolder&gt; &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageCleanup" xml:space="preserve">
+    <value>清空 (删除残存的文件):
+  Duplicati.CommandLine cleanup [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageCreateFolders" xml:space="preserve">
+    <value>创建文件夹 (一般自动创建):
+  Duplicati.CommandLine create-folder [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageDeleteOld" xml:space="preserve">
+    <value>删除旧备份:
+  Duplicati.CommandLine delete-all-but-n-full &lt;number of full backups to keep&gt; [options] &lt;backend&gt;
+  Duplicati.CommandLine delete-older-than &lt;max allowed age&gt; [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageFilters" xml:space="preserve">
+    <value>过滤器:
+ Duplicati使用过滤器来包含或者排除文件。
+  Duplicati采取首次接触优先的原则来确定是包含还是排除。Duplicati的内部使用规则表达式来过滤文件，但是也支持文件名匹配的方式。命令行的调用顺序决定使用那种过滤方式。下面是一个过滤器的例子:
+    --include=*.txt --exclude=*\Thumbs.db --include=*
+
+ 在这个例子中，即使最后一个过滤规则是包含所有文件，Thumbs.db也不会被备份，因为在开始的规则里面已经有了排除这个文件的规则。文件路径会被作为整体来处理，当然文件路径是相对于备份目录而言的，但是会有一个开头的反斜杠。下面是一个例子：
+
+{0}
+ 如果一个目录被排除，那么目录中的文件也会被同样排除，即使有一条规则是保护目录下的某个文件。如果一个目录被包含且后面带着一个星号，那么目录下的所有文件都会被包含，如果包含的目录后面没有带星号，那么目录中的文件可以通过其他规则来定义。</value>
+  </data>
+  <data name="ProgramUsageFindLastVersion" xml:space="preserve">
+    <value>找到某个文件的最新版本:
+  Duplicati.CommandLine find-last-version [options] --file-to-restore=&lt;files to find&gt; &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageHeader" xml:space="preserve">
+    <value>********** Duplicati v. {0} **********
+
+用法:</value>
+  </data>
+  <data name="ProgramUsageListContentFiles" xml:space="preserve">
+    <value>列出文件内容 (可以被恢复的文件):
+  Duplicati.CommandLine list-current-files [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListFiles" xml:space="preserve">
+    <value>列出文件:
+  Duplicati.CommandLine list [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSets" xml:space="preserve">
+    <value>列出备份集合:
+  Duplicati.CommandLine collection-status [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSignatureFiles" xml:space="preserve">
+    <value>列出签名文件 (在某次备份的集合中):
+  Duplicati.CommandLine list-actual-signature-files [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSourceFolders" xml:space="preserve">
+    <value>列出源目录(要备份的目录):
+  Duplicati.CommandLine list-source-folders [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageOptionTypes" xml:space="preserve">
+    <value>参数类型:
+以下参数可用:
+  整数: 一个整数值
+  布尔值: --force和--force=true是相同的效果。--force=false是相反的效果
+ 时间段: 一个特殊的时间格式
+  大小: 文件大小5mb或者200kb
+ 集合: 以上参数的组合
+  路径: 文件或者目录的路径
+ 字符串: 其他的格式</value>
+  </data>
+  <data name="ProgramUsagePurgeCache" xml:space="preserve">
+    <value>删除签名的缓存:
+  Duplicati.CommandLine purge-signature-cache [options]</value>
+  </data>
+  <data name="ProgramUsageRestore" xml:space="preserve">
+    <value>还原 (还原部分或所有文件):
+  Duplicati.CommandLine [options] &lt;backend&gt; &lt;destinationfolder&gt;</value>
+  </data>
+  <data name="ProgramUsageTimes" xml:space="preserve">
+    <value>时间:
+ Duplicati使用 duplicity的时间系统,各种时间可以这样表示:
+  1: 字符串 "now"表示当前时间
+  2: 公元以来的秒数，如: 123456890
+  3: 时间字符串 "2009-03-26T08:30:00+01:00"
+  4: 一个周期字符串，使用Y, M, W, D, h, m, s来表示年、月、星期、日、小时、分钟、秒，如： "1M4D"表示每月的4日，或者 "5m" 表示每5分钟</value>
+  </data>
+  <data name="ProgramUsageVerify" xml:space="preserve">
+    <value>检测备份的完整性:
+  Duplicati.CommandLine verify &lt;backend&gt; --verification-level=manifest|signatures|full</value>
+  </data>
+  <data name="SupportedBackendsHeader" xml:space="preserve">
+    <value>支持的后台：</value>
+  </data>
+  <data name="SupportedCompressionModulesHeader" xml:space="preserve">
+    <value>支持的压缩模块：</value>
+  </data>
+  <data name="SupportedEncryptionModulesHeader" xml:space="preserve">
+    <value>支持的加密模块：</value>
+  </data>
+  <data name="SupportedOptionsHeader" xml:space="preserve">
+    <value>支持的参数：</value>
+  </data>
+  <data name="TimeParseError" xml:space="preserve">
+    <value>无法将 "{0}"解析为时间偏移： {1}</value>
+  </data>
+  <data name="UnhandledException" xml:space="preserve">
+    <value>错误信息： {0}</value>
+  </data>
+  <data name="UnhandledInnerException" xml:space="preserve">
+    <value>内部错误： {0}</value>
+  </data>
+  <data name="UsageExampleLinux" xml:space="preserve">
+    <value>Duplicati.CommandLine /home/user/ ftp://host/folder --exclude=/file.txt
+
+ 在这个例子中文件 "/home/user/file.txt" 被排除，不做备份</value>
+  </data>
+  <data name="UsageExampleWindows" xml:space="preserve">
+    <value>Duplicati.命令行 C:\Documents\Files ftp://host/folder --exclude=\file.txt
+
+这个例子中文件 "C:\Documents\Files\file.txt" 被排除，不做备份。</value>
+  </data>
+  <data name="VerificationCompleted" xml:space="preserve">
+    <value>验证完成，验证结果：
+已验证的说明文件: {0}
+已验证的签名文件: {1}
+已验证的内容文件: {2}
+错误: {3}</value>
+  </data>
+  <data name="VerificationErrorHeader" xml:space="preserve">
+    <value>已报告的错误信息:</value>
+  </data>
+  <data name="WrongNumberOfCommandsError_v2" xml:space="preserve">
+    <value>发现命令 {0}，但是预期命令 {1},命令: 
+{2}</value>
+  </data>
+</root>

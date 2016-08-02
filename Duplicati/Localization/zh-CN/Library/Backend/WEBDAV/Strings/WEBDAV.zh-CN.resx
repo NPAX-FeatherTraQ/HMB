@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Description" xml:space="preserve">
+    <value>支持连接到 WEBDAV的服务器，使用http协议。允许的格式是： "webdav://hostname/folder" or "webdav://username:password@hostname/folder".</value>
+  </data>
+  <data name="DescriptionForceDigestLong" xml:space="preserve">
+    <value>使用HTTP Digest认证方式可以允许用户不传递明文的密码来进行认证。然而，中间人攻击仍然可以奏效，因为HTTP协议规定了可以回滚到基本认证方式，这将使用户会将密码发送到攻击者。使用这个选项，客户将不接受回滚，只使用Digest认证或者无法认证。</value>
+  </data>
+  <data name="DescriptionForceDigestShort" xml:space="preserve">
+    <value>强制使用HTTP Digest认证方式</value>
+  </data>
+  <data name="DescriptionFTPPasswordLong" xml:space="preserve">
+    <value>连接到服务器的密码，也可以通过系统环境变量 "FTP_PASSWORD"来提供。</value>
+  </data>
+  <data name="DescriptionFTPPasswordShort" xml:space="preserve">
+    <value>提供连接到服务器的密码</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>连接到服务器的用户名，可以通过环境变量 "FTP_USERNAME"来提供。</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>提供连接到服务器的用户名</value>
+  </data>
+  <data name="DescriptionIntegratedAuthenticationLong" xml:space="preserve">
+    <value>如果服务器和客户端都支持集成认证，那么这个选项将使用这种认证。这好像只发生在服务器和客户端都是windows系统的情况下。</value>
+  </data>
+  <data name="DescriptionIntegratedAuthenticationShort" xml:space="preserve">
+    <value>使用windows集成认证来连接到服务器</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>WEBDAV服务器</value>
+  </data>
+  <data name="MissingFolderError" xml:space="preserve">
+    <value>文件夹{0} 没有找到，错误: {1}</value>
+  </data>
+  <data name="SeenThenNotFoundError" xml:space="preserve">
+    <value>当列出目录 {0}下的文件时，文件 {1} 在列表中，但是服务器却报告没有发现这个文件。
+这种情况有可能是因为文件被删除或者无法访问，但也可能是因为文件扩展名{2}被服务器阻塞。 IIS服务器会默认阻塞未知的扩展名。
+错误信息: {3}</value>
+  </data>
+  <data name="DescriptionUseSSLLong" xml:space="preserve">
+    <value>使用这个选项来使用基于SSL的http（https）</value>
+  </data>
+  <data name="DescriptionUseSSLShort" xml:space="preserve">
+    <value>设置Duplicati使用SSL（https）连接</value>
+  </data>
+  <data name="DescriptionDebugPropfindLong" xml:space="preserve">
+    <value>为了有利于调试，可以为文件设置一个路径，用于替代PROPFIND响应。</value>
+  </data>
+  <data name="DescriptionDebugPropfindShort" xml:space="preserve">
+    <value>覆盖PROPFIND响应</value>
+  </data>
+</root>

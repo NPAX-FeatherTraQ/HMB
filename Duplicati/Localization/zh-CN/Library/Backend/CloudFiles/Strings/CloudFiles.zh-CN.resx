@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DescriptionAuthenticationURLLong_v2" xml:space="preserve">
+    <value>Cloudfiles根据不同的客户端使用不同的服务器来进行认证，使用这个选项来设置一个替代的认证URL，这个选项重载了 --{0}.</value>
+  </data>
+  <data name="DescriptionAuthenticationURLShort" xml:space="preserve">
+    <value>提供另外一个认证 URL</value>
+  </data>
+  <data name="DescriptionFTPPasswordLong" xml:space="preserve">
+    <value>连接到服务器的密码，也可以通过系统环境变量“FTP_PASSWORD”来提供。</value>
+  </data>
+  <data name="DescriptionFTPPasswordShort" xml:space="preserve">
+    <value>提供连接到服务器的密码</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>连接到服务器的用户名，也可以通过系统变量 "FTP_USERNAME"来提供。</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>提供连接到服务器的用户名</value>
+  </data>
+  <data name="DescriptionPasswordLong" xml:space="preserve">
+    <value>提供CloudFiles认证需要的API Access Key。</value>
+  </data>
+  <data name="DescriptionPasswordShort" xml:space="preserve">
+    <value>提供访问服务器的密钥</value>
+  </data>
+  <data name="DescriptionUKAccountLong" xml:space="preserve">
+    <value>Duplicati默认证件是美国帐号，如果是英国帐号请使用此选项。请注意这两个设置是等价的 --{0}={1}.</value>
+  </data>
+  <data name="DescriptionUKAccountShort" xml:space="preserve">
+    <value>使用英国帐号</value>
+  </data>
+  <data name="DescriptionUsernameLong" xml:space="preserve">
+    <value>提供CloudFiles的认证用户名。</value>
+  </data>
+  <data name="DescriptionUsernameShort" xml:space="preserve">
+    <value>提供CloudFiles的认证用户名</value>
+  </data>
+  <data name="Description_v2" xml:space="preserve">
+    <value>支持到CloudFiles的连接. 允许的格式为： "cloudfiles://container/folder".</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>CloudFiles (Rackspace)</value>
+  </data>
+  <data name="ETagVerificationError" xml:space="preserve">
+    <value>MD5 Hash (ETag) 验证失败</value>
+  </data>
+  <data name="FileDeleteError" xml:space="preserve">
+    <value>删除文件失败</value>
+  </data>
+  <data name="FileUploadError" xml:space="preserve">
+    <value>文件更新失败</value>
+  </data>
+  <data name="InvalidUrlError" xml:space="preserve">
+    <value>无效的URL： {0}</value>
+  </data>
+  <data name="NoAPIKeyError" xml:space="preserve">
+    <value>请输入您的CloudFiles API Access Key</value>
+  </data>
+  <data name="NoUserIDError" xml:space="preserve">
+    <value>请输入您的 CloudFiles 用户名</value>
+  </data>
+  <data name="UnexpectedResponseError" xml:space="preserve">
+    <value>未知的CloudFiles响应，也许API改变了？</value>
+  </data>
+</root>

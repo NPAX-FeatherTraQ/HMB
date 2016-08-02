@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CreateFolderError" xml:space="preserve">
+    <value>Не удалось создать папку: {0}, ошибка: {1}</value>
+  </data>
+  <data name="DeletedFilenameError" xml:space="preserve">
+    <value>Ошибка определения статуса файла, файл: {0}, папка:{1}</value>
+  </data>
+  <data name="DeleteFileError" xml:space="preserve">
+    <value>Не удалить файл: "{0}", Ошибка: {1}</value>
+  </data>
+  <data name="DeleteFolderError" xml:space="preserve">
+    <value>Не удалить папку: "{0}", Ошибка: {1}</value>
+  </data>
+  <data name="FileProcessError" xml:space="preserve">
+    <value>Не обработать файл: {0}. Ошибка: {1}</value>
+  </data>
+  <data name="FileToDeleteMissingError" xml:space="preserve">
+    <value>Для удаления помечен несуществующий файл: {0}</value>
+  </data>
+  <data name="FolderToDeleteMissingError" xml:space="preserve">
+    <value>Для удаления помечена несуществующая папка: {0}</value>
+  </data>
+  <data name="MultipassUsageError" xml:space="preserve">
+    <value>Режим Multi Pass не инициализирован</value>
+  </data>
+  <data name="RestoreFileError" xml:space="preserve">
+    <value>Не восстановить файл: "{0}", Ошибка: {1}</value>
+  </data>
+  <data name="RestoreFolderDeltaError" xml:space="preserve">
+    <value>Папка не существует при восстановлении с помощью файла различия: {0}</value>
+  </data>
+  <data name="RestoreFolderMissingError" xml:space="preserve">
+    <value>Папка не существует при восстановлении: {0}</value>
+  </data>
+  <data name="FileShouldBePartialError" xml:space="preserve">
+    <value>Файл {0} отмечен как частично переданный в предыдущем томе, но не отмечен как частично переданный в текущем томе</value>
+  </data>
+  <data name="InvalidPartialFileEntry" xml:space="preserve">
+    <value>Запись о частично переданном файле {0} не соответствует файлу</value>
+  </data>
+  <data name="InvalidPartialRecordError" xml:space="preserve">
+    <value>Неверная запись о частичном файле</value>
+  </data>
+  <data name="PartialFileAddedLogMessage" xml:space="preserve">
+    <value>Файл {0} частичен начиная с позиции {1}</value>
+  </data>
+  <data name="PartialFileIncompleteWarning" xml:space="preserve">
+    <value>Частичный файл {0} не завершен</value>
+  </data>
+  <data name="PartialLeftoverDeleteError" xml:space="preserve">
+    <value>Не удается удалить частичный незавершенный файл {0}, ошибка: {1}</value>
+  </data>
+  <data name="InternalPathMappingError" xml:space="preserve">
+    <value>Внутренняя ошибка. Путь {0} не относится ни к одной из папок-источников: {1}.</value>
+  </data>
+  <data name="SnapshotFailedError" xml:space="preserve">
+    <value>Не получается создать снимок: {0}</value>
+  </data>
+  <data name="FailedToSetFileWriteTime" xml:space="preserve">
+    <value>Не назначить время записи для файла: {0}.
+Ошибка: {1}</value>
+  </data>
+  <data name="FailedToSetFolderWriteTime" xml:space="preserve">
+    <value>Не назначить время записи для папки: {0}.
+Ошибка: {1}</value>
+  </data>
+  <data name="UsnDisposeFailedWarning" xml:space="preserve">
+    <value>Не удается воспользоваться USN: {0}</value>
+  </data>
+  <data name="UsnFailedError" xml:space="preserve">
+    <value>Не прочесть данные USN: {0}</value>
+  </data>
+  <data name="UsnJournalIdChangedWarning" xml:space="preserve">
+    <value>Идентификатор журнала USN для тома {0} поменялся с {1} на {2}, выполняем полное сравнение</value>
+  </data>
+  <data name="UsnNotSupportedOnLinuxError" xml:space="preserve">
+    <value>USN в Linux не поддерживается</value>
+  </data>
+  <data name="UsnNumberingFaultWarning" xml:space="preserve">
+    <value>Сохраненный номер USN для тома {0} равен {1}, а текущий USN равен {2}, выполняем полное сравнение</value>
+  </data>
+  <data name="FileChangedWhileReadError" xml:space="preserve">
+    <value>Файл {0} изменен во время создания резервной копии, исключаем его из копии</value>
+  </data>
+  <data name="FileChangedWhileReadWarning" xml:space="preserve">
+    <value>Файл {0} изменен во время создания резервной копии, возможно, он испорчен</value>
+  </data>
+  <data name="FolderModificationTimeReadError" xml:space="preserve">
+    <value>Не прочесть время модификации файла: {0}.
+Ошибка: {1}</value>
+  </data>
+  <data name="InvalidTimeStampError" xml:space="preserve">
+    <value>Время записи файла {0} не читается: {1}</value>
+  </data>
+  <data name="SymlinkReadError" xml:space="preserve">
+    <value>Информацию ярлыка {0} не прочесть: {1}</value>
+  </data>
+  <data name="InvalidRelFilenameError" xml:space="preserve">
+    <value>Некорректное имя файла: {0}, папка-источник: {1}, ошибка: {2}</value>
+  </data>
+</root>

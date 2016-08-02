@@ -1,0 +1,7 @@
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\GUI\Datamodel\bin\Release\Datamodel.dll.config
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\GUI\Datamodel\bin\Release\Datamodel.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\GUI\Datamodel\bin\Release\Duplicati.Library.Utility.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\GUI\Datamodel\bin\Release\LightDatamodel.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\GUI\Datamodel\bin\Release\Duplicati.Library.Utility.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\GUI\Datamodel\obj\Release\Datamodel.csprojResolveAssemblyReference.cache
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\GUI\Datamodel\obj\Release\Datamodel.dll

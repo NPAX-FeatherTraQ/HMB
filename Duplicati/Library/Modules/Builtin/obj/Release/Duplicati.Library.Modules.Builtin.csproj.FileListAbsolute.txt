@@ -1,0 +1,12 @@
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\bin\Release\Duplicati.Library.Modules.Builtin.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\bin\Release\Duplicati.Library.Modules.Builtin.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\bin\Release\Duplicati.Library.Interface.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\bin\Release\Duplicati.Library.Utility.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\bin\Release\Duplicati.Library.Interface.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\bin\Release\Duplicati.Library.Utility.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\obj\Release\Duplicati.Library.Modules.Builtin.csprojResolveAssemblyReference.cache
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\obj\Release\Duplicati.Library.Modules.Builtin.Strings.ConsolePasswordInput.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\obj\Release\Duplicati.Library.Modules.Builtin.Strings.HttpOptions.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\obj\Release\Duplicati.Library.Modules.Builtin.csproj.GenerateResource.Cache
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\obj\Release\Duplicati.Library.Modules.Builtin.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Modules\Builtin\obj\Release\Duplicati.Library.Modules.Builtin.pdb

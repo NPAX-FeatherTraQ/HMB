@@ -1,0 +1,10 @@
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\bin\Release\System.Windows.Forms.Wizard.dll.config
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\bin\Release\System.Windows.Forms.Wizard.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\bin\Release\System.Windows.Forms.Wizard.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.Dialog.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.StartPage.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.Strings.Dialog.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.WizardControl.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\WizardForm.csproj.GenerateResource.Cache
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.pdb

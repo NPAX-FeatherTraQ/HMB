@@ -1,0 +1,17 @@
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\bin\Release\Duplicati.Library.Encryption.dll.config
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\bin\Release\Duplicati.Library.Encryption.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\bin\Release\Duplicati.Library.Encryption.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\bin\Release\Duplicati.Library.Interface.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\bin\Release\Duplicati.Library.Utility.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\bin\Release\Duplicati.Library.Utility.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\bin\Release\Duplicati.Library.Interface.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.GPGCommonOptions.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.Strings.AESEncryption.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.Strings.EncryptionBase.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.Strings.GPGCommonOptions.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.Strings.GPGEncryption.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.Strings.GPGSettingsControl.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.Strings.GPGStreamWrapper.resources
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.csproj.GenerateResource.Cache
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.dll
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Encryption\obj\Release\Duplicati.Library.Encryption.pdb

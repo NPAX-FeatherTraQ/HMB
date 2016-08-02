@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BadSortingDetectedError" xml:space="preserve">
+    <value>Detectada classificação incorreta dos tempos de backup</value>
+  </data>
+  <data name="BadVolumeSortOrder" xml:space="preserve">
+    <value>Detectado classificação incorreta dos volumes de backup</value>
+  </data>
+  <data name="CannotCleanWithoutHashesError" xml:space="preserve">
+    <value>Quando utilizando a opção de limpeza os arquivos de manifesto e hash precisam ser verificados</value>
+  </data>
+  <data name="DeletingBackupSetMessage" xml:space="preserve">
+    <value>Removendo backup em {0}</value>
+  </data>
+  <data name="DeprecatedOptionUsedWarning" xml:space="preserve">
+    <value>A opção {0} está depreciada: {1}</value>
+  </data>
+  <data name="DuplicateOptionNameWarning" xml:space="preserve">
+    <value>A opção --{0} existe mais de uma vez, reporte isso aos desenvolvedores</value>
+  </data>
+  <data name="FailedToFindControlFilesMessage" xml:space="preserve">
+    <value>Não foi possível encontrar os arquivos de controle em: {0}</value>
+  </data>
+  <data name="FileHashFailure" xml:space="preserve">
+    <value>Verificação do hash falhou, isto indica um arquivo corrompido: {0}</value>
+  </data>
+  <data name="FilesAreNotForceDeletedMessage" xml:space="preserve">
+    <value>Os arquivos não são apagados, utilize o comando --force para apagar os arquivos</value>
+  </data>
+  <data name="InternalDeleteCountError" xml:space="preserve">
+    <value>Ocorreu um erro interno e a operação foi cancelada para proteger os backups</value>
+  </data>
+  <data name="ManifestsMustBeReadOnBackups" xml:space="preserve">
+    <value>Não é permitido desativar os manifestos </value>
+  </data>
+  <data name="ManifestVersionRequiresRelativeNamesWarning" xml:space="preserve">
+    <value>Um ou mais manifestos são da versão 1, o que requer que a pesquisa de arquivos seja relativa</value>
+  </data>
+  <data name="MissingSignatureFile" xml:space="preserve">
+    <value>Um arquivo de assinatura está faltando, data: {0}, número do volume: {1}, nome do arquivo: {2}</value>
+  </data>
+  <data name="NoFilesGivenError" xml:space="preserve">
+    <value>Nenhum arquivo encontrado para find-last-file</value>
+  </data>
+  <data name="NoSourceFoldersError" xml:space="preserve">
+    <value>Nenhuma pasta origem informada para o backup</value>
+  </data>
+  <data name="NotDeletingBackupSetMessage" xml:space="preserve">
+    <value>Não é possível apagar o backup com a hora: {0}, porque backups posteriores dependem dele</value>
+  </data>
+  <data name="NotDeletingLastFullMessage" xml:space="preserve">
+    <value>O backup realizado em {0} não pode ser removido pois é o último backup completo, utilize a opção --allow-full-removal para apagar este backup</value>
+  </data>
+  <data name="NumberOfSourceFoldersHasChangedError" xml:space="preserve">
+    <value>O número de pastas de origem no último backup foi {0}, mas o número especificado de pastas é {1}. Não é permitido alterar o número de pastas de origem para um backup.</value>
+  </data>
+  <data name="PartialUploadMessage" xml:space="preserve">
+    <value>Falha ao fazer upload de {0} volume(s). Mensagem de erro: {1}</value>
+  </data>
+  <data name="PrimaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>Failed to read the primary manifest {0}, attempting secondary, if available. Error message: {1}</value>
+  </data>
+  <data name="ReadingSecondaryManifestLogMessage" xml:space="preserve">
+    <value>Secondary manifest file found: {0}, attempting read.</value>
+  </data>
+  <data name="RemovingPartialFilesMessage" xml:space="preserve">
+    <value>Apagando arquivo parcial: {0}</value>
+  </data>
+  <data name="SecondaryManifestReadErrorLogMessage" xml:space="preserve">
+    <value>Failed to read the secondary manifest {0}. Error message: {1}</value>
+  </data>
+  <data name="SignatureCachePathMissingError" xml:space="preserve">
+    <value>O caminho para o cache de assinaturas não foi informado como um argumento</value>
+  </data>
+  <data name="SkippedContentVolumeLogMessage" xml:space="preserve">
+    <value>O volume {0} não está presente no manifesto e não é utilizado.</value>
+  </data>
+  <data name="SkippedUnlistedSignatureFileWarning" xml:space="preserve">
+    <value>O arquivo de assinatura {0} não foi lido pois não foi encontrado no manifesto</value>
+  </data>
+  <data name="SourceDirIsIncludedMultipleTimesError" xml:space="preserve">
+    <value>A pasta {0} foi incluída diversas vezes</value>
+  </data>
+  <data name="SourceDirsAreRelatedError" xml:space="preserve">
+    <value>A pasta {1} é uma subpasta de {0}. Não é permitido especificar a mesma pasta mais de uma vez.</value>
+  </data>
+  <data name="SourceFolderIsMissingError" xml:space="preserve">
+    <value>A pasta de origem {0} não existe, abortando backup</value>
+  </data>
+  <data name="SourceFoldersHasChangedError" xml:space="preserve">
+    <value>A pasta {0} não está mais na lista do backup. Não é permitido alterar as pastas de origem para um backup.</value>
+  </data>
+  <data name="StatusBuildingFilelist" xml:space="preserve">
+    <value>Criando lista de arquivos ...</value>
+  </data>
+  <data name="StatusCompleted" xml:space="preserve">
+    <value>Completa</value>
+  </data>
+  <data name="StatusCreatingVolume" xml:space="preserve">
+    <value>Criando volume {0}</value>
+  </data>
+  <data name="StatusDownloadingContentVolume" xml:space="preserve">
+    <value>Descarregando conteúdo, volume {0}</value>
+  </data>
+  <data name="StatusDownloadingSignatureVolume" xml:space="preserve">
+    <value>Descarregando assinaturas, volume {0}</value>
+  </data>
+  <data name="StatusLoadingFilelist" xml:space="preserve">
+    <value>Carregando lista de arquivos remota</value>
+  </data>
+  <data name="StatusPatching" xml:space="preserve">
+    <value>Aplicando incremental a restauração #{0}</value>
+  </data>
+  <data name="StatusProcessing" xml:space="preserve">
+    <value>Processando: {0}</value>
+  </data>
+  <data name="StatusReadingIncrementalData" xml:space="preserve">
+    <value>Lendo dados incrementais ...</value>
+  </data>
+  <data name="StatusReadingIncrementalFile" xml:space="preserve">
+    <value>Lendo dados incrementais de: {0}</value>
+  </data>
+  <data name="StatusReadingIncrementals" xml:space="preserve">
+    <value>Lendo dados incrementais</value>
+  </data>
+  <data name="StatusReadingManifest" xml:space="preserve">
+    <value>Lendo lista de arquivos: {0}</value>
+  </data>
+  <data name="StatusReadingSignatureFile" xml:space="preserve">
+    <value>Lendo assinaturas: {0}, vol {1}</value>
+  </data>
+  <data name="StatusStarted" xml:space="preserve">
+    <value>Iniciado</value>
+  </data>
+  <data name="StatusUploadingContentVolume" xml:space="preserve">
+    <value>Enviando conteúdo, volume {0}</value>
+  </data>
+  <data name="StatusUploadingManifestVolume" xml:space="preserve">
+    <value>Enviando lista de arquivos, volume {0}</value>
+  </data>
+  <data name="StatusUploadingSignatureVolume" xml:space="preserve">
+    <value>Enviando assinaturas, volume {0}</value>
+  </data>
+  <data name="StatusWaitingForUpload" xml:space="preserve">
+    <value>Esperando o termino do envio ...</value>
+  </data>
+  <data name="TooFewTargetFoldersError" xml:space="preserve">
+    <value>O backup contém {0} pastas mas somente {1} pastas de origem foram selecionadas</value>
+  </data>
+  <data name="TooManyTargetFoldersWarning" xml:space="preserve">
+    <value>O backup contém {0} pasta(s) mas somente {1} pastas de origem foram selecionadas</value>
+  </data>
+  <data name="UnexpectedCompressionError" xml:space="preserve">
+    <value>Modo de compressão inesperado: {0}</value>
+  </data>
+  <data name="UnexpectedOperationTypeError" xml:space="preserve">
+    <value>O modo de operação {0} não era esperado</value>
+  </data>
+  <data name="UnsupportedBooleanValue" xml:space="preserve">
+    <value>O valor "{1}" fornecido para --{0} não é um valor válido, será considerado o valor "true"</value>
+  </data>
+  <data name="UnsupportedEnumerationValue" xml:space="preserve">
+    <value>A opção --{0} não suporta o valor "{1}", os valores suportado são: {2}</value>
+  </data>
+  <data name="UnsupportedIntegerValue" xml:space="preserve">
+    <value>The value "{1}" supplied to --{0} does not represent a valid integer</value>
+  </data>
+  <data name="UnsupportedOptionDisabledModuleWarning" xml:space="preserve">
+    <value>A opção --{0} nã é suportada pois o módulo {1} não está atualmente carregado</value>
+  </data>
+  <data name="UnsupportedOptionWarning" xml:space="preserve">
+    <value>The supplied option --{0} is not supported and will be ignored</value>
+  </data>
+  <data name="UnsupportedPathValue" xml:space="preserve">
+    <value>O valor "{1}" fornecido para --{0} não é um caminho válido</value>
+  </data>
+  <data name="UnsupportedSizeValue" xml:space="preserve">
+    <value>O valor "{1}" fornecido para --{0} não é um tamanho válido</value>
+  </data>
+  <data name="UnsupportedTimeValue" xml:space="preserve">
+    <value>O valor "{1}" fornecido para --{0} não é uma hora válida</value>
+  </data>
+  <data name="CannotSkipHashChecksOnBackup" xml:space="preserve">
+    <value>A verificação dos hashes não podem ser desativadas no backup</value>
+  </data>
+  <data name="CannotVerifyChain" xml:space="preserve">
+    <value>Não é possível verificar a cadeia de backup quando a opção --dont-read-manifests estiver ativa</value>
+  </data>
+  <data name="CannotVerifyWithoutHashes" xml:space="preserve">
+    <value>A verificação dos hashes não pode ser desativada durante a verificação</value>
+  </data>
+  <data name="DisablingSignatureCacheForVerification" xml:space="preserve">
+    <value>O cache de assinaturas está desativado na verificação</value>
+  </data>
+  <data name="ManifestAndFileCountMismatchError" xml:space="preserve">
+    <value>O arquivo de manifesto {0} indica que deveriam existir {1} volumes, mas a lista de arquivos indica {2}</value>
+  </data>
+  <data name="ManifestsMustBeRead" xml:space="preserve">
+    <value>Desativando manifestos somente é possível em restaurações, e deve ser utilizado como último recurso.</value>
+  </data>
+  <data name="PreviousManifestFilenameMismatchError" xml:space="preserve">
+    <value>The manifest file {0} indicates that the previous manifest file should be {1} but it was {2}</value>
+  </data>
+  <data name="PreviousManifestHashMismatchError" xml:space="preserve">
+    <value>The manifest file {0} indicates that the previous manifest hash should be {1} but it was {2}</value>
+  </data>
+  <data name="FileSizeMismatchError" xml:space="preserve">
+    <value>O arquivo {0} tem o tamanho de {1} mas deveria ter {2}</value>
+  </data>
+  <data name="FilenameMismatchError" xml:space="preserve">
+    <value>O manifesto relatou que o nome do arquivo deveria ser {0} mas foi nomeado {1}</value>
+  </data>
+  <data name="StatusUploadingVerificationVolume" xml:space="preserve">
+    <value>Enviando arquivo de verificação</value>
+  </data>
+  <data name="DeleteManifestsSuggestion" xml:space="preserve">
+    <value>Se este erro não puder ser resolvido, crie um novo backup completo ou apague os manifestos ofensores manualmente, seguido de uma limpeza. Os manifestos ofensores são:</value>
+  </data>
+  <data name="FullBecauseBackendIsEmpty" xml:space="preserve">
+    <value>A full backup is made because no existing backup chains were found on the destination</value>
+  </data>
+  <data name="FullBecauseFlagWasSet" xml:space="preserve">
+    <value>A full backup was forced with the --{0} flag</value>
+  </data>
+  <data name="FullBecauseLastFullIsFrom" xml:space="preserve">
+    <value>A full backup is made because the latest full backup is from {0} and the full backup threshold is {1}</value>
+  </data>
+  <data name="FullBecauseSourceFoldersChanged" xml:space="preserve">
+    <value>A full backup is made because the source folders have changed</value>
+  </data>
+  <data name="FullBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>A full backup is made because the current chain has {0} incremental backups and the full backup threshold is {1}</value>
+  </data>
+  <data name="IncrementalBecauseLastFullIsFrom" xml:space="preserve">
+    <value>An incremental backup is made because the latest full backup is from {0} and the full backup threshold is {1}</value>
+  </data>
+  <data name="IncrementalBecauseNoFlagsWereSet" xml:space="preserve">
+    <value>An incremental backup is made because no full backup criteria was found</value>
+  </data>
+  <data name="IncrementalBecauseThereAreNIncrementals" xml:space="preserve">
+    <value>An incremental backup is made because the current chain has {0} incremental backups and the full backup threshold is {1}</value>
+  </data>
+  <data name="ErrorRunningBackup" xml:space="preserve">
+    <value>An error occurred while running the backup, no files were uploaded: {0}</value>
+  </data>
+  <data name="StartingOperationMessage" xml:space="preserve">
+    <value>The operation {0} has started</value>
+  </data>
+</root>

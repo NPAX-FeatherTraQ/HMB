@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlternateDestinationMarkerLong" xml:space="preserve">
+    <value>Cette option fonctionne quand l'option  --{0} est également spécifiée. Si plusieurs répertoires ou lecteurs cibles sont spécifiés, cette option indique le nom du marqueur (un fichier) qui doit être présent dans le répertoire où l'on souhaite que les sauvegardes soient créées. Cela est utile pour gérer les situations où des disques durs externes changent parfois de lettre ou de point de montage. En s'assurant qu'un fichier marqueur existe, il est possible d'empêcher que les sauvegardes soient écrites sur un autre lecteur que celui voulu. Le contenu de ce fichier marqueur n'est jamais examiné, seule sa présence ou son absence est recherchée</value>
+  </data>
+  <data name="AlternateDestinationMarkerShort" xml:space="preserve">
+    <value>Recherche un fichier dans le répertoire de destination</value>
+  </data>
+  <data name="AlternateTargetPathsLong" xml:space="preserve">
+    <value>Cette option permet de spécifier plusieurs répertoires cibles. Le répertoire cible principal est placé avant la liste des chemins spécifiés par cette option. Avant de commencer la sauvegarde, chaque répertoire dans la liste est examiné, on vérifie qu'ils existent et éventuellement qu'ils contiennent un fichier qui sert de marqueur, spécifié par --{0}. Le premier chemin valide, contenant ce marqueur est alors utilisé comme destination. Les destinations multiples sont séparées par un {1}. Sur Windows le chemin peut être de type UNC, et le numéro de lettre peut être substitué par un astérisque (*), par exemple: "*\sauvegardes", scannera tout les lecteurs présents. Si le nom d'utilisateur et le mot de passe est défini, ces mêmes informations seront utilisées pour toute les destinations.</value>
+  </data>
+  <data name="AlternateTargetPathsShort" xml:space="preserve">
+    <value>La liste des chemins de répertoires cibles secondaires</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Ce serveur permet de transférer des fichiers. Les formats autorisés sont "file://nom_d'hôte_/répertoire" ou "file://nom_d'utilisateur:mot_de_passe@nom_d'hôte/répertoire". Vous devez employer des chemins UNC (comme: "file://\\serveur\répertoire") ou des chemins locaux (comme: (win) "file://c:\repertoire", (linux) "file:///usr/pub/files")</value>
+  </data>
+  <data name="DescriptionFTPPasswordLong" xml:space="preserve">
+    <value>Le mot de passe utilisé pour se connecter au serveur. Egalement accessible via la variable d'environment "FTP_PASSWORD".</value>
+  </data>
+  <data name="DescriptionFTPPasswordShort" xml:space="preserve">
+    <value>Mot de passe utilisé pour se connecter au serveur</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>Le nom d'utilisateur pour se connecter au serveur.  Egalement accessible via la variable d'environment "FTP_USERNAME".</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>Nom d'utilisateur pour se connecter au serveur</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Basé sur des fichiers</value>
+  </data>
+  <data name="FolderMissingError" xml:space="preserve">
+    <value>Le répertoire {0} n'existe pas</value>
+  </data>
+  <data name="NoDestinationWithMarkerFileError" xml:space="preserve">
+    <value>Le marqueur de fichier "{0}" n'a été trouvé dans aucune des destinations examinées: {1}</value>
+  </data>
+  <data name="UseMoveForPutLong" xml:space="preserve">
+    <value>Lorsque l'on enregistre un fichier, l'opération usuelle consiste à copier le fichier puis à supprimer l'original. Cette opération offre la possibilité de recommencer la manipulation si quelque chose va de travers. Activer cette option peut empêcher l'option "réessayer" de fonctionner. Cette option est sans effet à moins que l'option --disable-streaming-transfers est activée.</value>
+  </data>
+  <data name="UseMoveForPutShort" xml:space="preserve">
+    <value>Déplace le fichier au lieu de le copier</value>
+  </data>
+</root>

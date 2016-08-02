@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddedFoldersHeader" xml:space="preserve">
+    <value>Добавленные папки</value>
+  </data>
+  <data name="CollectionStatusHeader" xml:space="preserve">
+    <value>Найдено {0} цепочек копирования on backend
+
+Тип\tВремя\t\t\tТома\tРазмер</value>
+  </data>
+  <data name="CollectionStatusLineFull" xml:space="preserve">
+    <value>Полный\t{0}\t{1}\t{2}</value>
+  </data>
+  <data name="CollectionStatusLineInc" xml:space="preserve">
+    <value>Инкрементальный\t{0}\t{1}\t{2}</value>
+  </data>
+  <data name="ControlFilesHeader" xml:space="preserve">
+    <value>Управляющие файлы</value>
+  </data>
+  <data name="DeletedFilesHeader" xml:space="preserve">
+    <value>Удаленные файлы</value>
+  </data>
+  <data name="DeletedFoldersHeader" xml:space="preserve">
+    <value>Удаленный папки</value>
+  </data>
+  <data name="DuplicatiOptionsHeader" xml:space="preserve">
+    <value>Настройки:</value>
+  </data>
+  <data name="FailedToParseParametersFileError" xml:space="preserve">
+    <value>Unable to read the parameters file "{0}", reason: {1}</value>
+  </data>
+  <data name="FileEntryNotFound" xml:space="preserve">
+    <value>&lt; не найден &gt;</value>
+  </data>
+  <data name="FiltersCannotBeUsedWithFileError" xml:space="preserve">
+    <value>Filters cannot be specified on the commandline if filters are also present in the parameter file</value>
+  </data>
+  <data name="FindLastVersionEntry" xml:space="preserve">
+    <value>{0}\t{1}</value>
+  </data>
+  <data name="FindLastVersionHeader" xml:space="preserve">
+    <value>Когда копировался\t\tИмя файла</value>
+  </data>
+  <data name="FolderCreatedMessage" xml:space="preserve">
+    <value>Папка {0} создана</value>
+  </data>
+  <data name="GenericModulesHeader" xml:space="preserve">
+    <value>Поддерживаемые стандартные модули</value>
+  </data>
+  <data name="IntegerParseError" xml:space="preserve">
+    <value>Не распознать в строке "{0}" номер</value>
+  </data>
+  <data name="InternalOptionUsedError" xml:space="preserve">
+    <value>Ключ --{0} зарезервирован для внутренних задач программы, вы не должны его использовать</value>
+  </data>
+  <data name="ModifiedFilesHeader" xml:space="preserve">
+    <value>Измененные файлы</value>
+  </data>
+  <data name="ModuleIsLoadedAutomatically" xml:space="preserve">
+    <value>Модуль загружен автоматически, используйте --disable-module, чтобы он не загружался</value>
+  </data>
+  <data name="ModuleIsNotLoadedAutomatically" xml:space="preserve">
+    <value>Модуль не загружен автоматически, используйте --enable-module, чтобы он загружался</value>
+  </data>
+  <data name="NewFilesHeader" xml:space="preserve">
+    <value>Новые файлы</value>
+  </data>
+  <data name="NewOrModifiedFilesHeader" xml:space="preserve">
+    <value>Новые/измененные файлы</value>
+  </data>
+  <data name="ParametersFileOptionLong" xml:space="preserve">
+    <value>This option can be used to store some or all of the options given to the commandline client. The file must be a plain text file, UTF-8 encoding is preferred. Each line in the file should be of the format --option=value. The special options --source and --target can be used to override the localpath and the remote destination uri, respectively. The options in this file take precedence over the options provided on the commandline. You cannot specify filters in both the file and on the commandline.</value>
+  </data>
+  <data name="ParametersFileOptionShort" xml:space="preserve">
+    <value>Path to a file with parameters</value>
+  </data>
+  <data name="ProgramUsageBackend" xml:space="preserve">
+    <value>&lt;backend&gt; определяется URL вида ftp://host/ или ssh://server/.
+Таким образом прогорамма может понять, хотите ли вы сделать резервную копию или восстановить фаайлы из копии. Команды cleanup и delete не удаляют файлы, если только не укзаан ключ --force, так что вы можете посмотреть, какие файлы будут удалены, прежде чем на самом деле удалить эти файлы.
+Команду cleanup не следует использовать, если только резервное копирование было прервано и остались частично переданные файлы. Программа сообщит вам, если это произойдет.
+Команда delete может быть использована для удаления старых резервных копий, когда уже есть более новые резервные копии.</value>
+  </data>
+  <data name="ProgramUsageBackup" xml:space="preserve">
+    <value>Backup (выполнить полное или инкрементальное копирование):
+   Duplicati.CommandLine [full] [options] &lt;исходный каталог&gt; &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageCleanup" xml:space="preserve">
+    <value>Cleanup (удалить неполные или неиспользуемые файлы)):
+  Duplicati.CommandLine cleanup [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageCreateFolders" xml:space="preserve">
+    <value>Создать папку (обычно выполняется автоматически):
+  Duplicati.CommandLine create-folder [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageDeleteOld" xml:space="preserve">
+    <value>Удалить старые резервные копии:
+  Duplicati.CommandLine delete-all-but-n-full &lt;number of full backups to keep&gt; [options] &lt;backend&gt;
+  Duplicati.CommandLine delete-older-than &lt;max allowed age&gt; [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageFilters" xml:space="preserve">
+    <value>Фильтры:
+ Программа использует фильтры для включения или исключения файлов из списка копируемых.
+  Программа использует "first-touch" где первое правило, которому соответствует файл, определяет, включать файл или исключать.Внутри программы в фильтрах используются регулярные выражения, но поддерживаются и filename globbing. Аргументы командной строки применяются в порядке их указания. Пример:
+    --include=*.txt --exclude=*\Thumbs.db --include=*
+
+  Хотя последний фильтр включает все файлы, файлы с именами "Thumbs.db" не включаются, так как они соответствуют правилу исключения, идущему раньше. Пути проверяются целиком, и пути относительно папки тоже копируются, но включая слэш в начале имени. Например:
+
+{0}
+   Если папка исключена, файлы из этой папки всегда исключаются, даже если есть фильтры, которые включают файлы из этой папку. Если папка включена согласно шаблону, то все файлы включены, если папка включается без шаблона, файлы могут быть исключены или включены дополнительными правилами фильтрации.</value>
+  </data>
+  <data name="ProgramUsageFindLastVersion" xml:space="preserve">
+    <value>Найти последнюю версию файла:
+  Duplicati.CommandLine find-last-version [options] --file-to-restore=&lt;files to find&gt; &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageHeader" xml:space="preserve">
+    <value>**** Duplicati v. {0} - программа командной строки ****
+
+Использование:</value>
+  </data>
+  <data name="ProgramUsageListContentFiles" xml:space="preserve">
+    <value>Список файлов в копии (которые можно восстановить):
+  Duplicati.CommandLine list-current-files [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListFiles" xml:space="preserve">
+    <value>Список файлов:
+  Duplicati.CommandLine list [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSets" xml:space="preserve">
+    <value>Список резервных копий:
+  Duplicati.CommandLine collection-status [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSignatureFiles" xml:space="preserve">
+    <value>Список файл подписей (файлы в одном наборе копий):
+  Duplicati.CommandLine list-actual-signature-files [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageListSourceFolders" xml:space="preserve">
+    <value>Список папок (из которых копируются файлы):
+  Duplicati.CommandLine list-source-folders [options] &lt;backend&gt;</value>
+  </data>
+  <data name="ProgramUsageOptionTypes" xml:space="preserve">
+    <value>Типы ключей:
+ Доступны следующие типы ключей:
+  Integer: числовое значение
+  Boolean: значение истины, --force и --force=true означают одно и то же. --force=false противоположно
+  Timespan: время в специальном формате (объяснено ниже)
+  Size: размер, например 5Мб или 200Кб
+  Enumeration: какое-либо из списка значений
+  Path: путь к папке или файлу
+  String: все другие типы</value>
+  </data>
+  <data name="ProgramUsagePurgeCache" xml:space="preserve">
+    <value>Удалить кэш подписей:
+  Duplicati.CommandLine purge-signature-cache [options]</value>
+  </data>
+  <data name="ProgramUsageRestore" xml:space="preserve">
+    <value>Restore (восстановить все или некоторые файлы):
+  Duplicati.CommandLine [options] &lt;backend&gt; &lt;destinationfolder&gt;</value>
+  </data>
+  <data name="ProgramUsageTimes" xml:space="preserve">
+    <value>Времена:
+ Время можно указать так:
+   1. строка "now", означает текущее время
+   2. число секунд, прошедших с 0:00 1 января 1970 г., например 123456890
+   3. строка типа "2009-03-26T08:30:00+01:00"
+   4: строка, в которой Y, M, W, D, h, m, s означает Год, Месяц, Неделю, День, час, минуту и секунду, например: "1M4D" - это 1 месяц и 4 дня, а "5m" - 5 минут.</value>
+  </data>
+  <data name="ProgramUsageVerify" xml:space="preserve">
+    <value>Проверить целостность резервной копии:
+  Duplicati.CommandLine verify &lt;backend&gt; --verification-level=manifest|signatures|full</value>
+  </data>
+  <data name="SupportedBackendsHeader" xml:space="preserve">
+    <value>Поддерживаемые модули:</value>
+  </data>
+  <data name="SupportedCompressionModulesHeader" xml:space="preserve">
+    <value>Поддерживаемые модули сжатия:</value>
+  </data>
+  <data name="SupportedEncryptionModulesHeader" xml:space="preserve">
+    <value>Поддерживаемые модули шифрования:</value>
+  </data>
+  <data name="SupportedOptionsHeader" xml:space="preserve">
+    <value>Поддерживаемые ключи:</value>
+  </data>
+  <data name="TimeParseError" xml:space="preserve">
+    <value>Не преобразовать "{0}" в сдвиг по времени: {1}</value>
+  </data>
+  <data name="UnhandledException" xml:space="preserve">
+    <value>Ошибка: {0}</value>
+  </data>
+  <data name="UnhandledInnerException" xml:space="preserve">
+    <value>Внутрення ошибка: {0}</value>
+  </data>
+  <data name="UsageExampleLinux" xml:space="preserve">
+    <value>Duplicati.CommandLine /home/user/ ftp://host/folder --exclude=/file.txt
+
+  В этом примере файл "/home/user/file.txt" не будет копироваться.</value>
+  </data>
+  <data name="UsageExampleWindows" xml:space="preserve">
+    <value>Duplicati.CommandLine C:\Documents\Files ftp://host/folder --exclude=\file.txt
+
+  В этом примере файл  "C:\Documents\Files\file.txt" не будет копироваться.</value>
+  </data>
+  <data name="VerificationCompleted" xml:space="preserve">
+    <value>Проверка завершена, результаты:
+Файл манифеста проверен: {0}
+Файл подписи проверен: {1}
+Файл с копиями проверен: {2}
+Ошибки: {3}</value>
+  </data>
+  <data name="VerificationErrorHeader" xml:space="preserve">
+    <value>Выданы сообщения об ошибках:</value>
+  </data>
+  <data name="WrongNumberOfCommandsError_v2" xml:space="preserve">
+    <value>Найдено {0} команд, а ожидалось {1}, команды: 
+{2}</value>
+  </data>
+  <data name="SymlinksHeader" space="preserve">
+    <value>Ярлыки</value>
+  </data>
+</root>

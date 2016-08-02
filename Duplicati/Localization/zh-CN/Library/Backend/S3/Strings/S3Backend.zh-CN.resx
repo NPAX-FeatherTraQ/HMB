@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AMZKeyDescriptionLong" xml:space="preserve">
+    <value>AWS的“秘密访问密钥”可以在您登录AWS后得到，它也可以通过“ftp-password”变量提供。</value>
+  </data>
+  <data name="AMZKeyDescriptionShort" xml:space="preserve">
+    <value>AWS的“秘密访问密钥”</value>
+  </data>
+  <data name="AMZUserIDDescriptionLong" xml:space="preserve">
+    <value>AWS的“秘密访问ID”可以在您登录AWS后得到，它也可以通过“ftp-username”变量提供。</value>
+  </data>
+  <data name="AMZUserIDDescriptionShort" xml:space="preserve">
+    <value>AWS的“秘密访问ID”</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Amazon S3  服务器</value>
+  </data>
+  <data name="FTPPasswordDescriptionLong" xml:space="preserve">
+    <value>连接服务器的密码，它可以通过环境变量 "FTP_PASSWORD"来提供。</value>
+  </data>
+  <data name="FTPPasswordDescriptionShort" xml:space="preserve">
+    <value>提供连接服务器的密码</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>连接到服务器的用户名，可以通过环境变量 "FTP_USERNAME"来提供。</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>提供连接到服务器的用户名</value>
+  </data>
+  <data name="NoAMZKeyError" xml:space="preserve">
+    <value>请输入 您的Amazon S3 帐号密码</value>
+  </data>
+  <data name="NoAMZUserIDError" xml:space="preserve">
+    <value>请输入 您的Amazon S3 用户名</value>
+  </data>
+  <data name="S3EurobucketDescriptionLong" xml:space="preserve">
+    <value>这个选项仅仅用于创建新的bucket。如果选择此项，bucket将创建在一个欧洲的服务器上。这个选项强制使用“s3-use-new-style”选项，amazon对欧洲的bucket收费稍贵一些。</value>
+  </data>
+  <data name="S3EurobucketDescriptionShort" xml:space="preserve">
+    <value>使用欧洲的服务器</value>
+  </data>
+  <data name="S3NewStyleDescriptionLong" xml:space="preserve">
+    <value>指定此项将使S3后台使用subdomain而不是url前缀方式。详情请参照amazon的S3参考手册。</value>
+  </data>
+  <data name="S3NewStyleDescriptionShort" xml:space="preserve">
+    <value>使用subdomain调用方式</value>
+  </data>
+  <data name="UnableToDecodeBucketnameError" xml:space="preserve">
+    <value>无法确定主机上的bucket名称: {0}</value>
+  </data>
+  <data name="S3UseRRSDescriptionLong" xml:space="preserve">
+    <value>指定此选项将使用RRS存储。存储在RRS中的文件将比标准存储中的更容易丢失，但是也便宜一些。请参照完整的手册： http://aws.amazon.com/about-aws/whats-new/2010/05/19/announcing-amazon-s3-reduced-redundancy-storage/</value>
+  </data>
+  <data name="S3UseRRSDescriptionShort" xml:space="preserve">
+    <value>使用去冗余储存(RRS)</value>
+  </data>
+  <data name="DeprecatedUrlFormat" xml:space="preserve">
+    <value>您使用了一个不推荐的url格式，请变成下面的形式: {0}</value>
+  </data>
+  <data name="Description_v2" xml:space="preserve">
+    <value>这个后台可以通过与amazon的S3兼容的存储服务来读写数据，允许的格式是: "s3://bucketname/prefix"</value>
+  </data>
+  <data name="OptionsAreMutuallyExclusiveError" xml:space="preserve">
+    <value>选项--{0} 和 --{1} 相互排斥</value>
+  </data>
+  <data name="S3EurobucketDeprecationDescription" xml:space="preserve">
+    <value>请使用 --{0}={1} 来替代</value>
+  </data>
+  <data name="S3LocationDescriptionLong" xml:space="preserve">
+    <value>这个选项仅仅用于创建新的bucket。使用这个选项来改变存储数据的位置。amazon对非美国的地区收费稍贵。已知的bucket位置有：{0}</value>
+  </data>
+  <data name="S3LocationDescriptionShort" xml:space="preserve">
+    <value>设置S3的位置参数</value>
+  </data>
+  <data name="S3ServerNameDescriptionLong" xml:space="preserve">
+    <value>除了amazon外很多公司也支持S3的API，这意味着此后台可以读写这些公司的服务。使用这个选项来设置服务器名。当前已知的提供商有：{0}</value>
+  </data>
+  <data name="S3ServerNameDescriptionShort" xml:space="preserve">
+    <value>指定一个替代的S3服务器名称</value>
+  </data>
+  <data name="UnableToParseURLError" xml:space="preserve">
+    <value>无法解析url: {0}</value>
+  </data>
+  <data name="S3NewStyleDeprecation" xml:space="preserve">
+    <value>subdomain调用选项并不做任何事，库函数将选择合适的调用约定。</value>
+  </data>
+  <data name="DescriptionUseSSLLong" xml:space="preserve">
+    <value>设置这个选项将使用通过SSL的http连接 (https)来通信。请注意含有“.”的bucket名称将无法使用SSL连接。</value>
+  </data>
+  <data name="DescriptionUseSSLShort" xml:space="preserve">
+    <value>设置 Duplicati使用 SSL (https) 连接</value>
+  </data>
+</root>

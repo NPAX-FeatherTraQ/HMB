@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthenticationError" xml:space="preserve">
+    <value>帐号错误，无法登录，日志: {0}</value>
+  </data>
+  <data name="CloseTimeoutError" xml:space="preserve">
+    <value>session超时退出</value>
+  </data>
+  <data name="ConnectionTimeoutError" xml:space="preserve">
+    <value>连接超时，日志: {0}</value>
+  </data>
+  <data name="CreateFolderError" xml:space="preserve">
+    <value>创建目录： {0}失败</value>
+  </data>
+  <data name="DebugDeleteFooter" xml:space="preserve">
+    <value>完全删除</value>
+  </data>
+  <data name="DebugDeleteHeader" xml:space="preserve">
+    <value>开始删除</value>
+  </data>
+  <data name="DebugGetFooter" xml:space="preserve">
+    <value>GET完成</value>
+  </data>
+  <data name="DebugGetHeader" xml:space="preserve">
+    <value>GET开始</value>
+  </data>
+  <data name="DebugListFooter" xml:space="preserve">
+    <value>List完成</value>
+  </data>
+  <data name="DebugListHeader" xml:space="preserve">
+    <value>List开始</value>
+  </data>
+  <data name="DebugParseFailed" xml:space="preserve">
+    <value>无法解析输入: {0}</value>
+  </data>
+  <data name="DebugPutFooter" xml:space="preserve">
+    <value>Put完成</value>
+  </data>
+  <data name="DebugPutHeader" xml:space="preserve">
+    <value>Put开始</value>
+  </data>
+  <data name="DeleteError" xml:space="preserve">
+    <value>无法删除文件: {0}</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>这个后台可以通过基于SSH的SFTP来读写数据，允许的格式： "ssh://hostname/folder" or "ssh://username:password@hostname/folder".</value>
+  </data>
+  <data name="DescriptionDebugToConsoleLong" xml:space="preserve">
+    <value>SSH后台需要一个外部的sftp程序来工作。因为外部的程序随时有可能改变，这将导致后台中断。使用这个选项可以获得ssh连接的调试信息并写入控制台。本选项仅在启用 –use-sftp-application参数时使用。</value>
+  </data>
+  <data name="DescriptionDebugToConsoleShort" xml:space="preserve">
+    <value>在控制台打印调试信息</value>
+  </data>
+  <data name="DescriptionFTPPasswordLong" xml:space="preserve">
+    <value>连接到服务器的密码，也可以通过系统环境变量 "FTP_PASSWORD"来提供。</value>
+  </data>
+  <data name="DescriptionFTPPasswordShort" xml:space="preserve">
+    <value>提供连接到服务器的密码</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>连接到服务器的用户名，可以通过环境变量 "FTP_USERNAME"来提供。</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>提供连接到服务器的用户名</value>
+  </data>
+  <data name="DescriptionSFTPCommandLong" xml:space="preserve">
+    <value>“sftp”程序的完整路径。本选项仅在启用 –use-sftp-application参数时使用。</value>
+  </data>
+  <data name="DescriptionSFTPCommandShort" xml:space="preserve">
+    <value>“sftp”程序的路径。</value>
+  </data>
+  <data name="DescriptionSshkeyfileLong" xml:space="preserve">
+    <value>指向一个有效的OpenSSH密钥文件。如果该文件加密，提供的密码将用于解密。如果这个选项启用，密码不会用于认证。这个选项仅仅在使用SSH客户端时使用。</value>
+  </data>
+  <data name="DescriptionSshkeyfileShort" xml:space="preserve">
+    <value>使用SSH私有密钥来认证</value>
+  </data>
+  <data name="DescriptionSSHOptionsLong" xml:space="preserve">
+    <value>提供额外的命令行参数，这些参数将直接传给ssh程序。该选项只在 –use-sftp-application选项启用时使用。</value>
+  </data>
+  <data name="DescriptionSSHOptionsShort" xml:space="preserve">
+    <value>Ssh的额外选项</value>
+  </data>
+  <data name="DescriptionTransferTimeoutLong" xml:space="preserve">
+    <value>ssh后台依赖于一个外部的程序（sftp）才能工作。因为外部程序有可能意外终止，Duplicati必须设置一个超时时间来定期检测外部程序。使用此项来调整超时时间。最短时间是1分钟，最大时间是1个小时。该选项只在 –use-sftp-application选项启用时使用。</value>
+  </data>
+  <data name="DescriptionTransferTimeoutShort" xml:space="preserve">
+    <value>设置传输文件的超时时间</value>
+  </data>
+  <data name="DescriptionUnmanagedLong" xml:space="preserve">
+    <value>设置此项来使用sftp命令来与服务器通信。设置此项需要同时选择—disable-streaming-transfers选项。</value>
+  </data>
+  <data name="DescriptionUnmanagedShort" xml:space="preserve">
+    <value>使用外部sftp程序</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>SSH服务器</value>
+  </data>
+  <data name="DownloadTimeoutError" xml:space="preserve">
+    <value>下载文件的超时时间</value>
+  </data>
+  <data name="FolderNotFoundError" xml:space="preserve">
+    <value>文件夹没有找到: {0}，日志: {1}</value>
+  </data>
+  <data name="FolderNotFoundManagedError" xml:space="preserve">
+    <value>无法设置文件夹到 {0}, 错误信息: {1}</value>
+  </data>
+  <data name="FolderVerificationError" xml:space="preserve">
+    <value>验证远程目录失败: {0}</value>
+  </data>
+  <data name="HostNotAuthenticatedError" xml:space="preserve">
+    <value>主机验证失败，请先通过SSH连接到主机，然后再运行Duplicati，日志: {0}</value>
+  </data>
+  <data name="IncorrectFileHeaderError" xml:space="preserve">
+    <value>文件必须包含OpenSSH的私钥头文件, 比如: ---- BEGIN RSA PRIVATE KEY ----</value>
+  </data>
+  <data name="KeyfileNotFoundError" xml:space="preserve">
+    <value>没有找到指定的密钥文件: {0}</value>
+  </data>
+  <data name="KeyfileParseError" xml:space="preserve">
+    <value>无法解析文件内容，请将下述信息包含在bug报告中（您可以忽略密钥数据）:
+{0}</value>
+  </data>
+  <data name="LaunchErrorLinux" xml:space="preserve">
+    <value>无法启动SSH程序 ({0}).
+请确认 "expect" 程序已经安装。
+错误信息: {1}</value>
+  </data>
+  <data name="LaunchErrorWindows" xml:space="preserve">
+    <value>无法启动SSH程序 ({0}).
+请确认 "putty"程序已经安装，并且设置了正确的路径。
+错误信息: {1}</value>
+  </data>
+  <data name="PasswordMissingError" xml:space="preserve">
+    <value>需要输入密码，但是却指定了无密码登录的选项。</value>
+  </data>
+  <data name="StreamingNotSupportedError" xml:space="preserve">
+    <value>未管理的SSH后台不支持数据流，如果您使用了—use-sftp-application选项，那么也必须使用--disable-streaming-transfers选项。</value>
+  </data>
+  <data name="UnexpectedConnectionError" xml:space="preserve">
+    <value>意外错误: {0}</value>
+  </data>
+  <data name="UnexpectedExitResponseError" xml:space="preserve">
+    <value>得到了意外的退出响应</value>
+  </data>
+  <data name="UnexpectedResponseError" xml:space="preserve">
+    <value>无法得到预期的响应: {0}</value>
+  </data>
+  <data name="UnsupportedKeyfileEncryptionError" xml:space="preserve">
+    <value>不支持的 OpenSSH密钥加密格式必须是 3des-cbc (DES-EDE3-CBC)。
+请将下述信息包含在bug报告中:
+{0}</value>
+  </data>
+  <data name="UploadTimeoutError" xml:space="preserve">
+    <value>上传文件超时</value>
+  </data>
+  <data name="UsernameMissingError" xml:space="preserve">
+    <value>需要用户名，但是并没有提供</value>
+  </data>
+  <data name="DescriptionSshnocdLong" xml:space="preserve">
+    <value>禁止使用cd命令。这个选项用于不支持cd和pwd命令的SSH后台。如果这个选项启用，所有的路径都将传送完整路径。</value>
+  </data>
+  <data name="DescriptionSshnocdShort" xml:space="preserve">
+    <value>不使用cd命令</value>
+  </data>
+</root>

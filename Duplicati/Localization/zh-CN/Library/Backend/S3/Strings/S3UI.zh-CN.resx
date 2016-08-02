@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BucketnameCaseWarning" xml:space="preserve">
+    <value>bucket名称并不全是小写字母。
+{0}
+您想将bucket名称转换为小写吗？</value>
+  </data>
+  <data name="BucketnameNotPrefixedWarning" xml:space="preserve">
+    <value>bucket名称并不是以您的用户名开头。
+为了避免使用其他人的bucket，推荐您使用用户ID来做bucket名称的开头。
+您想在bucket名称前插入用户ID吗？</value>
+  </data>
+  <data name="CreateMissingBucket" xml:space="preserve">
+    <value>bucket不存在，您想创建它吗？</value>
+  </data>
+  <data name="EmptyAWSIDError" xml:space="preserve">
+    <value>请输入您的 AWS 用户名。
+您可以点击右边的链接，打开AWS登陆页面，找回您的用户名。</value>
+  </data>
+  <data name="EmptyAWSKeyError" xml:space="preserve">
+    <value>请输入您的 AWS 用户密码。
+您可以点击右边的链接，打开AWS登陆页面，找回您的用户密码。</value>
+  </data>
+  <data name="EmptyBucketnameError" xml:space="preserve">
+    <value>您必须输入bucket的名称。您必须为每个备份使用一个唯一的名称。您可以输入任意喜欢的名字。</value>
+  </data>
+  <data name="HostnameInvalidWarning" xml:space="preserve">
+    <value>提供bucket名称, "{0}", 并没有包含一个有效的主机名。
+这可以在非subdomain的调用方式下使用，但是并不推荐这样使用。
+
+您想继续吗？</value>
+  </data>
+  <data name="HostnameInvalidWithNonUSBucketOptionError" xml:space="preserve">
+    <value>非美国的bucket需要bucket名称中含有合法的主机名，但是您提供的bucket名称，“{0}”并不是一个合法的主机名。请改变bucket名称或者使用默认的bucket地区。</value>
+  </data>
+  <data name="MonoRequiresExistingBucket" xml:space="preserve">
+    <value>低于2.4.3版的Mono中包括一个bug，该bug将使后台无法检测bucket。因此，推荐您创建这个bucket。您想创建这个bucket吗？</value>
+  </data>
+  <data name="NewS3RequiresLowerCaseError" xml:space="preserve">
+    <value>新的amazon的S3函数需要bucket名称全为小写。</value>
+  </data>
+  <data name="NonUSBucketsRequireLowerCaseError" xml:space="preserve">
+    <value>非美国的bucket需要名称全部为小写。</value>
+  </data>
+  <data name="PageDescription" xml:space="preserve">
+    <value>在这里您可以选择存储备份数据的位置。</value>
+  </data>
+  <data name="PageTitle" xml:space="preserve">
+    <value>备份存储设置</value>
+  </data>
+</root>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthenticationError" xml:space="preserve">
+    <value>Mit den Anmeldedaten konnte keine Anmeldung durchgeführt werden: {0}</value>
+  </data>
+  <data name="CloseTimeoutError" xml:space="preserve">
+    <value>Timeout beim Schließen der Session.</value>
+  </data>
+  <data name="ConnectionTimeoutError" xml:space="preserve">
+    <value>Timeout beim Verbindungsaufbau. Log: {0}</value>
+  </data>
+  <data name="CreateFolderError" xml:space="preserve">
+    <value>Fehler beim Erstellen des Ordners: {0}</value>
+  </data>
+  <data name="DebugDeleteFooter" xml:space="preserve">
+    <value>Löschvorgang abgeschlossen</value>
+  </data>
+  <data name="DebugDeleteHeader" xml:space="preserve">
+    <value>Löschvorgang Start</value>
+  </data>
+  <data name="DebugGetFooter" xml:space="preserve">
+    <value>Zur Gänze holen</value>
+  </data>
+  <data name="DebugGetHeader" xml:space="preserve">
+    <value>Mit dem Holen beginnen</value>
+  </data>
+  <data name="DebugListFooter" xml:space="preserve">
+    <value>Liste vollständig</value>
+  </data>
+  <data name="DebugListHeader" xml:space="preserve">
+    <value>Liste beginnen</value>
+  </data>
+  <data name="DebugParseFailed" xml:space="preserve">
+    <value>Fehler beim Analysieren der Zeile: {0}</value>
+  </data>
+  <data name="DebugPutFooter" xml:space="preserve">
+    <value>Ausgabe abgeschlossen</value>
+  </data>
+  <data name="DebugPutHeader" xml:space="preserve">
+    <value>Ausgabe beginnen</value>
+  </data>
+  <data name="DeleteError" xml:space="preserve">
+    <value>Konnte die Datei nicht löschen: {0}</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Dieses Sicherungsziel kann Daten von/zu einem SSH-basierten Speicher mit SFTP übertragen. Erlaubte Formate sind "ssh://hostname/ordner" oder "ssh://benutzername:kennwort@hostname/ordner"</value>
+  </data>
+  <data name="DescriptionDebugToConsoleLong" xml:space="preserve">
+    <value>Ein SSH-Sicherungsziel benötigt ein externes Programm (SFTP). Da das externe Programm sich jederzeit ändern könnte, würde dann auch das Sicherungsziel nicht mehr funktionieren. Schalten Sie diese Option ein, um Diagnoseinformationen über die SSH-Verbindung auf die Konsole auszugeben. Wird nur verwendet, wenn die Option --use-sftp-application aktiv ist</value>
+  </data>
+  <data name="DescriptionDebugToConsoleShort" xml:space="preserve">
+    <value>Diagnoseinfomationen auf die Konsole ausgeben</value>
+  </data>
+  <data name="DescriptionFTPPasswordLong" xml:space="preserve">
+    <value>Das Kennwort für die Server-Verbindung. Dieses kann auch über die Umgebungsvariable "FTP_PASSWORD" angegeben werden.</value>
+  </data>
+  <data name="DescriptionFTPPasswordShort" xml:space="preserve">
+    <value>Gibt das Kennwort für die Server-Verbindung an</value>
+  </data>
+  <data name="DescriptionFTPUsernameLong" xml:space="preserve">
+    <value>Der Benutzername für die Server-Verbindung. Dieser kann auch über die Umgebungsvariable "FTP_USERNAME" angegeben werden.</value>
+  </data>
+  <data name="DescriptionFTPUsernameShort" xml:space="preserve">
+    <value>Gibt den Benutzernamen für die Server-Verbindung an</value>
+  </data>
+  <data name="DescriptionSFTPCommandLong" xml:space="preserve">
+    <value>Der vollständige Pfad zur SFTP-Anwendung. Wird nur benutzt, wenn die Option --use-sftp-application aktiv ist.</value>
+  </data>
+  <data name="DescriptionSFTPCommandShort" xml:space="preserve">
+    <value>Der Pfad zur SFTP-Anwendung</value>
+  </data>
+  <data name="DescriptionSshkeyfileLong" xml:space="preserve">
+    <value>Stellt eine gültige SSH-Schlüsseldatei bereit. Wenn die Datei verschlüsselt ist, wird das bereitgestellte Kennwort zum Entschlüsseln der Schlüsseldatei verwendet. Wenn diese Option aktiv ist, wird das Kennwort nicht für die Anmeldung verwendet. Diese Option ist nur für den internen SSH-Client verfügbar.</value>
+  </data>
+  <data name="DescriptionSshkeyfileShort" xml:space="preserve">
+    <value>Einen privaten SSH-Schlüssel für die Anmeldung benutzen</value>
+  </data>
+  <data name="DescriptionSSHOptionsLong" xml:space="preserve">
+    <value>Stellen Sie zusätzliche Kommandozeilen-Parameter bereit, die unverändert an die SSH-Anwendung weitergegeben werden. Wird nur benutzt, wenn die Option --use-sftp-application aktiv ist.</value>
+  </data>
+  <data name="DescriptionSSHOptionsShort" xml:space="preserve">
+    <value>Zusätzliche Einstellungen für die SSH-Anwendung</value>
+  </data>
+  <data name="DescriptionTransferTimeoutLong" xml:space="preserve">
+    <value>Ein SSH-Sicherungsziel benötigt ein externes Programm (SFTP). Da das externe Programm abstürzen könnte, muss Duplicati eine Zeitbeschränkung benutzen, um Abstürze identifizieren zu können. Mit dieser Option können Sie die Zeitbeschränkung festlegen, zwischen minimal einer Minute und maximal einer Stunde. Wird nur verwendet, wenn die Option --use-sftp-application aktiv ist</value>
+  </data>
+  <data name="DescriptionTransferTimeoutShort" xml:space="preserve">
+    <value>Die Zeitbeschränkung für eine Dateiübertragung festlegen</value>
+  </data>
+  <data name="DescriptionUnmanagedLong" xml:space="preserve">
+    <value>Setzen Sie diese Option, um den SFTP-Befehl aus --sftp-command für die Server-Kommunikation zu benutzen. Diese Option erfordert, dass auch --disable-streaming-transfers gesetzt ist</value>
+  </data>
+  <data name="DescriptionUnmanagedShort" xml:space="preserve">
+    <value>Benutze eine externe SFTP-Anwendung</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>SSH-basierend</value>
+  </data>
+  <data name="DownloadTimeoutError" xml:space="preserve">
+    <value>Zeitbeschränkung beim Herunterladen der Datei überschritten</value>
+  </data>
+  <data name="FolderNotFoundError" xml:space="preserve">
+    <value>Ordner nicht gefunden: {0}, Protokoll: {1}</value>
+  </data>
+  <data name="FolderNotFoundManagedError" xml:space="preserve">
+    <value>Konnte den Ordner nicht zu {0} festlegen, Fehlermeldung: {1}</value>
+  </data>
+  <data name="FolderVerificationError" xml:space="preserve">
+    <value>Das Remote-Verzeichnis {0} konnte nicht überprüft werden.</value>
+  </data>
+  <data name="HostNotAuthenticatedError" xml:space="preserve">
+    <value>Der Host ist nicht echt bestätigt worden. Bitte stellen Sie die Verbindung zum Host mittels SSH erneut her und starten dann Duplicati nochmals. log: {0}</value>
+  </data>
+  <data name="IncorrectFileHeaderError" xml:space="preserve">
+    <value>Die Datei muß eine gültige Kopfzeile für einen privaten OpenSSH-Schlüssel enthalten, z.B. ---- BEGIN RSA PRIVATE KEY ----</value>
+  </data>
+  <data name="KeyfileNotFoundError" xml:space="preserve">
+    <value>Die angegebene Schlüsseldatei wurde nicht gefunden: {0}</value>
+  </data>
+  <data name="KeyfileParseError" xml:space="preserve">
+    <value>Kann den Inhalt der Datei nicht analysieren. Bitte nehmen Sie folgende Informationen in einem Fehlerbericht mit auf (Sie können vorkommende Schlüsseldaten weglassen): {0}
+</value>
+  </data>
+  <data name="LaunchErrorLinux" xml:space="preserve">
+    <value>Konnte die SSH-Anwendung nicht starten ({0}). Stellen Sie sicher, dass "expect" installiert ist. Fehlermeldung: {1}</value>
+  </data>
+  <data name="LaunchErrorWindows" xml:space="preserve">
+    <value>Konnte die SSH-Anwendung nicht starten ({0}). Stellen Sie sicher, dass "putty" installiert ist und Sie den Pfad korrekt angegeben haben. Fehlermeldung: {1}</value>
+  </data>
+  <data name="PasswordMissingError" xml:space="preserve">
+    <value>Ein Kennwort wurde erwartet, aber kennwortlose Anmeldung wurde angegeben.</value>
+  </data>
+  <data name="StreamingNotSupportedError" xml:space="preserve">
+    <value>Das SSH-Sicherungsziel unterstützt kein Streaming, wenn ein externes SSH-Programm benutzt wird. Wenn Sie also die Option --use-sftp-application setzen, müssen Sie auch --disable-streaming-transfers angeben.</value>
+  </data>
+  <data name="UnexpectedConnectionError" xml:space="preserve">
+    <value>Unerwarteter Fehler: {0}</value>
+  </data>
+  <data name="UnexpectedExitResponseError" xml:space="preserve">
+    <value>Unerwarteter Fehler beim Ende: {0}</value>
+  </data>
+  <data name="UnexpectedResponseError" xml:space="preserve">
+    <value>Es kam eine unerwartete Rückmeldung für Befehl {0}</value>
+  </data>
+  <data name="UnsupportedKeyfileEncryptionError" xml:space="preserve">
+    <value>Das Verschlüsselungsformat wird für private OpenSSH-Schlüssel nicht unterstützt. Es muss  3des-cbc (DES-EDE3-CBC) sein.
+Bitte fügen Sie auch folgende Informationen im Fehlerbericht an: {0}</value>
+  </data>
+  <data name="UploadTimeoutError" xml:space="preserve">
+    <value>Zeitbeschränkung beim Hochladen der Datei überschritten</value>
+  </data>
+  <data name="UsernameMissingError" xml:space="preserve">
+    <value>Ein Benutzername wurde erwartet, wurde aber nicht angegeben</value>
+  </data>
+  <data name="DescriptionSshnocdLong" xml:space="preserve">
+    <value>Schaltet die Benutzung des Kommandos "cd" aus. Damit können auch SSH-Server verwendet werden, bei denen "cd" und/oder "pwd" nicht funktionieren. Ist diese Option aktiv, werden alle Pfade als vollständige Pfade übertragen.</value>
+  </data>
+  <data name="DescriptionSshnocdShort" xml:space="preserve">
+    <value>Das Kommando "cd" nicht benutzen</value>
+  </data>
+</root>

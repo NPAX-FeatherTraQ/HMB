@@ -1,0 +1,540 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AsynchronousuploadLong" xml:space="preserve">
+    <value>启用此选项，Duplicati将边创建卷边传输文件。这可以减少备份的时间，但需要更多的磁盘空间。</value>
+  </data>
+  <data name="AsynchronousuploadShort" xml:space="preserve">
+    <value>使用独立的线程来传输文件</value>
+  </data>
+  <data name="AutocleanupLong" xml:space="preserve">
+    <value>如果一次备份被打断，后台将产生一些残存文件。启用此选项，dupicati将自动删除这些文件。</value>
+  </data>
+  <data name="AutocleanupShort" xml:space="preserve">
+    <value>Duplicati是否删除无用文件的选项</value>
+  </data>
+  <data name="BackupprefixLong" xml:space="preserve">
+    <value>Duplicati生成文件的前缀</value>
+  </data>
+  <data name="BackupprefixShort" xml:space="preserve">
+    <value>备份卷名的前缀</value>
+  </data>
+  <data name="DisablefiletimecheckLong" xml:space="preserve">
+    <value>操作系统将会跟踪文件最后的写入时间。使用此信息，Duplicati可以快速的判断文件是否更改。如果某些程序故意修改了这个信息，Duplicati就无法正常工作。如果设置此项，可以防止这种情况的发生。</value>
+  </data>
+  <data name="DisablefiletimecheckShort" xml:space="preserve">
+    <value>禁止基于文件时间的检查</value>
+  </data>
+  <data name="ExcludeLong" xml:space="preserve">
+    <value>排除符合此过滤条件的文件。这个过滤器是一个“文件替代”过滤器，更像一个命令行参数。您可以使用 "*.txt"来排除所有文本文件。</value>
+  </data>
+  <data name="ExcluderegexpLong" xml:space="preserve">
+    <value>排除符合此过滤条件的文件。这个过滤器是一个规则表达式。您可以使用"(.*)\.txt"来排除所有文本文件。</value>
+  </data>
+  <data name="ExcluderegexpShort" xml:space="preserve">
+    <value>排除文件规则表达式</value>
+  </data>
+  <data name="ExcludeShort" xml:space="preserve">
+    <value>排除文件</value>
+  </data>
+  <data name="FiletorestoreLong" xml:space="preserve">
+    <value>Duplicati默认将还原所有备份的文件。使用此选项来只恢复部分文件。</value>
+  </data>
+  <data name="FiletorestoreShort" xml:space="preserve">
+    <value>还原文件列表</value>
+  </data>
+  <data name="ForceLong" xml:space="preserve">
+    <value>当删除旧文件时，Duplicati仅仅显示出哪些文件是需要被删除的。使用“force”参数才能真正删除它们。</value>
+  </data>
+  <data name="ForceShort" xml:space="preserve">
+    <value>强制删除文件</value>
+  </data>
+  <data name="FullifolderthanLong" xml:space="preserve">
+    <value>如果最后一次完整备份比此处的周期更早，Duplicati将进行一次完整备份，否则进行增量备份。</value>
+  </data>
+  <data name="FullifolderthanShort" xml:space="preserve">
+    <value>完整备份间的最大周期</value>
+  </data>
+  <data name="FullLong" xml:space="preserve">
+    <value>如果使用此选项，Duplicati将对所有文件进行一次完整备份，忽略增量的数据。</value>
+  </data>
+  <data name="FullShort" xml:space="preserve">
+    <value>强制完整备份的选项</value>
+  </data>
+  <data name="GpgencryptionLong" xml:space="preserve">
+    <value>Duplicati默认使用AES加密算法来加密备份卷，使用此选项Duplicati将使用gnupg加密。机器中必须安装好gnupg程序才能正常工作。</value>
+  </data>
+  <data name="GpgencryptionShort" xml:space="preserve">
+    <value>使用gnupg加密</value>
+  </data>
+  <data name="IncludeLong" xml:space="preserve">
+    <value>包含符合此过滤条件的文件。这个过滤器是一个“文件替代”过滤器，更像一个命令行参数。您可以使用 "*.txt"来包含所有文本文件。</value>
+  </data>
+  <data name="IncluderegexpLong" xml:space="preserve">
+    <value>包含符合此过滤条件的文件。这个过滤器是一个规则表达式。您可以使用"(.*)\.txt"来包含所有文本文件。</value>
+  </data>
+  <data name="IncluderegexpShort" xml:space="preserve">
+    <value>包含文件规则表达式</value>
+  </data>
+  <data name="IncludeShort" xml:space="preserve">
+    <value>包含文件</value>
+  </data>
+  <data name="AllowsleepShort" xml:space="preserve">
+    <value>当备份和还原的间歇时，允许系统进入节能模式（只支持windows）</value>
+  </data>
+  <data name="MaxdownloadprsecondLong" xml:space="preserve">
+    <value>通过设置此值，您可以限制Duplicati下载使用的带宽。设置此限制后备份将持续更长的时间，但是将使Duplicati更节约系统资源。</value>
+  </data>
+  <data name="MaxdownloadprsecondShort" xml:space="preserve">
+    <value>每秒最大下载字节数</value>
+  </data>
+  <data name="MaxuploadprsecondLong" xml:space="preserve">
+    <value>通过设置此值，您可以限制Duplicati上传使用的带宽。设置此限制后备份将持续更长的时间，但是将使Duplicati更节约系统资源。</value>
+  </data>
+  <data name="MaxuploadprsecondShort" xml:space="preserve">
+    <value>每秒最大上传字节数</value>
+  </data>
+  <data name="NoencryptionLong" xml:space="preserve">
+    <value>如果您将备份存储在一个本地的磁盘上，并且想让文件保持未加密状态，那么您可以使用此选项来彻底禁止加密。</value>
+  </data>
+  <data name="NoencryptionShort" xml:space="preserve">
+    <value>禁止加密</value>
+  </data>
+  <data name="NumberofretriesLong" xml:space="preserve">
+    <value>如果上传或者下载失败，Duplicati将会重复一定次数然后才放弃。使用这个方法可以应付不稳定的网络连接。</value>
+  </data>
+  <data name="NumberofretriesShort" xml:space="preserve">
+    <value>放弃传输前重试的次数</value>
+  </data>
+  <data name="PassphraseLong" xml:space="preserve">
+    <value>提供一个密码短语，Duplicati将用来加密备份的卷，加密后的卷没有此密码将无法读取。这个变量也可以通过环境变量 PASSPHRASE来提供。</value>
+  </data>
+  <data name="PassphraseShort" xml:space="preserve">
+    <value>加密备份的密码短语</value>
+  </data>
+  <data name="RestoretimeLong" xml:space="preserve">
+    <value>Duplicati默认会从最近的备份中恢复数据，使用此选项来选择一个其他的备份。您可以使用相对的时间，如“-2M”会读取2个月之前的备份。</value>
+  </data>
+  <data name="RestoretimeShort" xml:space="preserve">
+    <value>还原文件的时间</value>
+  </data>
+  <data name="RetrydelayLong" xml:space="preserve">
+    <value>在传输失败后，Duplicati会等待一段时间，然后再重试。这个特性在网络偶尔中断时很有用。</value>
+  </data>
+  <data name="RetrydelayShort" xml:space="preserve">
+    <value>重试前的等待时间</value>
+  </data>
+  <data name="ShortfilenamesLong" xml:space="preserve">
+    <value>如果操作系统不支持Duplicati使用的长文件名，此选项将时间变为一个精简但不可读的格式。此选项还将给文件名加上一个“dpl”的前缀。</value>
+  </data>
+  <data name="ShortfilenamesShort" xml:space="preserve">
+    <value>使用短文件名</value>
+  </data>
+  <data name="SignaturecachepathLong" xml:space="preserve">
+    <value>如果设置了此路径，Duplicati会将所有签名文件存储到这里，这样可以避免重复下载。</value>
+  </data>
+  <data name="SignaturecachepathShort" xml:space="preserve">
+    <value>临时存储目录</value>
+  </data>
+  <data name="SignaturecontrolfilesLong" xml:space="preserve">
+    <value>提供一个文件列表，以分号隔开，这些文件将被添加到每个备份中。Duplicati的图形程序将使用这个选项来为每个备份存储配置数据库。</value>
+  </data>
+  <data name="SignaturecontrolfilesShort" xml:space="preserve">
+    <value>嵌入到备份中的控制文件清单</value>
+  </data>
+  <data name="SkipfilehashchecksLong" xml:space="preserve">
+    <value>如果卷的哈希码不匹配，Duplicati将拒绝使用该备份。使用此选项来允许Duplicati使用该备份。</value>
+  </data>
+  <data name="SkipfilehashchecksShort" xml:space="preserve">
+    <value>设置此项来跳过哈希检查</value>
+  </data>
+  <data name="SkipfileslargerthanLong" xml:space="preserve">
+    <value>此选项允许您排除大于给定值的文件。使用此项将避免备份变得超大。</value>
+  </data>
+  <data name="SkipfileslargerthanShort" xml:space="preserve">
+    <value>备份文件的大小限制</value>
+  </data>
+  <data name="TempdirLong" xml:space="preserve">
+    <value>Duplicati使用系统的默认临时目录。使用此选项可以设置一个替代的临时存储。</value>
+  </data>
+  <data name="TempdirShort" xml:space="preserve">
+    <value>临时存储目录</value>
+  </data>
+  <data name="ThreadpriorityLong" xml:space="preserve">
+    <value>为进程选择另外一个线程优先级。使用此项可以让Duplicati占用更多或更少的CPU时间。</value>
+  </data>
+  <data name="ThreadpriorityShort" xml:space="preserve">
+    <value>线程优先级</value>
+  </data>
+  <data name="TimeseparatorLong" xml:space="preserve">
+    <value>Duplicati在文件名中默认的使用冒号“:”来分隔时间的各个字段。然而有些系统，如windows，这个字符是不允许使用的。使用此选项来使用另外一个字符。</value>
+  </data>
+  <data name="TimeseparatorShort" xml:space="preserve">
+    <value>备份卷文件名分隔符</value>
+  </data>
+  <data name="TotalsizeLong" xml:space="preserve">
+    <value>这个选项可以设置每个备份的大小上限。注意设置之后，备份有可能不能包含所有文件，完全备份也一样。</value>
+  </data>
+  <data name="TotalsizeShort" xml:space="preserve">
+    <value>备份的大小</value>
+  </data>
+  <data name="VolsizeLong" xml:space="preserve">
+    <value>此选项可以改变默认卷的大小。如果后台对每个文件的大小有限制时，这个选项将很有用。</value>
+  </data>
+  <data name="VolsizeShort" xml:space="preserve">
+    <value>卷的大小限制</value>
+  </data>
+  <data name="DisableStreamingLong" xml:space="preserve">
+    <value>启用此选项将禁止使用数据流接口，这意味着传输进度条不会被显示，带宽限制设置也会被忽略。</value>
+  </data>
+  <data name="DisableStreamingShort" xml:space="preserve">
+    <value>禁止数据流传输方法</value>
+  </data>
+  <data name="AllowfullremoveLong" xml:space="preserve">
+    <value>作为一个预防措施，最后一个完整备份是不会被删除的，即使使用了 "delete-all-but-n-full 0"命令。设置此选项将允许删除最后一个备份。</value>
+  </data>
+  <data name="AllowfullremoveShort" xml:space="preserve">
+    <value>允许删除所有的备份</value>
+  </data>
+  <data name="DontreadmanifestsLong" xml:space="preserve">
+    <value>启用此项将不读取清单文件的内容，这也意味着不检查文件的哈希码。仅在灾难恢复时使用此选项。</value>
+  </data>
+  <data name="DontreadmanifestsShort" xml:space="preserve">
+    <value>此选项禁止验证清单</value>
+  </data>
+  <data name="AllowsourcefolderchangeLong" xml:space="preserve">
+    <value>使用这个参数将禁止检查相同的源文件夹。这仅用于单元测试，并不是为日常使用设计。请不要使用此选项，除非您知道自己在做什么。</value>
+  </data>
+  <data name="AllowsourcefolderchangeShort" xml:space="preserve">
+    <value>跳过验证源文件夹</value>
+  </data>
+  <data name="FullifsourcefolderchangedLong" xml:space="preserve">
+    <value>系统不允许改变源文件夹或者源文件夹的数量。如果使用这个选项，当源文件夹变动后将会进行一次完整备份，这将开始一个新的备份链并使用新的文件集合。如果--allow-sourcefolder-change 选项也启用，在源文件夹的数量改变时，只进行一次完整备份。</value>
+  </data>
+  <data name="FullifsourcefolderchangedShort" xml:space="preserve">
+    <value>如果源文件夹改变，进行一次完整备份</value>
+  </data>
+  <data name="CompressionmoduleLong" xml:space="preserve">
+    <value>Duplicati支持第三方的压缩模块。使用此选项来选择所使用的压缩模块。此选项仅用于新创建的卷。当读取旧的文件时，文件名将被用于选择压缩模块。</value>
+  </data>
+  <data name="CompressionmoduleShort" xml:space="preserve">
+    <value>选择使用哪个压缩模块</value>
+  </data>
+  <data name="EncryptionmoduleLong" xml:space="preserve">
+    <value>Duplicati支持第三方的加密模块。使用此项来选择加密的模块。这个选项仅用于创建新的卷，当读取现有文件时，文件名将用于选择加密模块。</value>
+  </data>
+  <data name="EncryptionmoduleShort" xml:space="preserve">
+    <value>选择使用哪个加密模块</value>
+  </data>
+  <data name="GpgencryptionDeprecated" xml:space="preserve">
+    <value>使用 –encryption-module=gpg来替代</value>
+  </data>
+  <data name="DisablemoduleLong" xml:space="preserve">
+    <value>提供一个或多个卸载的模块名称，用逗号隔开</value>
+  </data>
+  <data name="DisablemoduleShort" xml:space="preserve">
+    <value>禁止一个或多个模块</value>
+  </data>
+  <data name="EnablemoduleLong" xml:space="preserve">
+    <value>提供一个或多个加载的模块名称，用逗号隔开</value>
+  </data>
+  <data name="EnablemoduleShort" xml:space="preserve">
+    <value>启用一个或多个模块</value>
+  </data>
+  <data name="SnapshotpolicyLong" xml:space="preserve">
+    <value>这个选项控制快照的使用，快照允许Duplicati备份其他程序锁定的文件。如果此项设为“关闭”，Duplicati不会尝试创建磁盘的快照。设为“自动”，Duplicati将尝试创建快照，如果快照不允许或者不支持，Duplicati将自动放弃。设为“启用”，Duplicati将尝试创建快照，如果失败将在日志中写入警告信息。设为“必须”，如果快照失败Duplicati将放弃整个备份。在windows系统中将使用卷影复制服务（VSS）并且需要管理员权限。在linux系统中将使用逻辑卷管理（LVM）并且需要root权限。</value>
+  </data>
+  <data name="SnapshotpolicyShort" xml:space="preserve">
+    <value>Controls the use of disk snapshots</value>
+  </data>
+  <data name="AsynchronousuploadfolderLong" xml:space="preserve">
+    <value>预生成的卷将会被放在一个默认的临时目录中，使用此项将设置一个新的临时卷目录，在同步上传时此选项也有效。</value>
+  </data>
+  <data name="AsynchronousuploadfolderShort" xml:space="preserve">
+    <value>在此路径中将放置生成的卷，直到它们被上传</value>
+  </data>
+  <data name="AsynchronousuploadlimitLong" xml:space="preserve">
+    <value>当进行异步上传时，Duplicati将创建多个卷。为了防止Duplicati创建过多的卷，此选项将限制上传的次数。设置为0将取消次数限制。</value>
+  </data>
+  <data name="AsynchronousuploadlimitShort" xml:space="preserve">
+    <value>上传前创建的卷数</value>
+  </data>
+  <data name="DebugoutputLong" xml:space="preserve">
+    <value>激活此选项将显示更多错误信息，这将有助于您跟踪某些特定的问题。</value>
+  </data>
+  <data name="DebugoutputShort" xml:space="preserve">
+    <value>激活调试输出</value>
+  </data>
+  <data name="ExcludeemptyfoldersLong" xml:space="preserve">
+    <value>启用此选项后，符合过滤条件的空文件夹将会被排除</value>
+  </data>
+  <data name="ExcludeemptyfoldersShort" xml:space="preserve">
+    <value>控制空白文件夹的操作</value>
+  </data>
+  <data name="OldfilenamesDeprecated" xml:space="preserve">
+    <value>此选项在未来将被取消，但是目前因为某些旧的案例而保留，新的格式不兼容这些老案例。</value>
+  </data>
+  <data name="OldfilenamesLong" xml:space="preserve">
+    <value>通过设置此选项，Duplicati生成的文件名将会包含一个时间加时区的分隔符，这样并不能跨平台兼容。</value>
+  </data>
+  <data name="OldfilenamesShort" xml:space="preserve">
+    <value>使用旧的文件格式</value>
+  </data>
+  <data name="ShortfilenamesDeprecated" xml:space="preserve">
+    <value>Duplicati目前使用了可以跨平台的文件名格式，所以此选项不会再使用并且将在未来删除。</value>
+  </data>
+  <data name="TimeseparatorDeprecated" xml:space="preserve">
+    <value>Duplicati不再使用时间分割符来命名文件，所以此选项不再使用。</value>
+  </data>
+  <data name="LogfileLong" xml:space="preserve">
+    <value>指定记录内部日志信息的名称</value>
+  </data>
+  <data name="LogfileShort" xml:space="preserve">
+    <value>记录内部日志信息</value>
+  </data>
+  <data name="LoglevelLong" xml:space="preserve">
+    <value>指定写入到文件 –log-file中的日志信息的数量</value>
+  </data>
+  <data name="LoglevelShort" xml:space="preserve">
+    <value>日志信息的级别</value>
+  </data>
+  <data name="DisableautocreatefolderLong" xml:space="preserve">
+    <value>当Duplicati检测到目标文件夹不存在时，它将自动创建。激活此项将禁止自动创建文件夹。</value>
+  </data>
+  <data name="DisableautocreatefolderShort" xml:space="preserve">
+    <value>禁止自动创建文件夹</value>
+  </data>
+  <data name="VssexcludewritersLong" xml:space="preserve">
+    <value>使用此选项来排除一个快照中的写入错误。这个等价于vshadow.exe工具的-wx参数，除了它只接受写对象的GUID，并不接受组件的名字或者进程的GUID。多个GUID必须用分号隔开，大多数的GUID格式都被支持，包括带或者不带大括号。</value>
+  </data>
+  <data name="VssexcludewritersShort" xml:space="preserve">
+    <value>VSS中需要排除的guid列表，用分号隔开</value>
+  </data>
+  <data name="UsnpolicyLong" xml:space="preserve">
+    <value>这个选项控制NTFS分区的更新序列号（USN）的使用，它将使Duplicati更快的获得文件和文件夹列表。如果设为“关闭”，Duplicati将不会尝试使用USN。设为“自动”，Duplicati将尝试使用USN，如果不允许或者不支持将自动放弃。设为“启用”，Duplicati将尝试使用USN，如果失败将会在日志文件中写入警告信息。设为“必须”，Duplicati在使用USN失败后将终止备份。这个特性仅支持windows并且需要管理员权限。</value>
+  </data>
+  <data name="UsnpolicyShort" xml:space="preserve">
+    <value>控制如何使用NTFS的更新序列号（USN）</value>
+  </data>
+  <data name="DisableusndiffcheckLong" xml:space="preserve">
+    <value>如果启用了更新序列号（USN），USN将用于找到上次备份以来的所有变动过的文件。使用此选项来禁止USN，这将使Duplicati检查所有的源文件。这个选项仅用于测试，不应该在工作环境中禁止此项。如果USN没有启用，这个选项没有效果。</value>
+  </data>
+  <data name="DisableusndiffcheckShort" xml:space="preserve">
+    <value>禁止用更新序列号（USN）来命名变更列表</value>
+  </data>
+  <data name="OpenfilepolicyLong" xml:space="preserve">
+    <value>如果Duplicati遇到了一个被其他程序打开的文件，它将尝试读取文件的内容。因为文件有可能在备份过程中被写入新的数据，那么有可能在备份中包含一个不完整的文件。使用此选项来禁止此现象的发生，在备份时忽略锁定的文件。这个选项在使用快照选项时无效。</value>
+  </data>
+  <data name="OpenfilepolicyShort" xml:space="preserve">
+    <value>决定如何处理打开的文件</value>
+  </data>
+  <data name="DisabletimetoleranceLong" xml:space="preserve">
+    <value>当需要决定是一个完整备份需要开始还是一个就的备份需要删除时，Duplicati将会轻微的调整操作的时间以避免两次操作之间的冲突。如果一个备份是每天一次的完整备份，运行于12:00:01，还有一个备份是运行于12:00:00，这样一个完整备份还没有启动，但是一个增量备份开始运行了。为了避免此问题，Duplicati插入一个不超过1%时间的公差（最大1小时）。使用此选项来禁止公差，使用严格的时间检查。</value>
+  </data>
+  <data name="DisabletimetoleranceShort" xml:space="preserve">
+    <value>当比较时间时禁止公差</value>
+  </data>
+  <data name="SortedfilelistLong" xml:space="preserve">
+    <value>在处理多个需要备份的文件时通常会按照随机的顺序来处理，这样可以保证所有文件有相同的处理概率。使用此选项来使用字母顺序处理文件列表。</value>
+  </data>
+  <data name="SortedfilelistShort" xml:space="preserve">
+    <value>对文件列表进行排序</value>
+  </data>
+  <data name="CreateverificationfileLong" xml:space="preserve">
+    <value>如果备份是加密的，没有密码的情况下远端的后台将无法验证备份的内容。如果使用此选项，Duplicati将存储一个未加密的到后台。这个文件不会被Duplicati读取，但是允许远程的服务器在没有密码的情况下验证文件的完整性。这个文件没有包含敏感信息，只有一个文件列表和他们对应的哈希码。这个选项只在创建一个新的备份和验证一个备份集合时有效。</value>
+  </data>
+  <data name="CreateverificationfileShort" xml:space="preserve">
+    <value>在服务器上创建验证文件</value>
+  </data>
+  <data name="VerificationLevelLong" xml:space="preserve">
+    <value>使用此选项来改变verify命令的验证级别。设为“manifest”将只验证清单文件。设为“signature”将会下载签名文件进行验证。设为“full”将会下载所有文件，包括内容文件，然后验证它们是否改变。</value>
+  </data>
+  <data name="VerificationLevelShort" xml:space="preserve">
+    <value>验证级别</value>
+  </data>
+  <data name="ListverifyuploadsLong" xml:space="preserve">
+    <value>有些协议，符ftp，以及有些服务器在发生传输中断时仍然假设传输完成，即使它没有完成。启用此选项，Duplicati将会在上传完成后检查后台上的文件是否存在以及大小是否正确。</value>
+  </data>
+  <data name="ListverifyuploadsShort" xml:space="preserve">
+    <value>通过列出内容来检查上传是否正确</value>
+  </data>
+  <data name="FullifmorethannincrementalsLong" xml:space="preserve">
+    <value>使用此选项来限制备份链的长度。此处输入的数字是一个备份链最多增长的次数（不包括首次完整备份）</value>
+  </data>
+  <data name="FullifmorethannincrementalsShort" xml:space="preserve">
+    <value>最大的增长次数</value>
+  </data>
+  <data name="AsynchronousuploadDeprecated" xml:space="preserve">
+    <value>默认是采用异步上传模式，您可以使用选项 –{0}来禁止异步上传。</value>
+  </data>
+  <data name="SynchronousuploadLong" xml:space="preserve">
+    <value>Duplicati将会在扫描磁盘和创建卷的同时上传文件，这样可以使备份的速度加快。使用此选项来禁用此行为，这样Duplicati可以等所有卷完成后再上传。</value>
+  </data>
+  <data name="SynchronousuploadShort" xml:space="preserve">
+    <value>同步上传文件</value>
+  </data>
+  <data name="NoconnectionreuseLong" xml:space="preserve">
+    <value>Duplicati将会尝试在一次连接中执行多个操作，这样可以避免重复登录，并且加快处理的进程。使用此选项后将会为每个操作打开一个独立的连接。</value>
+  </data>
+  <data name="NoconnectionreuseShort" xml:space="preserve">
+    <value>不重复使用连接</value>
+  </data>
+  <data name="DebugretryerrorsLong" xml:space="preserve">
+    <value>当错误发生时，dupicati将在后台重试，并显示重试的次数。激活此项将在重试时显示错误信息。</value>
+  </data>
+  <data name="DebugretryerrorsShort" xml:space="preserve">
+    <value>当重试时显示错误信息</value>
+  </data>
+  <data name="UploadUnchangedBackupsLong" xml:space="preserve">
+    <value>如果没有任何文件变动，Duplicati将不会上传备份集合。如果需要使用备份数据来验证备份是否运行，使用此选项来强制Duplicati上传空的备份集合。</value>
+  </data>
+  <data name="UploadUnchangedBackupsShort" xml:space="preserve">
+    <value>上传空的备份文件</value>
+  </data>
+  <data name="BackendlogdatabaseShort" xml:space="preserve">
+    <value>Database log of remote operations</value>
+  </data>
+  <data name="BackendlogdatabaseLong" xml:space="preserve">
+    <value>Use this option to specify a path to a file that will store information about backend operations. This option can be used to track down errors by comparing the backend state with the expected backend state.</value>
+  </data>
+  <data name="QuotasizeLong" xml:space="preserve">
+    <value>This value can be used to set a known upper limit on the amount of space a backend has. If the backend reports the size itself, this value is ignored</value>
+  </data>
+  <data name="QuotasizeShort" xml:space="preserve">
+    <value>A reported maximum storage</value>
+  </data>
+  <data name="SymlinkpolicyShort" xml:space="preserve">
+    <value>Symlink handling</value>
+  </data>
+  <data name="SymlinkpolicyLong" xml:space="preserve">
+    <value>Using this option to handle symlinks different. The "{0}" option will simply record a symlink with its name and destination, and a restore will recreate the symlink as a link. Use the option "{1}" to ignore all symlinks and not store any information about them. Previous versions of Duplicati used the setting "{2}", which will cause symlinked files to be included and restore as normal files.</value>
+  </data>
+  <data name="ExcludefilesattributesShort" xml:space="preserve">
+    <value>Exclude files by attribute</value>
+  </data>
+  <data name="ExcludefilesattributesLong" xml:space="preserve">
+    <value>Use this option to exclude files with certain attributes. Use a comma separated list of attribute names to specify more that one. Possible values are: {0}</value>
+  </data>
+  <data name="VssusemappingLong" xml:space="preserve">
+    <value>Activate this option to map VSS snapshots to a drive (similar to SUBST, using Win32 DefineDosDevice). This will create temporary drives that are then used to access the contents of a snapshot. This workaround can speed up file access on Windows XP.</value>
+  </data>
+  <data name="VssusemappingShort" xml:space="preserve">
+    <value>Map snapshots to a drive (Windows only)</value>
+  </data>
+</root>
