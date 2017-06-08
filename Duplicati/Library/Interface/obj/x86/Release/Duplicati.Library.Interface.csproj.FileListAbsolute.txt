@@ -1,0 +1,8 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\bin\x86\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\bin\x86\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\x86\Release\Duplicati.Library.Interface.Strings.CommandLineArgument.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\x86\Release\Duplicati.Library.Interface.Strings.Common.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\x86\Release\Duplicati.Library.Interface.Strings.DataTypes.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\x86\Release\Duplicati.Library.Interface.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\x86\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\x86\Release\Duplicati.Library.Interface.pdb

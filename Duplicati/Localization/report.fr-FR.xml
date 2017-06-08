@@ -4,7 +4,7 @@
     <missing />
     <unused />
   </files>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\ApplicationSetup.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\ApplicationSetup.fr-FR.resx">
     <missing />
     <unused>
       <item name="label5.ToolTip">Entrez le mot de passe par défaut qui sera utilisé pour protéger toute nouvelle sauvegarde créee</item>
@@ -188,12 +188,12 @@
         <translated>Annuler</translated>
       </item>
       <item name="$this.Text">
-        <original>Duplicati Options</original>
+        <original>HMB Options</original>
         <translated>Configuration de Duplicati</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\ListBackupFiles.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\ListBackupFiles.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -212,7 +212,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\LogViewer.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\LogViewer.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -223,7 +223,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\MainForm.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\MainForm.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -257,7 +257,7 @@
         <translated>Quitter le programme</translated>
       </item>
       <item name="label1.Text">
-        <original>Duplicati dummy window</original>
+        <original>HMB dummy window</original>
         <translated>Fenêtre factice de Duplicati</translated>
       </item>
       <item name="$this.Text">
@@ -266,7 +266,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\RestoreBackup.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\RestoreBackup.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -289,7 +289,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\ServiceStatus.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\ServiceStatus.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -359,11 +359,11 @@
         <translated>En attente de la sauvegarde suivante...</translated>
       </item>
       <item name="wizardLink.Text">
-        <original>Duplicati Wizard</original>
+        <original>HMB Wizard</original>
         <translated>Assistant de Duplicati</translated>
       </item>
       <item name="linkLabel1.Text">
-        <original>Duplicati Options</original>
+        <original>HMB Options</original>
         <translated>Options de Duplicati</translated>
       </item>
       <item name="wizardHelpLabel.Text">
@@ -379,12 +379,12 @@
         <translated>Actions rapides</translated>
       </item>
       <item name="$this.Text">
-        <original>Duplicati Status</original>
+        <original>HMB Status</original>
         <translated>Moniteur de tâches effectuées / à faire</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\ThrottleControl.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\ThrottleControl.fr-FR.resx">
     <missing>
       <item name="CancelBtn.Text">Cancel</item>
       <item name="$this.Text">Throttle control</item>
@@ -393,7 +393,7 @@
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\BackupFileList.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\BackupFileList.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -412,7 +412,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\BackupItems.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\BackupItems.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -427,13 +427,13 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\BackupTreeView.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\BackupTreeView.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\BandwidthLimit.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\BandwidthLimit.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -448,7 +448,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\CommandLineOptionGrid.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\CommandLineOptionGrid.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -467,7 +467,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\DurationEditor.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\DurationEditor.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -494,7 +494,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\FilterDialog.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\FilterDialog.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -541,7 +541,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\FilterEditor.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\FilterEditor.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -604,7 +604,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\FolderPathEntry.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\FolderPathEntry.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -627,13 +627,13 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\SizeSelector.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\SizeSelector.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\TestSearchSelection.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\TestSearchSelection.fr-FR.resx">
     <missing>
       <item name="chFileExt.Text">Ext</item>
     </missing>
@@ -714,7 +714,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\ThreadPriorityPicker.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\ThreadPriorityPicker.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -741,7 +741,7 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\WaitForOperation.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\WaitForOperation.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -752,13 +752,13 @@
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Properties\Resources.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Properties\Resources.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\ApplicationSetup.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\ApplicationSetup.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -806,7 +806,7 @@
         <translated>Langue, {0}</translated>
       </item>
       <item name="DialogTitle">
-        <original>Duplicati Options, version {0}</original>
+        <original>HMB Options, version {0}</original>
         <translated>Paramètres de Duplicati, version {0}</translated>
       </item>
       <item name="EncryptionModuleLoadError">
@@ -841,7 +841,7 @@ Do you want to use that folder anyway?</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\Common.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\Common.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -904,7 +904,7 @@ Do you want to use that folder anyway?</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\DatabaseUpgrader.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\DatabaseUpgrader.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -941,7 +941,7 @@ Database is NOT upgraded.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\DuplicatiRunner.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\DuplicatiRunner.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -971,7 +971,7 @@ Database is NOT upgraded.</original>
         <translated>La sauvegarde à été interrompue, la raison est: {0}</translated>
       </item>
       <item name="ShutdownWhileBackupInprogress">
-        <original>Duplicati was terminated before the backup completed, status is unknown</original>
+        <original>HMB was terminated before the backup completed, status is unknown</original>
         <translated>Duplicati s'est interrompu avant que la sauvegarde soit terminée: Status inconnu</translated>
       </item>
       <item name="TaskManagerCloseMessage">
@@ -988,7 +988,7 @@ Database is NOT upgraded.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\DynamicSetupHelper.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\DynamicSetupHelper.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -999,7 +999,7 @@ Database is NOT upgraded.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\ListBackupFiles.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\ListBackupFiles.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1046,7 +1046,7 @@ Database is NOT upgraded.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\MainForm.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\MainForm.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1068,7 +1068,7 @@ Database is NOT upgraded.</original>
         <translated>La sauvegarde  {0} à généré un avertissement</translated>
       </item>
       <item name="ExitWhileBackupIsRunningQuestion">
-        <original>A backup is currently running, do you want to stop the backup so Duplicati can exit?</original>
+        <original>A backup is currently running, do you want to stop the backup so HMB can exit?</original>
         <translated>Une tâche de sauvegarde est en cours, voulez-vous l'arrêter pour que Duplicati puisse s'arrêter?</translated>
       </item>
       <item name="MultipleNamedBackupsFound">
@@ -1088,26 +1088,26 @@ Database is NOT upgraded.</original>
         <translated>Impossible de mettre en pause: {0}</translated>
       </item>
       <item name="TerminateForExitQuestion">
-        <original>Duplicati is attempting to quit, but a backup is running.
+        <original>HMB is attempting to quit, but a backup is running.
 Do you want Duplicati to continue waiting for the backup to stop?</original>
         <translated>Duplicati est en train de s'arrêter mais, une tâche de sauvegarde est en cours.
 Voulez-vous que Duplicati attende que celle-ci se termine avant de quitter?</translated>
       </item>
       <item name="TrayStatusPause">
-        <original>Duplicati is currently paused</original>
+        <original>HMB is currently paused</original>
         <translated>Duplicati est actuellement en pause</translated>
       </item>
       <item name="TrayStatusReady">
-        <original>Duplicati is ready</original>
+        <original>HMB is ready</original>
         <translated>Duplicati est prêt</translated>
       </item>
       <item name="TrayStatusRunning">
-        <original>Duplicati is running {0}</original>
+        <original>HMB is running {0}</original>
         <translated>Duplicati exécute {0}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\Program.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\Program.fr-FR.resx">
     <missing />
     <unused />
     <not-updated>
@@ -1153,7 +1153,7 @@ Message d'erreur: {0}</translated>
         <translated>Détermine la quantité d'informations à écrire dans le fichier de données</translated>
       </item>
       <item name="PauseCommandDescription">
-        <original>Pauses Duplicati, supply a time eg. 5m to limit pause to 5 minutes</original>
+        <original>Pauses HMB, supply a time eg. 5m to limit pause to 5 minutes</original>
         <translated>Met Duplicati en pause, indiquez une durée comme. 5m pour limiter la pause à 5 minutes</translated>
       </item>
       <item name="PortablemodeCommandDescription">
@@ -1161,7 +1161,7 @@ Message d'erreur: {0}</translated>
         <translated>Active le mode "portable" où la base de données est placé dans le même répertoire que le programme exécutable</translated>
       </item>
       <item name="ResumeCommandDescription">
-        <original>Resumes operation of Duplicati, if paused</original>
+        <original>Resumes operation of HMB, if paused</original>
         <translated>Fait sortir Duplicati de la pause pour exécuter à nouveau les tâches</translated>
       </item>
       <item name="RunbackupCommandDescription">
@@ -1169,7 +1169,7 @@ Message d'erreur: {0}</translated>
         <translated>Exécute la tâche de sauvegarde passée en argument. Si aucune tâche n'est donnée, les tâches disponibles sont affichées</translated>
       </item>
       <item name="SeriousError">
-        <original>A serious error occured in Duplicati: {0}</original>
+        <original>A serious error occured in HMB: {0}</original>
         <translated>Une erreur grave est apparue dans Duplicati: {0}</translated>
       </item>
       <item name="ShowstausCommandDescription">
@@ -1194,12 +1194,12 @@ Error message: {0}</original>
         <translated>Version de SQLite non supportée ({0}), doit être au moins la version {1} ou plus</translated>
       </item>
       <item name="TraylessCommandDescription">
-        <original>Runs Duplicati without showing the tray icon, closing the main window closes Duplicati</original>
+        <original>Runs HMB without showing the tray icon, closing the main window closes HMB</original>
         <translated>Démarre Duplicati sans afficher l’icône près de l'horloge. Fermer la fenêtre principale fermera Duplicati</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\Scheduler.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\Scheduler.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1210,7 +1210,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\ServiceStatus.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\ServiceStatus.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1236,7 +1236,7 @@ Error message: {0}</original>
         <translated>Sauvegardes réussies avec des avertissements</translated>
       </item>
       <item name="DialogTitle">
-        <original>Duplicati {0} - Status</original>
+        <original>HMB {0} - Status</original>
         <translated>Duplicati {0} - Etat</translated>
       </item>
       <item name="NoFilesInBackupMessages">
@@ -1288,7 +1288,7 @@ Error message: {0}</original>
         <translated>Sauvegarde: {0}</translated>
       </item>
       <item name="StatusPaused">
-        <original>Duplicati is currently paused</original>
+        <original>HMB is currently paused</original>
         <translated>Duplicati est en pause</translated>
       </item>
       <item name="StatusRestore">
@@ -1305,7 +1305,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\TaskType.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\TaskType.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1352,7 +1352,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\TrayIconWrapper.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\TrayIconWrapper.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1373,18 +1373,18 @@ Message d'erreur: {0}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Strings\WizardHandler.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Strings\WizardHandler.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated>
       <item name="ResumeNowQuestion">
-        <original>Duplicati is currently paused, so the backup won't run until Duplicati is resumed.
-Do you want Duplicati to resume now so the backup can run immediately?</original>
+        <original>HMB is currently paused, so the backup won't run until HMB is resumed.
+Do you want HMB to resume now so the backup can run immediately?</original>
         <translated>Duplicati est actuellement en pause, de ce fait les tâches de sauvegarde ne s'exécuteront pas tant qu'il restera dans cet état. Voulez vous que Duplicati sorte de la pause maintenant pour exécuter les tâches immédiatement?</translated>
       </item>
       <item name="SetupRestoreSuccess">
-        <original>The previous Duplicati setup is now restored!</original>
+        <original>The previous HMB setup is now restored!</original>
         <translated>La configuration précédente de Duplicati est maintenant restaurée!</translated>
       </item>
       <item name="StopBackupError">
@@ -1397,17 +1397,17 @@ Do you want to stop it so the delete can proceed?</original>
         <translated>La tâche de sauvegarde que vous souhaitez supprimer est actuellement en cours d'exécution. Voulez-vous l'interrompre maintenant afin que la suppression se fasse?</translated>
       </item>
       <item name="UnableToStopBackupError">
-        <original>Duplicati attempted to stop the backup, but did not succeed.
+        <original>HMB attempted to stop the backup, but did not succeed.
 Press "Finish" to attempt the delete again.</original>
         <translated>Duplicati n'a pas réussi à interrompre la tâche de sauvegarde. Cliquez sur "Terminer" pour tenter de la supprimer à nouveau.</translated>
       </item>
       <item name="WizardFormTitle">
-        <original>Duplicati Setup Wizard</original>
+        <original>HMB Setup Wizard</original>
         <translated>Assistant de configuration de Duplicati</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\FirstLaunch.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\FirstLaunch.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1417,7 +1417,7 @@ Press "Finish" to attempt the delete again.</original>
         <translated>Configurer une nouvelle sauvegarde</translated>
       </item>
       <item name="RestoreSetup.Text">
-        <original>Restore settings from a previous Duplicati installation</original>
+        <original>Restore settings from a previous HMB installation</original>
         <translated>Récupérer la configuration d'une précédente installation de Duplicati</translated>
       </item>
       <item name="SimpleHelpHeader.Text">
@@ -1425,15 +1425,15 @@ Press "Finish" to attempt the delete again.</original>
         <translated>Choisissez l'une des options ci-dessous, puis cliquez sur "suivant"</translated>
       </item>
       <item name="SetupNewBackupHelp.Text">
-        <original>You have not used Duplicati before, or want to start over</original>
+        <original>You have not used HMB before, or want to start over</original>
         <translated>Vous n'avez jamais utilisé Duplicati auparavant, ou vous souhaitez le reconfigurer</translated>
       </item>
       <item name="RestoreSettingsHelp.Text">
-        <original>You have used Duplicati before, and want to restore your setup</original>
+        <original>You have used HMB before, and want to restore your setup</original>
         <translated>Vous souhaitez recharger un fichier configuration de Duplicati</translated>
       </item>
       <item name="RestoreFilesHelp.Text">
-        <original>You do not want to set up Duplicati, but just want to restore some files</original>
+        <original>You do not want to set up HMB, but just want to restore some files</original>
         <translated>Vous ne souhaitez pas reconfigurer Duplicati, mais juste restaurer quelques fichiers</translated>
       </item>
       <item name="RestoreFiles.Text">
@@ -1442,19 +1442,19 @@ Press "Finish" to attempt the delete again.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\GridContainer.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\GridContainer.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\GUIContainer.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\GUIContainer.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\MainPage.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\MainPage.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1497,7 +1497,7 @@ Press "Finish" to attempt the delete again.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\SelectBackend.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\SelectBackend.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1508,7 +1508,7 @@ Press "Finish" to attempt the delete again.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\SelectBackup.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\SelectBackup.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1531,7 +1531,7 @@ Press "Finish" to attempt the delete again.</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\BackupFileList.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\BackupFileList.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1546,7 +1546,7 @@ Clic droit pour changer le répertoire de destination</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\BackupItems.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\BackupItems.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1581,7 +1581,7 @@ Clic droit pour changer le répertoire de destination</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\BackupTreeView.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\BackupTreeView.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1604,7 +1604,7 @@ Clic droit pour changer le répertoire de destination</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\CommandLineOptionsGrid.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\CommandLineOptionsGrid.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1625,7 +1625,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\DurationEditor.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\DurationEditor.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1636,7 +1636,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\FilterDialog.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\FilterDialog.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1647,7 +1647,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\FilterEditor.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\FilterEditor.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1694,7 +1694,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\SizeSelector.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\SizeSelector.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1733,7 +1733,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\TestSearchSelection.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\TestSearchSelection.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1752,7 +1752,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\WaitForOperation.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\HelperControls\Strings\WaitForOperation.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1767,7 +1767,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\AdvancedOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\AdvancedOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1798,7 +1798,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\CleanupSettings.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\CleanupSettings.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1821,13 +1821,13 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\EditFilters.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\EditFilters.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\FinishedAdd.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\FinishedAdd.fr-FR.resx">
     <missing>
       <item name="TabSummary.Text">Summary</item>
       <item name="TabCommandLine.Text">Command Line</item>
@@ -1843,7 +1843,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\PasswordSettings.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\PasswordSettings.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1878,7 +1878,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SelectFiles.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SelectFiles.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1917,7 +1917,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SelectName.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SelectName.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -1936,7 +1936,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SelectWhen.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SelectWhen.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2007,13 +2007,13 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SettingOverrides.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\SettingOverrides.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\ThrottleOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\ThrottleOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2032,13 +2032,13 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Backends\RawContainer.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Backends\RawContainer.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Delete backup\DeleteFinished.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Delete backup\DeleteFinished.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2057,7 +2057,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\FinishedRestore.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\FinishedRestore.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2072,7 +2072,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\SelectBackupVersion.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\SelectBackupVersion.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2083,7 +2083,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\TargetFolder.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\TargetFolder.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2102,7 +2102,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\RestoreSetup\FinishedRestoreSetup.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\RestoreSetup\FinishedRestoreSetup.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2113,7 +2113,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\RunNow\RunNowFinished.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\RunNow\RunNowFinished.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2128,7 +2128,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\FirstLaunch.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\FirstLaunch.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2138,11 +2138,11 @@ Une nouvelle version de Mono affichera cette page.</translated>
         <translated>Vous devez choisir une action</translated>
       </item>
       <item name="PageHelptext">
-        <original>Since this is your first use of Duplicati on this machine, this wizard will guide you through a Duplicati setup</original>
+        <original>Since this is your first use of HMB on this machine, this wizard will guide you through a HMB setup</original>
         <translated>C'est votre première utilisation de Duplicati sur cette machine, cet assistant va vous aider à le configurer</translated>
       </item>
       <item name="PageTitle">
-        <original>Welcome to Duplicati</original>
+        <original>Welcome to HMB</original>
         <translated>Bienvenue sur Duplicati</translated>
       </item>
       <item name="ShowAdvancedQuestion">
@@ -2153,7 +2153,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\MainPage.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\MainPage.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2163,12 +2163,12 @@ Une nouvelle version de Mono affichera cette page.</translated>
         <translated>Veuillez choisir une action à effectuer dans la liste ci-dessous</translated>
       </item>
       <item name="PageTitle">
-        <original>Welcome to the Duplicati Wizard</original>
+        <original>Welcome to the HMB Wizard</original>
         <translated>Bienvenue dans l'assistant de Duplicati</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\SelectBackend.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\SelectBackend.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2191,7 +2191,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\SelectBackup.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Strings\SelectBackup.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2242,7 +2242,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\AdvancedOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\AdvancedOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2257,7 +2257,7 @@ Une nouvelle version de Mono affichera cette page.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\CleanupSettings.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\CleanupSettings.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2288,7 +2288,7 @@ Voulez vous continuer sans cette suppression des anciennes sauvegardes?</transla
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\EditFilters.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\EditFilters.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2303,7 +2303,7 @@ Voulez vous continuer sans cette suppression des anciennes sauvegardes?</transla
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\FinishedAdd.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\FinishedAdd.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2358,7 +2358,7 @@ Voulez vous continuer sans cette suppression des anciennes sauvegardes?</transla
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\PasswordSettings.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\PasswordSettings.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2433,7 +2433,7 @@ Est-te vous absolument certain de vouloir continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SelectFiles.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SelectFiles.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2487,7 +2487,7 @@ Vérifiez que le contenu des fichiers sauvegardés, après exécution de la proc
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SelectName.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SelectName.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2514,7 +2514,7 @@ Vérifiez que le contenu des fichiers sauvegardés, après exécution de la proc
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SelectWhen.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SelectWhen.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2589,7 +2589,7 @@ Voulez vous conserver ces paramètres?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SettingOverrides.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\SettingOverrides.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2620,7 +2620,7 @@ Voulez vous conserver ces paramètres?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\ThrottleOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Add backup\Strings\ThrottleOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2635,7 +2635,7 @@ Voulez vous conserver ces paramètres?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Delete backup\Strings\DeleteFinished.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Delete backup\Strings\DeleteFinished.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2656,7 +2656,7 @@ Nom: {0}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\Strings\FinishedRestore.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\Strings\FinishedRestore.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2693,7 +2693,7 @@ Répertoire: {2}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\Strings\SelectBackupVersion.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\Strings\SelectBackupVersion.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2712,7 +2712,7 @@ Répertoire: {2}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\Strings\TargetFolder.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\Restore\Strings\TargetFolder.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2763,7 +2763,7 @@ Voulez-vous malgré tout continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\RestoreSetup\Strings\FinishedRestoreSetup.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\RestoreSetup\Strings\FinishedRestoreSetup.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2800,7 +2800,7 @@ Voulez-vous malgré tout continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\GUI\Wizard pages\RunNow\Strings\RunNowFinished.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\GUI\Wizard pages\RunNow\Strings\RunNowFinished.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -2821,7 +2821,7 @@ Nom: {0}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\CommandLine\Strings\Program.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\CommandLine\Strings\Program.fr-FR.resx">
     <missing />
     <unused />
     <not-updated>
@@ -3128,7 +3128,7 @@ Erreurs: {3}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\CommandLine\Decrypter\Strings\Program.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\CommandLine\Decrypter\Strings\Program.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3139,7 +3139,7 @@ Erreurs: {3}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Utility\Strings\FilenameFilter.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Utility\Strings\FilenameFilter.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3150,7 +3150,7 @@ Erreurs: {3}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Utility\Strings\Sizeparser.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Utility\Strings\Sizeparser.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3161,7 +3161,7 @@ Erreurs: {3}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Utility\Strings\SslCertificateValidator.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Utility\Strings\SslCertificateValidator.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3182,7 +3182,7 @@ Utilisez l'option en ligne de commande --accept-specified-ssl-hash={1} pour acce
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Utility\Strings\TempFolder.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Utility\Strings\TempFolder.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3193,7 +3193,7 @@ Utilisez l'option en ligne de commande --accept-specified-ssl-hash={1} pour acce
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Utility\Strings\Timeparser.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Utility\Strings\Timeparser.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3228,7 +3228,7 @@ Utilisez l'option en ligne de commande --accept-specified-ssl-hash={1} pour acce
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Utility\Strings\Utility.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Utility\Strings\Utility.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3267,7 +3267,7 @@ Utilisez l'option en ligne de commande --accept-specified-ssl-hash={1} pour acce
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Main\Strings\BackendWrapper.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Main\Strings\BackendWrapper.fr-FR.resx">
     <missing />
     <unused />
     <not-updated>
@@ -3433,7 +3433,7 @@ Si ce problème persiste, il est possible que l'opération de suppression de fic
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Main\Strings\ExecutionStoppedException.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Main\Strings\ExecutionStoppedException.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3444,7 +3444,7 @@ Si ce problème persiste, il est possible que l'opération de suppression de fic
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Main\Strings\FilenameStrategy.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Main\Strings\FilenameStrategy.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3455,7 +3455,7 @@ Si ce problème persiste, il est possible que l'opération de suppression de fic
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Main\Strings\Interface.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Main\Strings\Interface.fr-FR.resx">
     <missing />
     <unused />
     <not-updated>
@@ -3785,7 +3785,7 @@ Si ce problème persiste, il est possible que l'opération de suppression de fic
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Main\Strings\Manifestfile.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Main\Strings\Manifestfile.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -3852,7 +3852,7 @@ Si ce problème persiste, il est possible que l'opération de suppression de fic
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Main\Strings\Options.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Main\Strings\Options.fr-FR.resx">
     <missing />
     <unused />
     <not-updated>
@@ -4396,7 +4396,7 @@ Si ce problème persiste, il est possible que l'opération de suppression de fic
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Main\Strings\RSyncDir.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Main\Strings\RSyncDir.fr-FR.resx">
     <missing />
     <unused />
     <not-updated>
@@ -4532,7 +4532,7 @@ Message d'erreur: {1}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Encryption\GPGCommonOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Encryption\GPGCommonOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4547,7 +4547,7 @@ Message d'erreur: {1}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Encryption\Strings\AESEncryption.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Encryption\Strings\AESEncryption.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4574,7 +4574,7 @@ Message d'erreur: {1}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Encryption\Strings\EncryptionBase.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Encryption\Strings\EncryptionBase.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4585,7 +4585,7 @@ Message d'erreur: {1}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGCommonOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGCommonOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4630,7 +4630,7 @@ Est-ce bien cela que vous voulez ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGEncryption.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGEncryption.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4711,7 +4711,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGSettingsControl.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGSettingsControl.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4726,7 +4726,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGStreamWrapper.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Encryption\Strings\GPGStreamWrapper.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4745,7 +4745,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Compression\Strings\FileArchiveZip.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Compression\Strings\FileArchiveZip.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4784,7 +4784,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\ChecksumFile.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\ChecksumFile.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4823,7 +4823,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\DeltaFile.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\DeltaFile.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4866,7 +4866,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\Program.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\Program.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4887,7 +4887,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\RDiffBinary.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\RDiffBinary.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4922,7 +4922,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\RollingBuffer.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\RollingBuffer.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4941,7 +4941,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\Utility.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\SharpRSync\Strings\Utility.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4952,7 +4952,7 @@ Voulez vous quand même continuer?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\LinuxSnapshot.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\LinuxSnapshot.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -4991,7 +4991,7 @@ Commande: {1} {2}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\Shared.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\Shared.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5002,7 +5002,7 @@ Commande: {1} {2}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\USNHelper.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\USNHelper.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5021,7 +5021,7 @@ Commande: {1} {2}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\WinNativeMethod.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Snapshots\Strings\WinNativeMethod.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5032,7 +5032,7 @@ Commande: {1} {2}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Interface\Strings\CommandLineArgument.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Interface\Strings\CommandLineArgument.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5055,7 +5055,7 @@ Commande: {1} {2}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Interface\Strings\Common.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Interface\Strings\Common.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5136,7 +5136,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Interface\Strings\DataTypes.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Interface\Strings\DataTypes.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5175,7 +5175,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\DynamicLoader\Strings\BackendLoader.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\DynamicLoader\Strings\BackendLoader.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5190,7 +5190,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\DynamicLoader\Strings\DynamicLoader.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\DynamicLoader\Strings\DynamicLoader.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5205,7 +5205,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Modules\Builtin\Strings\ConsolePasswordInput.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Modules\Builtin\Strings\ConsolePasswordInput.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5236,7 +5236,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Modules\Builtin\Strings\HttpOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Modules\Builtin\Strings\HttpOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5283,7 +5283,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\FTP\FTPUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\FTP\FTPUI.fr-FR.resx">
     <missing>
       <item name="label6.Text">Note: Some FTP servers have trouble dealing with more than 2000 files. For this reason, you are advised to select a large volume size so the number of files is low.</item>
     </missing>
@@ -5336,7 +5336,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\FTP\Strings\FTPBackend.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\FTP\Strings\FTPBackend.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5419,7 +5419,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\FTP\Strings\FTPUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\FTP\Strings\FTPUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5450,7 +5450,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\File\FileUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\File\FileUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5485,7 +5485,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\File\Strings\FileBackend.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\File\Strings\FileBackend.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5548,7 +5548,7 @@ Voulez-vous utiliser le répertoire sélectionné?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\File\Strings\FileUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\File\Strings\FileUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5596,7 +5596,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\S3\S3CommonOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\S3\S3CommonOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5635,7 +5635,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\S3\S3UI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\S3\S3UI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5686,7 +5686,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\S3\Strings\S3Backend.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\S3\Strings\S3Backend.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5815,7 +5815,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\S3\Strings\S3SettingsControl.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\S3\Strings\S3SettingsControl.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5830,7 +5830,7 @@ Error message: {0}</original>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\S3\Strings\S3UI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\S3\Strings\S3UI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5922,7 +5922,7 @@ Voulez vous le faire maintenant?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\WEBDAV\WebDAVUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\WEBDAV\WebDAVUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -5977,7 +5977,7 @@ Voulez vous le faire maintenant?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\WEBDAV\Strings\WEBDAV.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\WEBDAV\Strings\WEBDAV.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6052,7 +6052,7 @@ Message d’erreur: {3}</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\WEBDAV\Strings\WebDAVUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\WEBDAV\Strings\WebDAVUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6099,7 +6099,7 @@ Voulez vous supprimer ce caractère de début?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\CloudFilesUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\CloudFilesUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6138,7 +6138,7 @@ Voulez vous supprimer ce caractère de début?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\Strings\CloudFiles.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\Strings\CloudFiles.fr-FR.resx">
     <missing />
     <unused />
     <not-updated>
@@ -6227,7 +6227,7 @@ Voulez vous supprimer ce caractère de début?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\Strings\CloudFilesUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\Strings\CloudFilesUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6278,7 +6278,7 @@ Vous pouvez entrer le nom de votre choix.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\Strings\MD5CalculatingStream.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\CloudFiles\Strings\MD5CalculatingStream.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6289,7 +6289,7 @@ Vous pouvez entrer le nom de votre choix.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Winforms\Controls\PasswordConfirmationDialog.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Winforms\Controls\PasswordConfirmationDialog.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6308,7 +6308,7 @@ Vous pouvez entrer le nom de votre choix.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Winforms\Controls\PasswordControl.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Winforms\Controls\PasswordControl.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6323,13 +6323,13 @@ Vous pouvez entrer le nom de votre choix.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Winforms\Controls\Properties\Resources.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Winforms\Controls\Properties\Resources.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Winforms\Controls\Strings\PasswordConfirmationDialog.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Winforms\Controls\Strings\PasswordConfirmationDialog.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6340,7 +6340,7 @@ Vous pouvez entrer le nom de votre choix.</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Winforms\Controls\Strings\PasswordControl.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Winforms\Controls\Strings\PasswordControl.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6355,7 +6355,7 @@ Voulez vous effacer le mot de passe et en saisir un nouveau?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\SSH\SSHCommonOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\SSH\SSHCommonOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6374,7 +6374,7 @@ Voulez vous effacer le mot de passe et en saisir un nouveau?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\SSH\SSHUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\SSH\SSHUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6429,7 +6429,7 @@ Voulez vous effacer le mot de passe et en saisir un nouveau?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SharpExpectProcess.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SharpExpectProcess.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6448,7 +6448,7 @@ Voulez vous effacer le mot de passe et en saisir un nouveau?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHBackend.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHBackend.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6678,7 +6678,7 @@ Veillez inclure l'information suivante dans un rapport de bug:
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHCommonOptions.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHCommonOptions.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6722,7 +6722,7 @@ Voulez-vous continuer quand même?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHSettingsControl.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHSettingsControl.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6737,7 +6737,7 @@ Voulez-vous continuer quand même?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\SSH\Strings\SSHUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6770,7 +6770,7 @@ Voulez-vous quand même continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\TahoeUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\TahoeUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6809,13 +6809,13 @@ Voulez-vous quand même continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\Properties\Resources.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\Properties\Resources.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\Strings\TahoeBackend.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\Strings\TahoeBackend.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6854,7 +6854,7 @@ Voulez-vous quand même continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\Strings\TahoeUI.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\Library\Backend\TahoeLAFS\Strings\TahoeUI.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6899,7 +6899,7 @@ Voulez-vous continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\WizardForm\Dialog.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\WizardForm\Dialog.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6930,7 +6930,7 @@ Voulez-vous continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\WizardForm\StartPage.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\WizardForm\StartPage.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
@@ -6949,13 +6949,13 @@ Voulez-vous continuer ?</translated>
       </item>
     </updated>
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\WizardForm\WizardControl.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\WizardForm\WizardControl.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />
     <updated />
   </file>
-  <file filename="D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Localization\fr-FR\WizardForm\Strings\Dialog.fr-FR.resx">
+  <file filename="F:\Dranreb\HMB\Source Code\HMB\Duplicati\Localization\fr-FR\WizardForm\Strings\Dialog.fr-FR.resx">
     <missing />
     <unused />
     <not-updated />

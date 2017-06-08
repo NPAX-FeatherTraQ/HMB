@@ -1,0 +1,16 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Backend.CloudFiles.dll.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Backend.CloudFiles.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Backend.CloudFiles.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Winforms.Controls.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Winforms.Controls.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.CloudFilesUI.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.Strings.CloudFiles.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.Strings.CloudFilesUI.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.Strings.MD5CalculatingStream.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.CloudFiles.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.CloudFiles.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.CloudFiles.pdb

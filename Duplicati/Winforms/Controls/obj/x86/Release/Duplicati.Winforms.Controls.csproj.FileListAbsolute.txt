@@ -1,0 +1,10 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\bin\x86\Release\Duplicati.Winforms.Controls.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\bin\x86\Release\Duplicati.Winforms.Controls.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.PasswordConfirmationDialog.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.PasswordControl.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.Properties.Resources.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.Strings.PasswordConfirmationDialog.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.Strings.PasswordControl.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\x86\Release\Duplicati.Winforms.Controls.pdb

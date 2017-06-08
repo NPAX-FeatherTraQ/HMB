@@ -28,26 +28,6 @@
     <DirectoryRef Id="INSTALLLOCATION">
       <Directory Id="dir_EBBDE743258A4611BC17743B04B4DAA1" Name="ru-RU">
         <Component Id="comp_D94CD4743F0F446290539ED7530609D0" DiskId="1" KeyPath="yes" Guid="EA65DCBA-9EB9-41A5-966B-B23C3930780C" Win64="$(var.Win64)">
-          <File Id="file_E1247E2C1F9A43B7AA30C5BECE601629" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.CommandLine.Decrypter.resources.dll" />
-          <File Id="file_09D748F3C80F49B6BF928CA2A0B6FAFC" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.CommandLine.resources.dll" />
-          <File Id="file_DDA4E0DD212B4CB5882471074C2F92F1" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Backend.CloudFiles.resources.dll" />
-          <File Id="file_E60190191A254D2EA0D0BF1EB3C501B1" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Backend.File.resources.dll" />
-          <File Id="file_09ED2B7524DB4CC1A0A2D79A4B143617" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Backend.FTP.resources.dll" />
-          <File Id="file_8C6F85C15DFB42B3B5DF520C6755AB4D" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Backend.S3.resources.dll" />
-          <File Id="file_2936054E48184D79A1E85FAEEB172924" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Backend.SSH.resources.dll" />
-          <File Id="file_CC383212B40D46B9AF181FCCE1BE65D0" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Backend.TahoeLAFS.resources.dll" />
-          <File Id="file_4FC5DD7DB7EA4CF9B91C64183EA43A67" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Backend.WEBDAV.resources.dll" />
-          <File Id="file_C9A3CFE9C22A4B97B87DAE7F553B2BCB" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Compression.resources.dll" />
-          <File Id="file_6C93E0FC43214C36BFB0D57C3056D98D" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.DynamicLoader.resources.dll" />
-          <File Id="file_713FE74947A9429C98EF9CF8BF51BA4E" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Encryption.resources.dll" />
-          <File Id="file_0512022FC40E442792649F5662ACABF9" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Interface.resources.dll" />
-          <File Id="file_56BB5FEA5D3449AE96E19A57E377FE65" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Main.resources.dll" />
-          <File Id="file_73324D685A8E45B8834E9BC2B3C585F9" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Modules.Builtin.resources.dll" />
-          <File Id="file_A8A62EDF8F794CF6A603F5F57AF593DE" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Shapshots.resources.dll" />
-          <File Id="file_8526D034392F487C815D228DC8F8DF42" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.SharpRSync.resources.dll" />
-          <File Id="file_B9E118FC5A25410F99ECDB366A9A3F60" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Library.Utility.resources.dll" />
-          <File Id="file_648DF4B0847F48D28AB1C39B30E3B514" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.resources.dll" />
-          <File Id="file_49CF90142E3A42878752B5F3D99CCA3A" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\Duplicati.Winforms.Controls.resources.dll" />
           <File Id="file_4D61C4BF6E2B4FCEB4A4F5C7CFCAC225" Checksum="yes" Source="..\Duplicati\Localization\compiled\ru-RU\System.Windows.Forms.Wizard.resources.dll" />
         </Component>
       </Directory>

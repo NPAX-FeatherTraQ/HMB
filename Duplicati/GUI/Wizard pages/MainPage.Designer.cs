@@ -38,9 +38,9 @@ namespace Duplicati.GUI.Wizard_pages
             this.Edit = new System.Windows.Forms.Wizard.DoubleClickRadioButton();
             this.CreateNew = new System.Windows.Forms.Wizard.DoubleClickRadioButton();
             this.donate_panel = new System.Windows.Forms.Panel();
-            this.donate_button = new System.Windows.Forms.PictureBox();
             this.donate_link = new System.Windows.Forms.LinkLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.donate_button = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.donate_panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.donate_button)).BeginInit();
@@ -113,6 +113,14 @@ namespace Duplicati.GUI.Wizard_pages
             resources.ApplyResources(this.donate_panel, "donate_panel");
             this.donate_panel.Name = "donate_panel";
             // 
+            // donate_link
+            // 
+            resources.ApplyResources(this.donate_link, "donate_link");
+            this.donate_link.Name = "donate_link";
+            this.donate_link.TabStop = true;
+            this.toolTip.SetToolTip(this.donate_link, resources.GetString("donate_link.ToolTip"));
+            this.donate_link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.donate_link_LinkClicked);
+            // 
             // donate_button
             // 
             this.donate_button.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -122,14 +130,6 @@ namespace Duplicati.GUI.Wizard_pages
             this.donate_button.TabStop = false;
             this.toolTip.SetToolTip(this.donate_button, resources.GetString("donate_button.ToolTip"));
             this.donate_button.Click += new System.EventHandler(this.donate_clicked);
-            // 
-            // donate_link
-            // 
-            resources.ApplyResources(this.donate_link, "donate_link");
-            this.donate_link.Name = "donate_link";
-            this.donate_link.TabStop = true;
-            this.toolTip.SetToolTip(this.donate_link, resources.GetString("donate_link.ToolTip"));
-            this.donate_link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.donate_link_LinkClicked);
             // 
             // MainPage
             // 

@@ -117,14 +117,39 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="_InfoLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 24</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_PageIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="_InfoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 32</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="_PageIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 7</value>
+  </data>
+  <data name="_PageIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 48</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_PageIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;_PageIcon.Name" xml:space="preserve">
+    <value>_PageIcon</value>
+  </data>
+  <data name="&gt;&gt;_PageIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;_PageIcon.Parent" xml:space="preserve">
+    <value>_InfoPanel</value>
+  </data>
+  <data name="&gt;&gt;_PageIcon.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="_InfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 23</value>
+  </data>
+  <data name="_InfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>368, 32</value>
+  </data>
   <data name="_InfoLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -141,7 +166,7 @@
     <value>_InfoPanel</value>
   </data>
   <data name="&gt;&gt;_InfoLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="_TitleLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -171,30 +196,8 @@
     <value>_InfoPanel</value>
   </data>
   <data name="&gt;&gt;_TitleLabel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="_PageIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 8</value>
-  </data>
-  <data name="_PageIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 48</value>
-  </data>
-  <data name="_PageIcon.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;_PageIcon.Name" xml:space="preserve">
-    <value>_PageIcon</value>
-  </data>
-  <data name="&gt;&gt;_PageIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;_PageIcon.Parent" xml:space="preserve">
-    <value>_InfoPanel</value>
-  </data>
-  <data name="&gt;&gt;_PageIcon.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="_InfoPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -217,7 +220,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;_InfoPanel.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="_BackButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>248, 16</value>
@@ -313,13 +316,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;_ButtonPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="_ContentPanel.Location" type="System.Drawing.Point, System.Drawing">
     <value>-1, 61</value>
   </data>
   <data name="_ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>509, 244</value>
+    <value>507, 244</value>
   </data>
   <data name="_ContentPanel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>

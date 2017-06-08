@@ -172,7 +172,7 @@
     <value>BackupList</value>
   </data>
   <data name="&gt;&gt;BackupList.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.BackupTreeView, Duplicati, Version=1.0.1.276, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
+    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.6.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;BackupList.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -280,7 +280,7 @@
     <value>DirectRestore</value>
   </data>
   <data name="&gt;&gt;DirectRestore.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;DirectRestore.Parent" xml:space="preserve">
     <value>RestoreOptions</value>
@@ -376,6 +376,6 @@
     <value>SelectBackup</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
 </root>

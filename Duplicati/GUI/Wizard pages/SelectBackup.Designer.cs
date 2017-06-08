@@ -33,15 +33,15 @@ namespace Duplicati.GUI.Wizard_pages
             this.panel1 = new System.Windows.Forms.Panel();
             this.BackupList = new Duplicati.GUI.HelperControls.BackupTreeView();
             this.ExpanderPanel = new System.Windows.Forms.Panel();
+            this.ShowAdvancedPanel = new System.Windows.Forms.Panel();
+            this.ShowAdvanced = new System.Windows.Forms.CheckBox();
             this.RestoreOptions = new System.Windows.Forms.Panel();
             this.DirectRestore = new System.Windows.Forms.Wizard.DoubleClickRadioButton();
             this.RestoreExisting = new System.Windows.Forms.RadioButton();
-            this.ShowAdvanced = new System.Windows.Forms.CheckBox();
-            this.ShowAdvancedPanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.ExpanderPanel.SuspendLayout();
-            this.RestoreOptions.SuspendLayout();
             this.ShowAdvancedPanel.SuspendLayout();
+            this.RestoreOptions.SuspendLayout();
             this.SuspendLayout();
             // 
             // topLabel
@@ -62,8 +62,8 @@ namespace Duplicati.GUI.Wizard_pages
             this.BackupList.Name = "BackupList";
             this.BackupList.SelectedBackup = null;
             this.BackupList.SelectedFolder = "";
-            this.BackupList.SelectedBackupChanged += new System.EventHandler(this.BackupList_SelectedBackupChanged);
             this.BackupList.TreeDoubleClicked += new System.EventHandler(this.BackupList_TreeDoubleClicked);
+            this.BackupList.SelectedBackupChanged += new System.EventHandler(this.BackupList_SelectedBackupChanged);
             // 
             // ExpanderPanel
             // 
@@ -72,6 +72,18 @@ namespace Duplicati.GUI.Wizard_pages
             this.ExpanderPanel.Controls.Add(this.RestoreOptions);
             resources.ApplyResources(this.ExpanderPanel, "ExpanderPanel");
             this.ExpanderPanel.Name = "ExpanderPanel";
+            // 
+            // ShowAdvancedPanel
+            // 
+            this.ShowAdvancedPanel.Controls.Add(this.ShowAdvanced);
+            resources.ApplyResources(this.ShowAdvancedPanel, "ShowAdvancedPanel");
+            this.ShowAdvancedPanel.Name = "ShowAdvancedPanel";
+            // 
+            // ShowAdvanced
+            // 
+            resources.ApplyResources(this.ShowAdvanced, "ShowAdvanced");
+            this.ShowAdvanced.Name = "ShowAdvanced";
+            this.ShowAdvanced.UseVisualStyleBackColor = true;
             // 
             // RestoreOptions
             // 
@@ -95,18 +107,6 @@ namespace Duplicati.GUI.Wizard_pages
             this.RestoreExisting.TabStop = true;
             this.RestoreExisting.UseVisualStyleBackColor = true;
             // 
-            // ShowAdvanced
-            // 
-            resources.ApplyResources(this.ShowAdvanced, "ShowAdvanced");
-            this.ShowAdvanced.Name = "ShowAdvanced";
-            this.ShowAdvanced.UseVisualStyleBackColor = true;
-            // 
-            // ShowAdvancedPanel
-            // 
-            this.ShowAdvancedPanel.Controls.Add(this.ShowAdvanced);
-            resources.ApplyResources(this.ShowAdvancedPanel, "ShowAdvancedPanel");
-            this.ShowAdvancedPanel.Name = "ShowAdvancedPanel";
-            // 
             // SelectBackup
             // 
             resources.ApplyResources(this, "$this");
@@ -116,10 +116,10 @@ namespace Duplicati.GUI.Wizard_pages
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ExpanderPanel.ResumeLayout(false);
-            this.RestoreOptions.ResumeLayout(false);
-            this.RestoreOptions.PerformLayout();
             this.ShowAdvancedPanel.ResumeLayout(false);
             this.ShowAdvancedPanel.PerformLayout();
+            this.RestoreOptions.ResumeLayout(false);
+            this.RestoreOptions.PerformLayout();
             this.ResumeLayout(false);
 
         }

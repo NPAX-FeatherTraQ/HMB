@@ -133,7 +133,7 @@
     <value>Backup {0} gave a warning</value>
   </data>
   <data name="ExitWhileBackupIsRunningQuestion" xml:space="preserve">
-    <value>A backup is currently running, do you want to stop the backup so Duplicati can exit?</value>
+    <value>A backup is currently running, do you want to stop the backup so HMB can exit?</value>
     <comment>A question displayed when the user attempts to exit Duplicati while a backup is running</comment>
   </data>
   <data name="MultipleNamedBackupsFound" xml:space="preserve">
@@ -152,20 +152,20 @@
     <comment>An error message displayed if the pause failed to parse the time supplied</comment>
   </data>
   <data name="TerminateForExitQuestion" xml:space="preserve">
-    <value>Duplicati is attempting to quit, but a backup is running.
+    <value>HMB is attempting to quit, but a backup is running.
 Do you want Duplicati to continue waiting for the backup to stop?</value>
     <comment>A question displayed to the user after a exit has been issued, but the backup fails to respond to the stop command within a short period</comment>
   </data>
   <data name="TrayStatusPause" xml:space="preserve">
-    <value>Duplicati is currently paused</value>
+    <value>HMB is currently paused</value>
     <comment>A status message displayed when Duplicati is in Pause mode</comment>
   </data>
   <data name="TrayStatusReady" xml:space="preserve">
-    <value>Duplicati is ready</value>
+    <value>HMB is ready</value>
     <comment>Text displayed as a tooltip on the tray icon when Duplicati is ready</comment>
   </data>
   <data name="TrayStatusRunning" xml:space="preserve">
-    <value>Duplicati is running {0}</value>
+    <value>HMB is running {0}</value>
     <comment>Text displayed as a tooltip on the tray icon when Duplicati is running a task</comment>
   </data>
 </root>

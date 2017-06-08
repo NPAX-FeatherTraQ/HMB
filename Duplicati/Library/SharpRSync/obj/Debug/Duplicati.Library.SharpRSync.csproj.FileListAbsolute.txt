@@ -1,0 +1,12 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\bin\Debug\Duplicati.Library.SharpRSync.exe.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\bin\Debug\Duplicati.Library.SharpRSync.exe
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\bin\Debug\Duplicati.Library.SharpRSync.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.Strings.ChecksumFile.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.Strings.DeltaFile.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.Strings.Program.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.Strings.RDiffBinary.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.Strings.RollingBuffer.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.Strings.Utility.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.exe
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Debug\Duplicati.Library.SharpRSync.pdb

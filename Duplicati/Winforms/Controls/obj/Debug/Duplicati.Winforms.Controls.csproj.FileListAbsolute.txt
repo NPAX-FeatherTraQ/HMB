@@ -1,0 +1,10 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\bin\Debug\Duplicati.Winforms.Controls.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\bin\Debug\Duplicati.Winforms.Controls.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.PasswordConfirmationDialog.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.PasswordControl.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.Properties.Resources.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.Strings.PasswordConfirmationDialog.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.Strings.PasswordControl.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Winforms\Controls\obj\Debug\Duplicati.Winforms.Controls.pdb

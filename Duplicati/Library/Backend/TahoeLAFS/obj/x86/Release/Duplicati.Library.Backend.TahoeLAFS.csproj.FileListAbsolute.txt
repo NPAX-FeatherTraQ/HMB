@@ -1,0 +1,17 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Backend.TahoeLAFS.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Backend.TahoeLAFS.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Modules.Builtin.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\LitJson.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Modules.Builtin.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\x86\Release\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.TahoeLAFS.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.Properties.Resources.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.Strings.TahoeBackend.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.Strings.TahoeUI.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.TahoeUI.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.TahoeLAFS.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.TahoeLAFS.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\x86\Release\Duplicati.Library.Backend.TahoeLAFS.pdb

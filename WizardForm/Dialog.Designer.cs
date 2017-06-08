@@ -30,9 +30,9 @@ namespace System.Windows.Forms.Wizard
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dialog));
             this._InfoPanel = new System.Windows.Forms.Panel();
+            this._PageIcon = new System.Windows.Forms.PictureBox();
             this._InfoLabel = new System.Windows.Forms.Label();
             this._TitleLabel = new System.Windows.Forms.Label();
-            this._PageIcon = new System.Windows.Forms.PictureBox();
             this._ButtonPanel = new System.Windows.Forms.Panel();
             this._BackButton = new System.Windows.Forms.Button();
             this._NextButton = new System.Windows.Forms.Button();
@@ -46,11 +46,17 @@ namespace System.Windows.Forms.Wizard
             // _InfoPanel
             // 
             this._InfoPanel.BackColor = System.Drawing.SystemColors.Window;
+            this._InfoPanel.Controls.Add(this._PageIcon);
             this._InfoPanel.Controls.Add(this._InfoLabel);
             this._InfoPanel.Controls.Add(this._TitleLabel);
-            this._InfoPanel.Controls.Add(this._PageIcon);
             resources.ApplyResources(this._InfoPanel, "_InfoPanel");
             this._InfoPanel.Name = "_InfoPanel";
+            // 
+            // _PageIcon
+            // 
+            resources.ApplyResources(this._PageIcon, "_PageIcon");
+            this._PageIcon.Name = "_PageIcon";
+            this._PageIcon.TabStop = false;
             // 
             // _InfoLabel
             // 
@@ -61,12 +67,6 @@ namespace System.Windows.Forms.Wizard
             // 
             resources.ApplyResources(this._TitleLabel, "_TitleLabel");
             this._TitleLabel.Name = "_TitleLabel";
-            // 
-            // _PageIcon
-            // 
-            resources.ApplyResources(this._PageIcon, "_PageIcon");
-            this._PageIcon.Name = "_PageIcon";
-            this._PageIcon.TabStop = false;
             // 
             // _ButtonPanel
             // 
@@ -110,8 +110,8 @@ namespace System.Windows.Forms.Wizard
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this._CancelButton;
-            this.Controls.Add(this._ButtonPanel);
             this.Controls.Add(this._InfoPanel);
+            this.Controls.Add(this._ButtonPanel);
             this.Controls.Add(this._ContentPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;

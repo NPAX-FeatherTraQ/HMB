@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ResumeNowQuestion" xml:space="preserve">
-    <value>Duplicati is currently paused, so the backup won't run until Duplicati is resumed.
-Do you want Duplicati to resume now so the backup can run immediately?</value>
+    <value>HMB is currently paused, so the backup won't run until HMB is resumed.
+Do you want HMB to resume now so the backup can run immediately?</value>
     <comment>A question displayed if the user attempts to run a backup while Duplicati is paused</comment>
   </data>
   <data name="SetupRestoreSuccess" xml:space="preserve">
-    <value>The previous Duplicati setup is now restored!</value>
+    <value>The previous HMB setup is now restored!</value>
     <comment>A message displayed after a setup restore operation has completed</comment>
   </data>
   <data name="StopBackupError" xml:space="preserve">
@@ -136,12 +136,12 @@ Do you want to stop it so the delete can proceed?</value>
     <comment>A question displayed when the user attempts to delete a running backup</comment>
   </data>
   <data name="UnableToStopBackupError" xml:space="preserve">
-    <value>Duplicati attempted to stop the backup, but did not succeed.
+    <value>HMB attempted to stop the backup, but did not succeed.
 Press "Finish" to attempt the delete again.</value>
     <comment>An error message that is displayed if a delete operation fails due to an unstopable running backup</comment>
   </data>
   <data name="WizardFormTitle" xml:space="preserve">
-    <value>Duplicati Setup Wizard</value>
+    <value>HMB Setup Wizard - Hybrid Managed Backup</value>
     <comment>The title of the Duplicati Wizard form</comment>
   </data>
 </root>

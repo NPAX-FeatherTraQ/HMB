@@ -24,6 +24,11 @@
     <ComponentGroup Id="DUPLICATIBIN">
       <ComponentRef Id="comp_2F257D6E521E467CBDEDCCBBFFEFDE3F" />
       <ComponentRef Id="comp_7DA2071847FE41408E6B6BF0C3A7C38E" />
+      <ComponentRef Id="comp_F42CCD57FE944E77AC233845E710D79A" />
+      <ComponentRef Id="comp_8F331930D5244CA3AD607B52EAD5EC72" />
+      <ComponentRef Id="comp_5FC8AA187A8D40CE89B08998DD699B5F" />
+      <ComponentRef Id="comp_10B462AB65B6449D82E320D2C84F259D" />
+      <ComponentRef Id="comp_C3BCC6B88CEA4C52B40A2E6929706AA9" />
       <ComponentRef Id="comp_EE7A5B06AD544C80A3EDE2D06E686ACF" />
       <ComponentRef Id="comp_792858514A594BBF98DBF87B6DEC93A6" />
       <ComponentRef Id="comp_4BF73DAE09CF48858B34E2C767F4CE91" />
@@ -57,7 +62,6 @@
         <File Id="file_909AF4E8C8D7405DBE350591F77DED12" Checksum="yes" Source="bin\Release\Duplicati\Duplicati.CommandLine.Decrypter.exe" />
         <File Id="file_62468D5742DF477D9859D4AC441FBEBF" Checksum="yes" Source="bin\Release\Duplicati\Duplicati.CommandLine.exe" />
         <File Id="file_7667015F752743DB849E2943EB06F41D" Source="bin\Release\Duplicati\Duplicati.CommandLine.exe.config" />
-        <File Id="FILE_DUPLICATI_MAIN_EXE" Checksum="yes" Source="bin\Release\Duplicati\Duplicati.exe" />
         <File Id="file_D61FCE5C0A894730B113ACDA6D67BC27" Source="bin\Release\Duplicati\Duplicati.exe.config" />
         <File Id="file_47EDA9B39A7B40A697B03CF76FDBF26A" Checksum="yes" Source="bin\Release\Duplicati\Duplicati.Library.Backend.CloudFiles.dll" />
         <File Id="file_754256CD2501470FB033357545C3AA48" Checksum="yes" Source="bin\Release\Duplicati\Duplicati.Library.Backend.File.dll" />
@@ -84,6 +88,10 @@
         <File Id="file_CCC685BD59A444C4AD64DFCBE1E8C908" Checksum="yes" Source="bin\Release\Duplicati\Google.GData.Client.dll" />
         <File Id="file_7FC46E961DB541D093A43B3F516AD2DF" Checksum="yes" Source="bin\Release\Duplicati\Google.GData.Documents.dll" />
         <File Id="file_06B704886DEC42E9860A6A80F22B4822" Checksum="yes" Source="bin\Release\Duplicati\Google.GData.Extensions.dll" />
+        <File Id="file_53A999AA4EA14D80856A33314F93D185" Source="bin\Release\Duplicati\HMB.application" />
+        <File Id="file_715019EFFAF14421B589FFF0A93E23E8" Checksum="yes" Source="bin\Release\Duplicati\HMB.exe" />
+        <File Id="file_A3876DE907FD4CB78E4FF82DE69DCF3D" Source="bin\Release\Duplicati\HMB.exe.config" />
+        <File Id="file_A4F1032416F5480BA1A1D633FAD62464" Source="bin\Release\Duplicati\HMB.exe.manifest" />
         <File Id="file_1DD5C89DD78B45A59D43FA711012F21F" Checksum="yes" Source="bin\Release\Duplicati\ICSharpCode.SharpZipLib.dll" />
         <File Id="file_A8DEE766CD13429EA42D5F56FB69CD40" Checksum="yes" Source="bin\Release\Duplicati\LightDatamodel.dll" />
         <File Id="file_41D74B5C27E6448C96ABCEB51CAA2958" Source="bin\Release\Duplicati\linux-readme.txt" />
@@ -104,6 +112,80 @@
           <File Id="file_65BE760D93484494A81792B8244B34A1" Checksum="yes" Source="bin\Release\Duplicati\alphavss\AlphaVSS.WinXP.x64.dll" />
           <File Id="file_398866626D674064A26DAE9525A0CFE9" Checksum="yes" Source="bin\Release\Duplicati\alphavss\AlphaVSS.WinXP.x86.dll" />
         </Component>
+      </Directory>
+      <Directory Id="dir_20A46EB40E854575B20EB25AF5C10855" Name="app.publish">
+        <Component Id="comp_F42CCD57FE944E77AC233845E710D79A" DiskId="1" KeyPath="yes" Guid="A404157C-5C65-48D4-9B26-B2F453261872" Win64="$(var.Win64)">
+          <File Id="file_4F01986431CF4BFEADE2D2941DA70958" Source="bin\Release\Duplicati\app.publish\HMB.application" />
+          <File Id="file_4BEC0DC7F9B64906A5E947130E0697C0" Checksum="yes" Source="bin\Release\Duplicati\app.publish\setup.exe" />
+        </Component>
+        <Directory Id="dir_E8DD04633F4A4B1B8B403FCDB084FA0B" Name="Application Files">
+          <Directory Id="dir_0352991154C340A192E44ED13405EC76" Name="HMB_7_05_22_1">
+            <Component Id="comp_8F331930D5244CA3AD607B52EAD5EC72" DiskId="1" KeyPath="yes" Guid="2A52EF45-AEAC-44EC-889E-034A5EDF9D7A" Win64="$(var.Win64)">
+              <File Id="file_541148C89122404AB6FEF119CB4909AA" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\AlphaFS.dll.deploy" />
+              <File Id="file_6BF9158C5DC0466894576B288C2EFCAC" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\AlphaVSS.Common.dll.deploy" />
+              <File Id="file_2E295A86F16C480CA35F57F97D12005D" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\AWSSDK.dll.deploy" />
+              <File Id="file_A7CA35DBBCB8427EA58604C7F7F4E72C" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Datamodel.dll.deploy" />
+              <File Id="file_FFBF9BEF3DB64562A5317E532CF46EC2" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\DiffieHellman.dll.deploy" />
+              <File Id="file_8F917B509CA048C3AC2A68CD1F6F2465" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.CommandLine.BackendTester.exe.deploy" />
+              <File Id="file_09839E604B4D427083566DFC9E881D58" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.CommandLine.Decrypter.exe.deploy" />
+              <File Id="file_72D3B3B56B0B4BD2BB5895BE676B8854" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.CommandLine.exe.deploy" />
+              <File Id="file_639B4CFFD68B480F9C2192EFD96BFF12" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.CloudFiles.dll.deploy" />
+              <File Id="file_58E4FC382A374619B871EA6D9FEA1048" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.File.dll.deploy" />
+              <File Id="file_10D0CF27C03844E9998E49B7E1815BB1" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.FTP.dll.deploy" />
+              <File Id="file_0E73A0D0A3274252BF72E447D589950C" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.GoogleDocs.dll.deploy" />
+              <File Id="file_46D7E2FBE4FB487C93E9B94C77044D21" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.S3.dll.deploy" />
+              <File Id="file_70B36CCFD2D84B00B83A460B64F00177" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.SkyDrive.dll.deploy" />
+              <File Id="file_5D1CA5173CC9465A93A93F769E4655A8" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.SSH.dll.deploy" />
+              <File Id="file_2304DC209DC84B16A6B2F22EB73CB852" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.TahoeLAFS.dll.deploy" />
+              <File Id="file_BA0942DEA79C4CC28FBD15760BAE29C7" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Backend.WEBDAV.dll.deploy" />
+              <File Id="file_59C3EE45C5A5400CB2EE5C22442775CF" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Compression.dll.deploy" />
+              <File Id="file_F84BC6CE0A534FE494E6D930BFDA57E7" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.DynamicLoader.dll.deploy" />
+              <File Id="file_5B475D97597E47BB97250C3DE289CC30" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Encryption.dll.deploy" />
+              <File Id="file_470006B45B444D0C89C98BAF39B8E588" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Interface.dll.deploy" />
+              <File Id="file_6B2161D4C5AA4129982874EC32BE3C64" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Logging.dll.deploy" />
+              <File Id="file_8BF64A98DD074BD8A3B51AC747493315" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Main.dll.deploy" />
+              <File Id="file_E79DA32079AB4475B0E69DB2E6FBC9F8" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Modules.Builtin.dll.deploy" />
+              <File Id="file_F7D472C5AD094FE1BB413E9A3C40674A" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.SharpRSync.exe.deploy" />
+              <File Id="file_CA6A5EBEB6114C6FA48E770BEDC0BDE5" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Snapshots.exe.deploy" />
+              <File Id="file_889F1CDA56D142FB98032BBB71603285" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Library.Utility.dll.deploy" />
+              <File Id="file_C91B8B7EB6984EE2A8AD1687135564C2" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.License.dll.deploy" />
+              <File Id="file_08E103CB900543D8B172A99D00968B6C" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Duplicati.Winforms.Controls.dll.deploy" />
+              <File Id="file_FB619FDFF390489DA2D3850724D9131F" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Google.GData.AccessControl.dll.deploy" />
+              <File Id="file_DE119A3DFE97454994E8E6CA8E638A2E" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Google.GData.Client.dll.deploy" />
+              <File Id="file_7D35C438195549C58C49A9E4AEF71C54" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Google.GData.Documents.dll.deploy" />
+              <File Id="file_4BF60826F12E496CA9FB4347605A5D93" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Google.GData.Extensions.dll.deploy" />
+              <File Id="file_08267B5E75BD49AD88E0E8663CAD70C8" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\HMB.exe.config.deploy" />
+              <File Id="file_5E71E46676284A9D9513D07D23A1F418" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\HMB.exe.deploy" />
+              <File Id="file_12121D5502064619A82B4D15C22781AC" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\HMB.exe.manifest" />
+              <File Id="file_EB64CFB8B5C3432CBB2F0D93249D08DC" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\hmb.ico.deploy" />
+              <File Id="file_AFEC51863E384C75836F4BF88B02CF18" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\ICSharpCode.SharpZipLib.dll.deploy" />
+              <File Id="file_C32E0CAF80874D06976F32538683FA5D" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\LightDatamodel.dll.deploy" />
+              <File Id="file_DA36E4CD5D8F4D9B95DDB74CA5F29175" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\LitJson.dll.deploy" />
+              <File Id="file_BD5EB22542594B6E8E0E66C0AB996D7F" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\logomakr_83hivy_cak_icon.ico.deploy" />
+              <File Id="file_3FF8E93AFF684C5AA6AA86691B493F63" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Org.Mentalis.Security.dll.deploy" />
+              <File Id="file_3C339047D4384D9F8A1275AF79AC9DB7" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\System.Windows.Forms.Wizard.dll.deploy" />
+              <File Id="file_4A85A29A609549F8AF274913B004BE67" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\Tamir.SharpSSH.dll.deploy" />
+              <File Id="file_BC9F62234E654EF0A3B47DB4AA522008" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\UnixSupport.dll.deploy" />
+            </Component>
+            <Directory Id="dir_BEE62919806746379B1EEDE5C9E561D1" Name="SQLite">
+              <Directory Id="dir_6720CB9934344F8DB1C817D3F6739D76" Name="pinvoke">
+                <Component Id="comp_5FC8AA187A8D40CE89B08998DD699B5F" DiskId="1" KeyPath="yes" Guid="52EF1565-EAED-45D5-80BE-41EAB8D0989B" Win64="$(var.Win64)">
+                  <File Id="file_E38D2420079F47CBABEB80620B702AC2" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\SQLite\pinvoke\System.Data.SQLite.dll.deploy" />
+                </Component>
+              </Directory>
+              <Directory Id="dir_F66CE0B254F44358B0B5DCD5C79B576F" Name="win32">
+                <Component Id="comp_10B462AB65B6449D82E320D2C84F259D" DiskId="1" KeyPath="yes" Guid="260DEBB6-BE39-44C6-9893-17AC58FE707F" Win64="$(var.Win64)">
+                  <File Id="file_F244295628D84A82929799B6DAF8361D" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\SQLite\win32\System.Data.SQLite.dll.deploy" />
+                </Component>
+              </Directory>
+              <Directory Id="dir_7462BA5A0DCD43C59C5C86B58CBD4D50" Name="win64">
+                <Component Id="comp_C3BCC6B88CEA4C52B40A2E6929706AA9" DiskId="1" KeyPath="yes" Guid="0A1A9968-4C00-440C-9A4B-3A60DE063F54" Win64="$(var.Win64)">
+                  <File Id="file_71860084C3F14D78B7A8CF85017E4E4C" Source="bin\Release\Duplicati\app.publish\Application Files\HMB_7_05_22_1\SQLite\win64\System.Data.SQLite.dll.deploy" />
+                </Component>
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
       </Directory>
       <Directory Id="dir_254E2DD9E78D4C6E8ED4F853A8C4CFB8" Name="licenses">
         <Component Id="comp_EE7A5B06AD544C80A3EDE2D06E686ACF" DiskId="1" KeyPath="yes" Guid="77643789-676F-4B92-809B-BD50937A2DA0" Win64="$(var.Win64)">

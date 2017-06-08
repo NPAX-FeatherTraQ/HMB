@@ -153,7 +153,7 @@ Fehler: {3}"
 "CommandLine\Strings\Program.de-DE.resx","WrongNumberOfCommandsError_v2","updated","Found {0} commands but expected {1}, commands: 
 {2}","Gefunden {0} Befehle, jedoch erwartet {1}, Befehle:
 {2}"
-"GUI\ApplicationSetup.de-DE.resx","$this.Text","updated","Duplicati Options","Duplicati Installation"
+"GUI\ApplicationSetup.de-DE.resx","$this.Text","updated","HMB Options","Duplicati Installation"
 "GUI\ApplicationSetup.de-DE.resx","AdvancedTab.Text","updated","Advanced","Erweitert"
 "GUI\ApplicationSetup.de-DE.resx","BalloonNotificationLevel.ToolTip","updated","Choose the level of notification given by balloon tips","Wählen Sie den Umfang der Benachrichtigungen durch Infosymbole"
 "GUI\ApplicationSetup.de-DE.resx","Bandwidth.ToolTip","updated","Set the initial bandwidth limits to use in Duplicati","Geben Sie die anfänglichen Bandbreitenbegrenzungen ein, die Duplicati verwenden soll"
@@ -326,7 +326,7 @@ A newer version of Mono will enable this page.","Diese Seite wird auf der aktuel
 "GUI\MainForm.de-DE.resx","DelayDuration15Menu.Text","updated","15 minutes","15 Minuten"
 "GUI\MainForm.de-DE.resx","DelayDuration30Menu.Text","updated","30 minutes","30 Minuten"
 "GUI\MainForm.de-DE.resx","DelayDuration60Menu.Text","updated","1 hour","1 Stunde"
-"GUI\MainForm.de-DE.resx","label1.Text","updated","Duplicati dummy window","Duplicati Attrappenfenster"
+"GUI\MainForm.de-DE.resx","label1.Text","updated","HMB dummy window","Duplicati Attrappenfenster"
 "GUI\MainForm.de-DE.resx","optionsToolStripMenuItem.Text","updated","Options...","Optionen ..."
 "GUI\MainForm.de-DE.resx","pausePeriodToolStripMenuItem.Text","missing","Pause period",""
 "GUI\MainForm.de-DE.resx","quitToolStripMenuItem.Text","updated","Quit","Verlassen"
@@ -338,7 +338,7 @@ A newer version of Mono will enable this page.","Diese Seite wird auf der aktuel
 "GUI\RestoreBackup.de-DE.resx","folderBrowserDialog.Description","updated","Select the folder where the data will be restored to","Den Ordner für die Wiederherstellung auswählen"
 "GUI\RestoreBackup.de-DE.resx","label1.Text","updated","Backup to restore","Sicherung zur Wiederherstellung"
 "GUI\RestoreBackup.de-DE.resx","label2.Text","updated","Destination","Ziel"
-"GUI\ServiceStatus.de-DE.resx","$this.Text","updated","Duplicati Status","Status von Duplicati"
+"GUI\ServiceStatus.de-DE.resx","$this.Text","updated","HMB Status","Status von Duplicati"
 "GUI\ServiceStatus.de-DE.resx","columnHeader1.Text","updated","Time","Zeit"
 "GUI\ServiceStatus.de-DE.resx","columnHeader2.Text","updated","Backup set","Sicherungssatz"
 "GUI\ServiceStatus.de-DE.resx","columnHeader3.Text","updated","Size","Größe"
@@ -347,7 +347,7 @@ A newer version of Mono will enable this page.","Diese Seite wird auf der aktuel
 "GUI\ServiceStatus.de-DE.resx","CurrentStatus.Text","updated","Waiting for next backup","Warte auf die nächste Sicherung"
 "GUI\ServiceStatus.de-DE.resx","label1_2.Text","updated","Completed backups","Abgeschlossene Sicherungen"
 "GUI\ServiceStatus.de-DE.resx","label5.Text","updated","Pending backups","Anstehende Sicherungen"
-"GUI\ServiceStatus.de-DE.resx","linkLabel1.Text","updated","Duplicati Options","Duplicati Optionen"
+"GUI\ServiceStatus.de-DE.resx","linkLabel1.Text","updated","HMB Options","Duplicati Optionen"
 "GUI\ServiceStatus.de-DE.resx","optionsLabel.Text","updated","(UI Language, Default password, Advanced, ...)","(Sprache der Benutzeroberfläche, Kennwort, ...) "
 "GUI\ServiceStatus.de-DE.resx","pauseBackupToolStripMenuItem.Text","updated","Pause backup","Sicherung vorübergehend unterbrechen"
 "GUI\ServiceStatus.de-DE.resx","PauseDuration05Menu.Text","updated","5 minutes","5 Minuten"
@@ -362,7 +362,7 @@ A newer version of Mono will enable this page.","Diese Seite wird auf der aktuel
 "GUI\ServiceStatus.de-DE.resx","viewFilesToolStripMenuItem.Text","updated","View contents ...","Inhalte ansehen ..."
 "GUI\ServiceStatus.de-DE.resx","viewLogToolStripMenuItem.Text","updated","View log ...","Protokoll ansehen ..."
 "GUI\ServiceStatus.de-DE.resx","wizardHelpLabel.Text","updated","(Create, edit, delete, run, restore backups)","(Sicherungen anlegen, editieren, löschen, ...) "
-"GUI\ServiceStatus.de-DE.resx","wizardLink.Text","updated","Duplicati Wizard","Duplicati Assistent"
+"GUI\ServiceStatus.de-DE.resx","wizardLink.Text","updated","HMB Wizard","Duplicati Assistent"
 "GUI\Strings\ApplicationSetup.de-DE.resx","BalloonNotification_Continous","updated","While running, and on errors, warnings","Während die Sicherung ausgeführt wird (und bei Fehlern und Warnungen)"
 "GUI\Strings\ApplicationSetup.de-DE.resx","BalloonNotification_Errors","updated","On errors","Bei Fehlern "
 "GUI\Strings\ApplicationSetup.de-DE.resx","BalloonNotification_Off","updated","No notifications","Keine Infosymbole"
@@ -374,7 +374,7 @@ A newer version of Mono will enable this page.","Diese Seite wird auf der aktuel
 "GUI\Strings\ApplicationSetup.de-DE.resx","ConfirmCacheDelete","updated","Delete signature files in the folder: 
 {0}","Löschen der Signatur-Dateien im Ordner: {0}"
 "GUI\Strings\ApplicationSetup.de-DE.resx","DefaultLanguage","updated","System language, {0}","System-Sprache {0}"
-"GUI\Strings\ApplicationSetup.de-DE.resx","DialogTitle","missing","Duplicati Options, version {0}",""
+"GUI\Strings\ApplicationSetup.de-DE.resx","DialogTitle","missing","HMB Options, version {0}",""
 "GUI\Strings\ApplicationSetup.de-DE.resx","EncryptionModuleLoadError","updated","An error occured while loading encryption modules: {0}","Ein Fehler ist aufgetreten beim Laden der Verschlüsselungsmodule: {0}"
 "GUI\Strings\ApplicationSetup.de-DE.resx","ErrorWhileExaminingFolder","updated","An exception occured while examining the folder: {0}.
 Do you want to use that folder anyway?","Eine Ausnahme ist aufgetreten beim Untersuchen des Ordners: {0}. Wollen Sie diesen Ordner trotzdem verwenden?"
@@ -423,7 +423,7 @@ Datenbank NICHT aktualisiert."
 "GUI\Strings\DuplicatiRunner.de-DE.resx","CleanupLogdataHeader","updated","Cleanup output:","Ergebnis des Aufräumens:"
 "GUI\Strings\DuplicatiRunner.de-DE.resx","ErrorMessage","updated","Error: {0}","Fehler: {0}"
 "GUI\Strings\DuplicatiRunner.de-DE.resx","OtherAbortMessage","updated","The backup was stopped, the reason was: {0}","Die Sicherung wurde gestoppt, die Ursache war: {0}"
-"GUI\Strings\DuplicatiRunner.de-DE.resx","ShutdownWhileBackupInprogress","updated","Duplicati was terminated before the backup completed, status is unknown","Duplicati wurde beendet, bevor die Sicherung abgeschlossen war. Der Status ist unbekannt"
+"GUI\Strings\DuplicatiRunner.de-DE.resx","ShutdownWhileBackupInprogress","updated","HMB was terminated before the backup completed, status is unknown","Duplicati wurde beendet, bevor die Sicherung abgeschlossen war. Der Status ist unbekannt"
 "GUI\Strings\DuplicatiRunner.de-DE.resx","TaskManagerCloseMessage","updated","The backup was stopped because the application was closed by the task manager","Die Sicherung wurde gestoppt, da die Anwendung durch den Task-Manager geschlossen wurde
 "
 "GUI\Strings\DuplicatiRunner.de-DE.resx","UserClosingMessage","updated","The backup was stopped by the user","Die Sicherung wurde vom Benutzer abgebrochen"
@@ -445,19 +445,19 @@ Datenbank NICHT aktualisiert."
 "GUI\Strings\MainForm.de-DE.resx","BalloonTip_Started","updated","Running {0}","{0} wird ausgeführt"
 "GUI\Strings\MainForm.de-DE.resx","BalloonTip_Stopped","updated","Finished {0}","{0} fertiggestellt"
 "GUI\Strings\MainForm.de-DE.resx","BalloonTip_Warning","updated","Backup {0} gave a warning","Sicherung {0} hat eine Warnung ausgegeben"
-"GUI\Strings\MainForm.de-DE.resx","ExitWhileBackupIsRunningQuestion","updated","A backup is currently running, do you want to stop the backup so Duplicati can exit?","Es wird gerade eine Sicherung durchgeführt. Möchten Sie die Sicherung beenden, so dass Duplicati beendet werden kann?"
+"GUI\Strings\MainForm.de-DE.resx","ExitWhileBackupIsRunningQuestion","updated","A backup is currently running, do you want to stop the backup so HMB can exit?","Es wird gerade eine Sicherung durchgeführt. Möchten Sie die Sicherung beenden, so dass Duplicati beendet werden kann?"
 "GUI\Strings\MainForm.de-DE.resx","MultipleNamedBackupsFound","updated","The backup named ""{0}"" was found {1} times","Die Sicherung ""{0}"" wurde {1} mal gefunden"
 "GUI\Strings\MainForm.de-DE.resx","NamedBackupGroupNotFound","updated","The backup group named ""{0}"" was not found","Sicherungssatz ""{0}"" nicht gefunden"
 "GUI\Strings\MainForm.de-DE.resx","NamedBackupNotFound","updated","The backup named ""{0}"" was not found","Die Sicherung ""{0}"" wurde nicht gefunden"
 "GUI\Strings\MainForm.de-DE.resx","PauseOperationFailed","updated","Failed to execute the Pause request: {0}","Konnte die Pause-Anfrage nicht ausführen: {0}
 "
-"GUI\Strings\MainForm.de-DE.resx","TerminateForExitQuestion","updated","Duplicati is attempting to quit, but a backup is running.
+"GUI\Strings\MainForm.de-DE.resx","TerminateForExitQuestion","updated","HMB is attempting to quit, but a backup is running.
 Do you want Duplicati to continue waiting for the backup to stop?","Es wird versucht, Duplicati zu beenden, aber eine Sicherung wird gerade durchgeführt.
 Soll Duplicati weiterhin auf die Beendigung der Sicherung warten?"
-"GUI\Strings\MainForm.de-DE.resx","TrayStatusPause","updated","Duplicati is currently paused","Duplicati ist derzeit angehalten
+"GUI\Strings\MainForm.de-DE.resx","TrayStatusPause","updated","HMB is currently paused","Duplicati ist derzeit angehalten
 "
-"GUI\Strings\MainForm.de-DE.resx","TrayStatusReady","updated","Duplicati is ready","Duplicati ist bereit"
-"GUI\Strings\MainForm.de-DE.resx","TrayStatusRunning","updated","Duplicati is running {0}","{0} wird ausgeführt"
+"GUI\Strings\MainForm.de-DE.resx","TrayStatusReady","updated","HMB is ready","Duplicati ist bereit"
+"GUI\Strings\MainForm.de-DE.resx","TrayStatusRunning","updated","HMB is running {0}","{0} wird ausgeführt"
 "GUI\Strings\Program.de-DE.resx","AnotherInstanceDetected","updated","Another instance is running, and was notified","Eine weitere Instanz von Duplicati läuft bereits, und wurde benachrichtigt."
 "GUI\Strings\Program.de-DE.resx","DatabaseOpenError","updated","Failed to create, open or upgrade the database.
 Error message: {0}","Fehler beim Erstellen, Öffnen oder Aktualisieren der Datenbank. Fehlermeldung: {0}
@@ -473,19 +473,19 @@ Error message: {0}","Fehler beim Erstellen, Öffnen oder Aktualisieren der Daten
 "
 "GUI\Strings\Program.de-DE.resx","LogfileCommandDescription","updated","Outputs log information to the file given","Die Ergebnisse der Log-Informationen wurden in die Datei geschrieben"
 "GUI\Strings\Program.de-DE.resx","LoglevelCommandDescription","updated","Determines the amount of information written in the log file","Bestimmt den Umfang der Informationen für die Protokolldatei"
-"GUI\Strings\Program.de-DE.resx","PauseCommandDescription","updated","Pauses Duplicati, supply a time eg. 5m to limit pause to 5 minutes","Hält Duplicati an, geben Sie eine Pausen-Zeit an, z.B. 5m für eine Pause von 5 Minuten"
+"GUI\Strings\Program.de-DE.resx","PauseCommandDescription","updated","Pauses HMB, supply a time eg. 5m to limit pause to 5 minutes","Hält Duplicati an, geben Sie eine Pausen-Zeit an, z.B. 5m für eine Pause von 5 Minuten"
 "GUI\Strings\Program.de-DE.resx","PortablemodeCommandDescription","updated","Activates portable mode where the database is placed below the program executable","Aktiviert den Portablen Modus, bei dem die Datenbank beim ausführbaren Programm platziert ist"
-"GUI\Strings\Program.de-DE.resx","ResumeCommandDescription","updated","Resumes operation of Duplicati, if paused","Setzt Duplicati fort, falls es angehalten wurde"
+"GUI\Strings\Program.de-DE.resx","ResumeCommandDescription","updated","Resumes operation of HMB, if paused","Setzt Duplicati fort, falls es angehalten wurde"
 "GUI\Strings\Program.de-DE.resx","RunbackupCommandDescription","updated","Runs the backup with the name supplied. If no backup name is supplied, the available backups are displayed","Startet die Sicherung mit dem angegebenen Namen. Wenn kein Sicherungsname angegeben wird, werden die verfügbaren Sicherungen angezeigt"
 "GUI\Strings\Program.de-DE.resx","RunbackupGroupCommandDescription","not-updated","Runs all backups in the group with the name supplied. If no group name is supplied, the available backups are displayed. If the group name is not found, an error message is displayed.",""
-"GUI\Strings\Program.de-DE.resx","SeriousError","updated","A serious error occured in Duplicati: {0}","Schwerer Fehler in Duplicati: {0}
+"GUI\Strings\Program.de-DE.resx","SeriousError","updated","A serious error occured in HMB: {0}","Schwerer Fehler in Duplicati: {0}
 "
 "GUI\Strings\Program.de-DE.resx","ShowstausCommandDescription","updated","Displays the status window","Zeigt das Status-Fenster"
 "GUI\Strings\Program.de-DE.resx","ShowwizardCommandDescription","updated","Displays the wizard window","Zeigt das Ratgeber-Fenster an"
 "GUI\Strings\Program.de-DE.resx","StartupFailure","updated","Unable to start up, perhaps another process is already running?
 Error message: {0}","Starten nicht möglich, möglicherweise läuft bereits ein anderer Prozess?
 Fehlermeldung: {0}"
-"GUI\Strings\Program.de-DE.resx","TraylessCommandDescription","updated","Runs Duplicati without showing the tray icon, closing the main window closes Duplicati","Duplicati ohne Anzeige des Tray-Icons, das Schließen des Hauptfensters schließt Duplicati"
+"GUI\Strings\Program.de-DE.resx","TraylessCommandDescription","updated","Runs HMB without showing the tray icon, closing the main window closes HMB","Duplicati ohne Anzeige des Tray-Icons, das Schließen des Hauptfensters schließt Duplicati"
 "GUI\Strings\Program.de-DE.resx","UnencrypteddatabaseCommandDescription","updated","Disables database encryption","Schaltet die Verschlüsselung der Datenbank aus"
 "GUI\Strings\Program.de-DE.resx","WrongSQLiteVersion","updated","Unsupported version of SQLite detected ({0}), must be {1} or higher","Nicht unterstützte Version von SQLite erkannt ({0}), muss {1} oder höher sein "
 "GUI\Strings\Scheduler.de-DE.resx","InvalidTimeSetupError","updated","Unable to find a valid date, given the start date {0}, the repetition interval {1} and the allowed days {2}","Kann kein gültiges Datum finden mit dem Starttermin {0}, dem Wiederholungsintervall {1} und den erlaubten Tagen {2}
@@ -495,6 +495,7 @@ Fehlermeldung: {0}"
 "GUI\Strings\ServiceStatus.de-DE.resx","BackupStatusOK","updated","Successfull backup","Erfolgreiche Sicherung"
 "GUI\Strings\ServiceStatus.de-DE.resx","BackupStatusPartial","updated","Backup only processed some of the files","Nur einige Dateien wurden gesichert"
 "GUI\Strings\ServiceStatus.de-DE.resx","BackupStatusWarning","updated","Completed backup with warnings","Sicherung mit Warnungen abgeschlossen "
+"GUI\Strings\ServiceStatus.de-DE.resx","DialogTitle","missing","HMB {0} - Status",""
 "GUI\Strings\ServiceStatus.de-DE.resx","NoFilesInBackupMessages","updated","The backup has no changes","Die Sicherung hat keine Änderungen"
 "GUI\Strings\ServiceStatus.de-DE.resx","QuickActionExit","updated","Close Duplicati","Duplicati schließen"
 "GUI\Strings\ServiceStatus.de-DE.resx","QuickActionPause10","updated","Pause for 10 minutes","Pause für 10 Minuten"
@@ -507,7 +508,7 @@ Fehlermeldung: {0}"
 "GUI\Strings\ServiceStatus.de-DE.resx","QuickActionThrottle","updated","Throttle options ...","Drosselungsoptionen"
 "GUI\Strings\ServiceStatus.de-DE.resx","SelectQuickAction","updated","- Select action -","- Aktion wählen -"
 "GUI\Strings\ServiceStatus.de-DE.resx","StatusBackup","updated","Backup: {0}","Sicherung: {0}"
-"GUI\Strings\ServiceStatus.de-DE.resx","StatusPaused","updated","Duplicati is currently paused","Duplicati ist derzeit angehalten"
+"GUI\Strings\ServiceStatus.de-DE.resx","StatusPaused","updated","HMB is currently paused","Duplicati ist derzeit angehalten"
 "GUI\Strings\ServiceStatus.de-DE.resx","StatusRestore","updated","Restore: {0}","Wiederherstellung: {0}
 "
 "GUI\Strings\ServiceStatus.de-DE.resx","StatusWaiting","updated","Waiting for next backup","Warte auf die nächste Sicherung"
@@ -529,17 +530,17 @@ Error message: {0}","GTK konnte nicht geladen werden, die Windows-Forms-Implemen
 Fehlermeldung: {0}"
 "GUI\Strings\TrayIconWrapper.de-DE.resx","GtkNotFoundError","updated","Unable to locate gtk assemblies","GTK-Bibliotheken wurden nicht gefunden."
 "GUI\Strings\TrayIconWrapper.de-DE.resx","GtkTooOldError","updated","Gtk found, but it has version {0} and must be at least {1}","GTK mit Version {0} gefunden, aber mindestens Version {1} benötigt"
-"GUI\Strings\WizardHandler.de-DE.resx","ResumeNowQuestion","updated","Duplicati is currently paused, so the backup won't run until Duplicati is resumed.
-Do you want Duplicati to resume now so the backup can run immediately?","Duplicati ist im Moment angehalten, daher wird die Sicherung erst ausgeführt, wenn Duplicati fortgesetzt wird.
+"GUI\Strings\WizardHandler.de-DE.resx","ResumeNowQuestion","updated","HMB is currently paused, so the backup won't run until HMB is resumed.
+Do you want HMB to resume now so the backup can run immediately?","Duplicati ist im Moment angehalten, daher wird die Sicherung erst ausgeführt, wenn Duplicati fortgesetzt wird.
 Soll Duplicati fortgesetzt werden, damit die Sicherung sofort durchgeführt wird?"
-"GUI\Strings\WizardHandler.de-DE.resx","SetupRestoreSuccess","updated","The previous Duplicati setup is now restored!","Die letzte Konfiguration von Duplicati wurde wiederhergestellt."
+"GUI\Strings\WizardHandler.de-DE.resx","SetupRestoreSuccess","updated","The previous HMB setup is now restored!","Die letzte Konfiguration von Duplicati wurde wiederhergestellt."
 "GUI\Strings\WizardHandler.de-DE.resx","StopBackupError","updated","An error occured while attempting to stop the running backup: {0}","Ein Fehler ist beim Versuch aufgetreten, die laufende Sicherung {0} anzuhalten"
 "GUI\Strings\WizardHandler.de-DE.resx","StopRunningBackupQuestion","updated","The backup you want to delete is currently running.
 Do you want to stop it so the delete can proceed?","Die Sicherung, die gelöscht werden soll, wird gerade ausgeführt. Möchten Sie die Sicherung anhalten, damit sie gelöscht werden kann?"
-"GUI\Strings\WizardHandler.de-DE.resx","UnableToStopBackupError","updated","Duplicati attempted to stop the backup, but did not succeed.
+"GUI\Strings\WizardHandler.de-DE.resx","UnableToStopBackupError","updated","HMB attempted to stop the backup, but did not succeed.
 Press ""Finish"" to attempt the delete again.","Duplicati hat versucht, die Sicherung anzuhalten, ist aber gescheitert. 
 Drücken Sie auf ""Fertigstellen"", um das Löschen erneut zu versuchen."
-"GUI\Strings\WizardHandler.de-DE.resx","WizardFormTitle","updated","Duplicati Setup Wizard","Duplicati Assistent"
+"GUI\Strings\WizardHandler.de-DE.resx","WizardFormTitle","updated","HMB Setup Wizard","Duplicati Assistent"
 "GUI\ThrottleControl.de-DE.resx","$this.Text","missing","Throttle control",""
 "GUI\ThrottleControl.de-DE.resx","CancelBtn.Text","missing","Cancel",""
 "GUI\Wizard pages\Add backup\AdvancedOptions.de-DE.resx","EditFilters.Text","updated","Modify filters that control what files are included in the backup","Bearbeiten Sie Filter, die festlegen, welche Dateien in die Sicherung einzuschließen sind"
@@ -731,10 +732,10 @@ Name: {0}","Vorgang: Sicherung Löschen
 Name: {0}"
 "GUI\Wizard pages\FirstLaunch.de-DE.resx","CreateNew.Text","updated","Setup a new backup","Eine neue Sicherung einrichten"
 "GUI\Wizard pages\FirstLaunch.de-DE.resx","RestoreFiles.Text","updated","Restore files from a backup","Dateien aus einer Sicherung wiederherstellen"
-"GUI\Wizard pages\FirstLaunch.de-DE.resx","RestoreFilesHelp.Text","updated","You do not want to set up Duplicati, but just want to restore some files","Sie möchten Duplicati jetzt nicht einrichten, sondern nur einige Dateien wiederherstellen"
-"GUI\Wizard pages\FirstLaunch.de-DE.resx","RestoreSettingsHelp.Text","updated","You have used Duplicati before, and want to restore your setup","Sie haben Duplicati bereits verwendet, und möchten Ihre Einstellungen wiederherstellen"
-"GUI\Wizard pages\FirstLaunch.de-DE.resx","RestoreSetup.Text","updated","Restore settings from a previous Duplicati installation","Einstellungen aus einer früheren Installation von Duplicati wiederherstellen"
-"GUI\Wizard pages\FirstLaunch.de-DE.resx","SetupNewBackupHelp.Text","updated","You have not used Duplicati before, or want to start over","Sie haben Duplicati noch nicht verwendet oder möchten noch einmal von vorn anfangen"
+"GUI\Wizard pages\FirstLaunch.de-DE.resx","RestoreFilesHelp.Text","updated","You do not want to set up HMB, but just want to restore some files","Sie möchten Duplicati jetzt nicht einrichten, sondern nur einige Dateien wiederherstellen"
+"GUI\Wizard pages\FirstLaunch.de-DE.resx","RestoreSettingsHelp.Text","updated","You have used HMB before, and want to restore your setup","Sie haben Duplicati bereits verwendet, und möchten Ihre Einstellungen wiederherstellen"
+"GUI\Wizard pages\FirstLaunch.de-DE.resx","RestoreSetup.Text","updated","Restore settings from a previous HMB installation","Einstellungen aus einer früheren Installation von Duplicati wiederherstellen"
+"GUI\Wizard pages\FirstLaunch.de-DE.resx","SetupNewBackupHelp.Text","updated","You have not used HMB before, or want to start over","Sie haben Duplicati noch nicht verwendet oder möchten noch einmal von vorn anfangen"
 "GUI\Wizard pages\FirstLaunch.de-DE.resx","SimpleHelpHeader.Text","updated","Select one of the options below, and click next","Wählen Sie eine der folgenden Optionen aus, und drücken Sie Weiter"
 "GUI\Wizard pages\MainPage.de-DE.resx","Backup.Text","updated","Run a backup immediately","Eine Sicherung sofort ausführen"
 "GUI\Wizard pages\MainPage.de-DE.resx","CreateNew.Text","updated","Schedule a new backup","Eine neue Sicherung planen"
@@ -811,12 +812,12 @@ Name: {0}"
 "GUI\Wizard pages\SelectBackup.de-DE.resx","ShowAdvanced.Text","updated","Show advanced options","Erweiterte Optionen anzeigen"
 "GUI\Wizard pages\SelectBackup.de-DE.resx","topLabel.Text","updated","Select backup to modify","Wählen Sie eine Sicherung aus, die geändert werden soll"
 "GUI\Wizard pages\Strings\FirstLaunch.de-DE.resx","NoActionSelection","updated","You must select an action","Bitte wählen Sie eine Aufgabe"
-"GUI\Wizard pages\Strings\FirstLaunch.de-DE.resx","PageHelptext","updated","Since this is your first use of Duplicati on this machine, this wizard will guide you through a Duplicati setup","Da Sie Duplicati auf diesem Computer zum ersten Mal benutzen, wird Sie dieser Assistent durch die Duplicati-Einrichtung führen"
-"GUI\Wizard pages\Strings\FirstLaunch.de-DE.resx","PageTitle","updated","Welcome to Duplicati","Willkommen bei Duplicati"
+"GUI\Wizard pages\Strings\FirstLaunch.de-DE.resx","PageHelptext","updated","Since this is your first use of HMB on this machine, this wizard will guide you through a HMB setup","Da Sie Duplicati auf diesem Computer zum ersten Mal benutzen, wird Sie dieser Assistent durch die Duplicati-Einrichtung führen"
+"GUI\Wizard pages\Strings\FirstLaunch.de-DE.resx","PageTitle","updated","Welcome to HMB","Willkommen bei Duplicati"
 "GUI\Wizard pages\Strings\FirstLaunch.de-DE.resx","ShowAdvancedQuestion","updated","Do you need to modify advanced settings?
 (Most users do not need this)","Möchten Sie erweiterte Einstellungen vornehmen? (Die meisten Benutzer brauchen das nicht)"
 "GUI\Wizard pages\Strings\MainPage.de-DE.resx","PageHelptext","updated","Please select the action you want to perform below","Bitte wählen Sie unten eine Aufgabe"
-"GUI\Wizard pages\Strings\MainPage.de-DE.resx","PageTitle","updated","Welcome to the Duplicati Wizard","Willkommen beim Assistenten von Duplicati"
+"GUI\Wizard pages\Strings\MainPage.de-DE.resx","PageTitle","updated","Welcome to the HMB Wizard","Willkommen beim Assistenten von Duplicati"
 "GUI\Wizard pages\Strings\SelectBackend.de-DE.resx","NoActionSelected","updated","You must enter the storage method before you can continue.","Sie müssen die Speichermethode eingeben, bevor eine Fortsetzung möglich ist."
 "GUI\Wizard pages\Strings\SelectBackend.de-DE.resx","PageHelptext","updated","On this page you can select the type of device or service that store the backups. You may need information from the service provider when you continue.","Wählen Sie ein Ziel für Ihre Sicherungen. Möglicherweise benötigen Sie Informationen von Ihrem Provider."
 "GUI\Wizard pages\Strings\SelectBackend.de-DE.resx","PageTitle","updated","Select a place to store the backups","Wählen Sie bitte den Speicher-Ort für die Sicherungen"

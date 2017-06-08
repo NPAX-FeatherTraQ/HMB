@@ -265,7 +265,7 @@
     <value>StartupDelayDuration</value>
   </data>
   <data name="&gt;&gt;StartupDelayDuration.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.DurationEditor, Duplicati, Version=1.0.1.276, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
+    <value>Duplicati.GUI.HelperControls.DurationEditor, Duplicati, Version=1.3.0.0, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
   </data>
   <data name="&gt;&gt;StartupDelayDuration.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -385,7 +385,7 @@
     <value>RecentDuration</value>
   </data>
   <data name="&gt;&gt;RecentDuration.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.DurationEditor, Duplicati, Version=1.0.1.276, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
+    <value>Duplicati.GUI.HelperControls.DurationEditor, Duplicati, Version=1.3.0.0, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
   </data>
   <data name="&gt;&gt;RecentDuration.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -777,6 +777,12 @@
   <data name="CommonPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>203, 18</value>
   </data>
+  <data name="CommonPassword.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>5000, 20</value>
+  </data>
+  <data name="CommonPassword.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
   <data name="CommonPassword.Size" type="System.Drawing.Size, System.Drawing">
     <value>221, 20</value>
   </data>
@@ -790,7 +796,7 @@
     <value>CommonPassword</value>
   </data>
   <data name="&gt;&gt;CommonPassword.Type" xml:space="preserve">
-    <value>Duplicati.Winforms.Controls.PasswordControl, Duplicati.Winforms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
+    <value>Duplicati.Winforms.Controls.PasswordControl, Duplicati.Winforms.Controls, Version=1.3.4.0, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
   </data>
   <data name="&gt;&gt;CommonPassword.Parent" xml:space="preserve">
     <value>PasswordDefaultsGroup</value>
@@ -871,7 +877,7 @@
     <value>Bandwidth</value>
   </data>
   <data name="&gt;&gt;Bandwidth.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.BandwidthLimit, Duplicati, Version=1.0.1.276, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
+    <value>Duplicati.GUI.HelperControls.BandwidthLimit, Duplicati, Version=1.3.0.0, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
   </data>
   <data name="&gt;&gt;Bandwidth.Parent" xml:space="preserve">
     <value>groupBox4</value>
@@ -895,7 +901,7 @@
     <value>ThreadPriorityPicker</value>
   </data>
   <data name="&gt;&gt;ThreadPriorityPicker.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.ThreadPriorityPicker, Duplicati, Version=1.0.1.276, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
+    <value>Duplicati.GUI.HelperControls.ThreadPriorityPicker, Duplicati, Version=1.3.0.0, Culture=neutral, PublicKeyToken=8bfe994a39631a7b</value>
   </data>
   <data name="&gt;&gt;ThreadPriorityPicker.Parent" xml:space="preserve">
     <value>groupBox4</value>
@@ -1727,14 +1733,11 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAA==
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Duplicati Options</value>
+    <value>HMB Options</value>
   </data>
   <data name="&gt;&gt;BrowseTempPath.Name" xml:space="preserve">
     <value>BrowseTempPath</value>

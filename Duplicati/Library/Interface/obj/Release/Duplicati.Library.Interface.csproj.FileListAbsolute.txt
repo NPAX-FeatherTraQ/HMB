@@ -7,3 +7,11 @@ D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Interface\obj\Release\Dupli
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.csproj.GenerateResource.Cache
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.dll
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\bin\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\bin\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.Strings.CommandLineArgument.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.Strings.Common.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.Strings.DataTypes.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Interface\obj\Release\Duplicati.Library.Interface.pdb

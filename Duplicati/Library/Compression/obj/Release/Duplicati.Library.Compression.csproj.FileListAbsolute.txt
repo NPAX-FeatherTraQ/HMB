@@ -13,3 +13,18 @@ D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Compression\obj\Release\Dup
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.csproj.GenerateResource.Cache
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.dll
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Compression.dll.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Compression.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Compression.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Logging.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\Release\Duplicati.Library.Logging.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.Strings.FileArchiveZip.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\Release\Duplicati.Library.Compression.pdb

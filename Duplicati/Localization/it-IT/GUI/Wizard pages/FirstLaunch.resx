@@ -138,7 +138,7 @@
     <value>CreateNew</value>
   </data>
   <data name="&gt;&gt;CreateNew.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;CreateNew.Parent" xml:space="preserve">
     <value>$this</value>
@@ -159,13 +159,13 @@
     <value>1</value>
   </data>
   <data name="RestoreSetup.Text" xml:space="preserve">
-    <value>Restore settings from a previous Duplicati installation</value>
+    <value>Restore settings from a previous HMB installation</value>
   </data>
   <data name="&gt;&gt;RestoreSetup.Name" xml:space="preserve">
     <value>RestoreSetup</value>
   </data>
   <data name="&gt;&gt;RestoreSetup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;RestoreSetup.Parent" xml:space="preserve">
     <value>$this</value>
@@ -216,7 +216,7 @@
     <value>3</value>
   </data>
   <data name="SetupNewBackupHelp.Text" xml:space="preserve">
-    <value>You have not used Duplicati before, or want to start over</value>
+    <value>You have not used HMB before, or want to start over</value>
   </data>
   <data name="&gt;&gt;SetupNewBackupHelp.Name" xml:space="preserve">
     <value>SetupNewBackupHelp</value>
@@ -246,7 +246,7 @@
     <value>4</value>
   </data>
   <data name="RestoreSettingsHelp.Text" xml:space="preserve">
-    <value>You have used Duplicati before, and want to restore your setup</value>
+    <value>You have used HMB before, and want to restore your setup</value>
   </data>
   <data name="&gt;&gt;RestoreSettingsHelp.Name" xml:space="preserve">
     <value>RestoreSettingsHelp</value>
@@ -280,7 +280,7 @@
     <value>6</value>
   </data>
   <data name="RestoreFilesHelp.Text" xml:space="preserve">
-    <value>You do not want to set up Duplicati, but just want to restore some files</value>
+    <value>You do not want to set up HMB, but just want to restore some files</value>
   </data>
   <data name="&gt;&gt;RestoreFilesHelp.Name" xml:space="preserve">
     <value>RestoreFilesHelp</value>
@@ -316,7 +316,7 @@
     <value>RestoreFiles</value>
   </data>
   <data name="&gt;&gt;RestoreFiles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;RestoreFiles.Parent" xml:space="preserve">
     <value>$this</value>
@@ -324,9 +324,9 @@
   <data name="&gt;&gt;RestoreFiles.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>506, 242</value>
   </data>
@@ -334,6 +334,6 @@
     <value>FirstLaunch</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
 </root>

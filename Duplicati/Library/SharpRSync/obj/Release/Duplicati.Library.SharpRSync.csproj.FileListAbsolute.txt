@@ -10,3 +10,16 @@ D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\SharpRSync\obj\Release\Dupl
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.csproj.GenerateResource.Cache
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.exe
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\bin\Release\Duplicati.Library.SharpRSync.exe.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\bin\Release\Duplicati.Library.SharpRSync.exe
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\bin\Release\Duplicati.Library.SharpRSync.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.Strings.ChecksumFile.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.Strings.DeltaFile.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.Strings.Program.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.Strings.RDiffBinary.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.Strings.RollingBuffer.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.Strings.Utility.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.exe
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\SharpRSync\obj\Release\Duplicati.Library.SharpRSync.pdb

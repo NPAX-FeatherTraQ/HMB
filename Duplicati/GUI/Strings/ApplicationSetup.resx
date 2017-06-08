@@ -153,7 +153,7 @@
     <comment>A string displayed to denote the current default language</comment>
   </data>
   <data name="DialogTitle" xml:space="preserve">
-    <value>Duplicati Options, version {0}</value>
+    <value>HMB Options, version {0}</value>
     <comment>The dialog title with version number</comment>
   </data>
   <data name="EncryptionModuleLoadError" xml:space="preserve">

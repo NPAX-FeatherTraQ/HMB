@@ -121,7 +121,7 @@ namespace Duplicati.GUI
             InitializeComponent();
 
             m_trayIcon = new TrayIconProxy(TrayIcon);
-            m_currentIcon = Properties.Resources.TrayNormal;
+            m_currentIcon = Properties.Resources.HMB_TrayNormal;
             m_currentTooltip = Strings.MainForm.TrayStatusReady;
 
             Program.LiveControl.StateChanged += new EventHandler(LiveControl_StateChanged);
@@ -160,7 +160,7 @@ namespace Duplicati.GUI
 
         public void ResetCurrentIcon()
         {
-            m_currentIcon = Properties.Resources.TrayNormal;
+            m_currentIcon = Properties.Resources.HMB_TrayNormal;
             m_currentTooltip = Strings.MainForm.TrayStatusReady;
             m_currentIconState = DuplicatiRunner.RunnerResult.OK;
             UpdateTrayIcon();

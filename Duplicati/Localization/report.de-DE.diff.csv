@@ -26,7 +26,6 @@
 "GUI\Strings\MainForm.de-DE.resx","BalloonTip_Running","unused","{0}","{0}","Translated 2011-11","21/11/2011","Translated in week 47/2011","by E.Mair","","","","316"
 "GUI\Strings\Program.de-DE.resx","HelpDisplayFormat","unused","--{0}: {1}","--{0}: {1}","Translated 2011-11","21/11/2011","Translated in week 47/2011","by E.Mair","","","--{0}: {1}","334"
 "GUI\Strings\Program.de-DE.resx","RunbackupGroupCommandDescription","not-updated","Runs all backups in the group with the name supplied. If no group name is supplied, the available backups are displayed. If the group name is not found, an error message is displayed.",""
-"GUI\Strings\ServiceStatus.de-DE.resx","DialogTitle","unused","Duplicati {0} - Status","Duplicati {0} - Status","Translated 2011-11","21/11/2011","Translated in week 47/2011","by E.Mair","","","","355"
 "GUI\Strings\ServiceStatus.de-DE.resx","QuickActionPause","unused","Pause","Pause","Translated 2011-11","21/11/2011","Translated in week 47/2011","by E.Mair","","","","358"
 "GUI\ThrottleControl.de-DE.resx","$this.Text","not-updated","Throttle control",""
 "GUI\ThrottleControl.de-DE.resx","CancelBtn.Text","not-updated","Cancel",""

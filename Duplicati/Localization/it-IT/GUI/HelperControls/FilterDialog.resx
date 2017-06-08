@@ -384,6 +384,9 @@
   <data name="HelpLink.Text" xml:space="preserve">
     <value>Filter help</value>
   </data>
+  <data name="HelpLink.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;HelpLink.Name" xml:space="preserve">
     <value>HelpLink</value>
   </data>
@@ -404,6 +407,9 @@
   </data>
   <data name="HelpImage.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
+  </data>
+  <data name="HelpImage.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;HelpImage.Name" xml:space="preserve">
     <value>HelpImage</value>

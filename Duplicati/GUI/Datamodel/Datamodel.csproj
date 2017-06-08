@@ -7,7 +7,7 @@
     <ProjectGuid>{B60D0993-B0C5-457A-90D9-DB6EEB33CE47}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon />
+    <ApplicationIcon>hmb.ico</ApplicationIcon>
     <AssemblyKeyContainerName />
     <AssemblyName>Datamodel</AssemblyName>
     <AssemblyOriginatorKeyFile>Duplicati.snk</AssemblyOriginatorKeyFile>
@@ -138,6 +138,9 @@
       <Project>{DE3E5D4C-51AB-4E5E-BEE8-E636CEBFBA65}</Project>
       <Name>Duplicati.Library.Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hmb.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

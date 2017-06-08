@@ -1,0 +1,15 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Library.Backend.SkyDrive.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Library.Backend.SkyDrive.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Winforms.Controls.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Winforms.Controls.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\bin\Debug\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\obj\Debug\Duplicati.Library.Backend.SkyDriveUI.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\obj\Debug\Duplicati.Library.Backend.Strings.SkyDrive.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\obj\Debug\Duplicati.Library.Backend.Strings.SkyDriveSession.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\obj\Debug\Duplicati.Library.Backend.Strings.SkyDriveUI.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\obj\Debug\Duplicati.Library.Backend.SkyDrive.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\obj\Debug\Duplicati.Library.Backend.SkyDrive.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\SkyDrive\obj\Debug\Duplicati.Library.Backend.SkyDrive.pdb

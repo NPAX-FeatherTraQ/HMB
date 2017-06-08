@@ -35,9 +35,11 @@ namespace Duplicati.GUI
             this.BalloonNotificationLevel = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.HideDonateButton = new System.Windows.Forms.CheckBox();
+            this.StartupDelayDuration = new Duplicati.GUI.HelperControls.DurationEditor();
             this.label7 = new System.Windows.Forms.Label();
             this.LanguageSelection = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.RecentDuration = new Duplicati.GUI.HelperControls.DurationEditor();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.CacheSizeLabel = new System.Windows.Forms.Label();
             this.ClearCacheButton = new System.Windows.Forms.Button();
@@ -59,6 +61,8 @@ namespace Duplicati.GUI
             this.BasicTab = new System.Windows.Forms.TabPage();
             this.AdvancedTab = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.Bandwidth = new Duplicati.GUI.HelperControls.BandwidthLimit();
+            this.ThreadPriorityPicker = new Duplicati.GUI.HelperControls.ThreadPriorityPicker();
             this.LicenseTab = new System.Windows.Forms.TabPage();
             this.LicenseLink = new System.Windows.Forms.LinkLabel();
             this.label6 = new System.Windows.Forms.Label();
@@ -68,10 +72,6 @@ namespace Duplicati.GUI
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.OKBtn = new System.Windows.Forms.Button();
             this.CancelBtn = new System.Windows.Forms.Button();
-            this.StartupDelayDuration = new Duplicati.GUI.HelperControls.DurationEditor();
-            this.RecentDuration = new Duplicati.GUI.HelperControls.DurationEditor();
-            this.Bandwidth = new Duplicati.GUI.HelperControls.BandwidthLimit();
-            this.ThreadPriorityPicker = new Duplicati.GUI.HelperControls.ThreadPriorityPicker();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.PasswordDefaultsGroup.SuspendLayout();
@@ -126,6 +126,14 @@ namespace Duplicati.GUI
             this.HideDonateButton.UseVisualStyleBackColor = true;
             this.HideDonateButton.CheckedChanged += new System.EventHandler(this.HideDonateButton_CheckedChanged);
             // 
+            // StartupDelayDuration
+            // 
+            resources.ApplyResources(this.StartupDelayDuration, "StartupDelayDuration");
+            this.StartupDelayDuration.Name = "StartupDelayDuration";
+            this.toolTip.SetToolTip(this.StartupDelayDuration, resources.GetString("StartupDelayDuration.ToolTip"));
+            this.StartupDelayDuration.Value = "";
+            this.StartupDelayDuration.ValueChanged += new System.EventHandler(this.StartupDelayDuration_ValueChanged);
+            // 
             // label7
             // 
             resources.ApplyResources(this.label7, "label7");
@@ -146,6 +154,14 @@ namespace Duplicati.GUI
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
             this.toolTip.SetToolTip(this.label3, resources.GetString("label3.ToolTip"));
+            // 
+            // RecentDuration
+            // 
+            resources.ApplyResources(this.RecentDuration, "RecentDuration");
+            this.RecentDuration.Name = "RecentDuration";
+            this.toolTip.SetToolTip(this.RecentDuration, resources.GetString("RecentDuration.ToolTip"));
+            this.RecentDuration.Value = "";
+            this.RecentDuration.ValueChanged += new System.EventHandler(this.RecentDuration_ValueChanged);
             // 
             // groupBox2
             // 
@@ -256,8 +272,6 @@ namespace Duplicati.GUI
             this.CommonPassword.InitialPassword = null;
             this.CommonPassword.IsPasswordVisible = false;
             resources.ApplyResources(this.CommonPassword, "CommonPassword");
-            this.CommonPassword.MaximumSize = new System.Drawing.Size(5000, 20);
-            this.CommonPassword.MinimumSize = new System.Drawing.Size(150, 20);
             this.CommonPassword.Name = "CommonPassword";
             this.toolTip.SetToolTip(this.CommonPassword, resources.GetString("CommonPassword.ToolTip"));
             this.CommonPassword.TextChanged += new System.EventHandler(this.CommonPassword_TextChanged);
@@ -301,6 +315,25 @@ namespace Duplicati.GUI
             resources.ApplyResources(this.groupBox4, "groupBox4");
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
+            // 
+            // Bandwidth
+            // 
+            this.Bandwidth.DownloadLimit = null;
+            this.Bandwidth.DownloadLimitInBytes = ((long)(0));
+            resources.ApplyResources(this.Bandwidth, "Bandwidth");
+            this.Bandwidth.Name = "Bandwidth";
+            this.toolTip.SetToolTip(this.Bandwidth, resources.GetString("Bandwidth.ToolTip"));
+            this.Bandwidth.UploadLimit = null;
+            this.Bandwidth.UploadLimitInBytes = ((long)(0));
+            this.Bandwidth.DownloadLimitChanged += new System.EventHandler(this.Bandwidth_DownloadLimitChanged);
+            this.Bandwidth.UploadLimitChanged += new System.EventHandler(this.Bandwidth_UploadLimitChanged);
+            // 
+            // ThreadPriorityPicker
+            // 
+            resources.ApplyResources(this.ThreadPriorityPicker, "ThreadPriorityPicker");
+            this.ThreadPriorityPicker.Name = "ThreadPriorityPicker";
+            this.toolTip.SetToolTip(this.ThreadPriorityPicker, resources.GetString("ThreadPriorityPicker.ToolTip"));
+            this.ThreadPriorityPicker.SelectedPriorityChanged += new System.EventHandler(this.ThreadPriorityPicker_SelectedPriorityChanged);
             // 
             // LicenseTab
             // 
@@ -359,41 +392,6 @@ namespace Duplicati.GUI
             this.CancelBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.CancelBtn.Name = "CancelBtn";
             this.CancelBtn.UseVisualStyleBackColor = true;
-            // 
-            // StartupDelayDuration
-            // 
-            resources.ApplyResources(this.StartupDelayDuration, "StartupDelayDuration");
-            this.StartupDelayDuration.Name = "StartupDelayDuration";
-            this.toolTip.SetToolTip(this.StartupDelayDuration, resources.GetString("StartupDelayDuration.ToolTip"));
-            this.StartupDelayDuration.Value = "";
-            this.StartupDelayDuration.ValueChanged += new System.EventHandler(this.StartupDelayDuration_ValueChanged);
-            // 
-            // RecentDuration
-            // 
-            resources.ApplyResources(this.RecentDuration, "RecentDuration");
-            this.RecentDuration.Name = "RecentDuration";
-            this.toolTip.SetToolTip(this.RecentDuration, resources.GetString("RecentDuration.ToolTip"));
-            this.RecentDuration.Value = "";
-            this.RecentDuration.ValueChanged += new System.EventHandler(this.RecentDuration_ValueChanged);
-            // 
-            // Bandwidth
-            // 
-            this.Bandwidth.DownloadLimit = null;
-            this.Bandwidth.DownloadLimitInBytes = ((long)(0));
-            resources.ApplyResources(this.Bandwidth, "Bandwidth");
-            this.Bandwidth.Name = "Bandwidth";
-            this.toolTip.SetToolTip(this.Bandwidth, resources.GetString("Bandwidth.ToolTip"));
-            this.Bandwidth.UploadLimit = null;
-            this.Bandwidth.UploadLimitInBytes = ((long)(0));
-            this.Bandwidth.DownloadLimitChanged += new System.EventHandler(this.Bandwidth_DownloadLimitChanged);
-            this.Bandwidth.UploadLimitChanged += new System.EventHandler(this.Bandwidth_UploadLimitChanged);
-            // 
-            // ThreadPriorityPicker
-            // 
-            resources.ApplyResources(this.ThreadPriorityPicker, "ThreadPriorityPicker");
-            this.ThreadPriorityPicker.Name = "ThreadPriorityPicker";
-            this.toolTip.SetToolTip(this.ThreadPriorityPicker, resources.GetString("ThreadPriorityPicker.ToolTip"));
-            this.ThreadPriorityPicker.SelectedPriorityChanged += new System.EventHandler(this.ThreadPriorityPicker_SelectedPriorityChanged);
             // 
             // ApplicationSetup
             // 

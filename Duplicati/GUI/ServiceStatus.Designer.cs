@@ -240,7 +240,6 @@ namespace Duplicati.GUI
             // 
             this.ProgressMessage.AutoEllipsis = true;
             resources.ApplyResources(this.ProgressMessage, "ProgressMessage");
-            this.ProgressMessage.MaximumSize = new System.Drawing.Size(288, 13);
             this.ProgressMessage.Name = "ProgressMessage";
             this.ProgressMessage.TextChanged += new System.EventHandler(this.ProgressMessage_TextChanged);
             // 

@@ -133,7 +133,7 @@
     <value>Completed backup with warnings</value>
   </data>
   <data name="DialogTitle" xml:space="preserve">
-    <value>Duplicati {0} - Status</value>
+    <value>HMB {0} - Status</value>
   </data>
   <data name="NoFilesInBackupMessages" xml:space="preserve">
     <value>The backup has no changes</value>
@@ -175,7 +175,7 @@
     <value>Backup: {0}</value>
   </data>
   <data name="StatusPaused" xml:space="preserve">
-    <value>Duplicati is currently paused</value>
+    <value>HMB is currently paused</value>
   </data>
   <data name="StatusRestore" xml:space="preserve">
     <value>Restore: {0}</value>

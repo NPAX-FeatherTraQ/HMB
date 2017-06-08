@@ -150,87 +150,6 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;Backup.Name" xml:space="preserve">
-    <value>Backup</value>
-  </data>
-  <data name="&gt;&gt;Backup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
-  </data>
-  <data name="&gt;&gt;Backup.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Backup.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Remove.Name" xml:space="preserve">
-    <value>Remove</value>
-  </data>
-  <data name="&gt;&gt;Remove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
-  </data>
-  <data name="&gt;&gt;Remove.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Remove.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Restore.Name" xml:space="preserve">
-    <value>Restore</value>
-  </data>
-  <data name="&gt;&gt;Restore.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
-  </data>
-  <data name="&gt;&gt;Restore.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Restore.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Edit.Name" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="&gt;&gt;Edit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
-  </data>
-  <data name="&gt;&gt;Edit.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Edit.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;CreateNew.Name" xml:space="preserve">
-    <value>CreateNew</value>
-  </data>
-  <data name="&gt;&gt;CreateNew.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
-  </data>
-  <data name="&gt;&gt;CreateNew.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;CreateNew.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 32</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>440, 176</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="Backup.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -253,7 +172,7 @@
     <value>Backup</value>
   </data>
   <data name="&gt;&gt;Backup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;Backup.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -283,7 +202,7 @@
     <value>Remove</value>
   </data>
   <data name="&gt;&gt;Remove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;Remove.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -313,7 +232,7 @@
     <value>Restore</value>
   </data>
   <data name="&gt;&gt;Restore.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;Restore.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -343,7 +262,7 @@
     <value>Edit</value>
   </data>
   <data name="&gt;&gt;Edit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;Edit.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -373,7 +292,7 @@
     <value>CreateNew</value>
   </data>
   <data name="&gt;&gt;CreateNew.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
   <data name="&gt;&gt;CreateNew.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -381,11 +300,32 @@
   <data name="&gt;&gt;CreateNew.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 176</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="donate_link.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="donate_link.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="donate_link.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 56</value>
@@ -399,8 +339,14 @@
   <data name="donate_link.Text" xml:space="preserve">
     <value>Support Duplicati</value>
   </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="donate_link.ToolTip" xml:space="preserve">
     <value>Show your appreciation by donating, any amount is accepted</value>
+  </data>
+  <data name="donate_link.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="&gt;&gt;donate_link.Name" xml:space="preserve">
     <value>donate_link</value>
@@ -429,6 +375,9 @@
   <data name="donate_button.ToolTip" xml:space="preserve">
     <value>Show your appreciation by donating, any amount is accepted</value>
   </data>
+  <data name="donate_button.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;donate_button.Name" xml:space="preserve">
     <value>donate_button</value>
   </data>
@@ -450,6 +399,9 @@
   <data name="donate_panel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
+  <data name="donate_panel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;donate_panel.Name" xml:space="preserve">
     <value>donate_panel</value>
   </data>
@@ -462,9 +414,6 @@
   <data name="&gt;&gt;donate_panel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -484,6 +433,6 @@
     <value>MainPage</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
 </root>

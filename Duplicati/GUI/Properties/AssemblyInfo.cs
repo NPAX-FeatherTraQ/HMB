@@ -24,12 +24,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Duplicati")]
-[assembly: AssemblyDescription("A GUI interface to Duplicati")]
+[assembly: AssemblyTitle("HMB")]
+[assembly: AssemblyDescription("Hybrid Managed Backup Solution")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HexaD")]
-[assembly: AssemblyProduct("Duplicati")]
-[assembly: AssemblyCopyright("LGPL, Copyright © HexaD 2010")]
+[assembly: AssemblyCompany("N-PAX CEBU CORPORATION")]
+[assembly: AssemblyProduct("HYBRID MANAGED BACKUP")]
+[assembly: AssemblyCopyright("HMB@N-PAX CEBU CORP, Copyright © 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -48,8 +48,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.3.4")]
-[assembly: AssemblyFileVersion("1.3.4")]
+[assembly: AssemblyVersion("7.06.08.0")]
+[assembly: AssemblyFileVersion("7.06.08.0")]
 
 //
 // Make this assembly amenable to testing

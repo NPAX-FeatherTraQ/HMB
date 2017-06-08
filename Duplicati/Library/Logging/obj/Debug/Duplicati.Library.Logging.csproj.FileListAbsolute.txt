@@ -1,0 +1,5 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Logging\bin\Debug\Duplicati.Library.Logging.dll.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Logging\bin\Debug\Duplicati.Library.Logging.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Logging\bin\Debug\Duplicati.Library.Logging.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Logging\obj\Debug\Duplicati.Library.Logging.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Logging\obj\Debug\Duplicati.Library.Logging.pdb

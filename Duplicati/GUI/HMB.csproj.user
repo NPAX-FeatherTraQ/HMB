@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>\\desktopi5-pc\PublishPath\Install\|F:\Dranreb\HMB\Source Code\PublishPath\|F:\Dranreb\HMB\Source Code\PublishPath\New folder\|\\192.168.1.109\PublishPath\|\\192.168.1.109\Published\</PublishUrlHistory>
+    <InstallUrlHistory>\\desktopi5-pc\PublishPath\Install\|\\192.168.1.109\PublishPath\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>\\192.168.1.109\PublishPath\|\\192.168.1.109\Published\|\\192.168.1.109\Dranreb\HMB\Source Code\Published\|http://localhost/HMB/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

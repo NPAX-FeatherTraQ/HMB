@@ -1,0 +1,15 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Compression.dll.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Compression.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Compression.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Logging.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\ICSharpCode.SharpZipLib.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\bin\x86\Debug\Duplicati.Library.Logging.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\x86\Debug\Duplicati.Library.Compression.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\x86\Debug\Duplicati.Library.Compression.Strings.FileArchiveZip.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\x86\Debug\Duplicati.Library.Compression.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\x86\Debug\Duplicati.Library.Compression.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Compression\obj\x86\Debug\Duplicati.Library.Compression.pdb

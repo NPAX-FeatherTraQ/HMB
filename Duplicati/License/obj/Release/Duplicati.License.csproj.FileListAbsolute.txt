@@ -25,3 +25,31 @@ D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\License\bin\Release\Duplicati.Licen
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\License\bin\Release\Duplicati.License.pdb
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\License\obj\Release\Duplicati.License.dll
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\License\obj\Release\Duplicati.License.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\License\obj\Release\Duplicati.License.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\alphavss\Homepage.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\alphavss\License.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\AWSSDK\download.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\AWSSDK\license.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\gpg\Homepage.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\gpg\License.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\LightDataModel\Homepage.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\LightDataModel\license.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\LitJSON\download.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\LitJSON\license.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\MD4\Homepage.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\MD4\License.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\Putty\Homepage.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\Putty\License.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\SharpSSH\download.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\SharpSSH\license.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\SharpZipLib\download.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\SharpZipLib\license.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\SQLite\Homepage.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\SQLite\License.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\license.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\acknowledgements.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\licenses\duplicati-url.txt
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\Duplicati.License.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\bin\Release\Duplicati.License.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\obj\Release\Duplicati.License.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\License\obj\Release\Duplicati.License.pdb

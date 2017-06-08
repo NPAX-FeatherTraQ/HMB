@@ -28,26 +28,6 @@
     <DirectoryRef Id="INSTALLLOCATION">
       <Directory Id="dir_02AF983A5252471983D783FF65CE6C0F" Name="zh-CN">
         <Component Id="comp_58AD61835D394C08B7D2519515743867" DiskId="1" KeyPath="yes" Guid="AD6E17D1-7034-4426-B42E-DAA89ACF7919" Win64="$(var.Win64)">
-          <File Id="file_3AD98CF684B648F98634C8BAAD43AAB0" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.CommandLine.Decrypter.resources.dll" />
-          <File Id="file_206A1A8B3D6840D8B7E9FD25D9450CF9" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.CommandLine.resources.dll" />
-          <File Id="file_8346A5B7C3A84C24A5776565139C5FAE" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Backend.CloudFiles.resources.dll" />
-          <File Id="file_C907A9E8C497438EB64EA585DE32A80E" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Backend.File.resources.dll" />
-          <File Id="file_F0A6BC5B9E144BCF89AB5CD743924DC3" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Backend.FTP.resources.dll" />
-          <File Id="file_EC2862C9CB784CF5B09246F799D30FAA" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Backend.S3.resources.dll" />
-          <File Id="file_F3378552F9E742BD87CEF8578BC5588A" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Backend.SSH.resources.dll" />
-          <File Id="file_3B19815E5DF64269BE992EEC4C0B7353" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Backend.TahoeLAFS.resources.dll" />
-          <File Id="file_75F9EFCF4E6F4743AFEF7DC761072A8C" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Backend.WEBDAV.resources.dll" />
-          <File Id="file_BDD1FA87DC2A4E7DB9E89062ED4E202D" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Compression.resources.dll" />
-          <File Id="file_D318B115F396493CA7FC0B240855C835" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.DynamicLoader.resources.dll" />
-          <File Id="file_9BE92F76E7A2444D9E15B8A72090D704" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Encryption.resources.dll" />
-          <File Id="file_6E751E192A8940919E2CC34287F88F53" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Interface.resources.dll" />
-          <File Id="file_1A4CC32A66C64E0ABF6DE3D05766D75D" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Main.resources.dll" />
-          <File Id="file_F309548365EF4898B3CC40A31F3F44E2" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Modules.Builtin.resources.dll" />
-          <File Id="file_E8393BE8C7CF44C296A21FE19835B443" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Shapshots.resources.dll" />
-          <File Id="file_FF6909A093744A089B10489552D2754F" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.SharpRSync.resources.dll" />
-          <File Id="file_8EC7134F64B94E3E8D21D8F39C7AD604" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Library.Utility.resources.dll" />
-          <File Id="file_76B970E92CBC4425B9BBA3F743EE722D" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.resources.dll" />
-          <File Id="file_FE5FAFDE0F2D43C1A6B91AF5C529EAC7" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\Duplicati.Winforms.Controls.resources.dll" />
           <File Id="file_260B435500DD4C3FB3F3447951E31BB9" Checksum="yes" Source="..\Duplicati\Localization\compiled\zh-CN\System.Windows.Forms.Wizard.resources.dll" />
         </Component>
       </Directory>

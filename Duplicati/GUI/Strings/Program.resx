@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AnotherInstanceDetected" xml:space="preserve">
     <value>Another instance is running, and was notified</value>
@@ -151,19 +151,19 @@ Error message: {0}</value>
     <value>Determines the amount of information written in the log file</value>
   </data>
   <data name="PauseCommandDescription" xml:space="preserve">
-    <value>Pauses Duplicati, supply a time eg. 5m to limit pause to 5 minutes</value>
+    <value>Pauses HMB, supply a time eg. 5m to limit pause to 5 minutes</value>
   </data>
   <data name="PortablemodeCommandDescription" xml:space="preserve">
     <value>Activates portable mode where the database is placed below the program executable</value>
   </data>
   <data name="ResumeCommandDescription" xml:space="preserve">
-    <value>Resumes operation of Duplicati, if paused</value>
+    <value>Resumes operation of HMB, if paused</value>
   </data>
   <data name="RunbackupCommandDescription" xml:space="preserve">
     <value>Runs the backup with the name supplied. If no backup name is supplied, the available backups are displayed</value>
   </data>
   <data name="SeriousError" xml:space="preserve">
-    <value>A serious error occured in Duplicati: {0}</value>
+    <value>A serious error occured in HMB: {0}</value>
     <comment>Duplicati crashes</comment>
   </data>
   <data name="ShowstausCommandDescription" xml:space="preserve">
@@ -185,7 +185,7 @@ Error message: {0}</value>
     <comment>An error message displayed when the wrong version of SQLite is detected</comment>
   </data>
   <data name="TraylessCommandDescription" xml:space="preserve">
-    <value>Runs Duplicati without showing the tray icon, closing the main window closes Duplicati</value>
+    <value>Runs HMB without showing the tray icon, closing the main window closes HMB</value>
   </data>
   <data name="RunbackupGroupCommandDescription" xml:space="preserve">
     <value>Runs all backups in the group with the name supplied. If no group name is supplied, the available backups are displayed. If the group name is not found, an error message is displayed.</value>

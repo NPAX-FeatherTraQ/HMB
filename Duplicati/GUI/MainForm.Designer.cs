@@ -202,8 +202,8 @@
             this.Name = "MainForm";
             this.ShowInTaskbar = false;
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
-            this.Load += new System.EventHandler(this.MainForm_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.TrayMenu.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

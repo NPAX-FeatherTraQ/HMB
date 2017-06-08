@@ -28,6 +28,7 @@ using System.Data.LightDatamodel;
 using Duplicati.Datamodel;
 using System.Globalization;
 using Duplicati.Library.Utility;
+using System.Reflection;
 
 namespace Duplicati.GUI
 {
@@ -116,7 +117,8 @@ namespace Duplicati.GUI
                 MessageBox.Show(this, string.Format(Strings.ApplicationSetup.EncryptionModuleLoadError, ex.Message), Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            this.Icon = Properties.Resources.TrayNormal;
+            this.Icon = Properties.Resources.HMB_TrayNormal;
+            //TabContainer.TabPages.Remove(LicenseTab); //dranreb added on 051817-hide license tab
 
 #if DEBUG
             this.Text += " (DEBUG)";
@@ -212,7 +214,7 @@ namespace Duplicati.GUI
         {
             try
             {
-                this.Text = string.Format(Strings.ApplicationSetup.DialogTitle, License.VersionNumbers.Version);
+                this.Text = string.Format(Strings.ApplicationSetup.DialogTitle, Assembly.GetEntryAssembly().GetName().Version/*License.VersionNumbers.Version*/);
 
                 m_isUpdating = true;
 
@@ -258,7 +260,8 @@ namespace Duplicati.GUI
                 Bandwidth.UploadLimit = m_settings.UploadSpeedLimit;
                 Bandwidth.DownloadLimit = m_settings.DownloadSpeedLimit;
 
-                HideDonateButton.Checked = m_settings.HideDonateButton;
+                HideDonateButton.Checked = true;//m_settings.HideDonateButton;
+                HideDonateButton.Visible = false;
 
                 BalloonNotificationLevel.SelectedItem = null;
                 foreach(ComboBoxItemPair<ApplicationSettings.NotificationLevel> p in BalloonNotificationLevel.Items)
@@ -310,7 +313,7 @@ namespace Duplicati.GUI
 
                 //Place the license page last
                 TabContainer.TabPages.Remove(LicenseTab);
-                TabContainer.TabPages.Insert(TabContainer.TabPages.Count, LicenseTab);
+                //TabContainer.TabPages.Insert(TabContainer.TabPages.Count, LicenseTab);
 
                 string licensePath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "licenses");
                 List<Duplicati.License.LicenseEntry> licenses = Duplicati.License.LicenseReader.ReadLicenses(licensePath);

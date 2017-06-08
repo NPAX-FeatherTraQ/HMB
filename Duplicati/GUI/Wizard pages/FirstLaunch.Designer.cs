@@ -75,6 +75,7 @@ namespace Duplicati.GUI.Wizard_pages
             // 
             resources.ApplyResources(this.RestoreFilesHelp, "RestoreFilesHelp");
             this.RestoreFilesHelp.Name = "RestoreFilesHelp";
+            this.RestoreFilesHelp.Click += new System.EventHandler(this.RestoreFilesHelp_Click);
             // 
             // RestoreFiles
             // 
@@ -96,6 +97,7 @@ namespace Duplicati.GUI.Wizard_pages
             this.Controls.Add(this.CreateNew);
             this.Name = "FirstLaunch";
             resources.ApplyResources(this, "$this");
+            this.Load += new System.EventHandler(this.FirstLaunch_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

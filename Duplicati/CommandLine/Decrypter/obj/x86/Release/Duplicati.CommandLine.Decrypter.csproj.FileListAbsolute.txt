@@ -1,0 +1,14 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.CommandLine.Decrypter.exe.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.CommandLine.Decrypter.exe
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.CommandLine.Decrypter.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.Library.Encryption.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.Library.Encryption.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\bin\x86\Release\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\obj\x86\Release\Duplicati.CommandLine.Decrypter.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\obj\x86\Release\Duplicati.CommandLine.Decrypter.Strings.Program.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\obj\x86\Release\Duplicati.CommandLine.Decrypter.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\obj\x86\Release\Duplicati.CommandLine.Decrypter.exe
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\Decrypter\obj\x86\Release\Duplicati.CommandLine.Decrypter.pdb

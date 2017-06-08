@@ -66,8 +66,8 @@ namespace Duplicati.GUI
             else
                 m_form.Pages.AddRange(pages);
 
-            m_form.DefaultImage = Properties.Resources.Duplicati;
-            m_form.Dialog.Icon = Properties.Resources.TrayNormal;
+            m_form.DefaultImage = Properties.Resources.HMB;
+            m_form.Dialog.Icon = Properties.Resources.HMB_TrayNormal;
             m_form.Finished += new System.ComponentModel.CancelEventHandler(m_form_Finished);
         }
 

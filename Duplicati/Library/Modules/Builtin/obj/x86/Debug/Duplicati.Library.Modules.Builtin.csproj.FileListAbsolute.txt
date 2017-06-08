@@ -1,0 +1,12 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\bin\x86\Debug\Duplicati.Library.Modules.Builtin.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\bin\x86\Debug\Duplicati.Library.Modules.Builtin.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\bin\x86\Debug\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\bin\x86\Debug\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\bin\x86\Debug\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\bin\x86\Debug\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\obj\x86\Debug\Duplicati.Library.Modules.Builtin.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\obj\x86\Debug\Duplicati.Library.Modules.Builtin.Strings.ConsolePasswordInput.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\obj\x86\Debug\Duplicati.Library.Modules.Builtin.Strings.HttpOptions.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\obj\x86\Debug\Duplicati.Library.Modules.Builtin.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\obj\x86\Debug\Duplicati.Library.Modules.Builtin.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Modules\Builtin\obj\x86\Debug\Duplicati.Library.Modules.Builtin.pdb

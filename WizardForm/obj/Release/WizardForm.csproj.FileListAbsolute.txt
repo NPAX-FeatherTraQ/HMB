@@ -8,3 +8,14 @@ D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.W
 D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\WizardForm.csproj.GenerateResource.Cache
 D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.dll
 D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\System.Windows.Forms.Wizard.pdb
+D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\WizardForm.csprojResolveAssemblyReference.cache
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\bin\Release\System.Windows.Forms.Wizard.dll.config
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\bin\Release\System.Windows.Forms.Wizard.dll
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\bin\Release\System.Windows.Forms.Wizard.pdb
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.Dialog.resources
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.StartPage.resources
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.Strings.Dialog.resources
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.WizardControl.resources
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\WizardForm.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.dll
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.pdb

@@ -153,7 +153,7 @@ Errors: {3}","验证完成，验证结果：
 "CommandLine\Strings\Program.zh-CN.resx","WrongNumberOfCommandsError_v2","updated","Found {0} commands but expected {1}, commands: 
 {2}","发现命令 {0}，但是预期命令 {1},命令: 
 {2}"
-"GUI\ApplicationSetup.zh-CN.resx","$this.Text","updated","Duplicati Options","Duplicati设置"
+"GUI\ApplicationSetup.zh-CN.resx","$this.Text","updated","HMB Options","Duplicati设置"
 "GUI\ApplicationSetup.zh-CN.resx","AdvancedTab.Text","updated","Advanced","高级选项"
 "GUI\ApplicationSetup.zh-CN.resx","BalloonNotificationLevel.ToolTip","updated","Choose the level of notification given by balloon tips","请选择提示信息的级别"
 "GUI\ApplicationSetup.zh-CN.resx","Bandwidth.ToolTip","updated","Set the initial bandwidth limits to use in Duplicati","设置初始带宽限制"
@@ -340,7 +340,7 @@ A newer version of Mono will enable this page.","当前平台不支持本页面�
 "GUI\MainForm.zh-CN.resx","DelayDuration15Menu.Text","updated","15 minutes","15 分钟"
 "GUI\MainForm.zh-CN.resx","DelayDuration30Menu.Text","updated","30 minutes","30 分钟"
 "GUI\MainForm.zh-CN.resx","DelayDuration60Menu.Text","updated","1 hour","1 小时"
-"GUI\MainForm.zh-CN.resx","label1.Text","updated","Duplicati dummy window","Duplicati虚拟窗口"
+"GUI\MainForm.zh-CN.resx","label1.Text","updated","HMB dummy window","Duplicati虚拟窗口"
 "GUI\MainForm.zh-CN.resx","optionsToolStripMenuItem.Text","updated","Options...","参数..."
 "GUI\MainForm.zh-CN.resx","pausePeriodToolStripMenuItem.Text","updated","Pause period","暂停周期"
 "GUI\MainForm.zh-CN.resx","pauseToolStripMenuItem.Text","updated","Pause","暂停"
@@ -356,7 +356,7 @@ A newer version of Mono will enable this page.","当前平台不支持本页面�
 "GUI\RestoreBackup.zh-CN.resx","label2.Text","updated","Destination","目的地"
 "GUI\RestoreBackup.zh-CN.resx","OKBtn.Text","missing","OK",""
 "GUI\RestoreBackup.zh-CN.resx","SelectTargetFolder.Text","missing","...",""
-"GUI\ServiceStatus.zh-CN.resx","$this.Text","updated","Duplicati Status","Duplicati状态"
+"GUI\ServiceStatus.zh-CN.resx","$this.Text","updated","HMB Status","Duplicati状态"
 "GUI\ServiceStatus.zh-CN.resx","columnHeader1.Text","updated","Time","时间"
 "GUI\ServiceStatus.zh-CN.resx","columnHeader2.Text","updated","Backup set","备份设置"
 "GUI\ServiceStatus.zh-CN.resx","columnHeader3.Text","updated","Size","大小"
@@ -365,7 +365,7 @@ A newer version of Mono will enable this page.","当前平台不支持本页面�
 "GUI\ServiceStatus.zh-CN.resx","CurrentStatus.Text","updated","Waiting for next backup","等待下一次备份"
 "GUI\ServiceStatus.zh-CN.resx","label1_2.Text","updated","Completed backups","备份完成"
 "GUI\ServiceStatus.zh-CN.resx","label5.Text","updated","Pending backups","挂起备份"
-"GUI\ServiceStatus.zh-CN.resx","linkLabel1.Text","updated","Duplicati Options","Duplicati参数"
+"GUI\ServiceStatus.zh-CN.resx","linkLabel1.Text","updated","HMB Options","Duplicati参数"
 "GUI\ServiceStatus.zh-CN.resx","optionsLabel.Text","updated","(UI Language, Default password, Advanced, ...)","(界面语言，默认密码，高级设置 ...)"
 "GUI\ServiceStatus.zh-CN.resx","pauseBackupToolStripMenuItem.Text","updated","Pause backup","暂停备份"
 "GUI\ServiceStatus.zh-CN.resx","PauseDuration05Menu.Text","updated","5 minutes","5 分钟"
@@ -380,7 +380,7 @@ A newer version of Mono will enable this page.","当前平台不支持本页面�
 "GUI\ServiceStatus.zh-CN.resx","viewFilesToolStripMenuItem.Text","updated","View contents ...","查看内容 ..."
 "GUI\ServiceStatus.zh-CN.resx","viewLogToolStripMenuItem.Text","updated","View log ...","查看日志…"
 "GUI\ServiceStatus.zh-CN.resx","wizardHelpLabel.Text","updated","(Create, edit, delete, run, restore backups)","（创建，编辑，删除，备份，还原）"
-"GUI\ServiceStatus.zh-CN.resx","wizardLink.Text","updated","Duplicati Wizard","Duplicati向导"
+"GUI\ServiceStatus.zh-CN.resx","wizardLink.Text","updated","HMB Wizard","Duplicati向导"
 "GUI\Strings\ApplicationSetup.zh-CN.resx","BalloonNotification_Continous","updated","While running, and on errors, warnings","当备份正在运行 (或者有错误或者警告)"
 "GUI\Strings\ApplicationSetup.zh-CN.resx","BalloonNotification_Errors","updated","On errors","备份出错"
 "GUI\Strings\ApplicationSetup.zh-CN.resx","BalloonNotification_Off","updated","No notifications","不弹出提示"
@@ -393,7 +393,7 @@ A newer version of Mono will enable this page.","当前平台不支持本页面�
 {0}","删除目录中的签名文件: 
 {0}"
 "GUI\Strings\ApplicationSetup.zh-CN.resx","DefaultLanguage","updated","System language, {0}","系统语言， {0}"
-"GUI\Strings\ApplicationSetup.zh-CN.resx","DialogTitle","updated","Duplicati Options, version {0}","Duplicati设置，版本 {0}"
+"GUI\Strings\ApplicationSetup.zh-CN.resx","DialogTitle","updated","HMB Options, version {0}","Duplicati设置，版本 {0}"
 "GUI\Strings\ApplicationSetup.zh-CN.resx","EncryptionModuleLoadError","updated","An error occured while loading encryption modules: {0}","加载加密模块时出错: {0}"
 "GUI\Strings\ApplicationSetup.zh-CN.resx","ErrorWhileExaminingFolder","updated","An exception occured while examining the folder: {0}.
 Do you want to use that folder anyway?","检测文件夹时出错: {0}.
@@ -448,7 +448,7 @@ Database is NOT upgraded.","执行SQL出错: {0}
 "GUI\Strings\DuplicatiRunner.zh-CN.resx","CleanupLogdataHeader","updated","Cleanup output:","清空时的输出:"
 "GUI\Strings\DuplicatiRunner.zh-CN.resx","ErrorMessage","updated","Error: {0}","错误: {0}"
 "GUI\Strings\DuplicatiRunner.zh-CN.resx","OtherAbortMessage","updated","The backup was stopped, the reason was: {0}","备份终止，原因是: {0}"
-"GUI\Strings\DuplicatiRunner.zh-CN.resx","ShutdownWhileBackupInprogress","updated","Duplicati was terminated before the backup completed, status is unknown","Duplicati在备份完成前被终止了，状态未知。"
+"GUI\Strings\DuplicatiRunner.zh-CN.resx","ShutdownWhileBackupInprogress","updated","HMB was terminated before the backup completed, status is unknown","Duplicati在备份完成前被终止了，状态未知。"
 "GUI\Strings\DuplicatiRunner.zh-CN.resx","TaskManagerCloseMessage","updated","The backup was stopped because the application was closed by the task manager","备份被终止，因为程序被程序管理器关闭。"
 "GUI\Strings\DuplicatiRunner.zh-CN.resx","UserClosingMessage","updated","The backup was stopped by the user","备份被用户终止。"
 "GUI\Strings\DuplicatiRunner.zh-CN.resx","WindowsShutdownMessage","updated","The backup was stopped because the machine was being shut down","备份被终止，因为计算机被关闭。"
@@ -468,17 +468,17 @@ Database is NOT upgraded.","执行SQL出错: {0}
 "GUI\Strings\MainForm.zh-CN.resx","BalloonTip_Started","updated","Running {0}","正在执行 {0}"
 "GUI\Strings\MainForm.zh-CN.resx","BalloonTip_Stopped","updated","Finished {0}","完成 {0}"
 "GUI\Strings\MainForm.zh-CN.resx","BalloonTip_Warning","updated","Backup {0} gave a warning","备份 {0} 返回了警告"
-"GUI\Strings\MainForm.zh-CN.resx","ExitWhileBackupIsRunningQuestion","updated","A backup is currently running, do you want to stop the backup so Duplicati can exit?","备份正在运行，您想停止备份并退出Duplicati吗？"
+"GUI\Strings\MainForm.zh-CN.resx","ExitWhileBackupIsRunningQuestion","updated","A backup is currently running, do you want to stop the backup so HMB can exit?","备份正在运行，您想停止备份并退出Duplicati吗？"
 "GUI\Strings\MainForm.zh-CN.resx","MultipleNamedBackupsFound","updated","The backup named ""{0}"" was found {1} times","发现了 {1} 次名称为 ""{0}""的备份"
 "GUI\Strings\MainForm.zh-CN.resx","NamedBackupGroupNotFound","updated","The backup group named ""{0}"" was not found","没有发现名称为 ""{0}"" 的备份组"
 "GUI\Strings\MainForm.zh-CN.resx","NamedBackupNotFound","updated","The backup named ""{0}"" was not found","没有发现名称为 ""{0}""的备份"
 "GUI\Strings\MainForm.zh-CN.resx","PauseOperationFailed","updated","Failed to execute the Pause request: {0}","执行暂停操作失败: {0}"
-"GUI\Strings\MainForm.zh-CN.resx","TerminateForExitQuestion","updated","Duplicati is attempting to quit, but a backup is running.
+"GUI\Strings\MainForm.zh-CN.resx","TerminateForExitQuestion","updated","HMB is attempting to quit, but a backup is running.
 Do you want Duplicati to continue waiting for the backup to stop?","Duplicati尝试退出，但是还有一个备份在运行.
 您想让Duplicati等备份结束后再退出吗?"
-"GUI\Strings\MainForm.zh-CN.resx","TrayStatusPause","updated","Duplicati is currently paused","Duplicati 暂停"
-"GUI\Strings\MainForm.zh-CN.resx","TrayStatusReady","updated","Duplicati is ready","Duplicati 开始"
-"GUI\Strings\MainForm.zh-CN.resx","TrayStatusRunning","updated","Duplicati is running {0}","Duplicati 正在执行 {0}"
+"GUI\Strings\MainForm.zh-CN.resx","TrayStatusPause","updated","HMB is currently paused","Duplicati 暂停"
+"GUI\Strings\MainForm.zh-CN.resx","TrayStatusReady","updated","HMB is ready","Duplicati 开始"
+"GUI\Strings\MainForm.zh-CN.resx","TrayStatusRunning","updated","HMB is running {0}","Duplicati 正在执行 {0}"
 "GUI\Strings\Program.zh-CN.resx","AnotherInstanceDetected","updated","Another instance is running, and was notified","另一个进程正在运行，并且已经通知"
 "GUI\Strings\Program.zh-CN.resx","DatabaseOpenError","updated","Failed to create, open or upgrade the database.
 Error message: {0}","创建、打开或者升级数据库失败。
@@ -494,18 +494,18 @@ Error message: {0}","创建、打开或者升级数据库失败。
 "GUI\Strings\Program.zh-CN.resx","LanguageSelectionError","updated","Failed to set the user interface language: {0}","设置界面语言失败: {0}"
 "GUI\Strings\Program.zh-CN.resx","LogfileCommandDescription","updated","Outputs log information to the file given","给所选的文件输出日志信息"
 "GUI\Strings\Program.zh-CN.resx","LoglevelCommandDescription","updated","Determines the amount of information written in the log file","设置写入日志文件的信息量"
-"GUI\Strings\Program.zh-CN.resx","PauseCommandDescription","updated","Pauses Duplicati, supply a time eg. 5m to limit pause to 5 minutes","暂停Duplicati，并设置一个暂停时间，如5分钟"
+"GUI\Strings\Program.zh-CN.resx","PauseCommandDescription","updated","Pauses HMB, supply a time eg. 5m to limit pause to 5 minutes","暂停Duplicati，并设置一个暂停时间，如5分钟"
 "GUI\Strings\Program.zh-CN.resx","PortablemodeCommandDescription","updated","Activates portable mode where the database is placed below the program executable","激活移动模式，将数据库文件放在程序目录中"
-"GUI\Strings\Program.zh-CN.resx","ResumeCommandDescription","updated","Resumes operation of Duplicati, if paused","继续Duplicati的操作"
+"GUI\Strings\Program.zh-CN.resx","ResumeCommandDescription","updated","Resumes operation of HMB, if paused","继续Duplicati的操作"
 "GUI\Strings\Program.zh-CN.resx","RunbackupCommandDescription","updated","Runs the backup with the name supplied. If no backup name is supplied, the available backups are displayed","运行给定的备份，如果没有给定备份名称则显示所有可用的备份"
 "GUI\Strings\Program.zh-CN.resx","RunbackupGroupCommandDescription","not-updated","Runs all backups in the group with the name supplied. If no group name is supplied, the available backups are displayed. If the group name is not found, an error message is displayed.",""
-"GUI\Strings\Program.zh-CN.resx","SeriousError","updated","A serious error occured in Duplicati: {0}"," Duplicati发生了一个严重错误: {0}"
+"GUI\Strings\Program.zh-CN.resx","SeriousError","updated","A serious error occured in HMB: {0}"," Duplicati发生了一个严重错误: {0}"
 "GUI\Strings\Program.zh-CN.resx","ShowstausCommandDescription","updated","Displays the status window","显示状态窗口"
 "GUI\Strings\Program.zh-CN.resx","ShowwizardCommandDescription","updated","Displays the wizard window","显示向导窗口"
 "GUI\Strings\Program.zh-CN.resx","StartupFailure","updated","Unable to start up, perhaps another process is already running?
 Error message: {0}","无法运行，是否有另外一个进程已经在运行？
 错误信息: {0}"
-"GUI\Strings\Program.zh-CN.resx","TraylessCommandDescription","updated","Runs Duplicati without showing the tray icon, closing the main window closes Duplicati","不显示Duplicati的系统托盘图标，退出主界面就关闭Duplicati。"
+"GUI\Strings\Program.zh-CN.resx","TraylessCommandDescription","updated","Runs HMB without showing the tray icon, closing the main window closes HMB","不显示Duplicati的系统托盘图标，退出主界面就关闭Duplicati。"
 "GUI\Strings\Program.zh-CN.resx","UnencrypteddatabaseCommandDescription","updated","Disables database encryption","取消数据库加密"
 "GUI\Strings\Program.zh-CN.resx","WrongSQLiteVersion","updated","Unsupported version of SQLite detected ({0}), must be {1} or higher","不支持的SQLite版本 ({0}), 必须是 {1} 或者更高"
 "GUI\Strings\Scheduler.zh-CN.resx","InvalidTimeSetupError","updated","Unable to find a valid date, given the start date {0}, the repetition interval {1} and the allowed days {2}","无法找到有效时间，给定的开始时间 {0}, 重复周期 {1} 和允许的天数 {2}"
@@ -514,7 +514,7 @@ Error message: {0}","无法运行，是否有另外一个进程已经在运行�
 "GUI\Strings\ServiceStatus.zh-CN.resx","BackupStatusOK","updated","Successfull backup","备份成功"
 "GUI\Strings\ServiceStatus.zh-CN.resx","BackupStatusPartial","updated","Backup only processed some of the files","备份只处理了部分文件"
 "GUI\Strings\ServiceStatus.zh-CN.resx","BackupStatusWarning","updated","Completed backup with warnings","备份完成，有警告信息"
-"GUI\Strings\ServiceStatus.zh-CN.resx","DialogTitle","updated","Duplicati {0} - Status","Duplicati {0} – 状态"
+"GUI\Strings\ServiceStatus.zh-CN.resx","DialogTitle","updated","HMB {0} - Status","Duplicati {0} – 状态"
 "GUI\Strings\ServiceStatus.zh-CN.resx","NoFilesInBackupMessages","updated","The backup has no changes","备份没有改动"
 "GUI\Strings\ServiceStatus.zh-CN.resx","QuickActionExit","updated","Close Duplicati","关闭 Duplicati"
 "GUI\Strings\ServiceStatus.zh-CN.resx","QuickActionPause","updated","Pause","暂停"
@@ -528,7 +528,7 @@ Error message: {0}","无法运行，是否有另外一个进程已经在运行�
 "GUI\Strings\ServiceStatus.zh-CN.resx","QuickActionThrottle","updated","Throttle options ...","节流选项 ..."
 "GUI\Strings\ServiceStatus.zh-CN.resx","SelectQuickAction","updated","- Select action -","- 选择操作 -"
 "GUI\Strings\ServiceStatus.zh-CN.resx","StatusBackup","updated","Backup: {0}","备份: {0}"
-"GUI\Strings\ServiceStatus.zh-CN.resx","StatusPaused","updated","Duplicati is currently paused","Duplicati已暂停"
+"GUI\Strings\ServiceStatus.zh-CN.resx","StatusPaused","updated","HMB is currently paused","Duplicati已暂停"
 "GUI\Strings\ServiceStatus.zh-CN.resx","StatusRestore","updated","Restore: {0}","恢复: {0}"
 "GUI\Strings\ServiceStatus.zh-CN.resx","StatusWaiting","updated","Waiting for next backup","等待下一次备份"
 "GUI\Strings\ServiceStatus.zh-CN.resx","SwitchToAdvanced","updated","Advanced >>>","高级 >>>"
@@ -548,18 +548,18 @@ Error message: {0}","gtk无法加载，使用windows的窗口实现。
 错误信息: {0}"
 "GUI\Strings\TrayIconWrapper.zh-CN.resx","GtkNotFoundError","updated","Unable to locate gtk assemblies","无法定位gtk库"
 "GUI\Strings\TrayIconWrapper.zh-CN.resx","GtkTooOldError","updated","Gtk found, but it has version {0} and must be at least {1}","找到了gtk，但版本是 {0} ，至少需要版本 {1}"
-"GUI\Strings\WizardHandler.zh-CN.resx","ResumeNowQuestion","updated","Duplicati is currently paused, so the backup won't run until Duplicati is resumed.
-Do you want Duplicati to resume now so the backup can run immediately?","Duplicati已暂停，直到Duplicati恢复才会继续备份。
+"GUI\Strings\WizardHandler.zh-CN.resx","ResumeNowQuestion","updated","HMB is currently paused, so the backup won't run until HMB is resumed.
+Do you want HMB to resume now so the backup can run immediately?","Duplicati已暂停，直到Duplicati恢复才会继续备份。
 您是否要恢复Duplicati让备份继续运行？"
-"GUI\Strings\WizardHandler.zh-CN.resx","SetupRestoreSuccess","updated","The previous Duplicati setup is now restored!","之前的Duplicati配置已经恢复！"
+"GUI\Strings\WizardHandler.zh-CN.resx","SetupRestoreSuccess","updated","The previous HMB setup is now restored!","之前的Duplicati配置已经恢复！"
 "GUI\Strings\WizardHandler.zh-CN.resx","StopBackupError","updated","An error occured while attempting to stop the running backup: {0}","停止备份时出错: {0}"
 "GUI\Strings\WizardHandler.zh-CN.resx","StopRunningBackupQuestion","updated","The backup you want to delete is currently running.
 Do you want to stop it so the delete can proceed?","您要删除的备份正在运行。
 您是否要停止然后删除它?"
-"GUI\Strings\WizardHandler.zh-CN.resx","UnableToStopBackupError","updated","Duplicati attempted to stop the backup, but did not succeed.
+"GUI\Strings\WizardHandler.zh-CN.resx","UnableToStopBackupError","updated","HMB attempted to stop the backup, but did not succeed.
 Press ""Finish"" to attempt the delete again.","Duplicati尝试停止备份，但是没有成功。
 点击""完成""按钮来尝试再次删除。"
-"GUI\Strings\WizardHandler.zh-CN.resx","WizardFormTitle","updated","Duplicati Setup Wizard","Duplicati设置向导"
+"GUI\Strings\WizardHandler.zh-CN.resx","WizardFormTitle","updated","HMB Setup Wizard","Duplicati设置向导"
 "GUI\ThrottleControl.zh-CN.resx","$this.Text","missing","Throttle control",""
 "GUI\ThrottleControl.zh-CN.resx","CancelBtn.Text","missing","Cancel",""
 "GUI\ThrottleControl.zh-CN.resx","OKBtn.Text","missing","OK",""
@@ -748,10 +748,10 @@ Do you want to keep these settings?","您选择的设置将导致每次全部备
 Name: {0}","操作：删除备份 名称: {0}"
 "GUI\Wizard pages\FirstLaunch.zh-CN.resx","CreateNew.Text","updated","Setup a new backup","创建一个新的备份"
 "GUI\Wizard pages\FirstLaunch.zh-CN.resx","RestoreFiles.Text","updated","Restore files from a backup","从一个备份中还原文件"
-"GUI\Wizard pages\FirstLaunch.zh-CN.resx","RestoreFilesHelp.Text","updated","You do not want to set up Duplicati, but just want to restore some files","不对Duplicati进行配置，只是恢复文件"
-"GUI\Wizard pages\FirstLaunch.zh-CN.resx","RestoreSettingsHelp.Text","updated","You have used Duplicati before, and want to restore your setup","您以前使用过Duplicati，现在恢复之前的设置"
-"GUI\Wizard pages\FirstLaunch.zh-CN.resx","RestoreSetup.Text","updated","Restore settings from a previous Duplicati installation","将Duplicati的设置还原为以前的一个配置"
-"GUI\Wizard pages\FirstLaunch.zh-CN.resx","SetupNewBackupHelp.Text","updated","You have not used Duplicati before, or want to start over","您还没有使用过Duplicati，或者想创建一个新的备份"
+"GUI\Wizard pages\FirstLaunch.zh-CN.resx","RestoreFilesHelp.Text","updated","You do not want to set up HMB, but just want to restore some files","不对Duplicati进行配置，只是恢复文件"
+"GUI\Wizard pages\FirstLaunch.zh-CN.resx","RestoreSettingsHelp.Text","updated","You have used HMB before, and want to restore your setup","您以前使用过Duplicati，现在恢复之前的设置"
+"GUI\Wizard pages\FirstLaunch.zh-CN.resx","RestoreSetup.Text","updated","Restore settings from a previous HMB installation","将Duplicati的设置还原为以前的一个配置"
+"GUI\Wizard pages\FirstLaunch.zh-CN.resx","SetupNewBackupHelp.Text","updated","You have not used HMB before, or want to start over","您还没有使用过Duplicati，或者想创建一个新的备份"
 "GUI\Wizard pages\FirstLaunch.zh-CN.resx","SimpleHelpHeader.Text","updated","Select one of the options below, and click next","选择您要使用的备份方式，然后点击下一步"
 "GUI\Wizard pages\MainPage.zh-CN.resx","Backup.Text","updated","Run a backup immediately","立即备份"
 "GUI\Wizard pages\MainPage.zh-CN.resx","CreateNew.Text","updated","Schedule a new backup","计划一个新的备份"
@@ -824,12 +824,12 @@ Name: {0}","操作：运行备份
 "GUI\Wizard pages\SelectBackup.zh-CN.resx","ShowAdvanced.Text","updated","Show advanced options","显示高级选项"
 "GUI\Wizard pages\SelectBackup.zh-CN.resx","topLabel.Text","updated","Select backup to modify","选择要修改的备份"
 "GUI\Wizard pages\Strings\FirstLaunch.zh-CN.resx","NoActionSelection","updated","You must select an action","您必须选择一个操作"
-"GUI\Wizard pages\Strings\FirstLaunch.zh-CN.resx","PageHelptext","updated","Since this is your first use of Duplicati on this machine, this wizard will guide you through a Duplicati setup","这是您在这台电脑上第一次使用Duplicati， 我们将指导您一步一步使用Duplicati。"
-"GUI\Wizard pages\Strings\FirstLaunch.zh-CN.resx","PageTitle","updated","Welcome to Duplicati","欢迎使用 Duplicati"
+"GUI\Wizard pages\Strings\FirstLaunch.zh-CN.resx","PageHelptext","updated","Since this is your first use of HMB on this machine, this wizard will guide you through a HMB setup","这是您在这台电脑上第一次使用Duplicati， 我们将指导您一步一步使用Duplicati。"
+"GUI\Wizard pages\Strings\FirstLaunch.zh-CN.resx","PageTitle","updated","Welcome to HMB","欢迎使用 Duplicati"
 "GUI\Wizard pages\Strings\FirstLaunch.zh-CN.resx","ShowAdvancedQuestion","updated","Do you need to modify advanced settings?
 (Most users do not need this)","您想修改高级设置吗？（大部分的用户不需要）"
 "GUI\Wizard pages\Strings\MainPage.zh-CN.resx","PageHelptext","updated","Please select the action you want to perform below","请选择您下一步的操作"
-"GUI\Wizard pages\Strings\MainPage.zh-CN.resx","PageTitle","updated","Welcome to the Duplicati Wizard","欢迎使用Duplicati向导"
+"GUI\Wizard pages\Strings\MainPage.zh-CN.resx","PageTitle","updated","Welcome to the HMB Wizard","欢迎使用Duplicati向导"
 "GUI\Wizard pages\Strings\SelectBackend.zh-CN.resx","NoActionSelected","updated","You must enter the storage method before you can continue.","您必须选择存储方式才能继续。"
 "GUI\Wizard pages\Strings\SelectBackend.zh-CN.resx","PageHelptext","updated","On this page you can select the type of device or service that store the backups. You may need information from the service provider when you continue.","在这里您可以选择存储的设备或服务。您也许需要服务提供商的信息才能继续。"
 "GUI\Wizard pages\Strings\SelectBackend.zh-CN.resx","PageTitle","updated","Select a place to store the backups","请选择您保存备份的方式"

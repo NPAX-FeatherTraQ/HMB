@@ -135,6 +135,16 @@ namespace Duplicati.GUI.Wizard_pages
         {
             m_owner.NextButton.PerformClick();
         }
+
+        private void FirstLaunch_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RestoreFilesHelp_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

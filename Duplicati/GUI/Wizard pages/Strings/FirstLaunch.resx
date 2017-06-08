@@ -121,10 +121,10 @@
     <value>You must select an action</value>
   </data>
   <data name="PageHelptext" xml:space="preserve">
-    <value>Since this is your first use of Duplicati on this machine, this wizard will guide you through a Duplicati setup</value>
+    <value>Since this is your first use of HMB on this machine, this wizard will guide you through a HMB setup</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
-    <value>Welcome to Duplicati</value>
+    <value>Welcome to HMB</value>
   </data>
   <data name="ShowAdvancedQuestion" xml:space="preserve">
     <value>Do you need to modify advanced settings?

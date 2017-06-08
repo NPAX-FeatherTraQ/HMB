@@ -1,0 +1,17 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\Debug\Duplicati.Library.Encryption.dll.config
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\Debug\Duplicati.Library.Encryption.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\Debug\Duplicati.Library.Encryption.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\Debug\Duplicati.Library.Interface.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\Debug\Duplicati.Library.Utility.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\Debug\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\Debug\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.GPGCommonOptions.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.Strings.AESEncryption.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.Strings.EncryptionBase.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.Strings.GPGCommonOptions.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.Strings.GPGEncryption.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.Strings.GPGSettingsControl.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.Strings.GPGStreamWrapper.resources
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.csproj.GenerateResource.Cache
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.dll
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\Debug\Duplicati.Library.Encryption.pdb
