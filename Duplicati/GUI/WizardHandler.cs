@@ -44,7 +44,7 @@ namespace Duplicati.GUI
         public WizardHandler(IWizardControl[] pages)
         {
             m_form = new Dialog();
-            m_form.Title = Strings.WizardHandler.WizardFormTitle;
+            m_form.Title = "HMB v" + System.Reflection.Assembly.GetEntryAssembly().GetName().Version.ToString() + " - Setup Wizard";//Strings.WizardHandler.WizardFormTitle;
 
 #if DEBUG
             m_form.Title += " (DEBUG)";
@@ -67,7 +67,7 @@ namespace Duplicati.GUI
                 m_form.Pages.AddRange(pages);
 
             m_form.DefaultImage = Properties.Resources.HMB;
-            m_form.Dialog.Icon = Properties.Resources.HMB_TrayNormal;
+            m_form.Dialog.Icon = Properties.Resources.TrayNormal;
             m_form.Finished += new System.ComponentModel.CancelEventHandler(m_form_Finished);
         }
 

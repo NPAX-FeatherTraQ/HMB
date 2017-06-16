@@ -22,7 +22,7 @@
     <StartupObject>Duplicati.GUI.Program</StartupObject>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>\\desktopi5-pc\PublishPath\Install\</PublishUrl>
+    <PublishUrl>\\192.168.1.109\PublishPath\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Unc</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -36,15 +36,16 @@
     <UpdateUrl>\\192.168.1.109\PublishPath\</UpdateUrl>
     <ProductName>Hybrid Managed Backup</ProductName>
     <PublisherName>N-PAX Cebu Corporation</PublisherName>
-    <MinimumRequiredVersion>7.06.08.0</MinimumRequiredVersion>
+    <MinimumRequiredVersion>7.06.16.0</MinimumRequiredVersion>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>7.06.08.%2a</ApplicationVersion>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>7.06.16.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>

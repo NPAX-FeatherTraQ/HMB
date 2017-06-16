@@ -581,7 +581,7 @@ namespace Duplicati.CommandLine
             lines.AddRange(
                 string.Format(
                     Strings.Program.ProgramUsageHeader.Replace("\r", ""), 
-                    License.VersionNumbers.Version
+                    System.Reflection.Assembly.GetEntryAssembly().GetName().Version/*License.VersionNumbers.Version*/
                 ).Split('\n')
             );
 

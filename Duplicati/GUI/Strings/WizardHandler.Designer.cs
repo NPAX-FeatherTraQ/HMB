@@ -109,7 +109,7 @@ namespace Duplicati.GUI.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to HMB Setup Wizard - Hybrid Managed Backup.
+        ///   Looks up a localized string similar to HMB Setup Wizard.
         /// </summary>
         internal static string WizardFormTitle {
             get {

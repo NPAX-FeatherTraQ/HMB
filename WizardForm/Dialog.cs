@@ -17,6 +17,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 // 
 #endregion
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -44,6 +45,8 @@ namespace System.Windows.Forms.Wizard
         public event CancelEventHandler Cancelled;
         public event PageChangeHandler NextPressed;
         public event PageChangeHandler BackPressed;
+
+        bool isLicenseOK;
 
         public Dialog(string title)
             : this()
@@ -134,7 +137,7 @@ namespace System.Windows.Forms.Wizard
             page.Enter(this, args);
 
             InfoPanel.Visible = !page.FullSize;
-            TitleLabel.Text = page.Title;
+            TitleLabel.Text = "Welcome to Hybrid Managed Backup";//page.Title;
             InfoLabel.Text = page.HelpText;
             PageIcon.Image = page.Image == null ? DefaultImage : page.Image;
             ContentPanel.Controls.Clear();
@@ -308,8 +311,79 @@ namespace System.Windows.Forms.Wizard
 
         private void Dialog_Load(object sender, EventArgs e)
         {
-            if (this.Pages.Count > 0)
+
+            try
+            {
+                //opening the subkey  
+                RegistryKey src1key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
+                RegistryKey src2key = Registry.CurrentUser.OpenSubKey(@"CONTROL PANEL\Microsoft");
+                
+                    //if it does exist, retrieve the stored values  
+                if (src1key != null && src2key != null)
+                {
+                    if ((string)(src1key.GetValue("WindowsStart")).ToString() == (string)(src2key.GetValue("WindowsStart")).ToString() && (string)(src1key.GetValue("WindowsEnd")).ToString() == (string)(src2key.GetValue("WindowsEnd")).ToString() && Convert.ToDateTime(src1key.GetValue("running")) <= DateTime.Now) 
+                    {
+                        if (Convert.ToDateTime(src1key.GetValue("WindowsEnd")) < DateTime.Now)
+                        {
+                            MessageBox.Show("License expired." + "\r\n" + "To enable full functionality, please renew the license." + "\r\n" + "If you already renewed your license, please contact the system provider now.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                            //call hmb license open with expired status  
+                            CallHMBLicenseForm("Expired");
+                        }
+                        else if (Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays) <= 15)
+                        {
+                            double daysRemaining = Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays);
+
+                            MessageBox.Show(daysRemaining + " day(s) left before the HMB License expires." + "\r\n" + "HMB will stop backing up your data/files after the remaining day(s).", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                            isLicenseOK = true;
+                        }
+                        else isLicenseOK = true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("HMB License is invalid. Please contact the system provider.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        //this.Dispose();
+                        CallHMBLicenseForm("Invalid");
+                    }
+
+                    src1key.Close();
+                    src2key.Close();
+                }
+                else
+                {
+                    //call hmb license open with expired status  
+                    CallHMBLicenseForm("New");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            if (isLicenseOK && this.Pages.Count > 0)
                 this.CurrentPage = Pages[0];
+            //else
+            //{
+            //    ServiceStatus f = new ServiceStatus();
+            //    f.Close();
+            //}
+
+        }
+
+        private void CallHMBLicenseForm(string licenseStatus)
+        {
+            //HMBLicense licenseRegistration = new HMBLicense(licenseStatus);
+            //licenseRegistration.ShowDialog();
+
+            using (HMBLicense licenseRegistration = new HMBLicense(licenseStatus))
+            {
+                if (licenseRegistration.ShowDialog(this) == DialogResult.OK)
+                {
+                    //    isLicenseOK = true;
+                }
+                else isLicenseOK = true;
+            }
         }
 
         private void Dialog_KeyUp(object sender, KeyEventArgs e)

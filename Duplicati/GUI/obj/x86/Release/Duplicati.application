@@ -4,14 +4,14 @@
   <description asmv2:publisher="Microsoft" asmv2:product="Duplicati" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" minimumRequiredVersion="7.05.22.0" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Duplicati.exe.manifest" size="32525">
+    <dependentAssembly dependencyType="install" codebase="Duplicati.exe.manifest" size="32523">
       <assemblyIdentity name="Duplicati.exe" version="7.05.22.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>3IAg6i16/0JCIwHIsMdkcPScLfE=</dsig:DigestValue>
+        <dsig:DigestValue>+wWgChv5xgtzWSGGULPBuvHuWCk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

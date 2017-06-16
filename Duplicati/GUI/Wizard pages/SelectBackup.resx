@@ -156,23 +156,11 @@
   <data name="&gt;&gt;topLabel.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="BackupList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="BackupList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 17</value>
-  </data>
-  <data name="BackupList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 111</value>
-  </data>
-  <data name="BackupList.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;BackupList.Name" xml:space="preserve">
     <value>BackupList</value>
   </data>
   <data name="&gt;&gt;BackupList.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.6.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.9.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;BackupList.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -204,23 +192,74 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="ShowAdvanced.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="BackupList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="ShowAdvanced.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="BackupList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 17</value>
   </data>
-  <data name="ShowAdvanced.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 4</value>
+  <data name="BackupList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 111</value>
   </data>
-  <data name="ShowAdvanced.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 17</value>
+  <data name="BackupList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="ShowAdvanced.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;BackupList.Name" xml:space="preserve">
+    <value>BackupList</value>
   </data>
-  <data name="ShowAdvanced.Text" xml:space="preserve">
-    <value>Show advanced options</value>
+  <data name="&gt;&gt;BackupList.Type" xml:space="preserve">
+    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.9.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;BackupList.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;BackupList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvancedPanel.Name" xml:space="preserve">
+    <value>ShowAdvancedPanel</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvancedPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvancedPanel.Parent" xml:space="preserve">
+    <value>ExpanderPanel</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvancedPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.Name" xml:space="preserve">
+    <value>RestoreOptions</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.Parent" xml:space="preserve">
+    <value>ExpanderPanel</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ExpanderPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 8</value>
+  </data>
+  <data name="ExpanderPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 208</value>
+  </data>
+  <data name="ExpanderPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ExpanderPanel.Name" xml:space="preserve">
+    <value>ExpanderPanel</value>
+  </data>
+  <data name="&gt;&gt;ExpanderPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExpanderPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExpanderPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;ShowAdvanced.Name" xml:space="preserve">
     <value>ShowAdvanced</value>
@@ -257,6 +296,84 @@
   </data>
   <data name="&gt;&gt;ShowAdvancedPanel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="ShowAdvanced.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ShowAdvanced.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowAdvanced.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 4</value>
+  </data>
+  <data name="ShowAdvanced.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="ShowAdvanced.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ShowAdvanced.Text" xml:space="preserve">
+    <value>Show advanced options</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvanced.Name" xml:space="preserve">
+    <value>ShowAdvanced</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvanced.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvanced.Parent" xml:space="preserve">
+    <value>ShowAdvancedPanel</value>
+  </data>
+  <data name="&gt;&gt;ShowAdvanced.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DirectRestore.Name" xml:space="preserve">
+    <value>DirectRestore</value>
+  </data>
+  <data name="&gt;&gt;DirectRestore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Wizard.DoubleClickRadioButton, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+  </data>
+  <data name="&gt;&gt;DirectRestore.Parent" xml:space="preserve">
+    <value>RestoreOptions</value>
+  </data>
+  <data name="&gt;&gt;DirectRestore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RestoreExisting.Name" xml:space="preserve">
+    <value>RestoreExisting</value>
+  </data>
+  <data name="&gt;&gt;RestoreExisting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RestoreExisting.Parent" xml:space="preserve">
+    <value>RestoreOptions</value>
+  </data>
+  <data name="&gt;&gt;RestoreExisting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RestoreOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="RestoreOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RestoreOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>432, 56</value>
+  </data>
+  <data name="RestoreOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.Name" xml:space="preserve">
+    <value>RestoreOptions</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.Parent" xml:space="preserve">
+    <value>ExpanderPanel</value>
+  </data>
+  <data name="&gt;&gt;RestoreOptions.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="DirectRestore.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -317,51 +434,6 @@
   </data>
   <data name="&gt;&gt;RestoreExisting.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="RestoreOptions.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="RestoreOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="RestoreOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 56</value>
-  </data>
-  <data name="RestoreOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;RestoreOptions.Name" xml:space="preserve">
-    <value>RestoreOptions</value>
-  </data>
-  <data name="&gt;&gt;RestoreOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RestoreOptions.Parent" xml:space="preserve">
-    <value>ExpanderPanel</value>
-  </data>
-  <data name="&gt;&gt;RestoreOptions.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ExpanderPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>32, 8</value>
-  </data>
-  <data name="ExpanderPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>432, 208</value>
-  </data>
-  <data name="ExpanderPanel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;ExpanderPanel.Name" xml:space="preserve">
-    <value>ExpanderPanel</value>
-  </data>
-  <data name="&gt;&gt;ExpanderPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExpanderPanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ExpanderPanel.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

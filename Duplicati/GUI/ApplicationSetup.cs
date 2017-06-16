@@ -117,7 +117,7 @@ namespace Duplicati.GUI
                 MessageBox.Show(this, string.Format(Strings.ApplicationSetup.EncryptionModuleLoadError, ex.Message), Application.ProductName, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            this.Icon = Properties.Resources.HMB_TrayNormal;
+            this.Icon = Properties.Resources.TrayNormal;
             //TabContainer.TabPages.Remove(LicenseTab); //dranreb added on 051817-hide license tab
 
 #if DEBUG
@@ -214,7 +214,7 @@ namespace Duplicati.GUI
         {
             try
             {
-                this.Text = string.Format(Strings.ApplicationSetup.DialogTitle, Assembly.GetEntryAssembly().GetName().Version/*License.VersionNumbers.Version*/);
+                this.Text = string.Format(Strings.ApplicationSetup.DialogTitle, Assembly.GetEntryAssembly().GetName().Version/*System.Reflection.Assembly.GetEntryAssembly().GetName().Version*/);
 
                 m_isUpdating = true;
 

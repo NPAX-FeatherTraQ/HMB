@@ -100,15 +100,6 @@ D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\BackendTester\bin\Relea
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\BackendTester\obj\Release\Duplicati.CommandLine.BackendTester.csprojResolveAssemblyReference.cache
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\BackendTester\obj\Release\Duplicati.CommandLine.BackendTester.exe
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\BackendTester\obj\Release\Duplicati.CommandLine.BackendTester.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\alphavss\AlphaVSS.Win2003.x64.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\alphavss\AlphaVSS.Win2003.x86.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\alphavss\AlphaVSS.Win2008.x64.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\alphavss\AlphaVSS.Win2008.x86.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\alphavss\AlphaVSS.WinXP.x64.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\alphavss\AlphaVSS.WinXP.x86.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\lvm-scripts\create-lvm-snapshot.sh
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\lvm-scripts\find-volume.sh
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\lvm-scripts\remove-lvm-snapshot.sh
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\licenses\alphavss\Homepage.txt
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\licenses\alphavss\License.txt
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\licenses\AWSSDK\download.txt
@@ -166,7 +157,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\T
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\LitJson.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.Library.Logging.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.Library.Main.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.License.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Google.GData.Extensions.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Google.GData.AccessControl.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\DiffieHellman.dll
@@ -194,7 +184,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\D
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\AWSSDK.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.Library.Logging.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.Library.Main.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.License.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.Library.Snapshots.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\Duplicati.Library.SharpRSync.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Release\AlphaVSS.Common.xml

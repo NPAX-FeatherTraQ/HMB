@@ -12,7 +12,9 @@ D:\duplicati-1.3.4\duplicati-1.3.4\WizardForm\obj\Release\WizardForm.csprojResol
 F:\Dranreb\HMB\Source Code\HMB\WizardForm\bin\Release\System.Windows.Forms.Wizard.dll.config
 F:\Dranreb\HMB\Source Code\HMB\WizardForm\bin\Release\System.Windows.Forms.Wizard.dll
 F:\Dranreb\HMB\Source Code\HMB\WizardForm\bin\Release\System.Windows.Forms.Wizard.pdb
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\WizardForm.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.Dialog.resources
+F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.HMBLicense.resources
 F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.StartPage.resources
 F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.Strings.Dialog.resources
 F:\Dranreb\HMB\Source Code\HMB\WizardForm\obj\Release\System.Windows.Forms.Wizard.WizardControl.resources

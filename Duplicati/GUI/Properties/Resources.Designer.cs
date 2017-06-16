@@ -271,16 +271,6 @@ namespace Duplicati.GUI.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon HMB_TrayNormal {
-            get {
-                object obj = ResourceManager.GetObject("HMB_TrayNormal", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap IncompleteFile {
@@ -567,6 +557,16 @@ namespace Duplicati.GUI.Properties {
             get {
                 object obj = ResourceManager.GetObject("WizardMenuIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon xTrayNormalPause {
+            get {
+                object obj = ResourceManager.GetObject("xTrayNormalPause", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
     }

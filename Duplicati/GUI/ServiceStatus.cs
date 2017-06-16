@@ -69,7 +69,7 @@ namespace Duplicati.GUI
             imageList.Images.Add(DuplicatiOutputParser.InterruptedStatus, Properties.Resources.InterruptedStatusIcon);
             imageList.Images.Add(DuplicatiOutputParser.NoChangedFiles, Properties.Resources.EmptyBackupStatusIcon);
 
-            this.Text = String.Format(Strings.ServiceStatus.DialogTitle, License.VersionNumbers.Version);
+            this.Text = String.Format(Strings.ServiceStatus.DialogTitle, "v" + System.Reflection.Assembly.GetEntryAssembly().GetName().Version/*License.VersionNumbers.Version*/);
 
             string indent = "  ";
             QuickActions.Items.Clear();

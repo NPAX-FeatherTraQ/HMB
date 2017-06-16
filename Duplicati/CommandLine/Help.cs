@@ -79,7 +79,7 @@ namespace Duplicati.CommandLine
                 string tp = _document[topic];
                 Library.Main.Options opts = new Library.Main.Options(new Dictionary<string, string>());
 
-                tp = tp.Replace("%VERSION%", License.VersionNumbers.Version);
+                tp = tp.Replace("%VERSION%", System.Reflection.Assembly.GetEntryAssembly().GetName().Version.ToString()/*License.VersionNumbers.Version*/);
                 tp = tp.Replace("%BACKENDS%", string.Join(", ", Library.DynamicLoader.BackendLoader.Keys));
                 tp = tp.Replace("%MONO%", Library.Utility.Utility.IsMono ? "mono " : "");
                 tp = tp.Replace("%APP_PATH%", System.IO.Path.GetFileName(System.Reflection.Assembly.GetExecutingAssembly().Location));

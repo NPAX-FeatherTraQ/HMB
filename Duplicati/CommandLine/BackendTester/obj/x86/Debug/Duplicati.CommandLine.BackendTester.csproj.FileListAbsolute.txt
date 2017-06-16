@@ -62,7 +62,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\LitJson.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.Library.Logging.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.Library.Main.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.License.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Google.GData.Documents.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Google.GData.Client.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\DiffieHellman.dll
@@ -92,7 +91,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\AWSSDK.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.Library.Logging.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.Library.Main.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.License.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.Library.Snapshots.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\Duplicati.Library.SharpRSync.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\x86\Debug\AlphaVSS.Common.xml

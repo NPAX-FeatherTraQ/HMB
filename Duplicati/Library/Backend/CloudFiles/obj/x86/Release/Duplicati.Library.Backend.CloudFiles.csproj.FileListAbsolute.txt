@@ -7,6 +7,7 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Rele
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Winforms.Controls.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Utility.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\bin\x86\Release\Duplicati.Library.Interface.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.CloudFiles.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.CloudFilesUI.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.Strings.CloudFiles.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\CloudFiles\obj\x86\Release\Duplicati.Library.Backend.Strings.CloudFilesUI.resources

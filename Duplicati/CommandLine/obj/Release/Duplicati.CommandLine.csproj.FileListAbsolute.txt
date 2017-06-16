@@ -105,15 +105,6 @@ D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\obj\Release\Duplicati.C
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\obj\Release\Duplicati.CommandLine.csproj.GenerateResource.Cache
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\obj\Release\Duplicati.CommandLine.exe
 D:\duplicati-1.3.4\duplicati-1.3.4\Duplicati\CommandLine\obj\Release\Duplicati.CommandLine.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\alphavss\AlphaVSS.Win2003.x64.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\alphavss\AlphaVSS.Win2003.x86.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\alphavss\AlphaVSS.Win2008.x64.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\alphavss\AlphaVSS.Win2008.x86.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\alphavss\AlphaVSS.WinXP.x64.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\alphavss\AlphaVSS.WinXP.x86.dll
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\lvm-scripts\create-lvm-snapshot.sh
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\lvm-scripts\find-volume.sh
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\lvm-scripts\remove-lvm-snapshot.sh
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\licenses\alphavss\Homepage.txt
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\licenses\alphavss\License.txt
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\bin\Release\licenses\AWSSDK\download.txt

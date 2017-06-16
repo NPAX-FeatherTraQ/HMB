@@ -208,7 +208,7 @@
   <data name="Stop" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Stop.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TrayNormalPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="xTrayNormalPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TrayNormalPause.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TrayWorkingPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -268,7 +268,7 @@
   <data name="HMB" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HMB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HMB_TrayNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HMB_TrayNormal.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TrayNormalPause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TrayNormalPause.ico;System.Drawing.Icon, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

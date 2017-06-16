@@ -27,10 +27,10 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("HMB")]
 [assembly: AssemblyDescription("Hybrid Managed Backup Solution")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("N-PAX CEBU CORPORATION")]
-[assembly: AssemblyProduct("HYBRID MANAGED BACKUP")]
-[assembly: AssemblyCopyright("HMB@N-PAX CEBU CORP, Copyright © 2017")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCompany("N-PAX CEBU CORP.")]
+[assembly: AssemblyProduct("Hybrid Managed Backup")]
+[assembly: AssemblyCopyright("HMB@N-PAX Cebu Corp, Copyright © 2017")]
+[assembly: AssemblyTrademark("HMB")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
@@ -48,8 +48,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("7.06.08.0")]
-[assembly: AssemblyFileVersion("7.06.08.0")]
+[assembly: AssemblyVersion("7.06.16.0")]
+[assembly: AssemblyFileVersion("7.06.16.0")]
 
 //
 // Make this assembly amenable to testing

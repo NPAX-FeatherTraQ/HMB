@@ -141,7 +141,7 @@ Press "Finish" to attempt the delete again.</value>
     <comment>An error message that is displayed if a delete operation fails due to an unstopable running backup</comment>
   </data>
   <data name="WizardFormTitle" xml:space="preserve">
-    <value>HMB Setup Wizard - Hybrid Managed Backup</value>
-    <comment>The title of the Duplicati Wizard form</comment>
+    <value>HMB Setup Wizard</value>
+    <comment>The title of the HMB Wizard form</comment>
   </data>
 </root>

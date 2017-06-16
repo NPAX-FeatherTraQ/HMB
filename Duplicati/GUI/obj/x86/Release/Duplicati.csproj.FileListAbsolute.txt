@@ -1,3 +1,4 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\AWSSDK.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\alphavss\AlphaVSS.Win2003.x64.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\alphavss\AlphaVSS.Win2003.x86.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\alphavss\AlphaVSS.Win2008.x64.dll
@@ -111,7 +112,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\Duplicati.Library.M
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\Duplicati.Library.Snapshots.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\Duplicati.License.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\Duplicati.Winforms.Controls.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\AWSSDK.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\Duplicati.Library.SharpRSync.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\AlphaVSS.Common.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Release\AlphaFS.xml

@@ -56,7 +56,7 @@ namespace Duplicati.GUI
             imageList.Images.Add(ADDED_FILE_IMAGE_KEY, Properties.Resources.AddedFile);
             imageList.Images.Add(MODIFIED_FILE_IMAGE_KEY, Properties.Resources.ModifiedFile);
             imageList.Images.Add(INCOMPLETE_FILE_IMAGE_KEY, Properties.Resources.IncompleteFile);
-            this.Icon = Properties.Resources.HMB_TrayNormal;
+            this.Icon = Properties.Resources.TrayNormal;
 
 #if DEBUG
             this.Text += " (DEBUG)";
