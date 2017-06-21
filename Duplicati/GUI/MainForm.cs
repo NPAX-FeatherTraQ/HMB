@@ -17,6 +17,7 @@
 // Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 // 
 #endregion
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +25,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Windows.Forms.Wizard;
 
 namespace Duplicati.GUI
 {
@@ -298,27 +300,123 @@ namespace Duplicati.GUI
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            m_trayIcon.Icon = m_currentIcon;
-            SetTrayIconText(m_currentTooltip);
+            //dranreb
+            bool isLicenseOK = false;
+            try
+            {
+                //opening the subkey  
+                RegistryKey src1key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
+                RegistryKey src2key = Registry.CurrentUser.OpenSubKey(@"CONTROL PANEL\Microsoft");
 
-            LiveControl_StateChanged(Program.LiveControl, null);
-            m_trayIcon.Visible = true;
+                //if it does exist, retrieve the stored values  
+                if (src1key != null && src2key != null)
+                {
+                    if ((string)(src1key.GetValue("WindowsStart")).ToString() == (string)(src2key.GetValue("WindowsStart")).ToString() && (string)(src1key.GetValue("WindowsEnd")).ToString() == (string)(src2key.GetValue("WindowsEnd")).ToString() && Convert.ToDateTime(src1key.GetValue("running")) <= DateTime.Now)
+                    {
+                        if (Convert.ToDateTime(src1key.GetValue("WindowsEnd")) < DateTime.Now)
+                        {
+                            MessageBox.Show("License expired." + "\r\n" + "To enable full functionality, please renew the license." + "\r\n" + "If you already renewed your license, please contact the system provider now.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
-            long count = 0;
-            lock (Program.MainLock)
-                count = Program.DataConnection.GetObjects<Datamodel.Schedule>().Length;
+                            //call hmb license open with expired status  
+                            CallHMBLicenseForm("Expired");
+                        }
+                        else
+                        {
+                            m_trayIcon.Icon = m_currentIcon;
+                            SetTrayIconText(m_currentTooltip);
 
-            if (count == 0)
-                ShowWizard();
-            else if (InitialArguments != null)
-                HandleCommandlineArguments(InitialArguments);
+                            LiveControl_StateChanged(Program.LiveControl, null);
+                            m_trayIcon.Visible = true;
 
-			if (Library.Utility.Utility.IsMono)
-				MonoSupport.BeginInvoke (this, new EmptyDelegate(HideWindow));
-			else
-            	BeginInvoke(new EmptyDelegate(HideWindow));
-            if (Program.TraylessMode)
-                ShowStatus();
+                            long count = 0;
+                            lock (Program.MainLock)
+                                count = Program.DataConnection.GetObjects<Datamodel.Schedule>().Length;
+
+                            if (count == 0)
+                            {
+                                if (Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays) <= 15)
+                                {
+                                    //isLicenseOK = true;
+                                    double daysRemaining = Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays);
+
+                                    MessageBox.Show(daysRemaining + " day(s) left before the HMB License expires." + "\r\n" + "HMB will stop backing up your data/files after the remaining day(s).", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                }
+
+                                ShowWizard();
+                            }
+                            else if (InitialArguments != null)
+                                HandleCommandlineArguments(InitialArguments);
+
+                            if (Library.Utility.Utility.IsMono)
+                                MonoSupport.BeginInvoke(this, new EmptyDelegate(HideWindow));
+                            else
+                                BeginInvoke(new EmptyDelegate(HideWindow));
+                            if (Program.TraylessMode)
+                                ShowStatus();
+                        }
+                        //else isLicenseOK = true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("HMB License is invalid. Please contact the system provider.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        //this.Dispose();
+                        CallHMBLicenseForm("Invalid");
+                    }
+
+                    src1key.Close();
+                    src2key.Close();
+                }
+                else
+                {
+                    //call hmb license open with expired status  
+                    CallHMBLicenseForm("New");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            //-dranreb
+
+            //if (isLicenseOK)
+            //{
+            //    m_trayIcon.Icon = m_currentIcon;
+            //    SetTrayIconText(m_currentTooltip);
+
+            //    LiveControl_StateChanged(Program.LiveControl, null);
+            //    m_trayIcon.Visible = true;
+
+            //    long count = 0;
+            //    lock (Program.MainLock)
+            //        count = Program.DataConnection.GetObjects<Datamodel.Schedule>().Length;
+
+            //    if (count == 0)
+            //        ShowWizard();
+            //    else if (InitialArguments != null)
+            //        HandleCommandlineArguments(InitialArguments);
+
+            //    if (Library.Utility.Utility.IsMono)
+            //        MonoSupport.BeginInvoke(this, new EmptyDelegate(HideWindow));
+            //    else
+            //        BeginInvoke(new EmptyDelegate(HideWindow));
+            //    if (Program.TraylessMode)
+            //        ShowStatus();
+            //}
+        }
+
+        private void CallHMBLicenseForm(string licenseStatus)
+        {
+            HMBLicense licenseRegistration = new HMBLicense(licenseStatus);
+            licenseRegistration.ShowDialog();
+
+            //using (HMBLicense licenseRegistration = new HMBLicense(licenseStatus))
+            //{
+            //    if (licenseRegistration.ShowDialog(this) == DialogResult.OK)
+            //    {
+            //        //    isLicenseOK = true;
+            //    }
+            //    else isLicenseOK = true;
+            //}
         }
 
         private void HideWindow()

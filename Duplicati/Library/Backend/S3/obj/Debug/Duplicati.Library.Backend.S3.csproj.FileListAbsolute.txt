@@ -9,7 +9,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\bin\Debug\Duplicati.
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\bin\Debug\Duplicati.Library.Utility.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\bin\Debug\Duplicati.Library.Interface.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\bin\Debug\AWSSDK.xml
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\obj\Debug\Duplicati.Library.Backend.S3.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\obj\Debug\Duplicati.Library.Backend.S3CommonOptions.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\obj\Debug\Duplicati.Library.Backend.S3UI.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\S3\obj\Debug\Duplicati.Library.Backend.Strings.S3Backend.resources

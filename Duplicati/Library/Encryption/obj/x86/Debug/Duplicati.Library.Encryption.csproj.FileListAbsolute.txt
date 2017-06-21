@@ -5,7 +5,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\x86\Debug\Duplic
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\x86\Debug\Duplicati.Library.Utility.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\x86\Debug\Duplicati.Library.Utility.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\bin\x86\Debug\Duplicati.Library.Interface.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\x86\Debug\Duplicati.Library.Encryption.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\x86\Debug\Duplicati.Library.Encryption.GPGCommonOptions.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\x86\Debug\Duplicati.Library.Encryption.Strings.AESEncryption.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Encryption\obj\x86\Debug\Duplicati.Library.Encryption.Strings.EncryptionBase.resources

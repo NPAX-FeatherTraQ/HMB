@@ -315,15 +315,17 @@ namespace Duplicati.GUI
                 TabContainer.TabPages.Remove(LicenseTab);
                 //TabContainer.TabPages.Insert(TabContainer.TabPages.Count, LicenseTab);
 
-                string licensePath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "licenses");
-                List<Duplicati.License.LicenseEntry> licenses = Duplicati.License.LicenseReader.ReadLicenses(licensePath);
-                licenses.Insert(0, new Duplicati.License.LicenseEntry("Duplicati", System.IO.Path.Combine(licensePath, "duplicati-url.txt"), System.IO.Path.Combine(licensePath, "license.txt")));
-                licenses.Insert(0, new Duplicati.License.LicenseEntry("Acknowledgements", System.IO.Path.Combine(licensePath, "duplicati-url.txt"), System.IO.Path.Combine(licensePath, "acknowledgements.txt")));
+                //drc
+                //string licensePath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "licenses");
+                //List<Duplicati.License.LicenseEntry> licenses = Duplicati.License.LicenseReader.ReadLicenses(licensePath);
+                //licenses.Insert(0, new Duplicati.License.LicenseEntry("Duplicati", System.IO.Path.Combine(licensePath, "duplicati-url.txt"), System.IO.Path.Combine(licensePath, "license.txt")));
+                //licenses.Insert(0, new Duplicati.License.LicenseEntry("Acknowledgements", System.IO.Path.Combine(licensePath, "duplicati-url.txt"), System.IO.Path.Combine(licensePath, "acknowledgements.txt")));
 
-                LicenseSections.Items.Clear();
-                LicenseSections.Items.AddRange(licenses.ToArray());
-                LicenseSections.SelectedIndex = -1;
-                LicenseSections.SelectedIndex = 0;
+                //LicenseSections.Items.Clear();
+                //LicenseSections.Items.AddRange(licenses.ToArray());
+                //LicenseSections.SelectedIndex = -1;
+                //LicenseSections.SelectedIndex = 0;
+                //-drc
             }
             finally
             {

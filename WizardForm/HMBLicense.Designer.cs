@@ -144,10 +144,9 @@
             this.cbNoOfMonths.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNoOfMonths.FormattingEnabled = true;
             this.cbNoOfMonths.Items.AddRange(new object[] {
-            "12 - (1 yr)",
             "24 - (2 yrs)",
-            "36 - (3 yrs)",
             "48 - (4 yrs)",
+            "72 - (6 yrs)",
             "00 - (admin)"});
             this.cbNoOfMonths.Location = new System.Drawing.Point(96, 47);
             this.cbNoOfMonths.Name = "cbNoOfMonths";

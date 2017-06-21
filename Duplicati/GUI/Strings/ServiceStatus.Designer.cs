@@ -124,7 +124,7 @@ namespace Duplicati.GUI.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Close Duplicati.
+        ///   Looks up a localized string similar to Close HMB.
         /// </summary>
         internal static string QuickActionExit {
             get {

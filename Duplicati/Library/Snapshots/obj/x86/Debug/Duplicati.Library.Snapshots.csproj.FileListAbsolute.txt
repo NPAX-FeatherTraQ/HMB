@@ -18,7 +18,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\bin\x86\Debug\Duplica
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\bin\x86\Debug\Duplicati.Library.Interface.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\bin\x86\Debug\AlphaFS.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\bin\x86\Debug\AlphaVSS.Common.xml
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\obj\x86\Debug\Duplicati.Library.Snapshots.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\obj\x86\Debug\Duplicati.Library.Snapshots.Strings.LinuxSnapshot.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\obj\x86\Debug\Duplicati.Library.Snapshots.Strings.Shared.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Snapshots\obj\x86\Debug\Duplicati.Library.Snapshots.Strings.USNHelper.resources

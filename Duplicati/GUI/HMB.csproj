@@ -22,29 +22,27 @@
     <StartupObject>Duplicati.GUI.Program</StartupObject>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>\\192.168.1.109\PublishPath\</PublishUrl>
+    <PublishUrl>F:\Dranreb\HMB\Source Code\PublishPath\Install\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Unc</InstallFrom>
+    <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>\\desktopi5-pc\PublishPath\Install\</InstallUrl>
-    <UpdateUrl>\\192.168.1.109\PublishPath\</UpdateUrl>
+    <MapFileExtensions>false</MapFileExtensions>
+    <UpdateUrl>http://localhost/HMB/</UpdateUrl>
     <ProductName>Hybrid Managed Backup</ProductName>
     <PublisherName>N-PAX Cebu Corporation</PublisherName>
     <MinimumRequiredVersion>7.06.16.0</MinimumRequiredVersion>
-    <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationRevision>4</ApplicationRevision>
     <ApplicationVersion>7.06.16.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
-    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
     <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

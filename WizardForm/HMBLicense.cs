@@ -128,7 +128,7 @@ namespace System.Windows.Forms.Wizard
                         key.Close();
 
                         MessageBox.Show("Invalid HMB License has successfully corrected.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        this.Dispose();
+                        this.Close();
                     }
                     else
                     {
@@ -154,9 +154,9 @@ namespace System.Windows.Forms.Wizard
             DialogResult result = MessageBox.Show("Are you sure you want to cancel the HMB licensing?", this.Text, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2);
             if (result == DialogResult.Yes)
             {
-                //this.Dispose();
+                this.Close();
                 //Environment.Exit(0);
-                Application.Exit();
+                //Application.Exit();
             }
             else
             {
@@ -213,12 +213,12 @@ namespace System.Windows.Forms.Wizard
 
                     //DialogResult = DialogResult.OK;
 
-                    this.Hide();
+                    //this.Hide();
 
                     //Application.Restart();
                     //Environment.Exit(0);
 
-                    //this.Dispose();
+                    this.Close();
 
                 }
                 //else return;

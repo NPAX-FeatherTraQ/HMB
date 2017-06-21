@@ -28,6 +28,7 @@ namespace System.Windows.Forms.Wizard
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dialog));
             this._InfoPanel = new System.Windows.Forms.Panel();
             this._PageIcon = new System.Windows.Forms.PictureBox();
@@ -38,6 +39,7 @@ namespace System.Windows.Forms.Wizard
             this._NextButton = new System.Windows.Forms.Button();
             this._CancelButton = new System.Windows.Forms.Button();
             this._ContentPanel = new System.Windows.Forms.GroupBox();
+            this.tmrAppClose = new System.Windows.Forms.Timer(this.components);
             this._InfoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this._PageIcon)).BeginInit();
             this._ButtonPanel.SuspendLayout();
@@ -138,5 +140,6 @@ namespace System.Windows.Forms.Wizard
         private Label _InfoLabel;
         private Label _TitleLabel;
         private GroupBox _ContentPanel;
+        private Timer tmrAppClose;
     }
 }

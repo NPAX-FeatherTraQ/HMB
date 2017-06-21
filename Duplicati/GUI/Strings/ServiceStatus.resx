@@ -139,7 +139,7 @@
     <value>The backup has no changes</value>
   </data>
   <data name="QuickActionExit" xml:space="preserve">
-    <value>Close Duplicati</value>
+    <value>Close HMB</value>
   </data>
   <data name="QuickActionPause" xml:space="preserve">
     <value>Pause</value>

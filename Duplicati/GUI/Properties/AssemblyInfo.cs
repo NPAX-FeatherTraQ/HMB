@@ -48,8 +48,8 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("7.06.16.0")]
-[assembly: AssemblyFileVersion("7.06.16.0")]
+[assembly: AssemblyVersion("7.06.21.0")]
+[assembly: AssemblyFileVersion("7.06.21.0")]
 
 //
 // Make this assembly amenable to testing

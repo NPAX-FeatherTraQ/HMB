@@ -160,7 +160,7 @@
     <value>BackupList</value>
   </data>
   <data name="&gt;&gt;BackupList.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.9.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.19.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;BackupList.Parent" xml:space="preserve">
     <value>panel1</value>
@@ -208,7 +208,7 @@
     <value>BackupList</value>
   </data>
   <data name="&gt;&gt;BackupList.Type" xml:space="preserve">
-    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.9.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Duplicati.GUI.HelperControls.BackupTreeView, HMB, Version=7.6.19.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;BackupList.Parent" xml:space="preserve">
     <value>panel1</value>
