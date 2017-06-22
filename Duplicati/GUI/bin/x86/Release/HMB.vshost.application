@@ -11,14 +11,14 @@
     <deploymentProvider codebase="http://desktopi5-pc/HMB/HMB.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="HMB.exe.manifest" size="33016">
+    <dependentAssembly dependencyType="install" codebase="HMB.exe.manifest" size="32994">
       <assemblyIdentity name="HMB.exe" version="7.06.16.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>EyKmLrIJKabl+ylr8uhTshGpr40=</dsig:DigestValue>
+        <dsig:DigestValue>jJVEbA5TvnfOrBSvr5olJRC87fA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
