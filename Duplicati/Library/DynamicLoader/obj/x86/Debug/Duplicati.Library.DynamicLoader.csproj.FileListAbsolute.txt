@@ -5,6 +5,7 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\bin\x86\Debug\Dup
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\bin\x86\Debug\Duplicati.Library.Logging.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\bin\x86\Debug\Duplicati.Library.Interface.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\bin\x86\Debug\Duplicati.Library.Logging.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\obj\x86\Debug\Duplicati.Library.DynamicLoader.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\obj\x86\Debug\Duplicati.Library.DynamicLoader.Strings.BackendLoader.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\obj\x86\Debug\Duplicati.Library.DynamicLoader.Strings.DynamicLoader.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\DynamicLoader\obj\x86\Debug\Duplicati.Library.DynamicLoader.csproj.GenerateResource.Cache

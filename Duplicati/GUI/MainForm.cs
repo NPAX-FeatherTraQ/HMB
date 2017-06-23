@@ -305,6 +305,14 @@ namespace Duplicati.GUI
             try
             {
                 //opening the subkey  
+                //startup HMB
+                //RegistryKey add = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run\\Hybrid Managed Backup", true);
+                //if (add == null)
+                //    add.SetValue("Hybrid Managed Backup", "\"" + Application.ExecutablePath.ToString() + "\"");
+
+                //RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+                //rk.SetValue("HMB", Application.ExecutablePath.ToString());           
+
                 RegistryKey src1key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
                 RegistryKey src2key = Registry.CurrentUser.OpenSubKey(@"CONTROL PANEL\Microsoft");
 

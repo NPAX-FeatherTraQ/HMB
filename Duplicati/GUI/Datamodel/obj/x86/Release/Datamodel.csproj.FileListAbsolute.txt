@@ -3,4 +3,5 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\Datamodel\bin\x86\Release\Datamodel
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\Datamodel\bin\x86\Release\Duplicati.Library.Utility.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\Datamodel\bin\x86\Release\LightDatamodel.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\Datamodel\bin\x86\Release\Duplicati.Library.Utility.pdb
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\Datamodel\obj\x86\Release\Datamodel.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\Datamodel\obj\x86\Release\Datamodel.dll
