@@ -175,7 +175,7 @@
     <value>Deleting orphan file: {0}</value>
   </data>
   <data name="UnmatchedFilenameWarning" xml:space="preserve">
-    <value>The file {0} was found on the backend but not recognized by Duplicati</value>
+    <value>The file {0} was found on the backend but not recognized by HMB</value>
   </data>
   <data name="CachedSignatureHashMismatchWarning" xml:space="preserve">
     <value>The cache file {0} did not match the expected hash for the same file, ignoring cache file</value>

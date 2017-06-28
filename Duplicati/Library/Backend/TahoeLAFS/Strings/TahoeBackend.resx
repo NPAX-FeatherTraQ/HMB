@@ -124,7 +124,7 @@
     <value>Use this flag to communicate using Secure Socket Layer (SSL) over http (https).</value>
   </data>
   <data name="DescriptionUseSSLShort" xml:space="preserve">
-    <value>Instructs Duplicati to use an SSL (https) connection</value>
+    <value>Instructs HMB to use an SSL (https) connection</value>
   </data>
   <data name="Displayname" xml:space="preserve">
     <value>Tahoe-LAFS based</value>

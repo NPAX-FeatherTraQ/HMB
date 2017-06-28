@@ -14,6 +14,7 @@ namespace System.Windows.Forms.Wizard
         public HMBLicense(string srclicenseStatus)
         {
             InitializeComponent();
+            this.Text = String.Format("HMB License ", "v" + System.Reflection.Assembly.GetEntryAssembly().GetName().Version/*License.VersionNumbers.Version*/);
             lblLicenseStatus.Text = srclicenseStatus; //txtLicenseStatus
 
             RegistryKey src1 = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
@@ -96,8 +97,8 @@ namespace System.Windows.Forms.Wizard
 
         private void HMBLicense_FormClosed(object sender, FormClosedEventArgs e)
         {
-            //Environment.Exit(0);
-            Application.Exit();
+            Environment.Exit(0);
+            //Application.Exit();
         }
 
         private void btnSetupLicenseRegistration_Click(object sender, EventArgs e)

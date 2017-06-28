@@ -72,7 +72,7 @@ namespace Duplicati.GUI.Wizard_pages.Add_backup.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To ensure that backups do not grow indefinately, Duplicati can automatically remove old backups..
+        ///   Looks up a localized string similar to To ensure that backups do not grow indefinately, HMB can automatically remove old backups..
         /// </summary>
         internal static string PageDescription {
             get {

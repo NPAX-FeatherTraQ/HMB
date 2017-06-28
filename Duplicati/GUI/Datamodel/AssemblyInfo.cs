@@ -30,7 +30,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("The datamodel for Duplicati")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HexaD")]
-[assembly: AssemblyProduct("Duplicati")]
+[assembly: AssemblyProduct("HMB")]
 [assembly: AssemblyCopyright("LGPL, Copyright © HexaD 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]		

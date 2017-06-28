@@ -154,7 +154,7 @@ This is fine if the server allows anonymous uploads, but likely a username is re
 Proceed without a username?</value>
   </data>
   <data name="ExistingBackupDetectedQuestion" xml:space="preserve">
-    <value>The connection succeeded but another backup was found in the destination folder. It is possible to configure Duplicati to store multiple backups in the same folder, but it is not recommended.
+    <value>The connection succeeded but another backup was found in the destination folder. It is possible to configure HMB to store multiple backups in the same folder, but it is not recommended.
 
 Do you want to use the selected folder?</value>
   </data>

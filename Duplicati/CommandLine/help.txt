@@ -79,7 +79,7 @@ Options:
   --auto-cleanup
     Removes all files that do not belong to the backup (e.g. partial files caused by interrupted uploads).
   --backup-prefix = <string>
-    Replaces the default "duplicati" with <string> in the file names of the backup files. It is required to specify different prefixes if multiple backups are stored in the same target folder.
+    Replaces the default "HMB" with <string> in the file names of the backup files. It is required to specify different prefixes if multiple backups are stored in the same target folder.
   --full
     Make a full backup. If nothing is specified, an initial full backup is made with incremental backups afterwards.
   --full-if-older-than = <date> 

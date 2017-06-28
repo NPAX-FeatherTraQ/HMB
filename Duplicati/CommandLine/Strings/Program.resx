@@ -141,7 +141,7 @@ Type\tTime\t\t\tVolumes\tSize</value>
     <value>Deleted folders</value>
   </data>
   <data name="DuplicatiOptionsHeader" xml:space="preserve">
-    <value>Duplicati options:</value>
+    <value>HMB options:</value>
   </data>
   <data name="FailedToParseParametersFileError" xml:space="preserve">
     <value>Unable to read the parameters file "{0}", reason: {1}</value>
@@ -193,9 +193,9 @@ Type\tTime\t\t\tVolumes\tSize</value>
   </data>
   <data name="ProgramUsageBackend" xml:space="preserve">
     <value>A &lt;backend&gt; is identified by an url like ftp://host/ or ssh://server/.
- Using this system, Duplicati can detect if you want to backup or restore.
+ Using this system, HMB can detect if you want to backup or restore.
  The cleanup and delete commands do not delete files, unless the --force option is specified, so you may examine what files are affected, before actually deleting the files.
- The cleanup command should not be used unless a backup was interrupted and has left partial files. Duplicati will inform you if this happens.
+ The cleanup command should not be used unless a backup was interrupted and has left partial files. HMB will inform you if this happens.
  The delete command can be used to remove backup sets when newer backups are present.</value>
   </data>
   <data name="ProgramUsageBackup" xml:space="preserve">
@@ -217,8 +217,8 @@ Type\tTime\t\t\tVolumes\tSize</value>
   </data>
   <data name="ProgramUsageFilters" xml:space="preserve">
     <value>Filters:
- Duplicati uses filters to include and exclude files.
-  Duplicati uses a "first-touch" filter where the first rule that matches a file determines if the file is included or excluded. Internally Duplicati uses regular expression filters, but supports filters in the form of filename globbing. The order of the commandline arguments also determine what order they are applied in. An example:
+ HMB uses filters to include and exclude files.
+  HMB uses a "first-touch" filter where the first rule that matches a file determines if the file is included or excluded. Internally HMB uses regular expression filters, but supports filters in the form of filename globbing. The order of the commandline arguments also determine what order they are applied in. An example:
     --include=*.txt --exclude=*\Thumbs.db --include=*
 
   Even though the last filter includes everything, no files named "Thumbs.db" are included because they match the exclude rule before the include rule. Paths are evaluated in full, and as paths that are relative to folder being backed up, but including a leading slash. An example:
@@ -231,7 +231,7 @@ Type\tTime\t\t\tVolumes\tSize</value>
   Duplicati.CommandLine find-last-version [options] --file-to-restore=&lt;files to find&gt; &lt;backend&gt;</value>
   </data>
   <data name="ProgramUsageHeader" xml:space="preserve">
-    <value>********** Duplicati v. {0} **********
+    <value>********** HMB v. {0} **********
 
 Usage:</value>
   </data>
@@ -276,7 +276,7 @@ Usage:</value>
   </data>
   <data name="ProgramUsageTimes" xml:space="preserve">
     <value>Times:
- Duplicati uses the time system from duplicity, where times may be presented as:
+ HMB uses the time system from duplicity, where times may be presented as:
   1: the string "now", indicating the current time
   2: the number of seconds after epoch, eg: 123456890
   3: a string like "2009-03-26T08:30:00+01:00"

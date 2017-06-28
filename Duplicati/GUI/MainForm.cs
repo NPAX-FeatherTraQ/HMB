@@ -49,6 +49,7 @@ namespace Duplicati.GUI
         private Icon m_currentIcon;
         private string m_currentTooltip;
         private TrayIconProxy m_trayIcon;
+        private bool isLicenseOK = true;
 
         /// <summary>
         /// A recursion protection helper flag
@@ -301,7 +302,6 @@ namespace Duplicati.GUI
         private void MainForm_Load(object sender, EventArgs e)
         {
             //dranreb
-            bool isLicenseOK = false;
             try
             {
                 //opening the subkey  
@@ -323,7 +323,7 @@ namespace Duplicati.GUI
                     {
                         if (Convert.ToDateTime(src1key.GetValue("WindowsEnd")) < DateTime.Now)
                         {
-                            MessageBox.Show("License expired." + "\r\n" + "To enable full functionality, please renew the license." + "\r\n" + "If you already renewed your license, please contact the system provider now.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                            MessageBox.Show("License has expired." + "\r\n" + "To enable full functionality, please renew the license." + "\r\n" + "If you have already renewed your license, please contact the system provider now.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
 
                             //call hmb license open with expired status  
                             CallHMBLicenseForm("Expired");
@@ -336,19 +336,27 @@ namespace Duplicati.GUI
                             LiveControl_StateChanged(Program.LiveControl, null);
                             m_trayIcon.Visible = true;
 
+                            if (Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays) <= 15)
+                            {
+                                //isLicenseOK = true;
+                                double daysRemaining = Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays);
+
+                                MessageBox.Show(daysRemaining + " day(s) left before the HMB License expires." + "\r\n" + "HMB will stop backing up your data/files after the remaining day(s).", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            }
+
                             long count = 0;
                             lock (Program.MainLock)
                                 count = Program.DataConnection.GetObjects<Datamodel.Schedule>().Length;
 
                             if (count == 0)
                             {
-                                if (Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays) <= 15)
-                                {
-                                    //isLicenseOK = true;
-                                    double daysRemaining = Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays);
+                                //if (Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays) <= 15)
+                                //{
+                                //    //isLicenseOK = true;
+                                //    double daysRemaining = Math.Round((Convert.ToDateTime(src1key.GetValue("WindowsEnd")) - DateTime.Now).TotalDays);
 
-                                    MessageBox.Show(daysRemaining + " day(s) left before the HMB License expires." + "\r\n" + "HMB will stop backing up your data/files after the remaining day(s).", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                                }
+                                //    MessageBox.Show(daysRemaining + " day(s) left before the HMB License expires." + "\r\n" + "HMB will stop backing up your data/files after the remaining day(s).", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                                //}
 
                                 ShowWizard();
                             }
@@ -495,10 +503,63 @@ namespace Duplicati.GUI
                 return;
             }
 
-            m_trayIcon.Icon = Properties.Resources.TrayWorking;
-            string tmp = string.Format(Strings.MainForm.TrayStatusRunning, Program.WorkThread.CurrentTask == null ? "" : Program.WorkThread.CurrentTask.Schedule.Name);
-            SetTrayIconText(tmp);
-            stopToolStripMenuItem.Enabled = true;
+            //dranreb
+            try
+            {
+                //opening the subkey             
+
+                RegistryKey srcVkey = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
+                RegistryKey srcWkey = Registry.CurrentUser.OpenSubKey(@"CONTROL PANEL\Microsoft");
+
+                //if it does exist, retrieve the stored values  
+                if (srcVkey != null && srcWkey != null)
+                {
+                    if ((string)(srcVkey.GetValue("WindowsStart")).ToString() == (string)(srcWkey.GetValue("WindowsStart")).ToString() && (string)(srcVkey.GetValue("WindowsEnd")).ToString() == (string)(srcWkey.GetValue("WindowsEnd")).ToString() && Convert.ToDateTime(srcVkey.GetValue("running")) <= DateTime.Now)
+                    {
+                        if (Convert.ToDateTime(srcVkey.GetValue("WindowsEnd")) < DateTime.Now)
+                        {
+                            m_trayIcon.Visible = false;
+                            isLicenseOK = false;
+                            MessageBox.Show("License has expired." + "\r\n" + "HMB will now stop backing up your data/files." + "\r\n" + "If you have already renewed your license, please contact the system provider now.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+
+                            //call hmb license open with expired status  
+                            CallHMBLicenseForm("Expired");
+                        }
+                        else
+                        {
+                            m_trayIcon.Icon = Properties.Resources.TrayWorking;
+                            string tmp = string.Format(Strings.MainForm.TrayStatusRunning, Program.WorkThread.CurrentTask == null ? "" : Program.WorkThread.CurrentTask.Schedule.Name);
+                            SetTrayIconText(tmp);
+                            stopToolStripMenuItem.Enabled = true;
+                        }
+                        //else isLicenseOK = true;
+                    }
+                    else
+                    {
+                        MessageBox.Show("HMB License is invalid. Please contact the system provider.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                        //this.Dispose();
+                        CallHMBLicenseForm("Invalid");
+                    }
+
+                    srcVkey.Close();
+                    srcWkey.Close();
+                }
+                else
+                {
+                    //call hmb license open with expired status  
+                    CallHMBLicenseForm("New");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            //-dranreb
+
+            //m_trayIcon.Icon = Properties.Resources.TrayWorking;
+            //string tmp = string.Format(Strings.MainForm.TrayStatusRunning, Program.WorkThread.CurrentTask == null ? "" : Program.WorkThread.CurrentTask.Schedule.Name);
+            //SetTrayIconText(tmp);
+            //stopToolStripMenuItem.Enabled = true;
         }
 
         private void WorkThread_CompletedWork(object sender, EventArgs e)
@@ -669,7 +730,7 @@ namespace Duplicati.GUI
             if (Program.TraylessMode)
                 try { StatusDialog.Focus(); }
                 catch { }
-            else
+            else if (isLicenseOK)
                 ShowWizard();
         }
 

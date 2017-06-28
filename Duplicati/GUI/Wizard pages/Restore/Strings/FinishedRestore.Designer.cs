@@ -70,7 +70,7 @@ namespace Duplicati.GUI.Wizard_pages.Restore.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Duplicati is now ready to restore your files..
+        ///   Looks up a localized string similar to HMB is now ready to restore your files..
         /// </summary>
         internal static string PageDescription {
             get {

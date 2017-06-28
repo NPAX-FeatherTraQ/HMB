@@ -120,7 +120,7 @@
   <data name="ResumeNowQuestion" xml:space="preserve">
     <value>HMB is currently paused, so the backup won't run until HMB is resumed.
 Do you want HMB to resume now so the backup can run immediately?</value>
-    <comment>A question displayed if the user attempts to run a backup while Duplicati is paused</comment>
+    <comment>A question displayed if the user attempts to run a backup while HMB is paused</comment>
   </data>
   <data name="SetupRestoreSuccess" xml:space="preserve">
     <value>The previous HMB setup is now restored!</value>

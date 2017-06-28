@@ -142,7 +142,7 @@
     <value>Supplies the access key used to connect to the server</value>
   </data>
   <data name="DescriptionUKAccountLong" xml:space="preserve">
-    <value>Duplicati will assume that the credentials given are for a US account, use this option if the account is a UK based account. Note that this is equivalent to setting --{0}={1}.</value>
+    <value>HMB will assume that the credentials given are for a US account, use this option if the account is a UK based account. Note that this is equivalent to setting --{0}={1}.</value>
   </data>
   <data name="DescriptionUKAccountShort" xml:space="preserve">
     <value>Use a UK account</value>

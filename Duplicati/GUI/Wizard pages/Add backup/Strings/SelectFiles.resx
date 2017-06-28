@@ -149,7 +149,7 @@ How do you want to proceed?</value>
     <value>The folder "{0}" is a subfolder of "{1}", which is not allowed</value>
   </data>
   <data name="UpgradeWarning" xml:space="preserve">
-    <value>The setup is loaded from an older version of Duplicati. 
+    <value>The setup is loaded from an older version of HMB. 
 If you save the backup settings, the internal storage will be change to the new version.
 Please verify the content of the backup after the next run to ensure
 that it contains the files and folders that you expect.</value>

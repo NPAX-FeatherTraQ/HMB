@@ -154,7 +154,7 @@
     <value>Use this flag to communicate using Secure Socket Layer (SSL) over ftp (ftps).</value>
   </data>
   <data name="DescriptionUseSSLShort" xml:space="preserve">
-    <value>Instructs Duplicati to use an SSL (ftps) connection</value>
+    <value>Instructs HMB to use an SSL (ftps) connection</value>
   </data>
   <data name="DisplayName" xml:space="preserve">
     <value>FTP based</value>

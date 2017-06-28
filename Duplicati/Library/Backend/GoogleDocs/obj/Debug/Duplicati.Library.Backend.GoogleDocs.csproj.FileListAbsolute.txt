@@ -10,7 +10,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\bin\Debug\Go
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\bin\Debug\Duplicati.Winforms.Controls.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\bin\Debug\Duplicati.Library.Interface.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\bin\Debug\Duplicati.Library.Utility.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\obj\Debug\Duplicati.Library.Backend.GoogleDocs.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\obj\Debug\Duplicati.Library.Backend.GoogleDocsUI.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\obj\Debug\Duplicati.Library.Backend.Strings.GoogleDocs.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\GoogleDocs\obj\Debug\Duplicati.Library.Backend.Strings.GoogleDocsUI.resources

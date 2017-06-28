@@ -28,7 +28,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("A disk snapshot implementation for Duplicati")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HexaD")]
-[assembly: AssemblyProduct("Duplicati")]
+[assembly: AssemblyProduct("HMB")]
 [assembly: AssemblyCopyright("LGPL, Copyright © HexaD 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

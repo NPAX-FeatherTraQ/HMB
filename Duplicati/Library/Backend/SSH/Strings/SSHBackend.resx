@@ -199,7 +199,7 @@
     <value>Extra options to the ssh commands</value>
   </data>
   <data name="DescriptionTransferTimeoutLong" xml:space="preserve">
-    <value>The SSH backend relies on an external program (sftp) to work. Since the external program may hang, Duplicati must use a timeout to detect a stall in the external program. Use this option to adjust the timeout. Minimum allowed value is one minute, maximum allowed is one hour. Only used if the --use-sftp-application option is supplied.</value>
+    <value>The SSH backend relies on an external program (sftp) to work. Since the external program may hang, HMB must use a timeout to detect a stall in the external program. Use this option to adjust the timeout. Minimum allowed value is one minute, maximum allowed is one hour. Only used if the --use-sftp-application option is supplied.</value>
   </data>
   <data name="DescriptionTransferTimeoutShort" xml:space="preserve">
     <value>Sets the timeout for transfering a file</value>
@@ -226,7 +226,7 @@
     <value>Failed to validate the remote directory: {0}</value>
   </data>
   <data name="HostNotAuthenticatedError" xml:space="preserve">
-    <value>The host is not authenticated, please connect to the host using SSH, and then re-rerun Duplicati, log: {0}</value>
+    <value>The host is not authenticated, please connect to the host using SSH, and then re-rerun HMB, log: {0}</value>
   </data>
   <data name="IncorrectFileHeaderError" xml:space="preserve">
     <value>File must have the OpenSSH private key header, eg: ---- BEGIN RSA PRIVATE KEY ----</value>

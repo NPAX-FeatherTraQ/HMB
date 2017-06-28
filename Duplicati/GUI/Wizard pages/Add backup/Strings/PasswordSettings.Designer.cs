@@ -101,7 +101,7 @@ namespace Duplicati.GUI.Wizard_pages.Add_backup.Strings {
         ///Please write down the password and store it in a safe location.
         ///Without this password, you will not be able to recover a single file from the backups!
         ///
-        ///You cannot recover the password from within Duplicati after saving this setup.
+        ///You cannot recover the password from within HMB after saving this setup.
         ///
         ///Are you sure you have a safely stored copy of the generated password?.
         /// </summary>

@@ -145,19 +145,19 @@
     <value>Failed to execute GPG at "{0}": {1}</value>
   </data>
   <data name="GpgprogrampathLong" xml:space="preserve">
-    <value>The path to the GNU Privacy Guard program. If not supplied, Duplicati will assume that the program "gpg" is available in the system path.</value>
+    <value>The path to the GNU Privacy Guard program. If not supplied, HMB will assume that the program "gpg" is available in the system path.</value>
   </data>
   <data name="GpgprogrampathShort" xml:space="preserve">
     <value>The path to GnuPG</value>
   </data>
   <data name="SignkeyLong" xml:space="preserve">
-    <value>The GNU Privacy Guard can optionally sign volumes with a special key. This feature is not currently active in Duplicati.</value>
+    <value>The GNU Privacy Guard can optionally sign volumes with a special key. This feature is not currently active in HMB.</value>
   </data>
   <data name="SignkeyShort" xml:space="preserve">
     <value>Sign key for GnuPG</value>
   </data>
   <data name="GPGNotFoundWarning" xml:space="preserve">
-    <value>Duplicati was unable to verify the existence of GNU Privacy Guard.
+    <value>HMB was unable to verify the existence of GNU Privacy Guard.
 GPG may work regardless, if it is located in the system search path.
 If the encryption fails, no files will be backed up
 Do you want to continue anyway?</value>

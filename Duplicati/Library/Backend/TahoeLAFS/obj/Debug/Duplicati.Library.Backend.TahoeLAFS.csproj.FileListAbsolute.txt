@@ -7,7 +7,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\Debug\Lit
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\Debug\Duplicati.Library.Interface.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\Debug\Duplicati.Library.Modules.Builtin.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\bin\Debug\Duplicati.Library.Utility.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\Debug\Duplicati.Library.Backend.TahoeLAFS.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\Debug\Duplicati.Library.Backend.Properties.Resources.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\Debug\Duplicati.Library.Backend.Strings.TahoeBackend.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\TahoeLAFS\obj\Debug\Duplicati.Library.Backend.Strings.TahoeUI.resources

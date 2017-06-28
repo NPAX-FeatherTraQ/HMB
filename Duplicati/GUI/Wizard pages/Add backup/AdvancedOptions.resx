@@ -234,13 +234,13 @@
     <value>32, 200</value>
   </data>
   <data name="IncludeDuplicatiSetup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>256, 17</value>
+    <value>239, 17</value>
   </data>
   <data name="IncludeDuplicatiSetup.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="IncludeDuplicatiSetup.Text" xml:space="preserve">
-    <value>Include the current Duplicati setup in the backup</value>
+    <value>Include the current HMB setup in the backup</value>
   </data>
   <data name="&gt;&gt;IncludeDuplicatiSetup.Name" xml:space="preserve">
     <value>IncludeDuplicatiSetup</value>
@@ -294,6 +294,6 @@
     <value>AdvancedOptions</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
+    <value>System.Windows.Forms.Wizard.WizardControl, System.Windows.Forms.Wizard, Version=1.3.4.0, Culture=neutral, PublicKeyToken=ae51c3db610c5381</value>
   </data>
 </root>

@@ -123,7 +123,7 @@ Disabling backup cleanup may result in storage space being exhausted.
 Do you want to continue without backup removal backups?</value>
   </data>
   <data name="PageDescription" xml:space="preserve">
-    <value>To ensure that backups do not grow indefinately, Duplicati can automatically remove old backups.</value>
+    <value>To ensure that backups do not grow indefinately, HMB can automatically remove old backups.</value>
   </data>
   <data name="PageTitle" xml:space="preserve">
     <value>Select cleanup options</value>

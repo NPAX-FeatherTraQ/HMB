@@ -121,7 +121,7 @@
     <value>The folder does not exist, do you want to create it?</value>
   </data>
   <data name="MissingSCPWarning" xml:space="preserve">
-    <value>Duplicati was unable to verify the existence of the sftp program.
+    <value>HMB was unable to verify the existence of the sftp program.
 sftp may work regardless, if it is located in the system search path.
 
 Do you want to continue anyway?</value>

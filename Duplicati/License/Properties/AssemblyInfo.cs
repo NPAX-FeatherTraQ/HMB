@@ -28,7 +28,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("A license text reader for Duplicati")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HexaD")]
-[assembly: AssemblyProduct("Duplicati")]
+[assembly: AssemblyProduct("HMB")]
 [assembly: AssemblyCopyright("LGPL, Copyright © HexaD 2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

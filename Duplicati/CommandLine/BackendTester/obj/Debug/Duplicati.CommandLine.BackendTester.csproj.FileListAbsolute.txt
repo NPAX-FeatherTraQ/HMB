@@ -1,3 +1,4 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Backend.SSH.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\alphavss\AlphaVSS.Win2003.x64.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\alphavss\AlphaVSS.Win2003.x86.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\alphavss\AlphaVSS.Win2008.x64.dll
@@ -79,7 +80,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Dup
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Backend.GoogleDocs.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Backend.S3.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Backend.SkyDrive.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Backend.SSH.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Backend.TahoeLAFS.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Backend.WEBDAV.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\CommandLine\BackendTester\bin\Debug\Duplicati.Library.Utility.pdb

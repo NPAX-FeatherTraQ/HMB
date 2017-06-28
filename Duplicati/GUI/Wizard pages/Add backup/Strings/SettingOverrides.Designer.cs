@@ -97,7 +97,7 @@ namespace Duplicati.GUI.Wizard_pages.Add_backup.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to On this page you can override all settings supported by Duplicati. This is very advanced, so be carefull!.
+        ///   Looks up a localized string similar to On this page you can override all settings supported by HMB. This is very advanced, so be carefull!.
         /// </summary>
         internal static string PageDescription {
             get {

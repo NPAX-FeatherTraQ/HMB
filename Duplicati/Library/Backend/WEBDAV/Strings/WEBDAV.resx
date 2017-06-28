@@ -159,7 +159,7 @@ Error message: {3}</value>
     <value>Use this flag to communicate using Secure Socket Layer (SSL) over http (https).</value>
   </data>
   <data name="DescriptionUseSSLShort" xml:space="preserve">
-    <value>Instructs Duplicati to use an SSL (https) connection</value>
+    <value>Instructs HMB to use an SSL (https) connection</value>
   </data>
   <data name="DescriptionDebugPropfindLong" xml:space="preserve">
     <value>To aid in debugging issues, it is possible to set a path to a file that will be overwritten with the PROPFIND response</value>

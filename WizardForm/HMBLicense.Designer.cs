@@ -301,6 +301,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "HMBLicense";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HMB License";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.HMBLicense_FormClosed);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HMBLicense_KeyDown);

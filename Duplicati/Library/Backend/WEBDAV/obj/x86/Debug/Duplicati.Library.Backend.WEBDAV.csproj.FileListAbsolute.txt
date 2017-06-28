@@ -9,7 +9,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\bin\x86\Debug\Du
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\bin\x86\Debug\Duplicati.Library.Modules.Builtin.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\bin\x86\Debug\Duplicati.Library.Utility.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\bin\x86\Debug\Duplicati.Library.Interface.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\obj\x86\Debug\Duplicati.Library.Backend.WEBDAV.csprojResolveAssemblyReference.cache
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\obj\x86\Debug\Duplicati.Library.Backend.Strings.WEBDAV.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\obj\x86\Debug\Duplicati.Library.Backend.Strings.WebDAVUI.resources
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\Library\Backend\WEBDAV\obj\x86\Debug\Duplicati.Library.Backend.WebDAVUI.resources

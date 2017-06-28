@@ -185,7 +185,7 @@ namespace Duplicati.Datamodel
                 if (Duplicati.Library.Utility.Utility.IsClientLinux)
                     return System.IO.Path.Combine(Environment.ExpandEnvironmentVariables("%DUPLICATI_HOME%").TrimStart('"').TrimEnd('"'), "Signature Cache");
                 else
-                    return System.IO.Path.Combine(System.IO.Path.Combine(Environment.ExpandEnvironmentVariables(System.Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)), "Duplicati"), "Signature Cache");                
+                    return System.IO.Path.Combine(System.IO.Path.Combine(Environment.ExpandEnvironmentVariables(System.Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData)), "HMB"), "Signature Cache");                
             }
         }
         

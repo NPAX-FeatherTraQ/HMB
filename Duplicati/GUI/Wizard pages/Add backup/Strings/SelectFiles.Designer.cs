@@ -152,7 +152,7 @@ namespace Duplicati.GUI.Wizard_pages.Add_backup.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The setup is loaded from an older version of Duplicati. 
+        ///   Looks up a localized string similar to The setup is loaded from an older version of HMB. 
         ///If you save the backup settings, the internal storage will be change to the new version.
         ///Please verify the content of the backup after the next run to ensure
         ///that it contains the files and folders that you expect..

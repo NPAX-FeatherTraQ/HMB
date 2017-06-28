@@ -61,7 +61,7 @@ namespace Duplicati.GUI.Wizard_pages.Add_backup.Strings {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to On this page you can select more advanced settings for your backup. If you prefer, you can ignore those settings, and use the duplicati defaults..
+        ///   Looks up a localized string similar to On this page you can select more advanced settings for your backup. If you prefer, you can ignore those settings, and use the HMB defaults..
         /// </summary>
         internal static string PageDescription {
             get {
