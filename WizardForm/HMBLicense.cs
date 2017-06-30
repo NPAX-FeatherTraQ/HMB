@@ -14,58 +14,60 @@ namespace System.Windows.Forms.Wizard
         public HMBLicense(string srclicenseStatus)
         {
             InitializeComponent();
-            this.Text = String.Format("HMB License ", "v" + System.Reflection.Assembly.GetEntryAssembly().GetName().Version/*License.VersionNumbers.Version*/);
-            lblLicenseStatus.Text = srclicenseStatus; //txtLicenseStatus
-
-            RegistryKey src1 = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
-            //RegistryKey src2 = Registry.CurrentUser.OpenSubKey(@"CONTROL PANEL\Microsoft");
-
-            //lblValidityPeriod.Text = "New";
-
-            // if (src1 != null /*&& src2 != null*/)
-            // {
-                 lblValidityPeriod.Text = (src1 == null ? srclicenseStatus == "New" ? string.Empty : "Activation date: " + (string)(src1.GetValue("WindowsStart")).ToString() + "\r\n" + "Expiration date: " + (string)(src1.GetValue("WindowsEnd")).ToString() : string.Empty);//lblValidityPeriod
-
-                 //if (src1 != null)
-                 //    src1.Close();
-             //    //src2.Close();
-             //}
-
-            btnRenew.Visible = false;
-            btnSetupLicenseRegistration.Visible = false;
-
-            if (srclicenseStatus == "New")
-            {
-                lblLicenseStatus.ForeColor = Color.Green;
-                btnSetupLicenseRegistration.Text = "Setup License Registration";
-                lblPlsContact.Text = "Please contact the system provider for the License Registration.";
-            }
-            else
-            {
-                lblValidityPeriod.Text = " Activation date: " + (string)(src1.GetValue("WindowsStart")).ToString() + "\r\n Expiration date: " + (string)(src1.GetValue("WindowsEnd")).ToString();
-                lblLicenseStatus.ForeColor = Color.Red;
-                lblValidityPeriod.ForeColor = Color.Red;
-                btnSetupLicenseRegistration.Text = "Setup License Renewal";
-                lblPlsContact.Text = "License has expired." + "\r\n" + "HMB will now stop backing up your data/files."+ "\r\n" + "Please contact the system provider for the License Renewal.";
-            }
-
-            if (src1 != null)
-            {
-                txtLastRunningDate.Text = (string)(src1.GetValue("running")).ToString();
-                src1.Close();
-            }  
-
-            //lblLicenseStatus.Refresh();
-            txtAdminPassword.Visible = false;
-            btnActivate.Text = srclicenseStatus == "New" ? "Activate" : "Renew";
-            grpLicenseRegistration.Text = srclicenseStatus == "New" ? "License Registration" : "License Renewal";
-            grpLicenseRegistration.Visible = false;
-
-            //Hardware Information
-            lblHardwareInfo.Text = "Processor ID      : " + HardwareInfo.GetCPUManufacturer() + " " + HardwareInfo.GetCpuSpeedInGHz() + "\r\n" + "HDD Serial No   : " + HardwareInfo.GetHDDSerialNo() + "\r\n" + "Board Maker      : " + HardwareInfo.GetBoardMaker() + "\r\n" + "Physical Memory: " + HardwareInfo.GetPhysicalMemory() + "\r\n" + "MAC Address     : " + HardwareInfo.GetMACAddress();
 
             try
             {
+                this.Text = String.Format("HMB " + "v" + System.Reflection.Assembly.GetEntryAssembly().GetName().Version + " - License Setup"/*License.VersionNumbers.Version*/);
+                lblLicenseStatus.Text = srclicenseStatus; //txtLicenseStatus
+
+                RegistryKey src1 = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
+                //RegistryKey src2 = Registry.CurrentUser.OpenSubKey(@"CONTROL PANEL\Microsoft");
+
+                lblValidityPeriod.Text = "New";
+
+                if (src1 != null /*&& src2 != null*/)
+                {
+                    lblValidityPeriod.Text = (src1 == null ? srclicenseStatus == "New" ? string.Empty : "Activation date: " + (string)(src1.GetValue("WindowsStart")).ToString() + "\r\n" + "Expiration date: " + (string)(src1.GetValue("WindowsEnd")).ToString() : string.Empty);//lblValidityPeriod
+
+                    //if (src1 != null)
+                        //src1.Close();
+                    //src2.Close();
+                }
+
+                btnRenew.Visible = false;
+                btnSetupLicenseRegistration.Visible = false;
+
+                if (srclicenseStatus == "New")
+                {
+                    lblLicenseStatus.ForeColor = Color.Green;
+                    btnSetupLicenseRegistration.Text = "Setup License Registration";
+                    lblPlsContact.Text = "Please contact the system provider for the License Registration.";
+                }
+                else
+                {
+                    lblValidityPeriod.Text = " Activation date: " + (string)(src1.GetValue("WindowsStart")).ToString() + "\r\n Expiration date: " + (string)(src1.GetValue("WindowsEnd")).ToString();
+                    lblLicenseStatus.ForeColor = Color.Red;
+                    lblValidityPeriod.ForeColor = Color.Red;
+                    btnSetupLicenseRegistration.Text = "Setup License Renewal";
+                    lblPlsContact.Text = "License has expired." + "\r\n" + "HMB will now stop backing up your data/files."+ "\r\n" + "Please contact the system provider for the License Renewal.";
+                }
+
+                if (src1 != null)
+                {
+                    txtLastRunningDate.Text = (string)(src1.GetValue("running")).ToString();
+                    src1.Close();
+                }  
+
+                //lblLicenseStatus.Refresh();
+                txtAdminPassword.Visible = false;
+                btnActivate.Text = srclicenseStatus == "New" ? "Activate" : "Renew";
+                grpLicenseRegistration.Text = srclicenseStatus == "New" ? "License Registration" : "License Renewal";
+                grpLicenseRegistration.Visible = false;
+
+                ////Hardware Information
+                //lblHardwareInfo.Text = "Processor ID      : " + HardwareInfo.GetCPUManufacturer() + " " + HardwareInfo.GetCpuSpeedInGHz() + "\r\n" + "HDD Serial No   : " + HardwareInfo.GetHDDSerialNo() + "\r\n" + "Board Maker      : " + HardwareInfo.GetBoardMaker() + "\r\n" + "Physical Memory: " + HardwareInfo.GetPhysicalMemory() + "\r\n" + "MAC Address     : " + HardwareInfo.GetMACAddress();
+
+            
                 //accessing the CurrentUser root element  
                 RegistryKey key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows Start");
 
@@ -137,6 +139,9 @@ namespace System.Windows.Forms.Wizard
                         grpLicenseRegistration.Visible = true;
                         lblNote.Visible = false;
                         lblPlsContact.Visible = false;
+
+                        //Hardware Information
+                        lblHardwareInfo.Text = "Processor ID      : " + HardwareInfo.GetCPUManufacturer() + " " + HardwareInfo.GetCpuSpeedInGHz() + "\r\n" + "HDD Serial No   : " + HardwareInfo.GetHDDSerialNo() + "\r\n" + "Board Maker      : " + HardwareInfo.GetBoardMaker() + "\r\n" + "Physical Memory: " + HardwareInfo.GetPhysicalMemory() + "\r\n" + "MAC Address     : " + HardwareInfo.GetMACAddress();
                     }
                 }
                 else
@@ -219,7 +224,7 @@ namespace System.Windows.Forms.Wizard
                     //Application.Restart();
                     //Environment.Exit(0);
 
-                    this.Close();
+                    this.Dispose();
 
                 }
                 //else return;
@@ -233,9 +238,9 @@ namespace System.Windows.Forms.Wizard
 
         private void dtValidUntil_ValueChanged(object sender, EventArgs e)
         {
-            if (dtValidUntil.Value > DateTime.Now.AddDays(5) && cbNoOfMonths.Text.Substring(0, 2) == "00")
+            if (dtValidUntil.Value > DateTime.Now.AddDays(30) && cbNoOfMonths.Text.Substring(0, 2) == "00")
             {
-                MessageBox.Show("Expiration date must not be greater than 5 days from date today.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Hand);
+                MessageBox.Show("Expiration date must not be greater than 30 days from date today.", this.Text, MessageBoxButtons.OK, MessageBoxIcon.Hand);
                 dtValidUntil.Value = DateTime.Now;
                 return;
             }

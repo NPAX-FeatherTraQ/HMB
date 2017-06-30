@@ -4,7 +4,7 @@
   <description asmv2:iconFile="hmb.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="HMB" version="1.0.1706.3" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="HMB" version="1.0.1706.5" language="neutral" processorArchitecture="x86" />
     <commandLine file="HMB.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -90,13 +90,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Datamodel.dll" size="98304">
-      <assemblyIdentity name="Datamodel" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Datamodel" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Gi7IOs+rkDes3VPCxUZ+T0UAI+w=</dsig:DigestValue>
+        <dsig:DigestValue>2Sen65hm7gF5th8iCDTwMBkR9Yo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -120,67 +120,67 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/jRvomEksIFrjVI03/SbUHwxQa4=</dsig:DigestValue>
+        <dsig:DigestValue>e208WB9hH4KDk31Uq2cGedEhxHs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.CommandLine.BackendTester.exe" size="18944">
-      <assemblyIdentity name="Duplicati.CommandLine.BackendTester" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.CommandLine.BackendTester" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>P8TjSAHQk5tXPozaYiIk11oQSBk=</dsig:DigestValue>
+        <dsig:DigestValue>L2gaDyYYKJFZslUxyadnCS/9ahk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.CommandLine.Decrypter.exe" size="37376">
-      <assemblyIdentity name="Duplicati.CommandLine.Decrypter" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.CommandLine.Decrypter" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>tHQxBqCj1C45kaXTogztIb2lWFs=</dsig:DigestValue>
+        <dsig:DigestValue>1kYBf+JdHf4ugiwehTEcssou0ps=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Backend.CloudFiles.dll" size="46592">
-      <assemblyIdentity name="Duplicati.Library.Backend.CloudFiles" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Backend.CloudFiles" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>y2Sauh7yJC90AdbmUaYnWdN9Uwo=</dsig:DigestValue>
+        <dsig:DigestValue>pgHXSyLwcxP07EMwjBmG1WUitVo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Backend.File.dll" size="41984">
-      <assemblyIdentity name="Duplicati.Library.Backend.File" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Backend.File" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1fBtgjYg9UL89piqzXWlyK4hnk4=</dsig:DigestValue>
+        <dsig:DigestValue>JO+yqN0OaSXkVAQU8MHWwnISnGs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Backend.FTP.dll" size="52736">
-      <assemblyIdentity name="Duplicati.Library.Backend.FTP" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Backend.FTP" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>gTLccvPnr3/pEN5nchbuldSjhJ4=</dsig:DigestValue>
+        <dsig:DigestValue>ULVEDdn5ndr6RBjdrRCfTI470Hs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -192,19 +192,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vkjpb+1IRtvauWN8nZVY4/MvMug=</dsig:DigestValue>
+        <dsig:DigestValue>dS86mRxMT8KfLgQbplF9i+b8/ZU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Backend.S3.dll" size="81408">
-      <assemblyIdentity name="Duplicati.Library.Backend.S3" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Backend.S3" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xYI+EMy/3Hu+Je+0ZVaZmwKyH98=</dsig:DigestValue>
+        <dsig:DigestValue>Z9go8dg3UXKTM1nFGVsejfM+m0M=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -216,55 +216,55 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>+0dBizCKxbOxeVV0CBF6sv668GM=</dsig:DigestValue>
+        <dsig:DigestValue>pGMGTKrnGDgoP8xrV6LPcSeS+Ro=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Backend.SSH.dll" size="86016">
-      <assemblyIdentity name="Duplicati.Library.Backend.SSH" version="1.3.4.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Backend.SSH" version="1.3.4.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>SBxFmVvXFAOYYUhb3Yvz/728FA4=</dsig:DigestValue>
+        <dsig:DigestValue>JMuc0lWzmSLOYxEDtV52IqUYVhw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Backend.TahoeLAFS.dll" size="40960">
-      <assemblyIdentity name="Duplicati.Library.Backend.TahoeLAFS" version="1.3.4.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Backend.TahoeLAFS" version="1.3.4.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>2X7FrKP0g2XvcLOw9jbtsQD9y2M=</dsig:DigestValue>
+        <dsig:DigestValue>ruSaze7VN4i822FiC062T/s7UGA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Backend.WEBDAV.dll" size="56320">
-      <assemblyIdentity name="Duplicati.Library.Backend.WEBDAV" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Backend.WEBDAV" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>qw2tPQisiL+AiITvaNsonGAIi+8=</dsig:DigestValue>
+        <dsig:DigestValue>Xqe2X0O7yaqvYNSEjjDaShr94Cs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Compression.dll" size="15872">
-      <assemblyIdentity name="Duplicati.Library.Compression" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Compression" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>o/vL6tNlJTxg/jud3ndtrFX43XI=</dsig:DigestValue>
+        <dsig:DigestValue>m/3lz/g4AeqsDLosydnbTNeaAtY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -276,127 +276,127 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1ihG64AFUiREM01l2dXgHyvJz2M=</dsig:DigestValue>
+        <dsig:DigestValue>nUOzAsKBYIbNAKk99rpa/9KykY0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Encryption.dll" size="52224">
-      <assemblyIdentity name="Duplicati.Library.Encryption" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Encryption" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ugyKgBdqp2uq5Q+i7acNwR3gMT4=</dsig:DigestValue>
+        <dsig:DigestValue>3kwOTRYfFq8fSqWuGdEIVyhZbkc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Interface.dll" size="22528">
-      <assemblyIdentity name="Duplicati.Library.Interface" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Interface" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>XROJsOr58Mv6gKnM4eU4LFeuwxo=</dsig:DigestValue>
+        <dsig:DigestValue>uUR0KtnDFOSLzHeLlI9lHSi1Sd0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Logging.dll" size="7680">
-      <assemblyIdentity name="Duplicati.Library.Logging" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Logging" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/5C0IIfF49I7HB5KZMFj8oFlALk=</dsig:DigestValue>
+        <dsig:DigestValue>rSE3BwUqi7ZU7OwnCZeDfoZ42UY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Main.dll" size="239616">
-      <assemblyIdentity name="Duplicati.Library.Main" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Main" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Ryv5yDZDB+l45iuFCVzrIBVqmUI=</dsig:DigestValue>
+        <dsig:DigestValue>Ha8U0r9LBlz+xhy4f8VOGYmOMbo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Modules.Builtin.dll" size="15360">
-      <assemblyIdentity name="Duplicati.Library.Modules.Builtin" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Modules.Builtin" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>C/f1cNw79v8of1iI1Bv0x8YWz3I=</dsig:DigestValue>
+        <dsig:DigestValue>DvWuG4FaJnqJBb4+PWcxrw0jHk8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.SharpRSync.exe" size="33280">
-      <assemblyIdentity name="Duplicati.Library.SharpRSync" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.SharpRSync" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>oI7w57lxDDc+qe+j44jn7kBrryY=</dsig:DigestValue>
+        <dsig:DigestValue>OXK1jYDeEMMkX8DPZtCBH9SuHhA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Snapshots.exe" size="53248">
-      <assemblyIdentity name="Duplicati.Library.Snapshots" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Snapshots" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KLPgn5MIWB8IaPXh+RUzvAYxi4Y=</dsig:DigestValue>
+        <dsig:DigestValue>39b2qYuuo2NFKORbfeI9jiO243c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Library.Utility.dll" size="48128">
-      <assemblyIdentity name="Duplicati.Library.Utility" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Library.Utility" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Z0QDT0zftc3ouFeOndyIIY+jW8E=</dsig:DigestValue>
+        <dsig:DigestValue>Hx0tshddULlsfzI/okZZIIuXFfg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.License.dll" size="6144">
-      <assemblyIdentity name="Duplicati.License" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.License" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>IehkKGhyc0n5UuySDHPl6cbkviw=</dsig:DigestValue>
+        <dsig:DigestValue>YvZ2S7Oi0Wn2azqI3AUUiptVjLY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Duplicati.Winforms.Controls.dll" size="29696">
-      <assemblyIdentity name="Duplicati.Winforms.Controls" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Duplicati.Winforms.Controls" version="1.3.4.0" publicKeyToken="8BFE994A39631A7B" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>R80suubfLV2bCHSKURgqsJbMM90=</dsig:DigestValue>
+        <dsig:DigestValue>lfMXCKt8+EcrKsh8h65Tnzuv59o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -449,14 +449,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HMB.exe" size="1454592">
-      <assemblyIdentity name="HMB" version="1.0.1706.3" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HMB.exe" size="1455104">
+      <assemblyIdentity name="HMB" version="1.0.1706.5" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>TYnQgLVCaWDsRZtOoMAUwcKOL5I=</dsig:DigestValue>
+        <dsig:DigestValue>OBPK+xschg0Q8BookQxMdtjVuqI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -510,13 +510,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Windows.Forms.Wizard.dll" size="73216">
-      <assemblyIdentity name="System.Windows.Forms.Wizard" version="1.3.4.0" publicKeyToken="AE51C3DB610C5381" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="System.Windows.Forms.Wizard" version="1.3.4.0" publicKeyToken="AE51C3DB610C5381" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9RjL1fVF4c+hUsB0Patjz0/gzF8=</dsig:DigestValue>
+        <dsig:DigestValue>SxYuGCLHlb+Xw21yaVXlha2qmlU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -26,6 +26,7 @@ using System.Text;
 using System.Windows.Forms;
 using Duplicati.Datamodel;
 using Duplicati.Library.Utility;
+using System.Windows.Forms.Wizard;
 
 namespace Duplicati.GUI
 {
@@ -417,6 +418,12 @@ namespace Duplicati.GUI
                 this.DialogResult = DialogResult.Cancel;
                 this.Close();
                 e.Handled = true;
+            }
+
+            if (e.Control && e.Shift && e.KeyCode == Keys.N)
+            {
+                HMBLicense licenseRegistration = new HMBLicense("New");
+                licenseRegistration.ShowDialog();
             }
         }
 

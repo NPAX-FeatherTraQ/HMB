@@ -144,12 +144,6 @@
   <metadata name="pendingTasks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>467, 17</value>
   </metadata>
-  <data name="runBackupNowToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="runBackupNowToolStripMenuItem1.Text" xml:space="preserve">
-    <value>Run backup now</value>
-  </data>
   <data name="pendingTasks.Size" type="System.Drawing.Size, System.Drawing">
     <value>164, 26</value>
   </data>
@@ -252,27 +246,6 @@
   <metadata name="contextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>208, 17</value>
   </metadata>
-  <data name="viewLogToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 8.25pt, style=Bold</value>
-  </data>
-  <data name="viewLogToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="viewLogToolStripMenuItem.Text" xml:space="preserve">
-    <value>View log ...</value>
-  </data>
-  <data name="viewFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="viewFilesToolStripMenuItem.Text" xml:space="preserve">
-    <value>View contents ...</value>
-  </data>
-  <data name="runBackupNowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="runBackupNowToolStripMenuItem.Text" xml:space="preserve">
-    <value>Run backup now</value>
-  </data>
   <data name="contextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
     <value>164, 70</value>
   </data>
@@ -378,6 +351,33 @@
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="runBackupNowToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="runBackupNowToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Run backup now</value>
+  </data>
+  <data name="viewLogToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="viewLogToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="viewLogToolStripMenuItem.Text" xml:space="preserve">
+    <value>View log ...</value>
+  </data>
+  <data name="viewFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="viewFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>View contents ...</value>
+  </data>
+  <data name="runBackupNowToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="runBackupNowToolStripMenuItem.Text" xml:space="preserve">
+    <value>Run backup now</value>
+  </data>
   <data name="SubProgressBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -468,48 +468,6 @@
   <metadata name="backupTasks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>346, 17</value>
   </metadata>
-  <data name="pauseBackupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 22</value>
-  </data>
-  <data name="pauseBackupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Pause backup</value>
-  </data>
-  <data name="PauseDuration05Menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
-  </data>
-  <data name="PauseDuration05Menu.Text" xml:space="preserve">
-    <value>5 minutes</value>
-  </data>
-  <data name="PauseDuration15Menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
-  </data>
-  <data name="PauseDuration15Menu.Text" xml:space="preserve">
-    <value>15 minutes</value>
-  </data>
-  <data name="PauseDuration30Menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
-  </data>
-  <data name="PauseDuration30Menu.Text" xml:space="preserve">
-    <value>30 minutes</value>
-  </data>
-  <data name="PauseDuration60Menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
-  </data>
-  <data name="PauseDuration60Menu.Text" xml:space="preserve">
-    <value>1 hour</value>
-  </data>
-  <data name="pausePeriodMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 22</value>
-  </data>
-  <data name="pausePeriodMenuItem.Text" xml:space="preserve">
-    <value>Pause period</value>
-  </data>
-  <data name="stopBackupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>147, 22</value>
-  </data>
-  <data name="stopBackupToolStripMenuItem.Text" xml:space="preserve">
-    <value>Stop backup</value>
-  </data>
   <data name="backupTasks.Size" type="System.Drawing.Size, System.Drawing">
     <value>148, 70</value>
   </data>
@@ -539,6 +497,48 @@
   </data>
   <data name="&gt;&gt;statusImage.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="pauseBackupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="pauseBackupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Pause backup</value>
+  </data>
+  <data name="pausePeriodMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="pausePeriodMenuItem.Text" xml:space="preserve">
+    <value>Pause period</value>
+  </data>
+  <data name="PauseDuration05Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="PauseDuration05Menu.Text" xml:space="preserve">
+    <value>5 minutes</value>
+  </data>
+  <data name="PauseDuration15Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="PauseDuration15Menu.Text" xml:space="preserve">
+    <value>15 minutes</value>
+  </data>
+  <data name="PauseDuration30Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="PauseDuration30Menu.Text" xml:space="preserve">
+    <value>30 minutes</value>
+  </data>
+  <data name="PauseDuration60Menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 22</value>
+  </data>
+  <data name="PauseDuration60Menu.Text" xml:space="preserve">
+    <value>1 hour</value>
+  </data>
+  <data name="stopBackupToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 22</value>
+  </data>
+  <data name="stopBackupToolStripMenuItem.Text" xml:space="preserve">
+    <value>Stop backup</value>
   </data>
   <data name="CurrentStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -690,6 +690,54 @@
   <data name="&gt;&gt;optionsLabel.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;QuickActions.Name" xml:space="preserve">
+    <value>QuickActions</value>
+  </data>
+  <data name="&gt;&gt;QuickActions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;QuickActions.Parent" xml:space="preserve">
+    <value>simplePanel</value>
+  </data>
+  <data name="&gt;&gt;QuickActions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;quickLabel.Name" xml:space="preserve">
+    <value>quickLabel</value>
+  </data>
+  <data name="&gt;&gt;quickLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;quickLabel.Parent" xml:space="preserve">
+    <value>simplePanel</value>
+  </data>
+  <data name="&gt;&gt;quickLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="simplePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="simplePanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="simplePanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 136</value>
+  </data>
+  <data name="simplePanel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;simplePanel.Name" xml:space="preserve">
+    <value>simplePanel</value>
+  </data>
+  <data name="&gt;&gt;simplePanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;simplePanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;simplePanel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="QuickActions.Location" type="System.Drawing.Point, System.Drawing">
     <value>96, 56</value>
   </data>
@@ -737,30 +785,6 @@
   </data>
   <data name="&gt;&gt;quickLabel.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="simplePanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="simplePanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 8</value>
-  </data>
-  <data name="simplePanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>341, 136</value>
-  </data>
-  <data name="simplePanel.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;simplePanel.Name" xml:space="preserve">
-    <value>simplePanel</value>
-  </data>
-  <data name="&gt;&gt;simplePanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;simplePanel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;simplePanel.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

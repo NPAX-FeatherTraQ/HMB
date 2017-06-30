@@ -1,3 +1,4 @@
+F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\AWSSDK.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\alphavss\AlphaVSS.Win2003.x64.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\alphavss\AlphaVSS.Win2003.x86.dll
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\alphavss\AlphaVSS.Win2008.x64.dll
@@ -112,7 +113,6 @@ F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\Duplicati.Winforms.Co
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\Datamodel.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\Duplicati.Library.Backend.GoogleDocs.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\Duplicati.Library.Backend.SkyDrive.pdb
-F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\AWSSDK.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\Duplicati.Library.SharpRSync.pdb
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\AlphaVSS.Common.xml
 F:\Dranreb\HMB\Source Code\HMB\Duplicati\GUI\bin\x86\Debug\AlphaFS.xml

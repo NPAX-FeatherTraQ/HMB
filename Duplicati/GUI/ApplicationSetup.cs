@@ -214,7 +214,7 @@ namespace Duplicati.GUI
         {
             try
             {
-                this.Text = string.Format(Strings.ApplicationSetup.DialogTitle, Assembly.GetEntryAssembly().GetName().Version/*System.Reflection.Assembly.GetEntryAssembly().GetName().Version*/);
+                this.Text = string.Format("HMB v"/*Strings.ApplicationSetup.DialogTitle*/ + Assembly.GetEntryAssembly().GetName().Version + " - Options"/*System.Reflection.Assembly.GetEntryAssembly().GetName().Version*/);
 
                 m_isUpdating = true;
 
